@@ -4,6 +4,18 @@ module.exports = {
     description: 'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Graphic Intuitions`,
+        short_name: `Graphic Intuitions`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#FD7339`,
+        display: `minimal-ui`,
+        icon: `src/img/gi-logo.svg`, // This path is relative to the root of the site.
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
@@ -64,7 +76,14 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
+      },
+    },
     'gatsby-plugin-purgecss', // must be after other CSS plugins
+    `gatsby-plugin-offline`,
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
