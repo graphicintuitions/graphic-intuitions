@@ -5,7 +5,7 @@ import Helmet from "react-helmet";
 import { graphql, Link, withPrefix } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import Img from 'gatsby-image'
+import Img from "gatsby-image";
 
 export const ProjectPostTemplate = ({
                                       content,
@@ -99,7 +99,6 @@ export const pageQuery = graphql`
             id
             html
             frontmatter {
-                date(formatString: "MMMM DD, YYYY")
                 title
                 description
                 tags

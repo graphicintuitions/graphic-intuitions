@@ -1,13 +1,19 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import {Grid, Cell} from 'styled-css-grid'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql, Link } from "gatsby";
+import Layout from "../components/Layout";
+import { Cell, Grid } from "styled-css-grid";
+import styled from "styled-components";
+import Img from 'gatsby-image'
+
+const StyledProject = styled(Cell)`
+  background: #fff;
+`
 
 export default class IndexPage extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { data } = this.props;
+    const { edges: projects } = data.allMarkdownRemark;
 
     return (
       <Layout>
@@ -27,64 +33,62 @@ export default class IndexPage extends React.Component {
             <h2>Results That Speak For Themselves</h2>
             <p>We can talk the talk, but can we walk the walk? The results of our work speak for themselves. Check out some of our latest projects to see what we’ve done for clients and how we’ve helped increase sales and grow their businesses.</p>
           </Cell>
-            {/*{posts*/}
-              {/*.map(({ node: post }) => (*/}
-                {/*<div*/}
-                  {/*className="content"*/}
-                  {/*style={{ border: '1px solid #333', padding: '2em 4em' }}*/}
-                  {/*key={post.id}*/}
-                {/*>*/}
-                  {/*<p>*/}
-                    {/*<Link className="has-text-primary" to={post.fields.slug}>*/}
-                      {/*{post.frontmatter.title}*/}
-                    {/*</Link>*/}
-                    {/*<span> &bull; </span>*/}
-                    {/*<small>{post.frontmatter.date}</small>*/}
-                  {/*</p>*/}
-                  {/*<p>*/}
-                    {/*{post.excerpt}*/}
-                    {/*<br />*/}
-                    {/*<br />*/}
-                    {/*<Link className="button is-small" to={post.fields.slug}>*/}
-                      {/*Keep Reading →*/}
-                    {/*</Link>*/}
-                  {/*</p>*/}
-                {/*</div>*/}
-              {/*))}*/}
+        </Grid>
+        <Grid>
+          {projects
+            .map(({ node: project }) => (
+              <StyledProject 
+                width={12}
+                key={project.id}
+              >
+                <Img fluid={project.frontmatter.featured_image.childImageSharp.fluid} alt={project.frontmatter.title} />
+                <p>
+                  <Link className="has-text-primary" to={project.fields.slug}>
+                    {project.frontmatter.title}
+                  </Link>
+                </p>
+              </StyledProject>
+            ))}
         </Grid>
       </Layout>
-    )
+    );
   }
 }
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-}
+      edges: PropTypes.array
+    })
+  })
+};
 
 export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
-    ) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-          }
+    query IndexQuery {
+        allMarkdownRemark(
+            sort: { order: DESC, fields: [frontmatter___date] },
+            filter: { frontmatter: { templateKey: { eq: "project-post" }, featured: {eq: true} }}
+        ) {
+            edges {
+                node {
+                    id
+                    fields {
+                        slug
+                    }
+                    frontmatter {
+                        title
+                        description
+                        featured
+                        featured_image {
+                            childImageSharp {
+                                fluid(maxWidth: 2048, quality: 80) {
+                                    ...GatsbyImageSharpFluid
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
-      }
     }
-  }
-`
+`;
