@@ -7,6 +7,7 @@ import styled, { ThemeProvider } from "styled-components";
 import herobg from "../img/hero-bg.svg";
 import { Container, theme } from "../css/theme";
 import { Cell, Grid } from "styled-css-grid";
+import '../css/nprogress.css';
 
 const Header = styled.div`
   background-image: url(${herobg});

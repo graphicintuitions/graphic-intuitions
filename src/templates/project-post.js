@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
-import { graphql, Link } from "gatsby";
+import { graphql, Link, withPrefix } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Img from 'gatsby-image'
@@ -14,6 +14,7 @@ export const ProjectPostTemplate = ({
                                       tags,
                                       title,
                                       featured_image,
+                                      logo,
                                       helmet
                                     }) => {
   const PostContent = contentComponent || Content;
@@ -24,10 +25,11 @@ export const ProjectPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
+            <img src={withPrefix('/img/' + logo.relativePath)} alt={title + "logo"} />
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <Img fluid={featured_image.childImageSharp.fluid} />
+            {typeof featured_image !== 'string' ? <Img fluid={featured_image.childImageSharp.fluid} /> : <img src={featured_image} />}
             <p>{description}</p>
             <PostContent content={content}/>
             {tags && tags.length ? (
@@ -75,6 +77,7 @@ const ProjectPost = ({ data }) => {
           </Helmet>
         }
         featured_image={post.frontmatter.featured_image}
+        logo={post.frontmatter.logo}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
@@ -100,12 +103,16 @@ export const pageQuery = graphql`
                 title
                 description
                 tags
+                featured
                 featured_image {
                     childImageSharp {
                         fluid(maxWidth: 2048, quality: 80) {
                             ...GatsbyImageSharpFluid
                         }
                     }
+                }
+                logo{
+                    relativePath
                 }
             }
         }

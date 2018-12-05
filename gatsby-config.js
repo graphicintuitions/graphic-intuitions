@@ -82,6 +82,15 @@ module.exports = {
         // Add any options here
       },
     },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        // Setting a color is optional.
+        color: `#00e5ff`,
+        // Disable the loading spinner.
+        showSpinner: false,
+      },
+    },
     'gatsby-plugin-purgecss', // must be after other CSS plugins
     `gatsby-plugin-offline`,
     'gatsby-plugin-netlify', // make sure to keep it last in the array
