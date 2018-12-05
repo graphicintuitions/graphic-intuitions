@@ -17,6 +17,9 @@ const Nav = styled.nav`
 const NavItem = styled.li`
   margin-right: 50px;
   font-weight: bold;
+  a{
+    color: ${props => props.theme.textBlack};
+  }
   
   &:last-child{
     margin-right: 0;

@@ -22,6 +22,7 @@ export const ButtonOrange = styled(Button)`
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
   color: #fff;
   padding: 30px 90px;
+  font-size: 20px;
 `;
 
 export const Container = styled.div`
