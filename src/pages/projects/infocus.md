@@ -4,7 +4,7 @@ title: Infocus
 date: 2018-12-03T17:41:03.565Z
 description: Our SEO efforts increased website traffic by 58%
 logo: /img/flaman-trailers-logo.svg
-featured_image: /img/flaman-trailers.png
+featured_image: /img/infocus.jpg
 featured: true
 tags:
   - web

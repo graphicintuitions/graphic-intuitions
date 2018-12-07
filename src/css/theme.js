@@ -3,7 +3,8 @@ import { Link } from "gatsby";
 
 export const theme = {
   main: "mediumseagreen",
-  textBlack: "#111"
+  textBlack: "#111",
+  orange: "#EF3734",
 };
 
 export const Button = styled(Link)`

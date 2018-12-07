@@ -4,13 +4,14 @@ import { graphql, StaticQuery } from "gatsby";
 import Navbar from "../components/Navbar";
 import "normalize.css";
 import styled, { ThemeProvider } from "styled-components";
+import herobg from "../img/hero-bg.svg";
 import herobgSmall from "../img/hero-bg-small.svg";
 import { Container, theme } from "../css/theme";
 import { Cell, Grid } from "styled-css-grid";
 import '../css/nprogress.css';
 
 const Header = styled.div`
-  background-image: url(${herobgSmall});
+  background-image: url(${herobg});
   background-size: cover;
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -49,7 +50,7 @@ const HeroText = styled.h1`
 const TemplateWrapper = ({ children, props }) => (
   <StaticQuery
     query={graphql`
-      query HeadingQuery {
+      query HomeHeadingQuery {
           site {
             siteMetadata {
               title,
@@ -69,6 +70,7 @@ const TemplateWrapper = ({ children, props }) => (
           </Helmet>
           <Header>
             <Navbar/>
+            <HeroText>We are a Full Service Digital Marketing Agency</HeroText>
           </Header>
           <Container>
             <div>{children}</div>
