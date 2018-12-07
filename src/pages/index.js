@@ -27,6 +27,10 @@ const StyledProject = styled(Cell)`
     position: absolute;
     bottom: -35px;
     left: 80px;
+    transition: 0.3s ease-out;
+    &:hover{
+      bottom: -33px;
+    }
   }
 `;
 

@@ -3,7 +3,7 @@ templateKey: project-post
 title: Infocus
 date: 2018-12-03T17:41:03.565Z
 description: Our SEO efforts increased website traffic by 58%
-logo: /img/infocus-logo.svg
+logo: /img/flaman-trailers-logo.svg
 featured_image: /img/flaman-trailers.png
 featured: true
 tags:

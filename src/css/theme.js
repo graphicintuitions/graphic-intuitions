@@ -21,7 +21,7 @@ export const ButtonOrange = styled(Button)`
   background: linear-gradient(180deg, #FF782D 0%, #FF2D2D 100%);
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
   color: #fff;
-  padding: 30px 90px;
+  padding: 25px 90px;
   font-size: 20px;
 `;
 
