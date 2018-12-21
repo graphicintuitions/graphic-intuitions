@@ -5,13 +5,22 @@ import styled from "styled-components";
 import { Container, ButtonNav } from "../css/theme";
 
 const Nav = styled.nav`
+  display: flex;
   ul{
     display: flex;
     align-items: center;
     list-style: none;
     margin: 0;
+    margin-left: auto;
     padding: 0;
-    padding-top: 45px;
+    transition: all 0.5s;
+    overflow: hidden;
+    max-height: 500px;
+    @media (max-width: ${props => props.theme.navCollapse}){
+        visibility: hidden;
+        max-height: 0;
+        opacity: 0;
+    }
   }
 `;
 const NavItem = styled.li`
@@ -19,6 +28,7 @@ const NavItem = styled.li`
   font-weight: bold;
   a{
     color: ${props => props.theme.textBlack};
+    text-decoration: none;
   }
   
   &:last-child{
@@ -27,17 +37,28 @@ const NavItem = styled.li`
   &#header-logo{
     margin-right: auto;
   }
+  
+  &.navbar-hamburger{
+    display: none;
+  }
 `;
 
+const Hamburger = styled.a`
+  display: none;
+  @media (max-width: ${props => props.theme.navCollapse}){
+      display: inline-block;
+  }
+`
+
 const Navbar = () => (
-  <Container>
+  <Container style={{paddingTop: "45px"}}>
     <Nav role="navigation" aria-labelledby="header-logo">
+      <div id="header-logo">
+        <Link to="/" className="navbar-item" title="Logo">
+          <img src={logo} alt="Kaldi" style={{ width: "88px" }}/>
+        </Link>
+      </div>
       <ul>
-        <NavItem id="header-logo">
-          <Link to="/" className="navbar-item" title="Logo">
-            <img src={logo} alt="Kaldi" style={{ width: "88px" }}/>
-          </Link>
-        </NavItem>
         <NavItem>
           <Link className="navbar-item" to="/projects/flaman-trailers/">
             Projects
@@ -64,6 +85,7 @@ const Navbar = () => (
           </ButtonNav>
         </NavItem>
       </ul>
+      <Hamburger className={"navbar-hamburger"} href={'#'}>--</Hamburger>
     </Nav>
   </Container>
 );

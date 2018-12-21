@@ -6,7 +6,7 @@ import "normalize.css";
 import styled, { ThemeProvider } from "styled-components";
 import herobg from "../img/hero-bg.svg";
 import herobgSmall from "../img/hero-bg-small.svg";
-import { Container, theme } from "../css/theme";
+import { Container, Site, theme } from "../css/theme";
 import { Cell, Grid } from "styled-css-grid";
 import '../css/nprogress.css';
 
@@ -15,26 +15,7 @@ const Header = styled.div`
   background-size: cover;
   background-position: bottom left;
   background-repeat: no-repeat;
-  //height: 656px;
   padding-bottom: 170px;
-`;
-
-const Site = styled.div`
-  font-family: 'Montserrat', sans-serif;
-  background: #F5F5F5;
-  
-  a{
-    text-decoration: none;
-  }
-  
-  p{
-    font-family: Georgia, serif;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 28px;
-    font-size: 16px;
-    color: ${props => props.theme.textBlack};
-  }
 `;
 
 const HeroText = styled.h1`
@@ -45,6 +26,12 @@ const HeroText = styled.h1`
   margin-left: 243px;
   margin-top: 124px;
   max-width: 875px;
+  @media (max-width: ${props => props.theme.navCollapse}){
+    margin-left: 0;
+    padding: 0 40px;
+    margin-top: 40px;
+    font-size: 40px;
+  }
 `
 
 const TemplateWrapper = ({ children, props }) => (
@@ -70,7 +57,9 @@ const TemplateWrapper = ({ children, props }) => (
           </Helmet>
           <Header>
             <Navbar/>
-            <HeroText>We are a Full Service Digital Marketing Agency</HeroText>
+            <Container>
+              <HeroText>We are a full service Digital Marketing Agency</HeroText>
+            </Container>
           </Header>
           <Container>
             <div>{children}</div>

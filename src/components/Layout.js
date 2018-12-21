@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import "normalize.css";
 import styled, { ThemeProvider } from "styled-components";
 import herobgSmall from "../img/hero-bg-small.svg";
-import { Container, theme } from "../css/theme";
+import { Container, Site, theme } from "../css/theme";
 import { Cell, Grid } from "styled-css-grid";
 import '../css/nprogress.css';
 
@@ -16,24 +16,6 @@ const Header = styled.div`
   background-repeat: no-repeat;
   //height: 656px;
   padding-bottom: 170px;
-`;
-
-const Site = styled.div`
-  font-family: 'Montserrat', sans-serif;
-  background: #F5F5F5;
-  
-  a{
-    text-decoration: none;
-  }
-  
-  p{
-    font-family: Georgia, serif;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 28px;
-    font-size: 16px;
-    color: ${props => props.theme.textBlack};
-  }
 `;
 
 const HeroText = styled.h1`

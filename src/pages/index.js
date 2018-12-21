@@ -13,7 +13,11 @@ import step1 from "../img/step-1.svg";
 import step2 from "../img/step-2.svg";
 import step3 from "../img/step-3.svg";
 import step4 from "../img/step-4.svg";
+import computerScreen from "../img/computer-screen.svg";
+import rocket from "../img/rocket.svg";
 import testimonialLogo from "../img/fastcover-logo.svg";
+import Particles from 'react-particles-js';
+import {params} from '../particle';
 
 const StyledProject = styled(Cell)`
   background: #FFFFFF;
@@ -28,7 +32,7 @@ const StyledProject = styled(Cell)`
     font-weight: bold;
     font-size: 32px;
     color: #111111;
-    margin-top: 35px; 
+    margin: 45px 0; 
     padding-bottom: 70px;
   }
   .button{
@@ -73,6 +77,7 @@ const Step = styled(Cell)`
 
 const Testimonials = styled(Grid)`
   padding-bottom: 130px;
+  margin-top: 192px;
   .testimonial{
     position: relative;
     background: #FFFFFF;
@@ -114,6 +119,12 @@ const Testimonials = styled(Grid)`
   }
 `;
 
+const CenteredCell = styled(Cell)`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`
+
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props;
@@ -121,22 +132,25 @@ export default class IndexPage extends React.Component {
 
     return (
       <HomeLayout>
-        <Grid gap={"30px"}>
-          <Cell width={6}>
+        {/*<Particles width={"100%"} height={"300px"} params={params} />*/}
+        <Grid gap={"30px"} columns="repeat(auto-fit,minmax(300px,1fr))" style={{marginBottom: "80px"}}>
+          <CenteredCell>
             <h2>We Are The Competitive Advantage</h2>
             <p>We’ve merged a team of experienced developers, designers, digital marketing specialists, business strategists and branding experts, to provide our clients with custom marketing solutions through result-driven strategies.</p>
             <p>What sets us apart from all the other marketing agencies out there? The relationships we build with our clients, our belief in transparency, the knowledge and skills of our collective team, and our commitment to seeing results for our clients. Learn more about us here.</p>
-          </Cell>
-          <Cell width={6}>
+          </CenteredCell>
+          <Cell style={{textAlign: "center"}}>
+            <img src={computerScreen} alt={"computer screen"} className={"img-responsive"} style={{maxWidth: "400px"}} />
           </Cell>
         </Grid>
-        <Grid gap={"30px"} style={{ marginBottom: "200px" }}>
-          <Cell width={6}>
+        <Grid gap={"30px"} columns="repeat(auto-fit,minmax(300px,1fr))" style={{ marginBottom: "200px" }}>
+          <Cell style={{textAlign: "center"}}>
+            <img src={rocket} alt={"rocket ship"} className={"img-responsive"}  style={{maxWidth: "400px"}} />
           </Cell>
-          <Cell width={6}>
+          <CenteredCell>
             <h2>Results That Speak For Themselves</h2>
             <p>We can talk the talk, but can we walk the walk? The results of our work speak for themselves. Check out some of our latest projects to see what we’ve done for clients and how we’ve helped increase sales and grow their businesses.</p>
-          </Cell>
+          </CenteredCell>
         </Grid>
         <Grid>
           {projects
@@ -155,7 +169,6 @@ export default class IndexPage extends React.Component {
                       <Cell width={4} left={2}>
                         <img src={withPrefix("/img/" + project.frontmatter.logo.relativePath)} alt={project.frontmatter.title + " logo"}/>
                         <div className={"title"}>
-                          -<br/>
                           {project.frontmatter.description}
                         </div>
                       </Cell>
@@ -221,6 +234,10 @@ export default class IndexPage extends React.Component {
             </Grid>
           </Step>
         </Grid>
+
+        <div style={{textAlign: "center"}}>
+          <ButtonOrange href={"#"}>Start Your Project</ButtonOrange>
+        </div>
 
         <Testimonials columns={12}>
           <Cell className={"testimonial"} width={6} left={4}>
