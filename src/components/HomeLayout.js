@@ -5,9 +5,7 @@ import Navbar from "../components/Navbar";
 import "normalize.css";
 import styled, { ThemeProvider } from "styled-components";
 import herobg from "../img/hero-bg.svg";
-import herobgSmall from "../img/hero-bg-small.svg";
 import { Container, Site, theme } from "../css/theme";
-import { Cell, Grid } from "styled-css-grid";
 import '../css/nprogress.css';
 
 const Header = styled.div`

@@ -3,7 +3,6 @@ import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
 import { Cell, Grid } from "styled-css-grid";
 import styled from "styled-components";
-import { ButtonOrange } from "../../css/theme";
 
 const StyledForm = styled.form`
   input, textarea{

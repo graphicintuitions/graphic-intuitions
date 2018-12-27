@@ -2,6 +2,9 @@ const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+const remark = require('remark');
+const remarkHTML = require('remark-html');
+const recommended = require('remark-preset-lint-recommended');
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -83,5 +86,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
+
+    if(node.frontmatter.staff){
+      node.frontmatter.staff = node.frontmatter.staff.map(person => {
+        return {...person, bio: remark()
+            .use(recommended)
+            .use(remarkHTML)
+            .processSync(person.bio)
+            .toString()}
+      })
+    }
   }
+  
+  return node
 }

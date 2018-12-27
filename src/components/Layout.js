@@ -6,7 +6,6 @@ import "normalize.css";
 import styled, { ThemeProvider } from "styled-components";
 import herobgSmall from "../img/hero-bg-small.svg";
 import { Container, Site, theme } from "../css/theme";
-import { Cell, Grid } from "styled-css-grid";
 import '../css/nprogress.css';
 
 const Header = styled.div`
@@ -17,16 +16,6 @@ const Header = styled.div`
   //height: 656px;
   padding-bottom: 170px;
 `;
-
-const HeroText = styled.h1`
-  font-weight: bold;
-  line-height: normal;
-  font-size: 64px;
-  color: #FFFFFF;
-  margin-left: 243px;
-  margin-top: 124px;
-  max-width: 875px;
-`
 
 const TemplateWrapper = ({ children, props }) => (
   <StaticQuery

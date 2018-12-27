@@ -5,10 +5,10 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import { Cell, Container, Grid } from "../css/theme";
 import aboutImg from "../img/about-us.svg";
+import Img from "gatsby-image";
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({ title, content, staff, contentComponent }) => {
   const PageContent = contentComponent || Content;
-
   return (
     <Container>
       <Grid style={{ marginBottom: "200px" }}>
@@ -24,43 +24,23 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       </Grid>
       <Grid>
         <Cell width={8} left={3} style={{marginBottom: "40px"}}>
-          <Grid>
-            <Cell width={12}>
-              <h2>Our Team</h2>
-            </Cell>
-            
-            <Cell width={4}>
-              <img src={"https://picsum.photos/1000/1000/?image=1062"} alt={"person"} className={"img-responsive"}/>
-            </Cell>
-            <Cell width={8}>
-              <h3>Paul Pugly - Lead Developer</h3>
-              <p>We are a full-service digital marketing agency focused on helping you grow your business. We understand that you have the best knowledge of your business, and that without understanding that business ourselves we cannot provide the service that you deserve. It is only by working directly with you that can we create original, captivating and profitable digital marketing strategies and marketing materials to help increase your business, and in turn your profit.</p>
-            </Cell>
+            <h2>Our Team</h2>
 
-            <Cell width={4}>
-              <img src={"https://picsum.photos/1000/1000/?image=1025"} alt={"person"} className={"img-responsive"}/>
-            </Cell>
-            <Cell width={8}>
-              <h3>Paul Pugly - Lead Developer</h3>
-              <p>We are a full-service digital marketing agency focused on helping you grow your business. We understand that you have the best knowledge of your business, and that without understanding that business ourselves we cannot provide the service that you deserve. It is only by working directly with you that can we create original, captivating and profitable digital marketing strategies and marketing materials to help increase your business, and in turn your profit.</p>
-            </Cell>
-
-            <Cell width={4}>
-              <img src={"https://picsum.photos/1000/1000/?image=1062"} alt={"person"} className={"img-responsive"}/>
-            </Cell>
-            <Cell width={8}>
-              <h3>Paul Pugly - Lead Developer</h3>
-              <p>We are a full-service digital marketing agency focused on helping you grow your business. We understand that you have the best knowledge of your business, and that without understanding that business ourselves we cannot provide the service that you deserve. It is only by working directly with you that can we create original, captivating and profitable digital marketing strategies and marketing materials to help increase your business, and in turn your profit.</p>
-            </Cell>
-
-            <Cell width={4}>
-              <img src={"https://picsum.photos/1000/1000/?image=1025"} alt={"person"} className={"img-responsive"}/>
-            </Cell>
-            <Cell width={8}>
-              <h3>Paul Pugly - Lead Developer</h3>
-              <p>We are a full-service digital marketing agency focused on helping you grow your business. We understand that you have the best knowledge of your business, and that without understanding that business ourselves we cannot provide the service that you deserve. It is only by working directly with you that can we create original, captivating and profitable digital marketing strategies and marketing materials to help increase your business, and in turn your profit.</p>
-            </Cell>
-          </Grid>
+            {staff.map(person => (
+              <Grid width={12}>
+                <Cell width={4}>
+                  <Img
+                    className="img-responsive"
+                    fluid={person.image.childImageSharp.fluid}
+                    alt={person.name}
+                  />
+                </Cell>
+                <Cell width={8}>
+                  <h3>{person.name}</h3>
+                  <div dangerouslySetInnerHTML={{__html: person.bio}} />
+                </Cell>
+              </Grid>
+            ))}
         </Cell>
       </Grid>
     </Container>
@@ -81,6 +61,7 @@ const AboutPage = ({ data }) => {
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        staff={post.frontmatter.staff}
         content={post.html}
       />
     </Layout>
@@ -99,6 +80,17 @@ export const aboutPageQuery = graphql`
             html
             frontmatter {
                 title
+                staff{
+                    name
+                    bio
+                    image {
+                        childImageSharp {
+                            fluid(maxWidth: 500, quality: 100) {
+                                ...GatsbyImageSharpFluid
+                            }
+                        }
+                    }
+                }
             }
         }
     }

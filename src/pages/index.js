@@ -16,8 +16,6 @@ import step4 from "../img/step-4.svg";
 import computerScreen from "../img/computer-screen.svg";
 import rocket from "../img/rocket.svg";
 import testimonialLogo from "../img/fastcover-logo.svg";
-import Particles from 'react-particles-js';
-import {params} from '../particle';
 
 const StyledProject = styled(Cell)`
   background: #FFFFFF;
@@ -189,9 +187,9 @@ export default class IndexPage extends React.Component {
           <Cell width={12} style={{ textAlign: "center" }}>
             <h2>Who We Work With</h2>
           </Cell>
-          <Logo width={4}><img src={logo1}/></Logo>
-          <Logo width={4}><img src={logo2}/></Logo>
-          <Logo width={4}><img src={logo3}/></Logo>
+          <Logo width={4}><img src={logo1} alt={"BrettYoung Logo"} /></Logo>
+          <Logo width={4}><img src={logo2} alt={"Flaman Logo"} /></Logo>
+          <Logo width={4}><img src={logo3} alt={"Southland Honda Logo"} /></Logo>
         </Grid>
         <Grid style={{ marginBottom: "170px" }} gap={"20px"}>
           <Step width={6}>

@@ -29,7 +29,7 @@ export const ProjectPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            {typeof featured_image !== 'string' ? <Img fluid={featured_image.childImageSharp.fluid} /> : <img src={featured_image} />}
+            {typeof featured_image !== 'string' ? <Img fluid={featured_image.childImageSharp.fluid} alt={title} /> : <img src={featured_image} alt={title} />}
             <p>{description}</p>
             <PostContent content={content}/>
             {tags && tags.length ? (
