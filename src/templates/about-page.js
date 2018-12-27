@@ -6,6 +6,18 @@ import Content, { HTMLContent } from "../components/Content";
 import { Cell, Container, Grid } from "../css/theme";
 import aboutImg from "../img/about-us.svg";
 import Img from "gatsby-image";
+import styled from "styled-components";
+
+const PersonTitle = styled.div`
+  h3{
+    margin-bottom: 5px;
+  }
+  .job-title{
+    margin-bottom: 15px;
+    font-size: 14px; 
+    color: #6d6c6c;
+  }
+`
 
 export const AboutPageTemplate = ({ title, content, staff, contentComponent }) => {
   const PageContent = contentComponent || Content;
@@ -27,7 +39,7 @@ export const AboutPageTemplate = ({ title, content, staff, contentComponent }) =
             <h2>Our Team</h2>
 
             {staff.map(person => (
-              <Grid width={12}>
+              <Grid width={12} style={{marginBottom: "60px"}}>
                 <Cell width={4}>
                   <Img
                     className="img-responsive"
@@ -36,7 +48,10 @@ export const AboutPageTemplate = ({ title, content, staff, contentComponent }) =
                   />
                 </Cell>
                 <Cell width={8}>
-                  <h3>{person.name}</h3>
+                  <PersonTitle>
+                    <h3>{person.name}</h3>
+                    <div className={"job-title"}>{person.job_title}</div>
+                  </PersonTitle>
                   <div dangerouslySetInnerHTML={{__html: person.bio}} />
                 </Cell>
               </Grid>
@@ -83,6 +98,7 @@ export const aboutPageQuery = graphql`
                 staff{
                     name
                     bio
+                    job_title
                     image {
                         childImageSharp {
                             fluid(maxWidth: 500, quality: 100) {
