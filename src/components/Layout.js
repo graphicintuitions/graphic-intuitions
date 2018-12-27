@@ -7,6 +7,8 @@ import styled, { ThemeProvider } from "styled-components";
 import herobgSmall from "../img/hero-bg-small.svg";
 import { Container, Site, theme } from "../css/theme";
 import '../css/nprogress.css';
+import Newsletter from "./Newsletter";
+import { Footer } from "./Footer";
 
 const Header = styled.div`
   background-image: url(${herobgSmall});
@@ -44,6 +46,7 @@ const TemplateWrapper = ({ children, props }) => (
           <Container>
             <div>{children}</div>
           </Container>
+          <Footer />
         </Site>
       </ThemeProvider>
     )}

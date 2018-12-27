@@ -7,6 +7,7 @@ import styled, { ThemeProvider } from "styled-components";
 import herobg from "../img/hero-bg.svg";
 import { Container, Site, theme } from "../css/theme";
 import '../css/nprogress.css';
+import { Footer } from "./Footer";
 
 const Header = styled.div`
   background-image: url(${herobg});
@@ -17,18 +18,20 @@ const Header = styled.div`
 `;
 
 const HeroText = styled.h1`
-  font-weight: bold;
-  line-height: normal;
-  font-size: 64px;
-  color: #FFFFFF;
-  margin-left: 243px;
-  margin-top: 124px;
-  max-width: 875px;
-  @media (max-width: ${props => props.theme.navCollapse}){
-    margin-left: 0;
-    padding: 0 40px;
-    margin-top: 40px;
-    font-size: 40px;
+  &&{
+    font-weight: bold;
+    line-height: normal;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-left: 243px;
+    margin-top: 124px !important;
+    max-width: 875px;
+    @media (max-width: ${props => props.theme.navCollapse}){
+      margin-left: 0;
+      padding: 0 40px;
+      margin-top: 40px;
+      font-size: 40px;
+    }  
   }
 `
 
@@ -62,6 +65,7 @@ const TemplateWrapper = ({ children, props }) => (
           <Container>
             <div>{children}</div>
           </Container>
+          <Footer />
         </Site>
       </ThemeProvider>
     )}

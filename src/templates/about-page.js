@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import { Cell, Container, Grid } from "../css/theme";
+import { Cell, Container, Grid, Row, Col } from "../css/theme";
 import aboutImg from "../img/about-us.svg";
 import Img from "gatsby-image";
 import styled from "styled-components";
@@ -19,46 +19,59 @@ const PersonTitle = styled.div`
   }
 `
 
+const StyledHeader = styled(Row)`
+  margin-bottom: 200px;
+  img{
+    max-width: 400px;
+  }
+  @media (max-width: 768px){
+    margin-bottom: 20px;  
+  }
+`
+
 export const AboutPageTemplate = ({ title, content, staff, contentComponent }) => {
   const PageContent = contentComponent || Content;
   return (
-    <Container>
-      <Grid style={{ marginBottom: "200px" }}>
-        <Cell width={6}>
+    <div>
+      <StyledHeader>
+        <Col xs={12} md={6}>
           <h1>
             {title}
           </h1>
           <PageContent className="content" content={content}/>
-        </Cell>
-        <Cell width={4} left={8}>
+        </Col>
+        <Col xs={0} md={6} style={{textAlign: "right"}}>
           <img src={aboutImg} alt={"GI building"} className={"img-responsive"}/>
-        </Cell>
-      </Grid>
-      <Grid>
-        <Cell width={8} left={3} style={{marginBottom: "40px"}}>
-            <h2>Our Team</h2>
-
+        </Col>
+      </StyledHeader>
+      <Row center={"xs"} style={{marginBottom: "40px"}}>
+        <Col xs={12} sm={8}>
+          <h2>Our Team</h2>
+        </Col>
+        <Row center={"xs"}>
+          <Col xs={12} sm={8}>
             {staff.map(person => (
-              <Grid width={12} style={{marginBottom: "60px"}}>
-                <Cell width={4}>
+              <Row style={{marginBottom: "60px"}}>
+                <Col xs={12} md={4} style={{marginBottom: "20px"}}>
                   <Img
                     className="img-responsive"
                     fluid={person.image.childImageSharp.fluid}
                     alt={person.name}
                   />
-                </Cell>
-                <Cell width={8}>
+                </Col>
+                <Col xs={12} md={8}>
                   <PersonTitle>
                     <h3>{person.name}</h3>
                     <div className={"job-title"}>{person.job_title}</div>
                   </PersonTitle>
                   <div dangerouslySetInnerHTML={{__html: person.bio}} />
-                </Cell>
-              </Grid>
+                </Col>
+              </Row>
             ))}
-        </Cell>
-      </Grid>
-    </Container>
+        </Col>
+        </Row>
+      </Row>
+    </div>
   );
 };
 
