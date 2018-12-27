@@ -60,7 +60,7 @@ export const Site = styled.div`
   }
   
   p:last-of-type{
-    margin-bottom: 0;
+    //margin-bottom: 0;
   }
   
   button{

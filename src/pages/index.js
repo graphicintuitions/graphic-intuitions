@@ -8,6 +8,7 @@ import { ButtonOrange, Col, Row } from "../css/theme";
 import logo1 from "../img/brett-young-logo-grey.svg";
 import logo2 from "../img/flaman-logo-grey.svg";
 import logo3 from "../img/southland-honda-logo-grey.svg";
+import logo4 from "../img/global-logo.svg";
 import step1 from "../img/step-1.svg";
 import step2 from "../img/step-2.svg";
 import step3 from "../img/step-3.svg";
@@ -72,6 +73,9 @@ const Step = styled(Col)`
   display: flex;
   height: auto;
   margin-bottom: 15px;
+  p:last-of-type{
+    margin-bottom: 0;
+  }
   .step__inner{
     background: #FFFFFF;
     border: 2px solid #E5E5E5;
@@ -109,6 +113,9 @@ const Step = styled(Col)`
 const Testimonials = styled(Row)`
   padding-bottom: 130px;
   margin-top: 192px;
+  p:last-of-type{
+    margin-bottom: 0;
+  }
   .testimonial{
     position: relative;
     background: #FFFFFF;
@@ -242,11 +249,25 @@ export default class IndexPage extends React.Component {
           <Col xs={12} style={{ textAlign: "center" }}>
             <h2>Who We Work With</h2>
           </Col>
-          <Logo xs={12} sm={4}><img src={logo1} alt={"BrettYoung Logo"} className={"img-responsive"}/></Logo>
-          <Logo xs={12} sm={4}><img src={logo2} alt={"Flaman Logo"} className={"img-responsive"}/></Logo>
-          <Logo xs={12} sm={4}><img src={logo3} alt={"Southland Honda Logo"} className={"img-responsive"}/></Logo>
+          <Logo xs={12} sm={3}><img src={logo1} alt={"BrettYoung Logo"} className={"img-responsive"}/></Logo>
+          <Logo xs={12} sm={3}><img src={logo2} alt={"Flaman Logo"} className={"img-responsive"}/></Logo>
+          <Logo xs={12} sm={3}><img src={logo3} alt={"Southland Honda Logo"} className={"img-responsive"}/></Logo>
+          <Logo xs={12} sm={3}><img src={logo4} alt={"Global Auction Guide Logo"} className={"img-responsive"}/></Logo>
         </Logos>
-        <Row style={{ marginBottom: "170px" }}>
+
+        <div style={{ textAlign: "center", marginBottom: "100px" }}>
+          <ButtonOrange to={"/contact"}>Get in Touch</ButtonOrange>
+        </div>
+
+        <Row center={'xs'} style={{ marginBottom: "100px" }}>
+          <Col xs={6}>
+            <h3>The GI Difference</h3>
+            <p>Starting your digital marketing journey or changing your marketing strategy is a big deal. We want you to stay involved throughout the entire process to ensure you get the results you’re looking for while creating a strong, trusting partnership between our companies.</p>
+            <p>Beginning with an audit and discovery session, we create a digital baseline for your business. The findings will guide the next steps. We will continue to benchmark your digital presence all while showing your results throughout the project and making data-driven decisions to continually improve our strategies. Your business is unique, and so should be your digital marketing strategy.</p>
+          </Col>
+        </Row>
+        
+        <Row style={{ marginBottom: "100px" }}>
           <Step sm={12} md={6}>
             <div className={"step__inner"}>
               <div className={"icon"}><img src={step1} alt={"Discovery"}/></div>
@@ -279,10 +300,6 @@ export default class IndexPage extends React.Component {
             </div>
           </Step>
         </Row>
-
-        <div style={{ textAlign: "center" }}>
-          <ButtonOrange href={"#"}>Start Your Project</ButtonOrange>
-        </div>
 
         <Testimonials center={"xs"}>
           <Col className={"testimonial"} xs={12} sm={8} md={6}>

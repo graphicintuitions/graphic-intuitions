@@ -10,11 +10,11 @@ const StyledNewsletter = styled(Row)`
   *{
     font-family: ${props => props.theme.headerFont} !important;
   }
+  padding: 80px 0;
 `;
 
 const StyledForm = styled.div`
   width: 100%;
-  margin-bottom: 80px;
   .form{
     display: flex;
   }
