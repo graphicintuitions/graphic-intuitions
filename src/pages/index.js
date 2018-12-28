@@ -112,7 +112,6 @@ const Step = styled(Col)`
 `;
 
 const Testimonials = styled(Row)`
-  padding-bottom: 130px;
   margin-top: 192px;
   p:last-of-type{
     margin-bottom: 0;
@@ -184,7 +183,7 @@ export default class IndexPage extends React.Component {
             <img src={computerScreen} alt={"computer screen"} className={"img-responsive"} style={{ maxWidth: "400px" }}/>
           </Col>
         </Row>
-        <Row style={{ marginBottom: "200px" }}>
+        <Row style={{ marginBottom: "100px" }}>
           <Col xs={12} sm={6} style={{ textAlign: "center" }} style={{ marginBottom: "80px" }}>
             <img src={rocket} alt={"rocket ship"} className={"img-responsive"} style={{ maxWidth: "400px" }}/>
           </Col>

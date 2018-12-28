@@ -11,6 +11,7 @@ const StyledNewsletter = styled(Row)`
     font-family: ${props => props.theme.headerFont} !important;
   }
   padding: 80px 0;
+  padding-top: 160px;
 `;
 
 const StyledForm = styled.div`
