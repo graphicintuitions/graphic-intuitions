@@ -39,6 +39,7 @@ const StyledProject = styled(Col)`
     position: absolute;
     bottom: -35px;
     left: 80px;
+    z-index: 1;
     transition: 0.3s ease-out;
     &:hover{
       bottom: -33px;
@@ -228,8 +229,10 @@ export default class IndexPage extends React.Component {
                           {project.frontmatter.description}
                         </div>
                       </Col>
+                      <Col xs={12}>
+                        <ButtonOrange className={"button"} to={project.fields.slug}>Read More</ButtonOrange>
+                      </Col>
                     </Row>
-                    <ButtonOrange className={"button"} to={project.fields.slug}>Read More</ButtonOrange>
                   </StyledProject>
                 </Row>
                 <Row style={{ position: "absolute", right: 0, top: "35px", width: "100%" }}>

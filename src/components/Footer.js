@@ -14,7 +14,7 @@ const SocialIcons = styled.ul`
   justify-content: space-between;
   img{
     width: auto;
-    height: 30px;
+    height: 25px;
   }
 `
 

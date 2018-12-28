@@ -36,18 +36,18 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
   
-    - name: "services"
-      label: "Services"
-      folder: "src/pages/services"
-      create: true
-      slug: "{{slug}}"
-      fields:
-        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "service-post"}
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Featured", name: "featured", widget: "boolean"}
-        - {label: "Description", name: "description", widget: "text"}
-        - {label: "Excerpt", name: "excerpt", widget: "text"}
-        - {label: "Body", name: "body", widget: "markdown"}
+  - name: "services"
+    label: "Services"
+    folder: "src/pages/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "service-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured", name: "featured", widget: "boolean"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Excerpt", name: "excerpt", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
       
   - name: "pages"
     label: "Pages"
