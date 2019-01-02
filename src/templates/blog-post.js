@@ -5,6 +5,8 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import { Col, Row } from "../css/theme";
+import Img from "gatsby-image";
 
 export const BlogPostTemplate = ({
   content,
@@ -13,36 +15,44 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
+  featuredImage,
 }) => {
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+    <Row className="section">
+      <Col xs={12} sm={8} smOffset={2}>
       {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
+        {featuredImage &&
+        <Img
+          className="img-repsonsive"
+          fluid={featuredImage.childImageSharp.fluid}
+          alt={title}
+          style={{
+            width: "100%",
+            margin: "0 auto",
+          }}
+        />
+        }
+        <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+          {title}
+        </h1>
+        <p>{description}</p>
+        <PostContent content={content} />
+        {tags && tags.length ? (
+          <div style={{ marginTop: `4rem` }}>
+            <h4>Tags</h4>
+            <ul className="taglist">
+              {tags.map(tag => (
+                <li key={tag + `tag`}>
+                  <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                </li>
+              ))}
+            </ul>
           </div>
-        </div>
-      </div>
-    </section>
+        ) : null}
+      </Col>
+    </Row>
   )
 }
 
@@ -73,6 +83,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        featuredImage={post.frontmatter.featured_image}
       />
     </Layout>
   )
@@ -96,6 +107,13 @@ export const pageQuery = graphql`
         title
         description
         tags
+        featured_image {
+            childImageSharp {
+                fluid(maxWidth: 850, quality: 80) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
       }
     }
   }

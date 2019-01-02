@@ -183,7 +183,7 @@ export default class IndexPage extends React.Component {
             <img src={computerScreen} alt={"computer screen"} className={"img-responsive"} style={{ maxWidth: "400px" }}/>
           </Col>
         </Row>
-        <Row style={{ marginBottom: "100px" }}>
+        <Row style={{ marginBottom: "80px" }}>
           <Col xs={12} sm={6} style={{ textAlign: "center" }} style={{ marginBottom: "80px" }}>
             <img src={rocket} alt={"rocket ship"} className={"img-responsive"} style={{ maxWidth: "400px" }}/>
           </Col>
@@ -249,7 +249,7 @@ export default class IndexPage extends React.Component {
         </Row>
         <Logos>
           <Col xs={12} style={{ textAlign: "center" }}>
-            <h2>Who We Work With</h2>
+            <h2 style={{marginBottom: "50px"}}>Who We Work With</h2>
           </Col>
           <Logo xs={12} sm={3}><img src={logo1} alt={"BrettYoung Logo"} className={"img-responsive"}/></Logo>
           <Logo xs={12} sm={3}><img src={logo2} alt={"Flaman Logo"} className={"img-responsive"}/></Logo>
@@ -303,7 +303,7 @@ export default class IndexPage extends React.Component {
           </Step>
         </Row>
 
-        <Testimonials center={"xs"}>
+        <Testimonials center={"xs"} style={{marginBottom: "100px"}}>
           <Col className={"testimonial"} xs={12} sm={8} md={6}>
             <div className={"logo"}>
               <div className={"logo__container"}><img src={testimonialLogo} alt={"testimonial logo"}/></div>
@@ -319,6 +319,19 @@ export default class IndexPage extends React.Component {
             </Row>
           </Col>
         </Testimonials>
+        
+        <Row>
+          <Col xs={12} xsOffset={0} sm={6} smOffset={3}>
+            <h2>We Are Industry Leaders</h2>
+            <p>Graphic Intuitions is a web design and digital marketing agency near Winnipeg that specializes in custom web development projects, tailored to fit your exact business needs. Your business is unique, so we don’t try to fit you into a cookie cutter marketing plan. We take into consideration your business’s goals and create a plan that’s best for your business to maximize your return on investment.</p>
+            <p>Because we have a diverse team of digital marketing specialists, we ensure your website’s design also ties into your businesses marketing strategies. This allows you to track the leads that you receive from your marketing initiatives, all while incorporating your branding with industry leading graphic design.</p>
+            <p>Many of our clients have worked with us for years, and because of that, we establish trusting relationships so we know how our clients like things done, and how to get the results they’re looking for. We can do that for you too!</p>
+            
+            <h2>Growing and Cultivating Results</h2>
+            <p>Need to grow your business through digital marketing but don’t know where to start? Our team gives you honest advice that comes from business strategists- so you don’t need to worry about getting a sales pitch into a close-minded marketing plan.</p>
+            <p>Graphic Intuitions is located just south of Winnipeg, Manitoba. We work with businesses locally as well as nationally by using web design and digital marketing strategies.</p>
+          </Col>
+        </Row>
       </HomeLayout>
     );
   }

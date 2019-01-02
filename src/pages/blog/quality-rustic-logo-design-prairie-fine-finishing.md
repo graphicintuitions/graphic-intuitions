@@ -1,0 +1,19 @@
+---
+templateKey: blog-post
+title: "Quality Rustic Logo Design - Prairie Fine Finishing"
+featured_image: /img/Prairie-Fine-Finishing-logo.jpg
+date: 2018-02-27
+tags:
+  - "logo design"
+  - "prairie fine finishing"
+  - "Projects"
+  - "quality rustic logo"
+  - "quality rustic logo design"
+  - "rustic logo"
+---
+
+[fullwidth background_color="" background_image="" background_parallax="none" enable_mobile="no" parallax_speed="0.3" background_repeat="no-repeat" background_position="left top" video_url="" video_aspect_ratio="16:9" video_webm="" video_mp4="" video_ogv="" video_preview_image="" overlay_color="" overlay_opacity="0.5" video_mute="yes" video_loop="yes" fade="no" border_size="0px" border_color="" border_style="" padding_top="20" padding_bottom="20" padding_left="" padding_right="" hundred_percent="no" equal_height_columns="no" hide_on_mobile="no" menu_anchor="" class="" id=""][fusion_text]Prairie Fine Finishing specializes in carpentry and interior and exterior home beautification. Prairie Fine Finishing contacted us looking for a logo that matched their personality, brand, and work that they do. After drafting a few concepts, we created the final logo that emphasized what their business stands for by providing a quality rustic logo.
+
+<span data-sheets-value="{" data-sheets-userformat="{">The concept behind this [logo design](https://graphicintuitions.com/services/graphic-design/) was to create something that incorporated a script style font to give it a handmade quality but still portray high-end quality. By using this script it gives Prairie Fine Finishing an approachable and friendly feel, but still sends the message of a professional company that will give the best quality product.</span>
+
+To see more of our work check it out [here](https://graphicintuitions.com/our-work/) and be sure to follow us on [Instagram](https://www.instagram.com/graphicintuitions/).[/fusion_text][imageframe lightbox="no" gallery_id="" lightbox_image="" style_type="none" hover_type="none" bordercolor="" bordersize="0px" borderradius="0" stylecolor="" align="none" link="" linktarget="_self" animation_type="0" animation_direction="down" animation_speed="0.1" animation_offset="" hide_on_mobile="no" class="" id=""] ![Quality Rustic Logo](/img/Prairie-Fine-Finishing-logo.jpg)[/imageframe][/fullwidth][one_half last="no" spacing="yes" center_content="no" hide_on_mobile="no" background_color="" background_image="" background_repeat="no-repeat" background_position="left top" hover_type="none" link="" border_position="all" border_size="0px" border_color="" border_style="" padding="" margin_top="" margin_bottom="" animation_type="" animation_direction="" animation_speed="0.1" animation_offset="" class="" id=""][imageframe lightbox="no" gallery_id="" lightbox_image="" style_type="none" hover_type="none" bordercolor="" bordersize="0px" borderradius="0" stylecolor="" align="none" link="" linktarget="_self" animation_type="0" animation_direction="down" animation_speed="0.1" animation_offset="" hide_on_mobile="no" class="" id=""] ![Quality Rustic Logo](/img/Prairie-Fine-Finishing-logo2.jpg)[/imageframe][/one_half][one_half last="yes" spacing="yes" center_content="no" hide_on_mobile="no" background_color="" background_image="" background_repeat="no-repeat" background_position="left top" hover_type="none" link="" border_position="all" border_size="0px" border_color="" border_style="" padding="" margin_top="" margin_bottom="" animation_type="" animation_direction="" animation_speed="0.1" animation_offset="" class="" id=""][imageframe lightbox="no" gallery_id="" lightbox_image="" style_type="none" hover_type="none" bordercolor="" bordersize="0px" borderradius="0" stylecolor="" align="none" link="" linktarget="_self" animation_type="0" animation_direction="down" animation_speed="0.1" animation_offset="" hide_on_mobile="no" class="" id=""] ![Quality Rustic Logo](/img/Prairie-Fine-Finishing-logo3.jpg)[/imageframe][/one_half]
