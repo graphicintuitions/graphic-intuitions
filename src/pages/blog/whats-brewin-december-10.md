@@ -14,9 +14,7 @@ Shayne and Julie have returned safely from their trip to Florida, and they were 
 
 ## By's Transport
 
-In addition to the **[website](http://www.bystransport.com)** we built for them not so long ago, we just finished designing and printing some of By's Transport's marketing materials including their Christmas card, 2 different decals (for credit card holders and for their binders), and a sponsor sign. Here's a sample of our work.
-
-![BY](/img/BYs-christmas-card.jpeg)
+In addition to the **[website](http://www.bystransport.com)** we built for them not so long ago, we just finished designing and printing some of By's Transport's marketing materials including their Christmas card, 2 different decals (for credit card holders and for their binders), and a sponsor sign.
 
 ## Join our 12-Day Holiday Marketing Challenge
 
