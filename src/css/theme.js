@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import { Link } from "gatsby";
-import { Grid as StyledGrid, Cell as StyledCell } from "styled-css-grid";
 import React  from 'react';
-import {Row as FbRow, Col as FbCol} from "react-flexbox-grid";
 import { Row as RGRow, Col as RGCol } from 'react-styled-flexboxgrid';
 
 export const theme = {
@@ -124,7 +122,5 @@ export const Container = styled.div`
 `;
 // export const Container = (props) => <RGContainer {...props} />;
 
-export const Grid = (props) => <StyledGrid gap={"30px"} {...props} />;
-export const Cell = (props) => <StyledCell {...props} />;
 export const Row = (props) => <RGRow  {...props} />;
 export const Col = (props) => <RGCol {...props} />;

@@ -1,31 +1,9 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import { Col, Row } from "../../css/theme";
-import { graphql, Link, withPrefix } from "gatsby";
+import { graphql, Link } from "gatsby";
 import computerScreen from "../../img/computer-screen.svg";
-import styled from "styled-components";
 import Img from "gatsby-image";
-
-const Card = styled.div`
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  position: relative;
-  background: #FFFFFF;
-  border: 2px solid #E5E5E5;
-  border-radius: 5px;
-  padding: 110px 30px 30px 30px;
-  text-align: center;
-  .icon{
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    img{
-      position: relative;
-      left: -50%;
-    }
-  }
-`
 
 export default class Index extends React.Component {
   render() {

@@ -42,7 +42,7 @@ There were a few pumpkin beers lingering about Graphic Intuitions - so we couldn
 
 ## Jumpin Jack Pumpkin Ale by Tree Brewing Company:
 
-_![jumpin jack](/img/jumpin-jack.jpeg)Good flavours, steady combination of IPA and pumpkin ale. Solid hop & spice balance. A little light for what it would seem, but a delicious brew nonetheless. Hopiness makes a definite appearance.
+Good flavours, steady combination of IPA and pumpkin ale. Solid hop & spice balance. A little light for what it would seem, but a delicious brew nonetheless. Hopiness makes a definite appearance.
 Rating: 7/10_
 
 Loved the fact that they kept the true IPA Flavours. No trying to mask things here with a fake pumpkin taste. Great hops forward flavours followed by a smooth pumpkin finish. Loved it!

@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Row } from "../css/theme";
 import styled from "styled-components";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
-import {ButtonOrange} from '../css/theme'
 
 const url = "//graphicintuitions.us2.list-manage.com/subscribe/post?u=73676cee5fd394f2994a2a370&amp;id=29cedab13d";
 

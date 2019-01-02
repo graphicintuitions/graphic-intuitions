@@ -184,7 +184,7 @@ export default class IndexPage extends React.Component {
           </Col>
         </Row>
         <Row style={{ marginBottom: "80px" }}>
-          <Col xs={12} sm={6} style={{ textAlign: "center" }} style={{ marginBottom: "80px" }}>
+          <Col xs={12} sm={6} style={{ textAlign: "center", marginBottom: "80px" }}>
             <img src={rocket} alt={"rocket ship"} className={"img-responsive"} style={{ maxWidth: "400px" }}/>
           </Col>
           <CenteredCell xs={12} sm={6}>
