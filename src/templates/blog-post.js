@@ -7,6 +7,13 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import { Col, Row } from "../css/theme";
 import Img from "gatsby-image";
+import styled from "styled-components";
+
+const StyledBlogPost = styled.div`
+  h1{
+    font-size: 50px;
+  }
+`
 
 export const BlogPostTemplate = ({
   content,
@@ -20,39 +27,46 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <Row className="section">
-      <Col xs={12} sm={8} smOffset={2}>
-      {helmet || ''}
+    <StyledBlogPost>
+      <Row style={{marginBottom: "80px"}}>
+        {helmet || ''}
+        <Col xs={12} sm={6} style={{display: "flex", alignItems: "center"}}>
+          <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+            {title}
+          </h1>
+        </Col>
         {featuredImage &&
-        <Img
-          className="img-repsonsive"
-          fluid={featuredImage.childImageSharp.fluid}
-          alt={title}
-          style={{
-            width: "100%",
-            margin: "0 auto",
-          }}
-        />
+        <Col xs={12} sm={6}>
+          <Img
+            className="img-repsonsive"
+            fluid={featuredImage.childImageSharp.fluid}
+            alt={title}
+            style={{
+              width: "100%",
+              margin: "0 auto",
+            }}
+          />
+        </Col>
         }
-        <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-          {title}
-        </h1>
-        <p>{description}</p>
-        <PostContent content={content} />
-        {tags && tags.length ? (
-          <div style={{ marginTop: `4rem` }}>
-            <h4>Tags</h4>
-            <ul className="taglist">
-              {tags.map(tag => (
-                <li key={tag + `tag`}>
-                  <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ) : null}
-      </Col>
-    </Row>
+      </Row>
+      <Row className="section">
+        <Col xs={12} sm={6} xsOffset={3}>
+          <PostContent content={content} />
+          {tags && tags.length ? (
+            <div style={{ marginTop: `4rem` }}>
+              <h4>Tags</h4>
+              <ul className="taglist">
+                {tags.map(tag => (
+                  <li key={tag + `tag`}>
+                    <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+        </Col>
+      </Row>
+    </StyledBlogPost>
   )
 }
 

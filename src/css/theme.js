@@ -8,6 +8,7 @@ export const theme = {
   headerFont: "'Montserrat', sans-serif",
   main: "mediumseagreen",
   textBlack: "#111",
+  paragraphBlack: "#2b2b2b",
   orange: "#EF3734",
   navCollapse: "900px",
   flexboxgrid: {
@@ -46,6 +47,14 @@ export const Site = styled.div`
     margin-top: 0;
   }
   
+  h2 + p, h3 + p{
+    margin-top: 0; 
+  }
+  
+  p + h2, p + h3{
+    padding-top: 32px; 
+  }
+  
   a{
     color: ${props => props.theme.orange}
   }
@@ -54,11 +63,17 @@ export const Site = styled.div`
     font-family: ${props => props.theme.bodyFont};
     font-style: normal;
     font-weight: normal;
-    line-height: 28px;
-    font-size: 16px;
-    color: ${props => props.theme.textBlack};
-    margin: 0;
-    margin-bottom: 32px;
+    line-height: 28.44px;
+    font-size: 18px;
+    //letter-spacing: -0.082px;
+    color: ${props => props.theme.paragraphBlack};
+    margin: 32px 0;
+    &:last-child{
+      margin-bottom: 0;
+    }
+    &:first-child{
+      margin-top: 0;
+    }
   }
   
   p:last-of-type{
@@ -70,6 +85,16 @@ export const Site = styled.div`
   }
   
   ul{
+    font-family: ${props => props.theme.bodyFont};
+    li{
+      margin-bottom: 10px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  ul.list-inline{
     list-style: none;
     margin: 0;
     padding: 0;

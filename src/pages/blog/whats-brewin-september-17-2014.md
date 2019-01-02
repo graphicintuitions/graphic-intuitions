@@ -28,13 +28,12 @@ We can provide design and printing for:
 *   Brochures
 *   Business Cards
 *   Merchandise
+
 Here is the latest booth design we created for Hemp Oil Canada.
 
 ![tradeshowbooth-mockup](/img/tradeshowbooth-mockup-300x298-1.jpg)
 
-You can check out our **[portfolio](https://graphicintuitions.com/our-work/) **to see some more of our design work.
-
-![Red_river_seeds_screen_shot](/img/Red_river_seeds_screen_shot3-1024x592.png)
+You can check out our **[portfolio](https://graphicintuitions.com/our-work/)** to see some more of our design work.
 
 We also just launched a HOT new site. Well, it's probably not really hot but I'm trying to go with a theme here. It is really cool though!  Especially if you're into seeds. The super rad site we're talking about is for **[Red River Seeds](http://www.redriverseeds.com)**.
 

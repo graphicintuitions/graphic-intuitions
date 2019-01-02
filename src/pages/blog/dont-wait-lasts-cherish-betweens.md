@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Don't Wait for the 'Lasts' - Cherish the 'In-Betweens'"
+title: "Don't Wait for the "Lasts" - Cherish the "In-Betweens""
 featured_image: /img/ekjjsbvi7rk-nirzar-pangarkar.png
 date: 2014-08-20
 tags:
@@ -10,7 +10,8 @@ tags:
   - "Projects"
 ---
 
-## Cherished Moments
+Cherished Moments
+-----------------
 
 **By: Natalie Batkis, Contributing Writer at Graphic Intuitions**
 

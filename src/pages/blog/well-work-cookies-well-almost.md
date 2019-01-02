@@ -7,11 +7,9 @@ tags:
   - "News"
 ---
 
-![pumpkin-hemp-cookies-header](/img/pumpkin-hemp-cookies-header-300x107.jpg)
+
 
 We will never turn down a good cookie. Especially when it's from a good client! We received a delicious gift from our friends at **[Hemp Oil Canada](http://www.hempoilcan.com/)** last Friday in the form of yummy hemp cookies.
-
-&nbsp;
 
 Here are some of the comments shared by our staff about these gastronomical gems.
 

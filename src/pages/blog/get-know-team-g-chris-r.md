@@ -9,15 +9,13 @@ tags:
 
 In our third installment of "Getting To Know Team G.I." we talk to the graphic design guy. You'll understand why he's the graphic design guy when you see his answers!
 
-![Christopher](/img/Chris-R.png)
-
 **First name:** Christopher
 
 **Place of birth:** St. Anne, MB
 
 **How long have you been working at Graphic Intuitions for?** Roughly 397 days.
 
-**Where did you go to school and what diploma did you receive?**
+**Where did you go to school and what diploma did you receive?**  
 I went to Red River College and graduated with an Advanced Graphic Design Diploma.
 
 **What is the part of your job you love the most?** Designing slick websites.

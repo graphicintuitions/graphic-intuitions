@@ -52,7 +52,7 @@ export const Footer = () => (
     <Newsletter />
     <Row center={'xs'}>
       <Col xs={4}>
-        <SocialIcons>
+        <SocialIcons className={'list-inline'}>
           <li><img src={Facebook} alt={"Facebook Logo"} /></li>
           <li><img src={Instagram} alt={"Instagram Logo"} /></li>
           <li><img src={Twitter} alt={"Twitter Logo"} /></li>
@@ -67,7 +67,7 @@ export const Footer = () => (
     </Row>
     <Row center={'xs'}>
       <Col xs={12} style={{textAlign: "center"}}>
-        <FooterLinks>
+        <FooterLinks className={'list-inline'}>
           <li><Link to={'/terms'}>Terms &amp; Conditions</Link></li>
           <li><Link to={'/privacy'}>Privacy Policy</Link></li>
         </FooterLinks>

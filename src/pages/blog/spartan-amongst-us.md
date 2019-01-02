@@ -10,8 +10,6 @@ tags:
 
 This Saturday, Grunthal, Manitoba will be hosting the Manitoba Sprint Canada - a part of the [Reebok Spartan Race](http://www.spartan.com/en) series. It's a 3-mile race filled with over 20 insane obstacles. And one Graphic Intuitions team member is taking it head on.
 
-![Screen Shot 2015-07-08 at 11.29.42 AM](/img/Screen-Shot-2015-07-08-at-11.29.42-AM-300x182.png)
-
 While most of us look at the list of obstacles that might be included in the race and shudder with fear, our graphic designer, Chris Reimer, thinks it "sounds like fun". So on a whim, he signed up for the race a few days ago and will be competing this Saturday in his hometown.
 
 While the actual race length isn't too far, the crazy stunts they make you perform are, well.... crazy! Things like crawling through the mud under barbwire, carrying buckets of heavy rocks, scaling huge walls and yes, even jumping over fire! (He said this was fun, right?) But don't worry; if you can't complete a challenge, you can do 30 burpees instead. Yipee!

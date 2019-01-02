@@ -34,23 +34,22 @@ And did we mention that our new website looks awesome, thanks to our developers 
 
 We could go on and on about what the website features, but we think you should really go and check it out for yourself.
 
-# Celebratory Beer Review
+Celebratory Beer Review
+=======================
 
-To celebrate, our team cracked open a cold one, not like we needed an excuse.
+To celebrate, our team cracked open a cold one, not like we needed an excuse.  
 ![Pinot Suave](/img/Pinot-Suave.png)
 
-Pinot Suave from [Deschutes Brewery ](https://www.deschutesbrewery.com/beer/pinot-suave/)made a bad first impression but came in with a solid finish and an average rating of 6.96/10. When first opened this brew had a smell of "bad apple juice". But given a chance, this brew made a smooth come back with its oaky, sour flavour that tasted like a combination of beer and wine. An easy sipper on any night.
+Pinot Suave from [Deschutes Brewery](https://www.deschutesbrewery.com/beer/pinot-suave/) made a bad first impression but came in with a solid finish and an average rating of 6.96/10. When first opened this brew had a smell of "bad apple juice". But given a chance, this brew made a smooth come back with its oaky, sour flavour that tasted like a combination of beer and wine. An easy sipper on any night.
 
 These are the ratings:
 
-Chris: 7.6
-Julie: 6
-Shayne: 7.65
-Mark: 2.5
-Nick: 8
-Shar: 7
+Chris: 7.6  
+Julie: 6  
+Shayne: 7.65  
+Mark: 2.5  
+Nick: 8  
+Shar: 7  
 Dave:10
-
-<div></div>
 
 If Mark rates higher than a 2, then you know it's worth a try.

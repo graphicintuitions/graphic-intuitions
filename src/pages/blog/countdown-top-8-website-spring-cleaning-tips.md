@@ -11,16 +11,14 @@ tags:
   - "Website Spring Cleaning Tips"
 ---
 
-<div>All April we will be posting a countdown of our **Top 8** **Website Spring Cleaning Tips** help you get your website into tip-top shape! If you don't know if your website is mobile-friendly, take the **Mobile Friendly Test** below!</div>
-<div></div>
-<div> ![Countdown of Spring Cleaning Tips for your Website](/img/Spring-Cleaning.jpg)</div>
-<div></div>
-<div>Spring is here! Birds are chirping, the river is flowing and people are starting the annual Spring cleaning of their yards and homes by getting rid of a lot of old and unwanted items to make room for the new.</div>
-<div>
+All April we will be posting a countdown of our **Top 8** **Website Spring Cleaning Tips** help you get your website into tip-top shape! If you don't know if your website is mobile-friendly, take the **Mobile Friendly Test** below!
+
+Spring is here! Birds are chirping, the river is flowing and people are starting the annual Spring cleaning of their yards and homes by getting rid of a lot of old and unwanted items to make room for the new.
 
 Now is also the perfect time for businesses to take a fresh look at some Website Spring Cleaning Tips to make sure they are clean, tidy and mobile friendly so it's ready for visitors day or night, from home or from anywhere!
 
-## TIP #8 - TEST YOUR MOBILE FRIENDLINESS
+TIP #8 - TEST YOUR MOBILE FRIENDLINESS
+--------------------------------------
 
 Was your website built before 2010? Even if you have a newer site, we recommend running a few tests to make sure it is a healthy, user friendly site for 2016!
 
@@ -38,23 +36,16 @@ Did your site get a passing grade? Then hooray-awesomesauce! On to the next test
 
 If it was, um, not so great, then it may be time to plan for a website update, or a complete renovation. And like any reno it takes a great team, planning, blueprints and a budget to get great results! Be sure to [contact](https://graphicintuitions.com/get-in-touch/) the team at Graphic Intuitions if you have any questions regarding thy mobile website test or upgrading your website.
 
-&nbsp;
-
 _Coming next_ - watch for **Spring Cleaning Tip #7** - we'll share another way to easily measure the key performance indicators, that could be holding you back from more success online!
 
-&nbsp;
-
-[caption id="attachment_792" align="alignleft" width="223"][![BeBig - Our Successful Methodology](/img/BeBig_logo_reverseUSE-THIS-ONE-copy-223x135-1.png)](https://graphicintuitions.com/bebig) BeBig - Our Successful Methodology[/caption]
+\[caption id="attachment\_792" align="alignleft" width="223"\][![BeBig - Our Successful Methodology](/img/BeBig_logo_reverseUSE-THIS-ONE-copy-223x135-1.png)](https://graphicintuitions.com/bebig) BeBig - Our Successful Methodology\[/caption\]
 
 You want your business to grow, but aren't sure how to get there. That's where we come in.
 
 From initial concept to final launch, printed materials to marketing strategies and everything in-between, we can help your business use the internet to help your business BeBIG!
-
-&nbsp;
 
 Contact us to learn more about our
 
 *   [Mobile Friendly Web Development](https://graphicintuitions.com/services/)
 *   Print Media Services
 *   [Digital Marketing Strategies for 2016](https://graphicintuitions.com/services/digital-marketing/)
-</div>

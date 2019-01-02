@@ -10,11 +10,10 @@ tags:
   - "Projects"
 ---
 
-## Manitoba Printers
+Manitoba Printers
+-----------------
 
 While most of our recent posts have been about our latest website launches, we don't want to forget about the many print pieces that we've worked on over the past couple of months. This summer, we've designed and printed a number of vehicle decals and many signs for local businesses and organizations including [**Morris Build-All Centre**](http://www.morrisbuildall.com), Blue Diamond Enterprises, [**R.O.C. & The Fern**](http://www.rocf.ca), the Riverview Golf Course and the Manitoba Stampede.
-
-![](/img/LetGoSign_web-300x199.jpg)
 
 One of our more labour-intensive print jobs has been the National Trailer Parts catalogue. This 356-page parts guide was no small job, but we are very proud with the finished piece! Through our printer contacts, we were able to provide the client with a great looking product that fit within their budget. Here's what Mike Heschel from National Trailer Parts had to say about our work:
 

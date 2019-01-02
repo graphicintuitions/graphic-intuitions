@@ -27,10 +27,10 @@ Now on to real business... We just launched a brand spanking new website for **[
 
 • Effective use of white space to make the beautiful product images and various sections pop
 
-[caption id="attachment_290" align="aligncenter" width="300"]![National Trailer Parts](/img/Screen-Shot-2014-09-22-at-2.03.27-PM-300x184.png) National Trailer Parts' new website[/caption]
+\[caption id="attachment\_290" align="aligncenter" width="300"\]![National Trailer Parts' new website](/img/Screen-Shot-2014-09-22-at-2.03.27-PM-300x184.png) National Trailer Parts' new website\[/caption\]
 
 We also relaunched a website called Stuck in the Muck for the Flaman Group of Companies. Essentially, this website is a place for farmers to post pictures of their farm equipment literally getting stuck in the muck all while taking solace in the fact that they are not alone out there. So farmers, start uploading your best messes to **[www.stuckinthemuck.com](http://www.stuckinthemuck.com)!**
 
-[caption id="attachment_292" align="aligncenter" width="300"]![www.stuckinthemud.com](/img/Screen-Shot-2014-09-22-at-2.22.38-PM-300x198.png) www.stuckinthemuck.com[/caption]
+\[caption id="attachment\_292" align="aligncenter" width="300"\]![www.stuckinthemud.com](/img/Screen-Shot-2014-09-22-at-2.22.38-PM-300x198.png) www.stuckinthemuck.com\[/caption\]
 
 Next week we bring you our monthly newsletter. So don't forget to swing back!

@@ -25,6 +25,3 @@ _Sincerely,_
 
 _(name)_
 
-&nbsp;
-
-![18](/img/18-682x1024.png)

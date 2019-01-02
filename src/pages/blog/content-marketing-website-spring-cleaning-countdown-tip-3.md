@@ -37,6 +37,7 @@ By adding blogging into your digital marketing strategy, you're creating possibi
 *   Call To Action
 *   Informative Blog Posts
 *   YouTube Videos
+
 Top Suggestions for adding fresh content:
 
 ☐ Create or update your content calendar. We can help you develop a content strategy across your website (including your blog or forum), and other digital marketing channels (e.g., email newsletter, social media, etc.)

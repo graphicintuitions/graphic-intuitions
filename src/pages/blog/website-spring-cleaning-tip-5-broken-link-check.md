@@ -8,7 +8,8 @@ tags:
   - "Tips"
 ---
 
-## TIP #5 TUNE UP THE MACHINE
+TIP #5 TUNE UP THE MACHINE
+--------------------------
 
 Your website operates like a fine tuned machine when everything is working well. When it is not, well....
 
@@ -22,7 +23,7 @@ Take some time this week to check in on the working parts of your site, or check
 
 ☐ **Plugins** - Are they all up to date with the latest versions?
 
-☐** RSS Feed** - Sign up to ensure it's working.
+☐ **RSS Feed** - Sign up to ensure it's working.
 
 ☐ **Social Media Widgets or Links** - Ensure your content is "sharable".
 

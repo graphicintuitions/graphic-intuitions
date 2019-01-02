@@ -15,7 +15,7 @@ Sometimes there is a misconception that in order to have an engaging and user-fr
 
 ### Realtor Website
 
-[![TC21 Responsive](/img/tc21-responsive.png)](http://tc21.ca)
+[](http://tc21.ca)
 
 Team G.I. recently launched a website for the Century 21 Tisdale Agencies that was one page. Yes, that's right; you can have a website designed for you that contains just one page. And yes, it can still be an extremely effective marketing tool.
 

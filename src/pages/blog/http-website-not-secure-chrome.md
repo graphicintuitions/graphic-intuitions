@@ -13,7 +13,8 @@ tags:
   - "websites not secure"
 ---
 
-## Is Google Marking Your Website Not Secure?
+Is Google Marking Your Website Not Secure?
+------------------------------------------
 
 Google's newest version of Chrome is making it safer for users to browse the internet, but how does this affect you? In its first release, Chrome will label websites that handle client login or payment information as not secure if your site does not have an appropriate SSL certificate. Your website visitors may see this website not secure message when they log into your site:
 

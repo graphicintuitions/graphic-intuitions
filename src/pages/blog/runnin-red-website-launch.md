@@ -15,9 +15,7 @@ tags:
   - "website tracking"
 ---
 
-A few weeks ago the team at Runnin' Red came to us looking for a new [website design](https://graphicintuitions.com/services/website-development/) for their courier company. [Runnin' Red ](https://www.runninred.com/)provides pickup services from the US, so if you have a package you need to grab across the border but don't have time to pick it up - they can help!
-
-![runnin](/img/runnin-red-newsletter.jpg)
+A few weeks ago the team at Runnin' Red came to us looking for a new [website design](https://graphicintuitions.com/services/website-development/) for their courier company. [Runnin' Red](https://www.runninred.com/) provides pickup services from the US, so if you have a package you need to grab across the border but don't have time to pick it up - they can help!
 
 Their main goal was to clean up their previous website with a fresh new look, but more importantly, provide a better user experience for their customers. The previous site had problems with the pickup and shipping request forms, which are of course very important features of the site that you want working properly. We fixed these up and created a new site that is easy to navigate and allows customers to schedule their shipments or pickups using very simple online forms.
 

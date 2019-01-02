@@ -28,7 +28,8 @@ If you know your website could use some fresh content, but you just never seem t
 
 To learn more about what we can accomplish for your business's digital marketing and web design, call us at (204) 746-6177.
 
-## What Are Your Goals?
+What Are Your Goals?
+--------------------
 
 Looking ahead into 2016, we focus in on tips for planting the seeds for business growth, so get ready to join us! Just remember, fields and gardens don't flourish overnight, they take preparation, attention, care, and patience. Only then are you rewarded with a bountiful harvest! Stay tuned for more brilliant business tips (and fun farm and gardening analogies)...
 

@@ -10,9 +10,11 @@ tags:
   - "News"
 ---
 
-What is friggatriskaidekaphobia you might ask? It is the fear of Friday the 13<sup>th</sup>.
+What is friggatriskaidekaphobia you might ask? It is the fear of Friday the 13th.
+
 > According to the Stress Management Center and Phobia Institute in Asheville, North Carolina, an estimated 17 to 21 million people in the United States are affected by a fear of this day making it the most feared day and date in history. Some people are so paralyzed by fear that they avoid their normal routines in doing business, taking flights or even getting out of bed.
-Well there are none of those fears here at GI. We say, Friday the 13<sup>th</sup>, bring it on! And to truly show Friday the 13<sup>th</sup> who is boss, we are officially launching our website today! I know, I know, it has only been six years, what is the big rush? Well we are pretty proud of all our accomplishments, a lot of which you have been a part of, and it is time the World learns about Graphic Intuitions.
+
+Well there are none of those fears here at GI. We say, Friday the 13th, bring it on! And to truly show Friday the 13th who is boss, we are officially launching our website today! I know, I know, it has only been six years, what is the big rush? Well we are pretty proud of all our accomplishments, a lot of which you have been a part of, and it is time the World learns about Graphic Intuitions.
 
 We are Southern Manitoba's premier Graphic Design and Marketing firm. We specialize in custom websites, web applications, and the design and printing of marketing materials. For a full list of what we can do for you, be sure to check out our [Services page](https://graphicintuitions.com/services).
 

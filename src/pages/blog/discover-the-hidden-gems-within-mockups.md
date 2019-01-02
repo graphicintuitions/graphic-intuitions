@@ -16,7 +16,8 @@ tags:
 
 The art of wireframing is one of finesse and understanding. Understand what now? Well, comprehension of the direction your web design project intends to take, as well as how everything will fit together to attract users within your target audience. Let me explain.
 
-## The Purpose of Wireframing
+The Purpose of Wireframing
+--------------------------
 
 Wireframing has many a purpose. For starters, it's a great way to get an entire team collaborating on a project. First, a sketch will be created as the initial foundation; essentially being the raw idea of the project. Now using the sketch, a wireframe is created that will greatly speed up the mockup process; the latter coming to life once a wireframe is approved. One of the advantages of the wireframe, is the relatively low cost considering it uses basics shapes and will aid in defining all the site element for our end game.
 

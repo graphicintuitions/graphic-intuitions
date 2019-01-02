@@ -31,7 +31,7 @@ Need a photo shoot for your business? Contact [Shar](mailto:sharlene@teamgi.ca) 
 
 ![ROC & The Fern](/img/ROC-The-Fern_330.jpg)
 
-_The orchard currently produces apples, apricots, blackberries, cherries, currants, grapes, gooseberries, _haskap_, hazelnut, highbush cranberries, raspberries, saskatoons, sea buckthorn, strawberries and a variety of vegetables. _
+_The orchard currently produces apples, apricots, blackberries, cherries, currants, grapes, gooseberries,_ haskap_, hazelnut, highbush cranberries, raspberries, saskatoons, sea buckthorn, strawberries and a variety of vegetables. _
 
 ![ROC & The Fern](/img/ROC-The-Fern_320.jpg)
 
@@ -52,5 +52,3 @@ Rustic farm stays at [ROC & The Fern](https://www.facebook.com/rockandthefern/).
 ![ROC & The Fern](/img/ROC-The-Fern_332.jpg)
 
 ![ROC & The Fern](/img/ROC-The-Fern_317.jpg)
-
-&nbsp;

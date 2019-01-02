@@ -13,6 +13,4 @@ Having a Google My Business account is great and we highly recommend it for all 
 
 Unfortunately, there is no fix for this as of now. So, what we encourage everyone to do is every so often, review your Google My Business account information to ensure all of the information is correct, including your location on the map and your business hours and make changes as necessary to ensure customers are seeing the right information.
 
-&nbsp;
-
 So is there a benefit to verifying your Google My Business account? Yes, despite the inconvenience of monitoring the information, Google My Business holds huge value, especially for brick and mortar stores. Read more on our blog about the [difference between an owned Google My Business and one Google creates](https://graphicintuitions.com/whats-brewin/whats-the-difference-between-a-google-my-business-account-that-i-create-and-one-that-google-creates/). If you need help creating the account, [contact our digital marketing team](https://graphicintuitions.com/get-in-touch/) and we'll hook you up.

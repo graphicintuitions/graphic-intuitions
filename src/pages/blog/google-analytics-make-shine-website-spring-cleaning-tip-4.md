@@ -9,7 +9,8 @@ tags:
   - "Web"
 ---
 
-## Website Spring Cleaning Tip - #4 MAKE THINGS SHINE
+Website Spring Cleaning Tip - #4 MAKE THINGS SHINE
+--------------------------------------------------
 
 Now is the time to add some polish or gloss to your site! With a little research (Google Analytics is your friend) you can tailor your content (text, images, video) to your audience and make sure they love what they see on your site and keep coming back for more which in turn leads to more sales!
 

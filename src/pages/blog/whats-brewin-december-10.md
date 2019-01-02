@@ -12,15 +12,20 @@ tags:
 
 Shayne and Julie have returned safely from their trip to Florida, and they were very happy to see we kept the place running without any glitches. Yay team! We are still plugging away at some big projects that are slowly starting to wrap up. We completed some design work and printing for one of our customers. We're announcing our 12-day Holiday Marketing Challenge, and we talk social media 101. And finally, we take a crack at the beer advent calendar!
 
-## By's Transport
+By's Transport
+--------------
 
-In addition to the **[website](http://www.bystransport.com)** we built for them not so long ago, we just finished designing and printing some of By's Transport's marketing materials including their Christmas card, 2 different decals (for credit card holders and for their binders), and a sponsor sign.
+In addition to the **[website](http://www.bystransport.com)** we built for them not so long ago, we just finished designing and printing some of By's Transport's marketing materials including their Christmas card, 2 different decals (for credit card holders and for their binders), and a sponsor sign. Here's a sample of our work.
 
-## Join our 12-Day Holiday Marketing Challenge
+![BY's christmas card](/img/BYs-christmas-card.jpeg)
+
+Join our 12-Day Holiday Marketing Challenge
+-------------------------------------------
 
 Starting Friday, we will be hosting a 12-Day Holiday Marketing Challenge. The way it works is simple. Each day, via **[Pinterest](http://www.pinterest.com/GIntuitions/)**, **[Facebook](https://www.facebook.com/GraphicIntuitions)** and **[Twitter](https://twitter.com/GIntuitions)**, we will give you a marketing task that will assist you in either reaching more customers, or improving relationships with your current customers with the end result of increasing your holiday sales! If you're up for the challenge, share and like this post with the hashtag #holidaymarketingchallenge! And stay tuned Friday for your first task.
 
-## Social Media 101
+Social Media 101
+----------------
 
 We can't stress enough how significant the role social media plays in your marketing mix. Sometimes people don't see the immediate value in this form of marketing, but over time, the relationship you build with your customers online will benefit you by creating loyal and trusting followers who will seek your advice, products and services. The key is to be authentic to your brand and message, while ultimately providing value to your customers - it's not always about pushing sales.
 
@@ -30,7 +35,8 @@ We can also write content for your social media pages and blog. Do you have a gr
 
 If you have any questions about how to get started, or need someone to create written content for your blog or website, we will be happy to talk social media with you any time.
 
-## Beer Advent Calendar
+Beer Advent Calendar
+--------------------
 
 While Santa is busy up in the North Pole crafting toys for all the girls and boys, Phillips Brewery transforms into a magical beer workshop where their elves hand-pack the greatest beer present of all: **[The Snowcase Calendar](http://www.snowcasecalendar.com/)**. And yes, it does take up most of the room in our work fridge.
 

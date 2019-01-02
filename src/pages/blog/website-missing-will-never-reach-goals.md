@@ -15,7 +15,8 @@ tags:
 
 The purpose of our previous tip was to freshen up your content to attract visitors to your website and begin to improve your SEO. Now that your content is sparkling, it is time to make sure you are retaining all those new visitors and getting a return on investment from them!
 
-## TIP #2 - A CALL TO ACTION!
+TIP #2 - A CALL TO ACTION!
+--------------------------
 
 **What are the main goals of your website?**
 
@@ -26,15 +27,19 @@ No matter the goals of your website, your "calls to action" need to be blindingl
 If users have to hunt for your call to action, you will never reach your goals.
 
 > Is your call to action message clear?
+
 If you are looking for users to sign up to your newsletter list, don't just say "Sign up for our Newsletter". Think about it, would you sign up for something you had no clue about?
+
 > People want to know "What's in it for them?".
+
 Give them a brief list of why they WANT to sign up for the newsletter. Maybe you provide product tips or special sale items that are only found in your newsletter. Let them know that. Give them a reason to sign up!
 
 **Is it easy for folks to share?**
 
 Are social sharing buttons or links - Facebook, Twitter, LinkedIn, Google+, etc. - easy to find and use?
 
-## Is there a clear invitation for visitors to get involved in a conversation?
+Is there a clear invitation for visitors to get involved in a conversation?
+---------------------------------------------------------------------------
 
 People always have something to say, but this isn't necessarily a bad thing. You want users participating in forums or commenting on blogs, so how they do this needs to be very clear. For a deeper example, read this [Little Know Way to Market Locally with Twitter](https://graphicintuitions.com/whats-brewin/little-known-way-market-locally-twitter/).
 
@@ -48,4 +53,5 @@ If you are an online shopper, think about how you make a buying decision. I guar
 
 Of course, if you would like a little bit of help starting up a new marketing campaign to help drive traffic to your website, or a new promotion to help build a great email list, please feel free to send us an email or give us a call.
 
-## 1-204-746-6177
+1-204-746-6177
+--------------

@@ -22,10 +22,6 @@ Our new landing page is the starting point for our BE BIG campaign. Check it out
 
 You can also follow us on social media to see the entire process unfold.
 
-&nbsp;
-
 [![facebook](/img/facebook.png)](https://www.facebook.com/GraphicIntuitions) [![twitter](/img/twitter.png)](https://twitter.com/GIntuitions) [![googleplus](/img/googleplus.png)](https://plus.google.com/+Graphicintuitions) [![linkedin](/img/linkedin.png)](https://www.linkedin.com/company/graphic-intuitions-inc-)
-
-&nbsp;
 
 _Are you ready to BE BIG?_

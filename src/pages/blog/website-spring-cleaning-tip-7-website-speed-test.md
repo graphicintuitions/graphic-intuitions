@@ -14,7 +14,8 @@ tags:
 
 Time management is crucial and once landing on your webpage visitors are really impatient to get the job done. Proper speed is a truly important feature of site usability, and also one of the main reasons why visitors would leave your website and move on to another.
 
-## **WEBSITE SPRING CLEANING TIP #7 - Website SPEED test**
+**WEBSITE SPRING CLEANING TIP #7 - Website SPEED test**
+-------------------------------------------------------
 
 Guess who else looks at your page speed...Google! That's right, the speed at which your site loads greatly affects search engine rankings, so speed it up! Make sure that your website loads within 4 to 6 seconds. Test your website now with this simple tool from Google:
 
@@ -42,19 +43,13 @@ There are many factors that can negatively affect the loading time of your websi
 
 If you are not happy with the results of your website speed check - we can help. From blazing fast hosting servers, super efficient content management systems and the latest technology for Facebook Instant and Google Accelerated Mobile Page technologies - we can ensure your site loads fast.
 
-&nbsp;
-
 _Coming next_ - watch for **Spring Cleaning Tip #6** - we'll share a quick and important tidy up checklist for your website!
 
-&nbsp;
-
-[caption id="attachment_792" align="alignleft" width="223"][![BeBig - Our Successful Methodology](/img/BeBig_logo_reverseUSE-THIS-ONE-copy-223x135.png)](https://graphicintuitions.com/bebig) BeBig - Our Successful Methodology[/caption]
+\[caption id="attachment\_792" align="alignleft" width="223"\][![BeBig - Our Successful Methodology](/img/BeBig_logo_reverseUSE-THIS-ONE-copy-223x135.png)](https://graphicintuitions.com/bebig) BeBig - Our Successful Methodology\[/caption\]
 
 You want your business to grow, but aren't sure how to get there. That's where we come in.
 
 From initial concept to final launch, printed materials to marketing strategies and everything in-between, we can help your business use the internet to help your business BeBIG!
-
-&nbsp;
 
 Contact us to learn more about our
 

@@ -7,6 +7,7 @@ import { Container, ButtonNav } from "../css/theme";
 const Nav = styled.nav`
   display: flex;
   ul{
+    font-family: ${props => props.theme.headerFont};
     display: flex;
     align-items: center;
     list-style: none;

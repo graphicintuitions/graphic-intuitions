@@ -18,10 +18,6 @@ The holiday season innately gives people those warm and fuzzy feelings that help
 *   provide apple cider or hot cocoa for customers. Cookies and holiday baking never hurt either!
 *   Inject Christmas smells in the air like cinnamon, cloves. Scentsy is a great clean way to add a lovely scent to your space. My personal favourite is Christmas Cottage.
 *   Make sure to wish your customers a happy holiday, Merry Christmas, etc. And make sure to thank them for their continued patronage or, if they are a new customer, thank them for coming to your store.
-&nbsp;
 
 How do you add holiday magic to your workplace? Please feel free to share your tips!
 
-&nbsp;
-
-![15](/img/15-682x1024.png)
