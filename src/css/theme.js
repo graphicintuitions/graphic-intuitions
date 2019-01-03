@@ -132,6 +132,8 @@ export const Site = styled.div`
     padding: 0;
     li{
       margin-bottom: 10px;
+      display: inline-block;
+      margin-right: 5px;
     }
   }
   

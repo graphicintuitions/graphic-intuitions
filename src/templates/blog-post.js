@@ -15,6 +15,25 @@ const StyledBlogPost = styled.div`
   }
 `;
 
+const StyledTags = styled.ul`
+li{
+  margin-right: 0 !important;
+  &:after{
+    content: "\u2022";
+    margin: 0 5px;
+    
+  }
+  
+  &:last-child{
+    &:after{
+      content: "";
+      margin: 0;
+    }
+  }
+}
+  
+`
+
 export const BlogPostTemplate = ({
                                    content,
                                    contentComponent,
@@ -56,13 +75,13 @@ export const BlogPostTemplate = ({
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
-                <ul className="taglist">
+                <StyledTags className="list-inline">
                   {tags.map(tag => (
                     <li key={tag + `tag`}>
                       <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                     </li>
                   ))}
-                </ul>
+                </StyledTags>
               </div>
             ) : null}
           </Col>
