@@ -11,6 +11,8 @@ tags:
 
 It's a bit of a love/hate thing. You've probably heard arguments for and against pop-ups and have your own opinions, but what do your customers want? Is it helpful or intrusive and annoying? As I'm sure you could guess, it depends! There are do's and don'ts to implementing appropriate pop-ups on your website, but first, consider your audience.
 
+> There are do's and don'ts to implementing appropriate pop-ups on your website
+
 Consider Your Audience
 ----------------------
 

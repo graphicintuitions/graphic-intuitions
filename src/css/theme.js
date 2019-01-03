@@ -55,6 +55,17 @@ export const Site = styled.div`
     padding-top: 32px; 
   }
   
+  p + p{
+    margin-top: 0;
+  }
+  
+  blockquote p{
+    font-style: italic;
+    font-size: 40px;
+    line-height: 130%;
+    padding-bottom: 32px;
+  }
+  
   a{
     color: ${props => props.theme.orange}
   }
@@ -84,8 +95,16 @@ export const Site = styled.div`
     cursor: pointer;
   }
   
-  ul{
+  hr{
+    border: none;
+    background: #dedede;
+    height: 1px;
+  }
+  
+  ul, ol{
     font-family: ${props => props.theme.bodyFont};
+    line-height: 28.44px;
+    font-size: 18px;
     li{
       margin-bottom: 10px;
       &:last-child{
