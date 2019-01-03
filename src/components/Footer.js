@@ -68,8 +68,8 @@ export const Footer = () => (
     <Row center={'xs'}>
       <Col xs={12} style={{textAlign: "center"}}>
         <FooterLinks className={'list-inline'} style={{fontSize: "12px"}}>
-          <li><Link to={'/terms'}>Terms &amp; Conditions</Link></li>
-          <li><Link to={'/privacy'}>Privacy Policy</Link></li>
+          <li><Link to={'/terms-conditions'}>Terms &amp; Conditions</Link></li>
+          <li><Link to={'/privacy-policy'}>Privacy Policy</Link></li>
         </FooterLinks>
       </Col>
     </Row>
