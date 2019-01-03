@@ -15,7 +15,9 @@ const Header = styled.div`
   background-position: bottom left;
   background-repeat: no-repeat;
   //height: 656px;
-  padding-bottom: 170px;
+  padding-bottom: 120px;
+  z-index: 2;
+  position: relative;
 `;
 
 const TemplateWrapper = ({ children, props }) => (
@@ -42,9 +44,7 @@ const TemplateWrapper = ({ children, props }) => (
           <Header>
             <Navbar/>
           </Header>
-          <Container>
-            <div>{children}</div>
-          </Container>
+          {children}
           <Footer />
         </Site>
       </ThemeProvider>

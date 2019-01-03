@@ -16,36 +16,7 @@ import step4 from "../img/step-4.svg";
 import computerScreen from "../img/computer-screen.svg";
 import rocket from "../img/rocket.svg";
 import testimonialLogo from "../img/fastcover-logo.svg";
-
-const StyledProject = styled(Col)`
-  background: #FFFFFF;
-  border: 2px solid #E5E5E5;
-  border-radius: 5px;
-  position: relative;
-  padding: 70px 30px;
-  @media (max-width: 767px){
-    padding: 30px;    
-  }
-  .project-thumb{
-    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
-  }
-  .title{
-    font-weight: bold;
-    font-size: 32px;
-    color: #111111;
-    margin: 45px 0; 
-  }
-  .button{
-    position: absolute;
-    bottom: -35px;
-    left: 80px;
-    z-index: 1;
-    transition: 0.3s ease-out;
-    &:hover{
-      bottom: -33px;
-    }
-  }
-`;
+import CaseStudyListItem from "../components/CaseStudyListItem";
 
 const Logos = styled(Row)`
   margin-bottom: 130px; 
@@ -73,7 +44,7 @@ const Step = styled(Col)`
   width: 100%;
   display: flex;
   height: auto;
-  margin-bottom: 15px;
+  margin-bottom: ${props => props.theme.flexboxgrid.gutterWidth}rem;
   p:last-of-type{
     margin-bottom: 0;
   }
@@ -195,56 +166,14 @@ export default class IndexPage extends React.Component {
         <Row>
           {projects
             .map(({ node: project }) => (
-              <Col key={project.id} xs={12} style={{
-                position: "relative",
-                marginBottom: "110px",
-                minHeight: "490px"
-              }}>
-                <Row>
-                  <StyledProject
-                    xs={12}
-                    sm={10}
-                    key={project.id}
-                  >
-                    <Row style={{ width: "100%" }}>
-                      <Col xs={12} sm={false}>
-                        <Img
-                          className="img-repsonsive"
-                          fluid={project.frontmatter.featured_image.childImageSharp.fluid}
-                          alt={project.frontmatter.title}
-                          style={{
-                            width: "90%",
-                            margin: "0 auto",
-                            marginBottom: "70px",
-                            boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)"
-                          }}
-                        />
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col xs={12} sm={6} smOffset={1}>
-                        <img src={withPrefix("/img/" + project.frontmatter.logo.relativePath)} alt={project.frontmatter.title + " logo"}/>
-                        <div className={"title"}>
-                          {project.frontmatter.description}
-                        </div>
-                      </Col>
-                      <Col xs={12}>
-                        <ButtonOrange className={"button"} to={project.fields.slug}>Read More</ButtonOrange>
-                      </Col>
-                    </Row>
-                  </StyledProject>
-                </Row>
-                <Row style={{ position: "absolute", right: 0, top: "35px", width: "100%" }}>
-                  <Col xs={false} sm={5} smOffset={7} style={{ width: "100%" }}>
-                    <Img
-                      className="img-repsonsive"
-                      fluid={project.frontmatter.featured_image.childImageSharp.fluid}
-                      alt={project.frontmatter.title}
-                      style={{ boxShadow: "0px 4px 50px rgba(0, 0, 0, 0.25)" }}
-                    />
-                  </Col>
-                </Row>
-              </Col>
+              <CaseStudyListItem
+                key={project.id}
+                logo={project.frontmatter.logo.relativePath}
+                description={project.frontmatter.description}
+                featured_image={project.frontmatter.featured_image.childImageSharp.fluid}
+                title={project.frontmatter.title}
+                slug={project.fields.slug}
+              />
             ))}
         </Row>
         <Logos>

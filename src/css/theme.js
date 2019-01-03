@@ -10,11 +10,12 @@ export const theme = {
   textBlack: "#111",
   paragraphBlack: "#2b2b2b",
   orange: "#EF3734",
+  background: "#F5F5F5",
   navCollapse: "900px",
   flexboxgrid: {
     // Defaults
     gridSize: 12, // columns
-    gutterWidth: 1, // rem
+    gutterWidth: 2, // rem
     outerMargin: 2, // rem
     mediaQuery: 'only screen',
     container: {
@@ -34,6 +35,7 @@ export const theme = {
 export const Site = styled.div`
   font-family: ${props => props.theme.headerFont};
   background: #F5F5F5;
+  -webkit-font-smoothing: antialiased;
   
   *{
     box-sizing: border-box;
@@ -168,6 +170,7 @@ export const Container = styled.div`
     padding: 0 20px;
   }
 `;
+
 // export const Container = (props) => <RGContainer {...props} />;
 
 export const Row = (props) => <RGRow  {...props} />;

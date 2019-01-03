@@ -14,7 +14,7 @@ intro: >-
   multiple projects including custom web design, print catalogs, marketing
   campaigns, SEO and more. We’ve gotten them some great results over the years.
   We want to share these stats with you and what we did to achieve this.
-highlighted:
+callout:
   callout_items:
     - callout_item_icon: /img/list-icon.svg
       callout_item_text: >-
@@ -53,8 +53,8 @@ highlighted:
     priorities of the website development included making the website
     responsive, providing a better user experience for their customers and
     dealers and an interactive, custom web design
-  highlighted_color: '#2c2c2c'
-  top_text_callout: >-
+  callout_color: '#2c2c2c'
+  callout_top_text: >-
     After four months we increased the website traffic by 107%. Year over year,
     web traffic has over doubled with organic traffic increased by 71%.
 tags:

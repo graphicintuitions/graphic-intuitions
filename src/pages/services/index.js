@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import { Col, Row } from "../../css/theme";
+import { Col, Container, Row } from "../../css/theme";
 import { graphql, withPrefix } from "gatsby";
 import computerScreen from "../../img/computer-screen.svg";
 import styled from "styled-components";
@@ -33,6 +33,7 @@ export default class Index extends React.Component {
     
     return (
       <Layout>
+        <Container>
               <Row>
                 <h1>Services</h1>
                 <Row>
@@ -73,6 +74,7 @@ export default class Index extends React.Component {
                     ))}
                 </Row>
               </Row>
+        </Container>
       </Layout>
     );
   }

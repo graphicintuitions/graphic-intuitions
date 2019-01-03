@@ -61,8 +61,8 @@ const Navbar = () => (
       </div>
       <ul>
         <NavItem>
-          <Link className="navbar-item" to="/projects/flaman-trailers/">
-            Projects
+          <Link className="navbar-item" to="/case-studies/">
+            Case Studies
           </Link>
         </NavItem>
         <NavItem>
