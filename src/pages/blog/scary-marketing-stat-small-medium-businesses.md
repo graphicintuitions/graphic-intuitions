@@ -43,7 +43,7 @@ What Else Can Tracking Data Show?
 
 The list is really endless, but analytics can often give insight into website issues. A key one that we see is a website's mobile vs desktop traffic. For another client of ours, we saw that most of their traffic came from mobile. However, the bounce rate on mobile was much higher than those who visited using a desktop. This shows us that there may be issues on the website when people try to view it on their mobile device, creating the need for a mobile audit. (Your website's bounce rate is the number of people that leave your website after they land without visiting other web pages.)
 
-[via GIPHY](https://giphy.com/gifs/shameless-season-5-showtime-3ohhwm072GdbNh2I0M)
+<iframe src="https://giphy.com/embed/3ohhwm072GdbNh2I0M" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 Use The Data You Have
 ---------------------

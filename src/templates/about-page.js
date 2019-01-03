@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import { Row, Col } from "../css/theme";
+import { Row, Col, Container } from "../css/theme";
 import aboutImg from "../img/about-us.svg";
 import Img from "gatsby-image";
 import styled from "styled-components";
@@ -86,12 +86,14 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout>
-      <AboutPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        staff={post.frontmatter.staff}
-        content={post.html}
-      />
+      <Container>
+        <AboutPageTemplate
+          contentComponent={HTMLContent}
+          title={post.frontmatter.title}
+          staff={post.frontmatter.staff}
+          content={post.html}
+        />
+      </Container>
     </Layout>
   );
 };

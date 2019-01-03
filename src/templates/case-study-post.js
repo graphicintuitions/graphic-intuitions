@@ -8,6 +8,7 @@ import Img from "gatsby-image";
 import { Col, Container, Row } from "../css/theme";
 import styled from "styled-components";
 import MarkdownContent from "../components/MarkdownContent";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 const HeroImage = styled(Row)`
   position: relative;
@@ -29,7 +30,7 @@ const HeroImage = styled(Row)`
                       ${props => props.theme.background}, 
                       rgba(255,255,255, 0) 100%);
     width: 100%;
-    height: 4em;
+    height: 100px;
   }
 `;
 
@@ -90,10 +91,8 @@ export const CaseStudyTemplate = ({
           minHeight: "400px",
           zIndex: "-1"
         }}>
-          <Img
-            className="img-repsonsive"
-            fluid={featured_image.childImageSharp.fluid}
-            alt={title}
+          <PreviewCompatibleImage 
+            imageInfo={featured_image}
             style={{
               position: "absolute",
               left: 0,
@@ -101,7 +100,21 @@ export const CaseStudyTemplate = ({
               width: "100%",
               height: "100%"
             }}
+            alt={title}
+            className="img-repsonsive"
           />
+          {/*<Img*/}
+            {/*className="img-repsonsive"*/}
+            {/*fluid={featured_image.childImageSharp.fluid}*/}
+            {/*alt={title}*/}
+            {/*style={{*/}
+              {/*position: "absolute",*/}
+              {/*left: 0,*/}
+              {/*top: 0,*/}
+              {/*width: "100%",*/}
+              {/*height: "100%"*/}
+            {/*}}*/}
+          {/*/>*/}
         </Col>
       </HeroImage>
       <Container>

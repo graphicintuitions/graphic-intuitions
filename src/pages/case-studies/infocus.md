@@ -6,8 +6,8 @@ date: 2019-01-03T16:33:06.106Z
 logo: /img/infocus-logo.svg
 description: >-
   Our SEO efforts increased website traffic by 58%.
-featured_image: /img/infocus.jpg
-hero_image: /img/infocus.jpg
+featured_image: /img/garage-hanging-mechanic-162553.jpg
+hero_image: /img/garage-hanging-mechanic-162553.jpg
 intro: >-
   National Trailer Parts has been a long term client that we’ve worked with on
   multiple projects including custom web design, print catalogs, marketing

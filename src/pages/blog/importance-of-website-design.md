@@ -55,7 +55,7 @@ Ok, ok, we know Search Engine Optimization (SEO) isn't exactly a design feature,
 
 Notice a trend? Everything is being tracked. Let's be honest, every website has a purpose. It may be to sell products online through an e-commerce system. Or it may be to acquire more dealers to sell your product. It might be to inform potential customers about services you offer and get them to book appointments. Once you know the goals of your website, you need to be tracking them. If you are not implementing features to track and analyze the results of your goals, then you are just throwing your money away. There is now way to know if that print advertisement brought traffic into your website or if that online campaign about your new product worked. With proper tracking, you will know the exact return on investment on all your advertising, including your website. Oh ya, and guess what? We're tracking this too.
 
-[via GIPHY](https://giphy.com/gifs/reactiongifs-ha5EeXrfx3xxC)
+<iframe src="https://giphy.com/embed/ha5EeXrfx3xxC" width="480" height="224" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 Do you need help tracking and analyzing your website data? We are here for you. Lets chat! Contact Mark or Shar at 204.746.6177 to get started or [email us](https://graphicintuitions.com/get-in-touch/?utm_source=Blog&utm_campaign=GICaseStudy).
 

@@ -16,6 +16,8 @@ Website Strategy Series - Part 2
 
 In our [first GI Wonder video](https://graphicintuitions.com/whats-brewin/do-i-need-a-website/), we touched on how your business goals determine if you need a website or not. Now, we want to take this a step further and explain the type of goals you should set and why for your website development. We will also take you through an example of a client who came to us with website issues, and some of the business goals we were able to achieve through rebuilding their website.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6Qb68sbUuDw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Why are Goals so Important?
 ---------------------------
 

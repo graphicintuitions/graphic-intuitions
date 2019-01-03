@@ -7,5 +7,5 @@ import * as ColorWidget from "netlify-cms-widget-color"
 
 CMS.registerPreviewTemplate('about', AboutPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
-CMS.registerPreviewTemplate('projects', CaseStudyPreview)
+CMS.registerPreviewTemplate('case-studies', CaseStudyPreview)
 CMS.registerWidget("color", ColorWidget.Control)

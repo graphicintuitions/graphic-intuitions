@@ -119,7 +119,14 @@ export const Site = styled.div`
     }
   }
   
+  ul.list-unstyled{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+  }
+  
   ul.list-inline{
+    font-family: ${props => props.theme.headerFont};
     list-style: none;
     margin: 0;
     padding: 0;
