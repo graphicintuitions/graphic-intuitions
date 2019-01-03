@@ -4,6 +4,13 @@ import { Col, Row } from "../../css/theme";
 import { graphql, Link } from "gatsby";
 import computerScreen from "../../img/computer-screen.svg";
 import Img from "gatsby-image";
+import styled from "styled-components";
+
+const StyledLink = styled(Link)`
+  font-size: 50px;
+  text-decoration: none;
+  color: ${props => props.theme.textBlack} !important;
+`
 
 export default class Index extends React.Component {
   render() {
@@ -14,7 +21,7 @@ export default class Index extends React.Component {
       <Layout>
         <Row>
           <Col xs={12}><h1>Blog</h1></Col>
-          <Row style={{marginBottom: "80px", width: "100%"}}>
+          <Row style={{ marginBottom: "80px", width: "100%" }}>
             <Col xs={12} sm={6}>
               <p>blog articles go here...</p>
             </Col>
@@ -22,26 +29,32 @@ export default class Index extends React.Component {
               <img src={computerScreen} alt={"computer screen"} className={"img-responsive"} style={{ maxWidth: "400px" }}/>
             </Col>
           </Row>
-  
-          <Row>
-            {articles
-              .map(({ node: article }) => (
-                <Col key={article.id} xs={12} xsOffset={0} sm={6} smOffset={3} style={{marginBottom: "80px"}}>
-                  {article.frontmatter.featured_image && 
+
+          {articles
+            .map(({ node: article }) => (
+              <Row style={{ marginBottom: "120px", width: "100%" }}>
+                <Col xs={12} sm={6} style={{ display: "flex", alignItems: "center" }}>
+                  <h2>
+                    <StyledLink to={article.fields.slug}>{article.frontmatter.title}</StyledLink>
+                  </h2>
+                </Col>
+                {article.frontmatter.featured_image &&
+                <Col xs={12} sm={6}>
+                  <StyledLink to={article.fields.slug}>
                   <Img
                     className="img-repsonsive"
                     fluid={article.frontmatter.featured_image.childImageSharp.fluid}
                     alt={article.frontmatter.title}
                     style={{
                       width: "100%",
-                      margin: "0 auto",
+                      margin: "0 auto"
                     }}
                   />
-                  }
-                  <Link to={article.fields.slug}><h2>{article.frontmatter.title}</h2></Link>
+                  </StyledLink>
                 </Col>
-              ))}
-          </Row>
+                }
+              </Row>
+            ))}
         </Row>
       </Layout>
     );
