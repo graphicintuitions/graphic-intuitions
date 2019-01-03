@@ -7,8 +7,8 @@ logo: /img/national-trailer-parts-logo.svg
 description: >-
   Year over year, web traffic has over doubled with organic traffic increased by
   71%.
-featured_image: /img/CJay-Trailers.jpg
-hero_image: /img/CJay-Trailers.jpg
+featured_image: /img/highway.jpg
+hero_image: /img/highway.jpg
 intro: >-
   National Trailer Parts has been a long term client that we’ve worked with on
   multiple projects including custom web design, print catalogs, marketing
