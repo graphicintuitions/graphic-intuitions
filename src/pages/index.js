@@ -349,7 +349,7 @@ export const pageQuery = graphql`
     query IndexQuery {
         allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] },
-            filter: { frontmatter: { templateKey: { eq: "project-post" }, featured: {eq: true} }}
+            filter: { frontmatter: { templateKey: { eq: "case-study-post" }, featured: {eq: true} }}
         ) {
             edges {
                 node {

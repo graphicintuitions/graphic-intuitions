@@ -10,6 +10,8 @@ tags:
 
 As a business owner, where should you advertise to get more customers? Knowing where to advertise can get you better results and save you money in your marketing campaigns. But in order to determine where to advertise, you need to know where your audience is; which leads to the question, who is my audience? This GI Wonder video will take you through how to determine your target market and using that to figure out where to advertise to them.
 
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/KW970VdEF2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Download our [Target Market Profile Worksheet](https://targetmarket.graphicintuitions.com/).
 
 Determining Your Target Market

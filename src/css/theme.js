@@ -59,6 +59,10 @@ export const Site = styled.div`
     margin-top: 0;
   }
   
+  .gatsby-resp-iframe-wrapper{
+    margin-bottom: 32px;
+  }
+  
   blockquote p{
     font-style: italic;
     font-size: 40px;

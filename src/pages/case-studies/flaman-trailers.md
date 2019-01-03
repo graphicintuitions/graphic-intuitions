@@ -1,5 +1,5 @@
 ---
-templateKey: project-post
+templateKey: case-study-post
 title: Flaman Trailers
 date: 2018-12-03T17:41:03.565Z
 description: First ever option for customers to order trailers online.

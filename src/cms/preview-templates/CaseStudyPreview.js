@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ProjectPostTemplate } from "../../templates/project-post";
+import { CaseStudyTemplate } from "../../templates/case-study-post";
 
-const ProjectPostPreview = ({ entry, widgetFor }) => (
-  <ProjectPostTemplate
+const CaseStudyPreview = ({ entry, widgetFor }) => (
+  <CaseStudyTemplate
     content={widgetFor('body')}
     description={entry.getIn(['data', 'description'])}
     tags={entry.getIn(['data', 'tags'])}
@@ -12,11 +12,11 @@ const ProjectPostPreview = ({ entry, widgetFor }) => (
   />
 )
 
-ProjectPostPreview.propTypes = {
+CaseStudyPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default ProjectPostPreview
+export default CaseStudyPreview

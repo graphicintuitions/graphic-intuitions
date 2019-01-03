@@ -14,6 +14,8 @@ tags:
 
 We're excited to launch the first edition of **GI Wonder**, where we answer your questions about websites, digital marketing, design, and more! The first question in this series sounds simple, **do I need a website** - but our answer may surprise you. So take a couple minutes to hear what our team (experts in [web design](https://graphicintuitions.com/services/website-development/), but unfortunately, not in video production - yet!) have to say, and let us know if you have any questions. Leave us a note about what you would like our next video to answer.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RzMMk6fHS-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 The Strategy Behind Website Design
 ----------------------------------
 
@@ -40,4 +42,4 @@ Need help planning? Download the [**free website questionnaire**](https://crushy
 
 We also work with businesses to provide recommendations, so if you're looking for a consultation, [contact us](mailto:info@teamgi.ca) and let's get planning!
 
-Graphic Intuitions: (204) 400-4089
+Graphic Intuitions: [(204) 400-4089](tel:2044004089)

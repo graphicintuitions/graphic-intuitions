@@ -12,6 +12,7 @@ collections:
     folder: "src/pages/blog"
     create: true
     slug: "{{slug}}"
+    delete: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
@@ -20,19 +21,39 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
   
-  - name: "projects"
-    label: "Projects"
-    folder: "src/pages/projects"
+  - name: "case-studies"
+    label: "Case Studies"
+    folder: "src/pages/case-studies"
     create: true
+    delete: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "case-study-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured", name: "featured", widget: "boolean"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
       - {label: "Logo", name: "logo", widget: "image"}
+      - {label: "Short Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featured_image", widget: "image"}
+      - {label: "Hero Image", name: "hero_image", widget: "image"}
+      - {label: "Intro", name: "intro", widget: "text"}
+      - {label: "Callout Area", 
+        name: "highlighted", 
+        widget: "object",
+        fields: [
+          {label: "Callout Background Color", name: "highlighted_color", widget: "color"},
+          {label: "Top Text Callout", name: "top_text_callout", widget: "text"},
+          {label: "Text Area", name: "callout_text_area", widget: "markdown"},
+          {label: "Items", 
+            name: "callout_items", 
+            widget: "list", 
+            fields: [
+              {label: "Icon", name: "callout_item_icon", widget: "image"},
+              {label: "Title", name: "callout_item_title", widget: "string"},
+              {label: "Text", name: "callout_item_text", widget: "text"},
+            ]
+          }
+        ]}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
   

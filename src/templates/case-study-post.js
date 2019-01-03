@@ -1,13 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
-import { graphql, Link, withPrefix } from "gatsby";
+import { graphql, withPrefix } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Img from "gatsby-image";
+import { Row } from "../css/theme";
 
-export const ProjectPostTemplate = ({
+export const CaseStudyTemplate = ({
                                       content,
                                       contentComponent,
                                       description,
@@ -20,38 +20,20 @@ export const ProjectPostTemplate = ({
   const PostContent = contentComponent || Content;
   
   return (
-    <section className="section">
+    <Row>
       {helmet || ""}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <img src={withPrefix('/img/' + logo.relativePath)} alt={title + "logo"} />
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            {typeof featured_image !== 'string' ? <Img fluid={featured_image.childImageSharp.fluid} alt={title} /> : <img src={featured_image} alt={title} />}
-            <p>{description}</p>
-            <PostContent content={content}/>
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
-        </div>
-      </div>
-    </section>
+      <img src={withPrefix('/img/' + logo.relativePath)} alt={title + "logo"} />
+      <h1>
+        {title}
+      </h1>
+      {typeof featured_image !== 'string' ? <Img fluid={featured_image.childImageSharp.fluid} alt={title} /> : <img src={featured_image} alt={title} />}
+      <p>{description}</p>
+      <PostContent content={content}/>
+    </Row>
   );
 };
 
-ProjectPostTemplate.propTypes = {
+CaseStudyTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -59,12 +41,12 @@ ProjectPostTemplate.propTypes = {
   helmet: PropTypes.object
 };
 
-const ProjectPost = ({ data }) => {
+const CaseStudyPost = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <ProjectPostTemplate
+      <CaseStudyTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
@@ -83,23 +65,22 @@ const ProjectPost = ({ data }) => {
   );
 };
 
-ProjectPost.propTypes = {
+CaseStudyPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object
   })
 };
 
-export default ProjectPost;
+export default CaseStudyPost;
 
 export const pageQuery = graphql`
-    query ProjectPostByID($id: String!) {
+    query CaseStudyByID($id: String!) {
         markdownRemark(id: { eq: $id }) {
             id
             html
             frontmatter {
                 title
                 description
-                tags
                 featured
                 featured_image {
                     childImageSharp {

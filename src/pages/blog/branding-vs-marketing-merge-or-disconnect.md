@@ -5,9 +5,6 @@ featured_image: /img/brand-marketing.jpg
 date: 2018-09-17
 ---
 
-
---------------------------------------------
-
 What is Branding?
 -----------------
 
@@ -27,7 +24,7 @@ The Merge of Branding and Marketing
 
 This is where many businesses get it wrong. By separating these two departments, you're creating disconnect for your customer. If you've ever seen an ad and gone into a store where the employee had no idea there was a sale going on, you've experienced this. It looks unprofessional. Or an ad with imagery that doesn't portray the companies brand at all. For example, one time I saw an ad for a deli that used a stock photo of a girl on a computer. The relevance? Well, your guess is as good as mine.
 
-[via GIPHY](https://giphy.com/gifs/shrugging-shrug-gif-ZeNmLY6FISq4M)
+<iframe src="https://giphy.com/embed/ZeNmLY6FISq4M" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/shrugging-shrug-gif-ZeNmLY6FISq4M">via GIPHY</a></p>
 
 Brand Marketing
 ---------------

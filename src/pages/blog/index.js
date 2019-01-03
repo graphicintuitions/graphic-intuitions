@@ -2,9 +2,13 @@ import React from "react";
 import Layout from "../../components/Layout";
 import { Col, Row } from "../../css/theme";
 import { graphql, Link } from "gatsby";
-import computerScreen from "../../img/computer-screen.svg";
 import Img from "gatsby-image";
 import styled from "styled-components";
+
+const StyledHeading = styled.h2`
+  border-left: 20px solid ${props => props.theme.orange};
+  padding-left: 10px;
+`
 
 const StyledLink = styled(Link)`
   font-size: 50px;
@@ -21,22 +25,13 @@ export default class Index extends React.Component {
       <Layout>
         <Row>
           <Col xs={12}><h1>Blog</h1></Col>
-          <Row style={{ marginBottom: "80px", width: "100%" }}>
-            <Col xs={12} sm={6}>
-              <p>blog articles go here...</p>
-            </Col>
-            <Col xs={false} sm={6} style={{ textAlign: "center" }}>
-              <img src={computerScreen} alt={"computer screen"} className={"img-responsive"} style={{ maxWidth: "400px" }}/>
-            </Col>
-          </Row>
-
           {articles
             .map(({ node: article }) => (
               <Row style={{ marginBottom: "120px", width: "100%" }}>
                 <Col xs={12} sm={6} style={{ display: "flex", alignItems: "center" }}>
-                  <h2>
+                  <StyledHeading>
                     <StyledLink to={article.fields.slug}>{article.frontmatter.title}</StyledLink>
-                  </h2>
+                  </StyledHeading>
                 </Col>
                 {article.frontmatter.featured_image &&
                 <Col xs={12} sm={6}>
