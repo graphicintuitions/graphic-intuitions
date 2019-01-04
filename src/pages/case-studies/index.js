@@ -3,6 +3,7 @@ import Layout from "../../components/Layout";
 import { Col, Container, Row } from "../../css/theme";
 import { graphql } from "gatsby";
 import CaseStudyListItem from "../../components/CaseStudyListItem";
+import computerScreen from "../../img/computer-screen.svg";
 
 export default class Index extends React.Component {
   render() {
@@ -16,8 +17,16 @@ export default class Index extends React.Component {
             <Col xs={12}>
               <h1>Case Studies</h1>
             </Col>
+            <Col xs={12} sm={6} style={{marginBottom: "80px"}}>
+              <p>A digital marketing agency that’s result driven. We get the results that we do because of our industry-leading strategies and our strong team of web designers, digital marketers, and graphic designers. Don’t take our word for it, see for yourself.</p>
+              <p>How do we get these results? Each business has a different goal. Whether that’s to increase website traffic, get more conversions, streamline a process, etc. Your business needs custom solutions, not a cookie cutter plan. By creating a tailored solution for your business, it increases your success. See what we’ve done for other businesses by using our digital marketing strategies and industry knowledge.</p>
+            </Col>
+            <Col xs={false} sm={6} style={{ textAlign: "center" }}>
+              <img src={computerScreen} alt={"computer screen"} className={"img-responsive"} style={{ maxWidth: "400px" }}/>
+            </Col>
           </Row>
           
+          <Row>
           {projects
             .map(({ node: project }) => (
               <CaseStudyListItem
@@ -29,6 +38,7 @@ export default class Index extends React.Component {
                 slug={project.fields.slug}
               />
             ))}
+          </Row>
         </Container>
       </Layout>
     );
