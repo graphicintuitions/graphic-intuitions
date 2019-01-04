@@ -13,6 +13,23 @@ const StyledBlogPost = styled.div`
   h1{
     font-size: 50px;
   }
+  .blog-content{
+    & > p:first-child:first-letter{
+      color: ${props => props.theme.orange};
+      float: left;
+      font-size: 75px;
+      line-height: 60px;
+      padding-top: 4px;
+      padding-right: 8px;
+      padding-left: 3px;
+    }
+  }
+  
+`;
+
+export const StyledHeading = styled.h1`
+  border-left: 20px solid ${props => props.theme.orange};
+  padding-left: 10px;
 `;
 
 const StyledTags = styled.ul`
@@ -51,9 +68,9 @@ export const BlogPostTemplate = ({
         <Row style={{ marginBottom: "80px" }}>
           {helmet || ""}
           <Col xs={12} sm={6} style={{ display: "flex", alignItems: "center" }}>
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+            <StyledHeading>
               {title}
-            </h1>
+            </StyledHeading>
           </Col>
           {featuredImage &&
           <Col xs={12} sm={6}>
@@ -71,7 +88,7 @@ export const BlogPostTemplate = ({
         </Row>
         <Row className="section">
           <Col xs={12} sm={6} xsOffset={3}>
-            <PostContent content={content}/>
+            <PostContent className={'blog-content'} content={content}/>
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>

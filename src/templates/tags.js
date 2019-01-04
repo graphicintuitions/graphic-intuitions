@@ -8,20 +8,22 @@ import BlogListItem from "../components/BlogListItem";
 
 class TagRoute extends React.Component {
   render() {
-    const posts = this.props.data.allMarkdownRemark.edges;
-    const postLinks = posts.map(post => (
-      <BlogListItem
-        slug={post.node.fields.slug}
-        featured_image={post.node.frontmatter.featured_image}
-        title={post.node.frontmatter.title}
-      />
-    ));
     const tag = this.props.pageContext.tag;
     const title = this.props.data.site.siteMetadata.title;
     const totalCount = this.props.data.allMarkdownRemark.totalCount;
     const tagHeader = `${totalCount} post${
       totalCount === 1 ? "" : "s"
       } tagged with “${startCase(tag)}”`;
+
+    const posts = this.props.data.allMarkdownRemark.edges;
+    const postLinks = posts.map(post => (
+      <BlogListItem
+        slug={post.node.fields.slug}
+        featured_image={post.node.frontmatter.featured_image}
+        title={post.node.frontmatter.title}
+        
+      />
+    ));
 
     return (
       <Layout>

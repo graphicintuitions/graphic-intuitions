@@ -46,19 +46,13 @@ export const Site = styled.div`
   }
   
   h1, h2, h3, h4, h5, h6{
-    margin-top: 0;
-  }
-  
-  h2 + p, h3 + p{
-    margin-top: 0; 
-  }
-  
-  p + h2, p + h3{
-    padding-top: 32px; 
-  }
-  
-  p + p{
-    margin-top: 0;
+    margin-top: 48px;
+    &:first-child{
+      margin-top: 0;
+    }
+    & + p{
+      margin-top: 0;
+    }
   }
   
   .gatsby-resp-iframe-wrapper{
