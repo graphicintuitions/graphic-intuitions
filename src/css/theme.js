@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Link } from "gatsby";
 import React  from 'react';
 import { Row as RGRow, Col as RGCol } from 'react-styled-flexboxgrid';
+import { createGlobalStyle } from 'styled-components'
 
 export const theme = {
   bodyFont: "Georgia, serif",
@@ -32,10 +33,14 @@ export const theme = {
   }
 };
 
-export const Site = styled.div`
-  font-family: ${props => props.theme.headerFont};
-  background: #F5F5F5;
-  -webkit-font-smoothing: antialiased;
+export const GlobalStyle = createGlobalStyle`
+  body{
+    max-width: 1600px;
+    margin: 0 auto !important;
+    background-color: #cacaca;
+    -webkit-font-smoothing: antialiased;
+    font-family: ${props => props.theme.headerFont};
+  }
   
   *{
     box-sizing: border-box;
@@ -138,6 +143,10 @@ export const Site = styled.div`
   h1{
     font-size: 64px;
   }
+`
+
+export const Site = styled.div`
+  background: #F5F5F5;
 `;
 
 export const Button = styled(Link)`

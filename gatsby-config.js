@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Graphic Intuitions',
-    description: '',
+    description: 'Specializing in web design and web development with marketing specialists in Southern Manitoba. Your digital marketing plan comes together with custom marketing strategies geared to fit your specific business needs. From custom web design, graphic design, and online marketing.',
+    siteUrl: `https://graphicintuitions.com`,
   },
   plugins: [
     {
@@ -92,8 +93,31 @@ module.exports = {
         showSpinner: false,
       },
     },
+    {
+      resolve: 'gatsby-plugin-crisp-chat',
+      options: {
+        websiteId: '7f266798-c8fb-47c1-9f99-fe8c8363fbc7',
+        // Optional. Disables Crisp Chat during gatsby develop. Defaults to true.
+        enableDuringDevelop: false,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: "GTM-5V3XHJW",
+
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+
+        // Specify optional GTM environment details.
+        // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
+        // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
+      },
+    },
     'gatsby-plugin-purgecss', // must be after other CSS plugins
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }

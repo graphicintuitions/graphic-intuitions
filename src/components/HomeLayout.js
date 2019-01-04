@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import "normalize.css";
 import styled, { ThemeProvider } from "styled-components";
 import herobg from "../img/hero-bg.svg";
-import { Container, Site, theme } from "../css/theme";
+import { Container, GlobalStyle, Site, theme } from "../css/theme";
 import '../css/nprogress.css';
 import { Footer } from "./Footer";
 
@@ -49,7 +49,9 @@ const TemplateWrapper = ({ children, props }) => (
     `}
     render={data => (
       <ThemeProvider theme={theme}>
+        
         <Site>
+          <GlobalStyle />
           <Helmet>
             <html lang="en"/>
             <title>{data.site.siteMetadata.title}</title>

@@ -2,20 +2,7 @@ import React from "react";
 import Layout from "../../components/Layout";
 import { Col, Container, Row } from "../../css/theme";
 import { graphql, Link } from "gatsby";
-import Img from "gatsby-image";
-import styled from "styled-components";
 import BlogListItem from "../../components/BlogListItem";
-
-const StyledHeading = styled.h2`
-  border-left: 20px solid ${props => props.theme.orange};
-  padding-left: 10px;
-`;
-
-const StyledLink = styled(Link)`
-  font-size: 50px;
-  text-decoration: none;
-  color: ${props => props.theme.textBlack} !important;
-`;
 
 export default class Index extends React.Component {
   render() {
@@ -30,6 +17,7 @@ export default class Index extends React.Component {
             {articles
               .map(({ node: article }) => (
                 <BlogListItem
+                  key={article.id}
                   slug={article.fields.slug}
                   featured_image={article.frontmatter.featured_image}
                   title={article.frontmatter.title}
