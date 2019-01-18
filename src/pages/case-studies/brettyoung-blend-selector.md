@@ -17,7 +17,7 @@ intro: >-
 callout:
   callout_color: '#304e88'
   callout_items: []
-  callout_text_area: '![BrettYoung Blend Selector](/img/brettyoung-screens.png)'
+  callout_text_area: 
   callout_top_text: >-
     The Stock Blend Selector was designed with the farmer in mind, helping them
     to easily determine the forage blend that would be best suited for their

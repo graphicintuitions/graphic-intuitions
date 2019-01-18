@@ -56,6 +56,9 @@ const Callout = styled(Col)`
   p{
     //font-size: 16px;
   }
+  img{
+    max-width: 100%;
+  }
 `;
 
 const CalloutTopText = styled.div`
@@ -98,6 +101,7 @@ export const CaseStudyTemplate = ({
                                     tags,
                                     title,
                                     featured_image,
+                                    hero_image,
                                     logo,
                                     callout,
                                     helmet
@@ -118,7 +122,7 @@ export const CaseStudyTemplate = ({
           zIndex: "-1"
         }}>
           <PreviewCompatibleImage 
-            imageInfo={featured_image}
+            imageInfo={hero_image}
             style={{
               position: "absolute",
               left: 0,
@@ -153,9 +157,15 @@ export const CaseStudyTemplate = ({
               </Col>
               {callout.callout_items.map(item =>
                 <Col xs={12} sm={4}>
+                  {item.callout_item_icon.relativePath &&
                   <img src={withPrefix("/img/" + item.callout_item_icon.relativePath)} className="icon" alt={item.callout_item_icon.name}/>
+                  }
+                  {item.callout_item_title && 
                   <h2>{item.callout_item_title}</h2>
+                  }
+                  {item.callout_item_text &&
                   <p>{item.callout_item_text}</p>
+                  }
                 </Col>
               )}
             </Row>
@@ -197,6 +207,7 @@ const CaseStudyPost = ({ data }) => {
           </Helmet>
         }
         featured_image={post.frontmatter.featured_image}
+        hero_image={post.frontmatter.hero_image}
         logo={post.frontmatter.logo}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
@@ -238,6 +249,13 @@ export const pageQuery = graphql`
                 }
                 featured
                 featured_image {
+                    childImageSharp {
+                        fluid(maxWidth: 2048, quality: 80) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+                hero_image {
                     childImageSharp {
                         fluid(maxWidth: 2048, quality: 80) {
                             ...GatsbyImageSharpFluid
