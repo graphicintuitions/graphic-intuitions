@@ -3,11 +3,11 @@ import PropTypes from 'prop-types'
 import { Col, Row } from "../css/theme";
 
 export const PageHeaderTextImage = ({image, children, title, alt}) => (
-  <Row>
+  <Row style={{ marginBottom: "80px" }}>
     <Col sm={12}>
       <h1>{title}</h1>
     </Col>
-    <Col xs={12} sm={6} style={{ marginBottom: "80px" }}>
+    <Col xs={12} sm={6}>
       {children}
     </Col>
     <Col xs={false} sm={6} style={{ textAlign: "center" }}>
