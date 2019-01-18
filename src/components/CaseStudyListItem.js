@@ -32,6 +32,13 @@ const StyledCaseStudyListItem = styled(Col)`
     &:hover{
       bottom: -33px;
     }
+    @media (max-width: 767px){
+      position: relative;
+      left: 0;
+      padding: 20px;
+      display: block;
+      text-align: center;    
+    }
   }
 `;
 

@@ -17,6 +17,9 @@ const StyledForm = styled.div`
   width: 100%;
   .form{
     display: flex;
+    @media (max-width: 400px){
+      display: block;
+    }
   }
   input{
     border-radius: 5px 0 0 5px;
@@ -24,6 +27,11 @@ const StyledForm = styled.div`
     padding: 20px 30px;
     line-height: 20px;
     flex: 1;
+    @media (max-width: 400px){
+      border-radius: 5px;
+      display: block;
+      width: 100%;
+    }
   }
 `
 
@@ -34,6 +42,12 @@ const StyledButton = styled.button`
   background: linear-gradient(180deg, #FF782D 0%, #FF2D2D 100%);
   color: #fff !important;
   font-size: 20px;
+  @media (max-width: 400px){
+      border-radius: 5px;
+      margin-top: 10px;
+      display: block;
+      width: 100%;
+  }
 `
 
 

@@ -87,7 +87,7 @@ export const BlogPostTemplate = ({
           }
         </Row>
         <Row className="section">
-          <Col xs={12} sm={6} xsOffset={3}>
+          <Col xs={12} sm={8} smOffset={2} md={6} mdOffset={3}>
             <PostContent className={'blog-content'} content={content}/>
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>

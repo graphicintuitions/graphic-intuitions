@@ -51,7 +51,7 @@ export const Footer = () => (
   <Container>
     <Newsletter />
     <Row center={'xs'}>
-      <Col xs={4}>
+      <Col xs={12} sm={4}>
         <SocialIcons className={'list-inline'}>
           <li><img src={Facebook} alt={"Facebook Logo"} /></li>
           <li><img src={Instagram} alt={"Instagram Logo"} /></li>

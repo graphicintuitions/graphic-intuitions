@@ -56,8 +56,8 @@ const Step = styled(Col)`
     display: flex;
     flex-direction: column;
     flex: 1;
-    @media(max-width: 768px){
-      padding: 90px 80px;  
+    @media(max-width: 767px){
+      padding: 20px;
     }
   }
   
@@ -65,9 +65,12 @@ const Step = styled(Col)`
     position: absolute;
     left: -15px;
     top: 70px;
+    @media(max-width: 767px){
+    left: 25px;
+    }
     img{
-      @media(max-width: 768px){
-        max-width: 70px;  
+      @media(max-width: 767px){
+        opacity: 0.07;
       }
     }
   }
@@ -75,19 +78,21 @@ const Step = styled(Col)`
     font-family: Montserrat;
     font-weight: bold;
     font-size: 28px;
-    margin-bottom: 15px;
+    @media(max-width: 767px){
+      font-size: 20px; 
+      margin-top: 20px; 
+    }
     .orange{
       color: ${props => props.theme.orange};
     }
   }
 `;
 
-const Testimonials = styled(Row)`
-  margin-top: 192px;
+const Testimonials = styled(Col)`
+  margin-top: 62.5px;
   p:last-of-type{
     margin-bottom: 0;
   }
-  .testimonial{
     position: relative;
     background: #FFFFFF;
     border: 2px solid #E5E5E5;
@@ -95,6 +100,9 @@ const Testimonials = styled(Row)`
     padding: 90px 0;
     height: auto;
     text-align: center;
+    @media(max-width: 600px){
+      padding: 90px 20px 20px 20px;
+    }
     .logo{
       position: absolute;
       top: -62.5px;
@@ -126,9 +134,15 @@ const Testimonials = styled(Row)`
       opacity: 0.5;
       @media(max-width: 600px){
         font-size: 100px;
+        position: absolute;
+        &.left{
+          left: 0;
+        }
+        &.right{
+          right: 0;
+        }
       }
     }
-  }
 `;
 
 const CenteredCell = styled(Col)`
@@ -191,7 +205,7 @@ export default class IndexPage extends React.Component {
         </div>
 
         <Row center={'xs'} style={{ marginBottom: "100px" }}>
-          <Col xs={6}>
+          <Col xs={12} sm={6}>
             <h3>The GI Difference</h3>
             <p>Starting your digital marketing journey or changing your marketing strategy is a big deal. We want you to stay involved throughout the entire process to ensure you get the results you’re looking for while creating a strong, trusting partnership between our companies.</p>
             <p>Beginning with an audit and discovery session, we create a digital baseline for your business. The findings will guide the next steps. We will continue to benchmark your digital presence all while showing your results throughout the project and making data-driven decisions to continually improve our strategies. Your business is unique, and so should be your digital marketing strategy.</p>
@@ -232,22 +246,24 @@ export default class IndexPage extends React.Component {
           </Step>
         </Row>
 
-        <Testimonials center={"xs"} style={{marginBottom: "100px"}}>
-          <Col className={"testimonial"} xs={12} sm={8} md={6}>
-            <div className={"logo"}>
-              <div className={"logo__container"}><img src={testimonialLogo} alt={"testimonial logo"}/></div>
-            </div>
-            <Row>
-              <Col xs={2} className={"quote"}>&ldquo;</Col>
-              <Col xs={8}>
-                <div className={"title"}>Fast Cover Buildings</div>
-                <div className={"location"}>Winnipeg, MB</div>
-                <p>They worked with us (and on budget) to re-develop our website and then later on to provide us the ability to draft our own blog posts and let them "tweak" it with key search words for greater exposure. We have embarked on some Google Adword campaigns but we have learnt that organically growing our online presence (although more painful, slower but less expensive) is more beneficial in the long run. Great group of people to work with, focused on targeted results.</p>
-              </Col>
-              <Col xs={2} className={"quote"}>&rdquo;</Col>
-            </Row>
-          </Col>
-        </Testimonials>
+        <Row center={"xs"} style={{marginBottom: "100px"}}>
+            <Col xs={12} sm={8} md={6}>
+              <Testimonials>
+                <div className={"logo"}>
+                  <div className={"logo__container"}><img src={testimonialLogo} alt={"testimonial logo"}/></div>
+                </div>
+                <Row>
+                  <Col xs={12} sm={2} className={"quote left"}>&ldquo;</Col>
+                  <Col xs={12} sm={8}>
+                    <div className={"title"}>Fast Cover Buildings</div>
+                    <div className={"location"}>Winnipeg, MB</div>
+                    <p>They worked with us (and on budget) to re-develop our website and then later on to provide us the ability to draft our own blog posts and let them "tweak" it with key search words for greater exposure. We have embarked on some Google Adword campaigns but we have learnt that organically growing our online presence (although more painful, slower but less expensive) is more beneficial in the long run. Great group of people to work with, focused on targeted results.</p>
+                  </Col>
+                  <Col xs={12} sm={2} className={"quote right"}>&rdquo;</Col>
+                </Row>
+              </Testimonials>
+            </Col>
+        </Row>
         
         <Row>
           <Col xs={12} xsOffset={0} sm={6} smOffset={3}>

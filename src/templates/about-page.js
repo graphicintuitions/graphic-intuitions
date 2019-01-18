@@ -7,6 +7,7 @@ import { Row, Col, Container } from "../css/theme";
 import aboutImg from "../img/about-us.svg";
 import Img from "gatsby-image";
 import styled from "styled-components";
+import { PageHeaderTextImage } from "../components/PageHeaderTextImage";
 
 const PersonTitle = styled.div`
   h3{
@@ -33,43 +34,38 @@ export const AboutPageTemplate = ({ title, content, staff, contentComponent }) =
   const PageContent = contentComponent || Content;
   return (
     <div>
-      <StyledHeader>
-        <Col xs={12} md={6}>
-          <h1>
-            {title}
-          </h1>
-          <PageContent className="content" content={content}/>
-        </Col>
-        <Col xs={0} md={6} style={{textAlign: "right"}}>
-          <img src={aboutImg} alt={"GI building"} className={"img-responsive"}/>
-        </Col>
-      </StyledHeader>
+      <PageHeaderTextImage title={title} image={aboutImg} alt={"GI building"}>
+        <PageContent className="content" content={content}/>
+      </PageHeaderTextImage>
+      
       <Row center={"xs"} style={{marginBottom: "40px"}}>
         <Col xs={12} sm={8}>
           <h2>Our Team</h2>
         </Col>
-        <Row center={"xs"}>
-          <Col xs={12} sm={8}>
-            {staff.map(person => (
-              <Row style={{marginBottom: "60px"}}>
-                <Col xs={12} md={4} style={{marginBottom: "20px"}}>
-                  <Img
-                    className="img-responsive"
-                    fluid={person.image.childImageSharp.fluid}
-                    alt={person.name}
-                  />
-                </Col>
-                <Col xs={12} md={8}>
-                  <PersonTitle>
-                    <h3>{person.name}</h3>
-                    <div className={"job-title"}>{person.job_title}</div>
-                  </PersonTitle>
-                  <div dangerouslySetInnerHTML={{__html: person.bio}} />
-                </Col>
-              </Row>
-            ))}
+        <Col xs={12}>
+          <Row center={"xs"}>
+            <Col xs={10} sm={8}>
+              {staff.map(person => (
+                <Row style={{marginBottom: "60px"}}>
+                  <Col xs={12} md={4} style={{marginBottom: "20px"}}>
+                    <Img
+                      className="img-responsive"
+                      fluid={person.image.childImageSharp.fluid}
+                      alt={person.name}
+                    />
+                  </Col>
+                  <Col xs={12} md={8}>
+                    <PersonTitle>
+                      <h3>{person.name}</h3>
+                      <div className={"job-title"}>{person.job_title}</div>
+                    </PersonTitle>
+                    <div dangerouslySetInnerHTML={{__html: person.bio}} />
+                  </Col>
+                </Row>
+              ))}
+            </Col>
+          </Row>
         </Col>
-        </Row>
       </Row>
     </div>
   );

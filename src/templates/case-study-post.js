@@ -40,6 +40,16 @@ const Callout = styled(Col)`
   padding: 150px 80px;
   padding-top: 230px;
   
+  .callout-text-area{
+    margin-bottom: 80px;
+  }
+  
+  @media (max-width: 767px){
+    .callout-text-area{
+      margin-bottom: 00px;
+    }  
+  }
+  
   p, h1, h2, h3{
     color: #fff;
   }
@@ -63,6 +73,22 @@ const CalloutTopText = styled.div`
     margin: 0 auto;
     z-index: 1;
 `;
+
+const StyledCaseStudy = styled(Row)`
+  .icon{
+    max-width: 60px;
+    margin-bottom: 30px;
+  }
+  @media (max-width: 767px){
+    h2{
+      margin-top: 0; 
+    }
+    .icon{
+      margin-bottom: 10px;
+      margin-top: 60px;
+    }
+  }
+`
 
 export const CaseStudyTemplate = ({
                                     content,
@@ -103,22 +129,10 @@ export const CaseStudyTemplate = ({
             alt={title}
             className="img-repsonsive"
           />
-          {/*<Img*/}
-            {/*className="img-repsonsive"*/}
-            {/*fluid={featured_image.childImageSharp.fluid}*/}
-            {/*alt={title}*/}
-            {/*style={{*/}
-              {/*position: "absolute",*/}
-              {/*left: 0,*/}
-              {/*top: 0,*/}
-              {/*width: "100%",*/}
-              {/*height: "100%"*/}
-            {/*}}*/}
-          {/*/>*/}
         </Col>
       </HeroImage>
       <Container>
-        <Row>
+        <StyledCaseStudy>
           {/*<img src={withPrefix('/img/' + logo.relativePath)} alt={title + "logo"} />*/}
           <Col xs={12}>
             <h1>{title}</h1>
@@ -134,15 +148,12 @@ export const CaseStudyTemplate = ({
           
           <Callout xs={12} style={{ backgroundColor: callout.callout_color }}>
             <Row>
-              <Col xs={12} sm={6} smOffset={3} style={{ marginBottom: "80px" }}>
+              <Col xs={12} md={6} mdOffset={3} className={'callout-text-area'}>
                 <MarkdownContent content={callout.callout_text_area}/>
               </Col>
               {callout.callout_items.map(item =>
                 <Col xs={12} sm={4}>
-                  <img src={withPrefix("/img/" + item.callout_item_icon.relativePath)} style={{
-                    maxWidth: "60px",
-                    marginBottom: "30px"
-                  }} alt={item.callout_item_icon.name}/>
+                  <img src={withPrefix("/img/" + item.callout_item_icon.relativePath)} className="icon" alt={item.callout_item_icon.name}/>
                   <h2>{item.callout_item_title}</h2>
                   <p>{item.callout_item_text}</p>
                 </Col>
@@ -153,7 +164,7 @@ export const CaseStudyTemplate = ({
           <Col xs={12} sm={6} smOffset={3}>
             <PostContent content={content}/>
           </Col>
-        </Row>
+        </StyledCaseStudy>
       </Container>
     </div>
   );
