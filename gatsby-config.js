@@ -102,6 +102,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-hubspot`,
+      options: {
+        trackingCode: 5265201
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
         id: "GTM-5V3XHJW",
