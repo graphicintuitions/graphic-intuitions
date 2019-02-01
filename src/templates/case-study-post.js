@@ -152,12 +152,25 @@ export const CaseStudyTemplate = ({
           
           <Callout xs={12} style={{ backgroundColor: callout.callout_color }}>
             <Row>
+              {callout.callout_large_image &&
+                <PreviewCompatibleImage
+                  className="img-repsonsive"
+                  imageInfo={callout.callout_large_image}
+                  alt={title}
+                  style={{
+                    width: "100%",
+                    margin: "0 auto"
+                  }}
+                />
+              }
+              {callout.callout_text_area && 
               <Col xs={12} md={6} mdOffset={3} className={'callout-text-area'}>
                 <MarkdownContent content={callout.callout_text_area}/>
               </Col>
-              {callout.callout_items.map(item =>
+              }
+              {callout.callout_items && callout.callout_items.map(item =>
                 <Col xs={12} sm={4}>
-                  {item.callout_item_icon.relativePath &&
+                  {item.callout_item_icon && item.callout_item_icon.relativePath &&
                   <img src={withPrefix("/img/" + item.callout_item_icon.relativePath)} className="icon" alt={item.callout_item_icon.name}/>
                   }
                   {item.callout_item_title && 
@@ -238,6 +251,13 @@ export const pageQuery = graphql`
                     callout_color
                     callout_text_area
                     callout_top_text
+                    callout_large_image {
+                        childImageSharp {
+                            fluid(maxWidth: 1300, quality: 80) {
+                                ...GatsbyImageSharpFluid
+                            }
+                        }
+                    }
                     callout_items{
                         callout_item_icon{
                             relativePath

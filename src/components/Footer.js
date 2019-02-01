@@ -53,10 +53,26 @@ export const Footer = () => (
     <Row center={'xs'}>
       <Col xs={12} sm={4}>
         <SocialIcons className={'list-inline'}>
-          <li><img src={Facebook} alt={"Facebook Logo"} /></li>
-          <li><img src={Instagram} alt={"Instagram Logo"} /></li>
-          <li><img src={Twitter} alt={"Twitter Logo"} /></li>
-          <li><img src={Youtube} alt={"Youtbe Logo"} /></li>
+          <li>
+            <a href={"https://www.facebook.com/GraphicIntuitions"}>
+              <img src={Facebook} alt={"Facebook Logo"} />
+            </a>
+          </li>
+          <li>
+            <a href={"https://www.instagram.com/graphicintuitions/"}>
+              <img src={Instagram} alt={"Instagram Logo"} />
+            </a>
+          </li>
+          <li>
+            <a href={"https://twitter.com/GIntuitions"}>
+              <img src={Twitter} alt={"Twitter Logo"} />
+            </a>
+          </li>
+          <li>
+            <a href={"https://www.youtube.com/channel/UCdj9S4nDL7uIo4icBILCtaA"}>
+              <img src={Youtube} alt={"Youtbe Logo"} />
+            </a>
+          </li>
         </SocialIcons>
       </Col>
     </Row>
