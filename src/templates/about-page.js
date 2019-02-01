@@ -46,7 +46,7 @@ export const AboutPageTemplate = ({ title, content, staff, contentComponent }) =
           <Row center={"xs"}>
             <Col xs={10} sm={8}>
               {staff.map(person => (
-                <Row style={{marginBottom: "60px"}}>
+                <Row key={person.name} style={{marginBottom: "60px"}}>
                   <Col xs={12} md={4} style={{marginBottom: "20px"}}>
                     <Img
                       className="img-responsive"
