@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import "normalize.css";
 import styled, { ThemeProvider } from "styled-components";
 import herobgSmall from "../img/hero-bg-small.svg";
-import { Container, GlobalStyle, Site, theme } from "../css/theme";
+import { GlobalStyle, Site, theme } from "../css/theme";
 import '../css/nprogress.css';
 import { Footer } from "./Footer";
 
@@ -36,10 +36,8 @@ const TemplateWrapper = ({ children, props }) => (
       <ThemeProvider theme={theme}>
         <Site>
           <GlobalStyle />
-          <Helmet>
+          <Helmet titleTemplate={`%s - ${data.site.siteMetadata.title}`}>
             <html lang="en"/>
-            <title>{data.site.siteMetadata.title}</title>
-            <meta name="description" content={data.site.siteMetadata.description}/>
             <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
           </Helmet>
           <Header>

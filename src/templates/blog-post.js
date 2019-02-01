@@ -8,6 +8,7 @@ import Content, { HTMLContent } from "../components/Content";
 import { Col, Container, Row } from "../css/theme";
 import Img from "gatsby-image";
 import styled from "styled-components";
+import { PageWrapper } from "../components/PageWrapper";
 
 const StyledBlogPost = styled.div`
   h1{
@@ -57,7 +58,6 @@ export const BlogPostTemplate = ({
                                    description,
                                    tags,
                                    title,
-                                   helmet,
                                    featuredImage
                                  }) => {
   const PostContent = contentComponent || Content;
@@ -66,7 +66,6 @@ export const BlogPostTemplate = ({
     <Container>
       <StyledBlogPost>
         <Row style={{ marginBottom: "80px" }}>
-          {helmet || ""}
           <Col xs={12} sm={6} style={{ display: "flex", alignItems: "center" }}>
             <StyledHeading>
               {title}
@@ -118,25 +117,29 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
-
+  const {title, description} = post.frontmatter.meta || {};
+  const metaTitle = title ? title : post.frontmatter.title;
+  const metaDesc = description ? description : post.excerpt;
+  
   return (
     <Layout>
+      <PageWrapper
+        helmet={
+          <Helmet>
+            <title>{`${metaTitle}`}</title>
+            <meta name="description" content={`${metaDesc}`}/>
+          </Helmet>
+        }
+      >
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={
-          <Helmet
-            titleTemplate="%s | Blog"
-          >
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta name="description" content={`${post.frontmatter.description}`}/>
-          </Helmet>
-        }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         featuredImage={post.frontmatter.featured_image}
       />
+      </PageWrapper>
     </Layout>
   );
 };
@@ -154,11 +157,16 @@ export const pageQuery = graphql`
         markdownRemark(id: { eq: $id }) {
             id
             html
+            excerpt
             frontmatter {
                 date(formatString: "MMMM DD, YYYY")
                 title
                 description
                 tags
+                meta{
+                    title
+                    description
+                }
                 featured_image {
                     childImageSharp {
                         fluid(maxWidth: 850, quality: 80) {

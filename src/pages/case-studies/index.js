@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import { Col, Container, Row } from "../../css/theme";
+import { Container, Row } from "../../css/theme";
 import { graphql } from "gatsby";
 import CaseStudyListItem from "../../components/CaseStudyListItem";
 import computerScreen from "../../img/computer-screen.svg";

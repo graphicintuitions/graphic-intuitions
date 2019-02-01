@@ -8,6 +8,8 @@ import aboutImg from "../img/about-us.svg";
 import Img from "gatsby-image";
 import styled from "styled-components";
 import { PageHeaderTextImage } from "../components/PageHeaderTextImage";
+import { PageWrapper } from "../components/PageWrapper";
+import { Helmet } from "react-helmet";
 
 const PersonTitle = styled.div`
   h3{
@@ -20,17 +22,7 @@ const PersonTitle = styled.div`
   }
 `
 
-const StyledHeader = styled(Row)`
-  margin-bottom: 200px;
-  img{
-    max-width: 400px;
-  }
-  @media (max-width: 768px){
-    margin-bottom: 20px;  
-  }
-`
-
-export const AboutPageTemplate = ({ title, content, staff, contentComponent }) => {
+export const AboutPageTemplate = ({ title, content, staff, contentComponent, helmet }) => {
   const PageContent = contentComponent || Content;
   return (
     <div>
@@ -79,16 +71,28 @@ AboutPageTemplate.propTypes = {
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data;
+  const {title, description} = post.frontmatter.meta || {};
+  const metaTitle = title ? title : post.frontmatter.title;
+  const metaDesc = description ? description : post.excerpt;
 
   return (
     <Layout>
       <Container>
+        <PageWrapper
+          helmet={
+            <Helmet>
+              <title>{`${metaTitle}`}</title>
+              <meta name="description" content={`${metaDesc}`}/>
+            </Helmet>
+          }
+        >
         <AboutPageTemplate
           contentComponent={HTMLContent}
           title={post.frontmatter.title}
           staff={post.frontmatter.staff}
           content={post.html}
         />
+        </PageWrapper>
       </Container>
     </Layout>
   );
@@ -104,6 +108,8 @@ export const aboutPageQuery = graphql`
     query AboutPage($id: String!) {
         markdownRemark(id: { eq: $id }) {
             html
+            excerpt
+            id
             frontmatter {
                 title
                 staff{

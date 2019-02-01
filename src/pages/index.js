@@ -1,9 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql, withPrefix } from "gatsby";
+import { graphql } from "gatsby";
 import HomeLayout from "../components/HomeLayout";
 import styled from "styled-components";
-import Img from "gatsby-image";
 import { ButtonOrange, Col, Row } from "../css/theme";
 import logo1 from "../img/brett-young-logo-grey.svg";
 import logo2 from "../img/flaman-logo-grey.svg";

@@ -4,11 +4,11 @@ import Helmet from "react-helmet";
 import { graphql, withPrefix } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import Img from "gatsby-image";
 import { Col, Container, Row } from "../css/theme";
 import styled from "styled-components";
 import MarkdownContent from "../components/MarkdownContent";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import { PageWrapper } from "../components/PageWrapper";
 
 const HeroImage = styled(Row)`
   position: relative;
@@ -103,14 +103,12 @@ export const CaseStudyTemplate = ({
                                     featured_image,
                                     hero_image,
                                     logo,
-                                    callout,
-                                    helmet
+                                    callout
                                   }) => {
   const PostContent = contentComponent || Content;
 
   return (
     <div style={{ position: "relative" }}>
-      {helmet || ""}
       <HeroImage>
         <Col xs={12} style={{
           position: "absolute",
@@ -205,27 +203,33 @@ CaseStudyTemplate.propTypes = {
 
 const CaseStudyPost = ({ data }) => {
   const { markdownRemark: post } = data;
+  const {title, description} = post.frontmatter.meta || {};
+  const metaTitle = title ? title : post.frontmatter.title;
+  const metaDesc = description ? description : post.excerpt;
 
   return (
     <Layout>
-      <CaseStudyTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
-        description={post.frontmatter.description}
-        intro={post.frontmatter.intro}
+      <PageWrapper
         helmet={
-          <Helmet titleTemplate="%s | Projects">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta name="description" content={`${post.frontmatter.description}`}/>
+          <Helmet>
+            <title>{`${metaTitle}`}</title>
+            <meta name="description" content={`${metaDesc}`}/>
           </Helmet>
         }
-        featured_image={post.frontmatter.featured_image}
-        hero_image={post.frontmatter.hero_image}
-        logo={post.frontmatter.logo}
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
-        callout={post.frontmatter.callout}
-      />
+      >
+        <CaseStudyTemplate
+          content={post.html}
+          contentComponent={HTMLContent}
+          description={post.frontmatter.description}
+          intro={post.frontmatter.intro}
+          featured_image={post.frontmatter.featured_image}
+          hero_image={post.frontmatter.hero_image}
+          logo={post.frontmatter.logo}
+          tags={post.frontmatter.tags}
+          title={post.frontmatter.title}
+          callout={post.frontmatter.callout}
+        />
+      </PageWrapper>
     </Layout>
   );
 };
@@ -247,6 +251,10 @@ export const pageQuery = graphql`
                 title
                 description
                 intro
+                meta{
+                    title
+                    description
+                }
                 callout{
                     callout_color
                     callout_text_area

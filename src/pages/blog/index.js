@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import { Col, Container, Row } from "../../css/theme";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import BlogListItem from "../../components/BlogListItem";
 
 export default class Index extends React.Component {

@@ -6,7 +6,7 @@ import Layout from '../../components/Layout'
 import { Container } from "../../css/theme";
 
 const TagsPage = ({
-  data: { allMarkdownRemark: { group }, site: { siteMetadata: { title } } },
+  data: { allMarkdownRemark: { group } },
 }) => {
   const allTags = group
 
@@ -23,11 +23,10 @@ const TagsPage = ({
     Object.entries(hashMap).map(([key, value]) => ({ fieldValue: key, totalCount: value }))
   
   cleanTags = cleanTags.sort((a, b) => a.fieldValue < b.fieldValue ? -1 : 1);
-  console.log(cleanTags)
   
   return (
     <Layout>
-      <Helmet title={`Tags | ${title}`} />
+      <Helmet title={`Tags`} />
       <Container>
         <h1 className="title is-size-2 is-bold-light">Tags</h1>
         <ul className="list-unstyled">
@@ -49,11 +48,6 @@ export default TagsPage
 
 export const tagPageQuery = graphql`
   query TagsQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     allMarkdownRemark(limit: 1000, sort: {
         fields: [frontmatter___tags]
         order: ASC

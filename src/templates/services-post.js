@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import { PageWrapper } from "../components/PageWrapper";
 
 export const ServicesPostTemplate = ({
                                    content,
@@ -12,13 +13,11 @@ export const ServicesPostTemplate = ({
                                    description,
                                    tags,
                                    title,
-                                   helmet,
                                  }) => {
   const PostContent = contentComponent || Content
 
   return (
     <section className="section">
-      {helmet || ''}
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -56,24 +55,36 @@ ServicesPostTemplate.propTypes = {
 
 const ServicesPost = ({ data }) => {
   const { markdownRemark: post } = data
+  const {title, description} = post.frontmatter.meta || {};
+  const metaTitle = title ? title : post.frontmatter.title;
+  const metaDesc = description ? description : post.excerpt;
 
   return (
     <Layout>
-      <ServicesPostTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
-        description={post.frontmatter.description}
+      <PageWrapper
         helmet={
-          <Helmet
-            titleTemplate="%s | Blog"
-          >
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta name="description" content={`${post.frontmatter.description}`} />
+          <Helmet>
+            <title>{`${metaTitle}`}</title>
+            <meta name="description" content={`${metaDesc}`}/>
           </Helmet>
         }
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
-      />
+      >
+        <ServicesPostTemplate
+          content={post.html}
+          contentComponent={HTMLContent}
+          description={post.frontmatter.description}
+          helmet={
+            <Helmet
+              titleTemplate="%s | Blog"
+            >
+              <title>{`${post.frontmatter.title}`}</title>
+              <meta name="description" content={`${post.frontmatter.description}`} />
+            </Helmet>
+          }
+          tags={post.frontmatter.tags}
+          title={post.frontmatter.title}
+        />
+      </PageWrapper>
     </Layout>
   )
 }
@@ -95,6 +106,10 @@ export const pageQuery = graphql`
                 date(formatString: "MMMM DD, YYYY")
                 title
                 description
+                meta{
+                    title
+                    description
+                }
                 tags
             }
         }
