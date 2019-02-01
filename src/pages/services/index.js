@@ -14,6 +14,7 @@ const Card = styled.div`
   background: #FFFFFF;
   border: 2px solid #E5E5E5;
   border-radius: 5px;
+  margin-bottom: 60px;
   padding: 110px 30px 30px 30px;
   text-align: center;
   .icon{
@@ -26,7 +27,6 @@ const Card = styled.div`
     }
   }
   @media(max-width: 767px){
-    margin-bottom: 60px;
     padding: 50px 30px 30px 30px;
   }
 `;
@@ -35,7 +35,9 @@ export default class Index extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: services } = data.allMarkdownRemark;
-
+    const featuredServices = services.filter(({ node: service }) => service.frontmatter.featured);
+    const cols = featuredServices.length === 4 ? 6 : 4;
+    
     return (
       <Layout>
         <Container>
@@ -45,21 +47,20 @@ export default class Index extends React.Component {
             <p>For examples of what we’ve done for other businesses, check out our work.</p>
           </PageHeaderTextImage>
 
-          <Row style={{ marginBottom: "80px" }}>
-            {services.filter(({ node: service }) => service.frontmatter.featured)
-              .map(({ node: service }) => (
-                <Col key={service.id} xs={12} sm={4} style={{ display: "flex", flexDirection: "column" }}>
-                  <Card>
-                    {service.frontmatter.icon &&
-                    <div className={"icon"}>
-                      <img src={withPrefix("/img/" + service.frontmatter.icon.relativePath)} alt={service.frontmatter.title}/>
-                    </div>
-                    }
-                    <h2>{service.frontmatter.title}</h2>
-                    <p>{service.frontmatter.description}</p>
-                  </Card>
-                </Col>
-              ))}
+          <Row>
+            {featuredServices.map(({ node: service }) => (
+              <Col key={service.id} xs={12} sm={cols} style={{ display: "flex", flexDirection: "column"}}>
+                <Card>
+                  {service.frontmatter.icon &&
+                  <div className={"icon"}>
+                    <img src={withPrefix("/img/" + service.frontmatter.icon.relativePath)} alt={service.frontmatter.title}/>
+                  </div>
+                  }
+                  <h2>{service.frontmatter.title}</h2>
+                  <p>{service.frontmatter.description}</p>
+                </Card>
+              </Col>
+            ))}
           </Row>
 
           <Row>
