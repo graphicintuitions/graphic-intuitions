@@ -112,6 +112,10 @@ export const aboutPageQuery = graphql`
             id
             frontmatter {
                 title
+                meta{
+                    title
+                    description
+                }
                 staff{
                     name
                     bio

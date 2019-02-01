@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types'
 import { Col, Row } from "../css/theme";
+import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
 export const PageHeaderTextImage = ({image, children, title, alt}) => (
   <Row style={{ marginBottom: "80px" }}>
@@ -11,7 +12,18 @@ export const PageHeaderTextImage = ({image, children, title, alt}) => (
       {children}
     </Col>
     <Col xs={false} sm={6} style={{ textAlign: "center" }}>
+      {typeof image === 'string' &&
       <img src={image} alt={alt} className={"img-responsive"} style={{ maxWidth: "400px" }}/>
+      }
+      
+      {typeof image !== 'string' &&
+      <PreviewCompatibleImage
+        imageInfo={image}
+        alt={alt}
+        style={{ maxWidth: "400px" }}
+        className="img-repsonsive"
+      />  
+      }
     </Col>
   </Row>
 )

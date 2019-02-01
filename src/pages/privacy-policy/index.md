@@ -1,5 +1,5 @@
 ---
-templateKey: content-post
+templateKey: content-page
 title: "Privacy Policy"
 ---
 

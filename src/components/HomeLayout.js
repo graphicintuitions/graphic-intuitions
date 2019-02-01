@@ -52,7 +52,7 @@ const TemplateWrapper = ({ children, props }) => (
         
         <Site>
           <GlobalStyle />
-          <Helmet>
+          <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`}>
             <html lang="en"/>
             <title>{data.site.siteMetadata.title}</title>
             <meta name="description" content={data.site.siteMetadata.description}/>

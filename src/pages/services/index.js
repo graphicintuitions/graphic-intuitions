@@ -5,6 +5,7 @@ import { graphql, withPrefix } from "gatsby";
 import computerScreen from "../../img/computer-screen.svg";
 import styled from "styled-components";
 import { PageHeaderTextImage } from "../../components/PageHeaderTextImage";
+import { Helmet } from "react-helmet";
 
 const Card = styled.div`
   display: flex;
@@ -40,6 +41,10 @@ export default class Index extends React.Component {
     
     return (
       <Layout>
+        <Helmet titleTemplate={`%s`}>
+          <title>Digital Marketing Agency | Web Design, Graphic Design & Marketing</title>
+          <meta name="description" content={"Graphic Intuitions is a Manitoba based digital marketing agency specializing in Web Design, Graphic Design, Branding, Printing, Signage, Custom Web Development and complete Digital Marketing Solutions."}/>
+        </Helmet>
         <Container>
           <PageHeaderTextImage title={"Services"} image={computerScreen}>
             <p>Our goal is to create the best marketing strategies for your business. Sometimes that means a new website or custom application that can help grow your audience or make an internal process more efficient. Sometimes it means creating a digital marketing campaign or even developing an entirely new branding strategy so that you can bring more awareness to your company and generate new leads.</p>

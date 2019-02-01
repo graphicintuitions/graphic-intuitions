@@ -16,6 +16,7 @@ import computerScreen from "../img/computer-screen.svg";
 import rocket from "../img/rocket.svg";
 import testimonialLogo from "../img/fastcover-logo.svg";
 import CaseStudyListItem from "../components/CaseStudyListItem";
+import { Helmet } from "react-helmet";
 
 const Logos = styled(Row)`
   margin-bottom: 130px; 
@@ -157,6 +158,10 @@ export default class IndexPage extends React.Component {
 
     return (
       <HomeLayout>
+        <Helmet>
+          <title>{"Web Design Marketing Agency Steinbach & Winnipeg"}</title>
+          <meta name="description" content={"Specializing in web design and web development with marketing specialists in Southern Manitoba. Your digital marketing plan comes together with custom marketing strategies geared to fit your specific business needs. From custom web design, graphic design, and online marketing."}/>
+        </Helmet>
         <Row style={{ marginBottom: "80px" }}>
           <CenteredCell xs={12} sm={6}>
             <h2>We Are The Competitive Advantage</h2>

@@ -36,7 +36,7 @@ const TemplateWrapper = ({ children, props }) => (
       <ThemeProvider theme={theme}>
         <Site>
           <GlobalStyle />
-          <Helmet titleTemplate={`%s - ${data.site.siteMetadata.title}`}>
+          <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`}>
             <html lang="en"/>
             <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
           </Helmet>

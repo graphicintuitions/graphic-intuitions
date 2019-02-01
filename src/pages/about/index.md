@@ -1,6 +1,9 @@
 ---
 templateKey: about-page
 title: About GI
+meta:
+  title: Winnipeg Digital Marketing Agency | Web Design and Marketing Solutions
+  description: Graphic Intuitions, Manitoba's Premier Digital Marketing Agency servicing Winnipeg, Steinbach, Southern Manitoba and the Prairies. Check out our team of Web Developers, Graphic Designers, Business Strategists, and Digital Marketing Specialist.
 staff:
   - bio: >-
       Shayne has worked for over 20 years in the industry, first starting as a
