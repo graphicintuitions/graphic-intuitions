@@ -3,36 +3,34 @@ import Layout from "../components/Layout";
 import PropTypes from "prop-types";
 import { Container, Row } from "../css/theme";
 import { graphql } from "gatsby";
-import CaseStudyListItem from "../components/CaseStudyListItem";
 import { PageHeaderTextImage } from "../components/PageHeaderTextImage";
 import Content, { HTMLContent } from "../components/Content";
 import { PageWrapper } from "../components/PageWrapper";
 import { Helmet } from "react-helmet";
-import computerScreen from "../img/computer-screen.svg"
+import BlogListItem from "../components/BlogListItem";
 
-export const CaseStudyIndexTemplate = ({
-                                         content,
-                                         contentComponent,
-                                         projects
-                                       }) => {
+export const BlogIndexTemplate = ({
+                                    content,
+                                    contentComponent,
+                                    title,
+                                    articles
+                                  }) => {
   const PostContent = contentComponent || Content;
 
   return (
     <Container>
-      <PageHeaderTextImage title={"Case Studies"} image={computerScreen} alt={"computer screen"}>
+      <PageHeaderTextImage title={title}>
         <PostContent content={content}/>
       </PageHeaderTextImage>
 
       <Row>
-        {projects
-          .map(({ node: project }) => (
-            <CaseStudyListItem
-              key={project.id}
-              logo={project.frontmatter.logo ? project.frontmatter.logo.relativePath : null}
-              description={project.frontmatter.description}
-              featured_image={project.frontmatter.featured_image.childImageSharp.fluid}
-              title={project.frontmatter.title}
-              slug={project.fields.slug}
+        {articles
+          .map(({ node: article }) => (
+            <BlogListItem
+              key={article.id}
+              slug={article.fields.slug}
+              featured_image={article.frontmatter.featured_image}
+              title={article.frontmatter.title}
             />
           ))}
       </Row>
@@ -40,12 +38,12 @@ export const CaseStudyIndexTemplate = ({
   );
 };
 
-const CaseStudyIndex = ({ data }) => {
-  const { post, projects } = data;
+const BlogIndex = ({ data }) => {
+  const { post, articles } = data;
   const { title, description } = post.frontmatter.meta || {};
   const metaTitle = title ? title : post.frontmatter.title;
   const metaDesc = description ? description : post.excerpt;
-console.log(post)
+
   return (
     <Layout>
       <PageWrapper
@@ -56,26 +54,27 @@ console.log(post)
           </Helmet>
         }
       >
-        <CaseStudyIndexTemplate
+        <BlogIndexTemplate
           content={post.html}
           contentComponent={HTMLContent}
-          projects={projects.edges}
+          title={post.frontmatter.title}
+          articles={articles.edges}
         />
       </PageWrapper>
     </Layout>
   );
 };
 
-CaseStudyIndex.propTypes = {
+BlogIndex.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object
   })
 };
 
-export default CaseStudyIndex;
+export default BlogIndex;
 
 export const pageQuery = graphql`
-    query CaseStudyIndexQuery($id: String!) {
+    query BlogIndexQuery($id: String!) {
         post: markdownRemark(id: { eq: $id }) {
             id
             html
@@ -87,9 +86,9 @@ export const pageQuery = graphql`
                 }
             }
         },
-        projects: allMarkdownRemark(
+        articles: allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] },
-            filter: { frontmatter: { templateKey: { eq: "case-study-post" } }}
+            filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
         ) {
             edges {
                 node {
@@ -99,14 +98,9 @@ export const pageQuery = graphql`
                     }
                     frontmatter {
                         title
-                        description
-                        featured
-                        logo{
-                            relativePath
-                        }
                         featured_image {
                             childImageSharp {
-                                fluid(maxWidth: 600, quality: 80) {
+                                fluid(maxWidth: 850, quality: 80) {
                                     ...GatsbyImageSharpFluid
                                 }
                             }

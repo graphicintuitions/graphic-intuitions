@@ -80,7 +80,7 @@ const AboutPage = ({ data }) => {
       <Container>
         <PageWrapper
           helmet={
-            <Helmet>
+            <Helmet titleTemplate={`%s`}>
               <title>{`${metaTitle}`}</title>
               <meta name="description" content={`${metaDesc}`}/>
             </Helmet>

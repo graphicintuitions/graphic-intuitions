@@ -8,9 +8,12 @@ export const PageHeaderTextImage = ({image, children, title, alt}) => (
     <Col sm={12}>
       <h1>{title}</h1>
     </Col>
+    {children && 
     <Col xs={12} sm={6}>
       {children}
     </Col>
+    }
+    {image && 
     <Col xs={false} sm={6} style={{ textAlign: "center" }}>
       {typeof image === 'string' &&
       <img src={image} alt={alt} className={"img-responsive"} style={{ maxWidth: "400px" }}/>
@@ -25,6 +28,7 @@ export const PageHeaderTextImage = ({image, children, title, alt}) => (
       />  
       }
     </Col>
+    }
   </Row>
 )
 
