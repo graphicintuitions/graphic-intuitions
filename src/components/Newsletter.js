@@ -78,16 +78,16 @@ const CustomForm = ({ status, message, onValidated }) => {
       {status === "sending" && <Message>Sending...</Message>}
       {status === "error" && <Message dangerouslySetInnerHTML={{__html: message}}/>}
       {status === "success" && <Message>Subscribed !</Message>}
-      <div className={"form"}>
-      <input
-        ref={node => (email = node)}
-        type="email"
-        placeholder="Your email"
-      />
-      <StyledButton onClick={submit}>
-        Subscribe
-      </StyledButton>
-      </div>
+      <label className={"form"}>
+        <input
+          ref={node => (email = node)}
+          type="email"
+          placeholder="Your email"
+        />
+        <StyledButton onClick={submit}>
+          Subscribe
+        </StyledButton>
+      </label>
     </StyledForm>
   );
 };
