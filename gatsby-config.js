@@ -9,7 +9,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Graphic Intuitions`,
-        short_name: `Graphic Intuitions`,
+        short_name: `GI`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#FD7339`,
