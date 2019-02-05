@@ -45,7 +45,7 @@ const CaseStudyIndex = ({ data }) => {
   const { title, description } = post.frontmatter.meta || {};
   const metaTitle = title ? title : post.frontmatter.title;
   const metaDesc = description ? description : post.excerpt;
-console.log(post)
+
   return (
     <Layout>
       <PageWrapper
