@@ -10,6 +10,10 @@ import { PageWrapper } from "../components/PageWrapper";
 import { Helmet } from "react-helmet";
 
 const StyledForm = styled.form`
+  margin-top: 40px;
+  textarea{
+    min-height: 140px;
+  }
   input, textarea{
     display: block;
     width: 100%;
@@ -55,6 +59,16 @@ const StyledForm = styled.form`
   ul.hs-error-msgs{
 
   }
+  
+  .hs-button{
+    cursor: pointer;
+  }
+  
+  .submitted-message{
+    background: #d3b7ec;
+    padding: 10px;
+    border-radius: 5px;
+  }
 `;
 
 export const ContactIndexTemplate = ({
@@ -84,6 +98,11 @@ export const ContactIndexTemplate = ({
           </Col>
           <Col xs={12} sm={5}>
             <div style={{ marginBottom: "40px" }} dangerouslySetInnerHTML={{ __html: "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2598.817124093776!2d-97.36559048430794!3d49.355609779339325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c18ef448aa6111%3A0x9d07b36d48fb4507!2sGraphic+Intuitions!5e0!3m2!1sen!2sca!4v1545323471665\" width=\"100%\" height=\"380\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>" }}/>
+            <ul className="list-unstyled">
+            <li><strong>Phone:</strong> <a href="tel:2047466177">204-746-6177</a></li>
+            <li><strong>Email:</strong> <a href="mailto:info@teamgi.ca">info@teamgi.ca</a></li>
+            <li><strong>Mailing Address:</strong> Box 203 – 125 Charles Street East, Morris, Manitoba R0G 1K0</li>
+            </ul>
           </Col>
         </Row>
       </Row>
@@ -93,7 +112,6 @@ export const ContactIndexTemplate = ({
 
 const ContactIndex = ({ data }) => {
   const { markdownRemark: post } = data;
-  console.log(post);
   const { title, description } = post.frontmatter.meta || {};
   const metaTitle = title ? title : post.frontmatter.title;
   const metaDesc = description ? description : post.excerpt;
