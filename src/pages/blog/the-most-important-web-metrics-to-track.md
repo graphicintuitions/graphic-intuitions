@@ -35,6 +35,8 @@ The volume and where your website traffic comes from is essential information fo
 
 Proper tracking will also show you campaign data to determine whether it was a success and how it compared to another campaign. In this example below, we can see Direct has the most traffic, however the conversion rate is only at 0.78% where as Organic Search has a conversion rate of 2.51% and a campaign classified as (Other) has a conversion rate of 24.56%. Using this data we can determine where to focus our marketing efforts or where we can improve.
 
+![Tracking example](/img/tracking-example.png)
+
 ## Bounce Rate
 
 Bounce rate is the percentage of people that leave your website after only visiting one page. Therefore, the traffic sources with the lowest bounce rates can show us who is most interested in what you have to offer. Using the example table above, we see that Organic Search overall has a fantastic bounce rate of 2.9% with the average user visiting 3.87 pages on the website. 
