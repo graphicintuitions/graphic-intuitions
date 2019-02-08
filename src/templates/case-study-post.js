@@ -100,7 +100,6 @@ export const CaseStudyTemplate = ({
                                     intro,
                                     tags,
                                     title,
-                                    featured_image,
                                     hero_image,
                                     logo,
                                     callout
@@ -222,7 +221,6 @@ const CaseStudyPost = ({ data }) => {
           contentComponent={HTMLContent}
           description={post.frontmatter.description}
           intro={post.frontmatter.intro}
-          featured_image={post.frontmatter.featured_image}
           hero_image={post.frontmatter.hero_image}
           logo={post.frontmatter.logo}
           tags={post.frontmatter.tags}
@@ -276,16 +274,9 @@ export const pageQuery = graphql`
                     }
                 }
                 featured
-                featured_image {
-                    childImageSharp {
-                        fluid(maxWidth: 2048, quality: 80) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
                 hero_image {
                     childImageSharp {
-                        fluid(maxWidth: 2048, quality: 80) {
+                        fluid(maxWidth: 3200, quality: 80) {
                             ...GatsbyImageSharpFluid
                         }
                     }

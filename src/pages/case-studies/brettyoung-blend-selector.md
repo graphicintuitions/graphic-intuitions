@@ -4,8 +4,8 @@ title: BrettYoung Blend Selector
 featured: true
 date: 2019-01-18T21:20:43.610Z
 logo: /img/brettyoung-logo.svg
-description: We streamlined their Blend Selector tool for their customers.
-featured_image: /img/blend-selector.png
+description: Modernized the user experience for their Blend Selector tool.
+featured_image: /img/BrettYoung-Blend-featured-image.jpg
 hero_image: /img/brettyoung-hero.jpg
 intro: >-
   When BrettYoung asked us to develop a new tool for their customers we were

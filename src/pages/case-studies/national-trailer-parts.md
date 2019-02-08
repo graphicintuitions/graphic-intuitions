@@ -5,7 +5,7 @@ featured: true
 date: 2019-01-03T16:33:06.106Z
 logo: /img/national-trailer-parts-logo.svg
 description: After four months we increased website traffic by 107%
-featured_image: /img/highway.jpg
+featured_image: /img/National-featured-image.jpg
 hero_image: /img/highway.jpg
 intro: >-
   National Trailer Parts has been a long term client that we’ve worked with on
