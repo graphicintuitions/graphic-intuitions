@@ -71,6 +71,14 @@ const StyledForm = styled.form`
   }
 `;
 
+const StyledMap = styled.div`
+  margin-bottom: 40px;
+  @media (max-width: ${props => props.theme.navCollapse}){
+    margin-top: 60px;
+  }
+  
+`
+
 export const ContactIndexTemplate = ({
                                        content,
                                        contentComponent,
@@ -79,12 +87,11 @@ export const ContactIndexTemplate = ({
   const PostContent = contentComponent || Content;
 
   return (
-    <Container>
-      <Row>
-        <h1>{title}</h1>
 
         <Row>
+          
           <Col xs={12} sm={7}>
+            <h1>{title}</h1>
             <PostContent content={content}/>
             <StyledForm>
               <HubspotForm
@@ -97,7 +104,7 @@ export const ContactIndexTemplate = ({
             </StyledForm>
           </Col>
           <Col xs={12} sm={5}>
-            <div style={{ marginBottom: "40px" }} dangerouslySetInnerHTML={{ __html: "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2598.817124093776!2d-97.36559048430794!3d49.355609779339325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c18ef448aa6111%3A0x9d07b36d48fb4507!2sGraphic+Intuitions!5e0!3m2!1sen!2sca!4v1545323471665\" width=\"100%\" height=\"380\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>" }}/>
+            <StyledMap dangerouslySetInnerHTML={{ __html: "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2598.817124093776!2d-97.36559048430794!3d49.355609779339325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c18ef448aa6111%3A0x9d07b36d48fb4507!2sGraphic+Intuitions!5e0!3m2!1sen!2sca!4v1545323471665\" width=\"100%\" height=\"380\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>" }}/>
             <ul className="list-unstyled">
             <li><strong>Phone:</strong> <a href="tel:2047466177">204-746-6177</a></li>
             <li><strong>Email:</strong> <a href="mailto:info@teamgi.ca">info@teamgi.ca</a></li>
@@ -105,8 +112,6 @@ export const ContactIndexTemplate = ({
             </ul>
           </Col>
         </Row>
-      </Row>
-    </Container>
   );
 };
 
@@ -118,20 +123,22 @@ const ContactIndex = ({ data }) => {
 
   return (
     <Layout>
-      <PageWrapper
-        helmet={
-          <Helmet titleTemplate={`%s`}>
-            <title>{`${metaTitle}`}</title>
-            <meta name="description" content={`${metaDesc}`}/>
-          </Helmet>
-        }
-      >
-        <ContactIndexTemplate
-          content={post.html}
-          contentComponent={HTMLContent}
-          title={post.frontmatter.title}
-        />
-      </PageWrapper>
+      <Container>
+        <PageWrapper
+          helmet={
+            <Helmet titleTemplate={`%s`}>
+              <title>{`${metaTitle}`}</title>
+              <meta name="description" content={`${metaDesc}`}/>
+            </Helmet>
+          }
+        >
+          <ContactIndexTemplate
+            content={post.html}
+            contentComponent={HTMLContent}
+            title={post.frontmatter.title}
+          />
+        </PageWrapper>
+      </Container>
     </Layout>
   );
 };

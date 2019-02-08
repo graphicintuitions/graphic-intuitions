@@ -10,4 +10,4 @@ Our goal is to create the best marketing strategies for your business. Sometimes
 
 As a full-service marketing agency and fellow business owners, we don’t just look at one aspect of your business, we look at it as a whole. Although web design and digital marketing are just some of the services we offer, we go above and beyond to achieve your business goals. By merging our knowledge in digital marketing, user experience, graphic design, and programming, we can implement goal-based strategies to get you the best results for your budget.
 
-For examples of what we’ve done for other businesses, check out our work.
+For examples of what we’ve done for other businesses, [check out our work](/case-studies).

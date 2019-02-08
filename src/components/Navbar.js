@@ -42,6 +42,7 @@ const Nav = styled.nav`
 const NavItem = styled.li`
   margin-right: 50px;
   font-weight: bold;
+  margin-bottom: 0;
   a{
     color: ${props => props.theme.textBlack};
     text-decoration: none;
@@ -113,8 +114,8 @@ class Navbar extends React.Component {
               </Link>
             </NavItem>
             <NavItem>
-              <Link className="navbar-item" to="/about">
-                About GI
+              <Link className="navbar-item" to="/services">
+                Services
               </Link>
             </NavItem>
             <NavItem>
@@ -123,8 +124,8 @@ class Navbar extends React.Component {
               </Link>
             </NavItem>
             <NavItem>
-              <Link className="navbar-item" to="/services">
-                Services
+              <Link className="navbar-item" to="/about">
+                Our Team
               </Link>
             </NavItem>
             <NavItem>

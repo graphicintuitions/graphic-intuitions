@@ -4,9 +4,7 @@ title: National Trailer Parts
 featured: true
 date: 2019-01-03T16:33:06.106Z
 logo: /img/national-trailer-parts-logo.svg
-description: >-
-  Year over year, web traffic has over doubled with organic traffic increased by
-  71%.
+description: After four months we increased website traffic by 107%
 featured_image: /img/highway.jpg
 hero_image: /img/highway.jpg
 intro: >-

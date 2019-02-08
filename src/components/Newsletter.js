@@ -11,6 +11,9 @@ const StyledNewsletter = styled(Row)`
   }
   padding: 80px 0;
   padding-top: 160px;
+  @media (max-width: ${props => props.theme.navCollapse}){
+    padding-top: 100px;
+  }
 `;
 
 const StyledForm = styled.div`
