@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import { Row, Col, Container } from "../css/theme";
+import { Col, Container, Row } from "../css/theme";
 import aboutImg from "../img/about-us.svg";
 import Img from "gatsby-image";
 import styled from "styled-components";
@@ -20,7 +20,7 @@ const PersonTitle = styled.div`
     font-size: 14px; 
     color: #6d6c6c;
   }
-`
+`;
 
 export const AboutPageTemplate = ({ title, content, staff, contentComponent, helmet }) => {
   const PageContent = contentComponent || Content;
@@ -29,32 +29,31 @@ export const AboutPageTemplate = ({ title, content, staff, contentComponent, hel
       <PageHeaderTextImage title={title} image={aboutImg} alt={"GI building"}>
         <PageContent className="content" content={content}/>
       </PageHeaderTextImage>
-      
-      <Row center={"xs"} style={{marginBottom: "40px"}}>
-        <Col xs={12} sm={8}>
+
+      <Row center={"xs"} style={{ marginBottom: "40px" }}>
+        <Col xs={10} sm={8}>
           <h2>Our Team</h2>
         </Col>
         <Col xs={12}>
           <Row center={"xs"}>
-            <Col xs={10} sm={8}>
-              {staff.map(person => (
-                <Row key={person.name} style={{marginBottom: "60px"}}>
-                  <Col xs={12} md={4} style={{marginBottom: "20px"}}>
+            <Col xs={10} sm={6} md={8}>
+              <Row style={{ marginBottom: "60px" }}>
+                {staff.map(person => (
+                  <Col key={person.name} xs={12} md={4} style={{ marginBottom: "20px" }}>
+                    {person.image &&
                     <Img
                       className="img-responsive"
                       fluid={person.image.childImageSharp.fluid}
                       alt={person.name}
                     />
-                  </Col>
-                  <Col xs={12} md={8}>
+                    }
                     <PersonTitle>
                       <h3>{person.name}</h3>
                       <div className={"job-title"}>{person.job_title}</div>
                     </PersonTitle>
-                    <div dangerouslySetInnerHTML={{__html: person.bio}} />
                   </Col>
-                </Row>
-              ))}
+                  ))}
+              </Row>
             </Col>
           </Row>
         </Col>
@@ -71,7 +70,7 @@ AboutPageTemplate.propTypes = {
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data;
-  const {title, description} = post.frontmatter.meta || {};
+  const { title, description } = post.frontmatter.meta || {};
   const metaTitle = title ? title : post.frontmatter.title;
   const metaDesc = description ? description : post.excerpt;
 
@@ -86,12 +85,12 @@ const AboutPage = ({ data }) => {
             </Helmet>
           }
         >
-        <AboutPageTemplate
-          contentComponent={HTMLContent}
-          title={post.frontmatter.title}
-          staff={post.frontmatter.staff}
-          content={post.html}
-        />
+          <AboutPageTemplate
+            contentComponent={HTMLContent}
+            title={post.frontmatter.title}
+            staff={post.frontmatter.staff}
+            content={post.html}
+          />
         </PageWrapper>
       </Container>
     </Layout>
