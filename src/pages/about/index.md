@@ -41,7 +41,7 @@ staff:
       Nem has been working with our company for many years now and provides a wealth of programming and web development knowledge. He is our head problem solver and is always eager to jump into a project and lend his experience whenever possible. Though nobody is quite sure how to pronounce his full name (I won’t even attempt to spell it), we do know he is smart as a whip and can usually solve any problem we throw at him.
     image: /img/Nem.jpg
     name: Nemanja Cimbaljevic
-    job_title: Director of Development
+    job_title: Developer
   - bio: >
       Nick has a strong background in app and web development, and is always
       eager to tackle new projects! Whether it’s a brand new web application or
