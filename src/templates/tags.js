@@ -9,7 +9,7 @@ import BlogListItem from "../components/BlogListItem";
 class TagRoute extends React.Component {
   render() {
     const tag = this.props.pageContext.tag;
-    const title = this.props.data.site.siteMetadata.title;
+    // const title = this.props.data.site.siteMetadata.title;
     const totalCount = this.props.data.allMarkdownRemark.totalCount;
     const tagHeader = `${totalCount} post${
       totalCount === 1 ? "" : "s"
