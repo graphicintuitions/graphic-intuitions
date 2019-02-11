@@ -77,8 +77,10 @@ export const Footer = () => (
       </Col>
     </Row>
     <Row center={'xs'}>
-      <Copyright xs={4}>
-        <p>&copy; 2019 Graphic Intuitions all rights reserved</p>
+      <Copyright xs={12}>
+        <p>
+          Box 203 – 125 Charles Street East, Morris, Manitoba R0G 1K0 &bull; <a href="tel:2047466177">204-746-6177</a><br />
+        &copy; 2019 Graphic Intuitions all rights reserved</p>
       </Copyright>
     </Row>
     <Row center={'xs'}>
