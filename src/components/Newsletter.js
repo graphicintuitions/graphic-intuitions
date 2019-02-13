@@ -75,6 +75,12 @@ const CustomForm = ({ status, message, onValidated }) => {
     onValidated({
       EMAIL: email.value
     });
+  
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      submit()
+    }
+  };
 
   return (
     <StyledForm>
@@ -86,6 +92,7 @@ const CustomForm = ({ status, message, onValidated }) => {
           ref={node => (email = node)}
           type="email"
           placeholder="Your email"
+          onKeyPress={handleKeyPress}
         />
         <StyledButton onClick={submit}>
           Subscribe
