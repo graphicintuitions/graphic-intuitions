@@ -75,7 +75,7 @@ const CaseStudyListItem = ({ logo, title, description, featured_image, slug }) =
         </StyledCaseStudyListItem>
       </Col>
     </Row>
-    <Row style={{ position: "absolute", right: 0, top: "35px", width: "100%" }}>
+    <Row style={{ position: "absolute", top: "35px", width: "100%" }}>
       <Col xs={false} sm={5} smOffset={7} style={{ width: "100%" }}>
         <Img
           className="img-repsonsive"

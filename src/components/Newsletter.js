@@ -25,6 +25,7 @@ const StyledForm = styled.div`
     }
   }
   input{
+    //width: 100%;
     border-radius: 5px 0 0 5px;
     border: none;
     padding: 20px 30px;
