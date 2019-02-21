@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Graphic Intuitions',
     description: 'Specializing in web design and web development with marketing specialists in Southern Manitoba. Your digital marketing plan comes together with custom marketing strategies geared to fit your specific business needs. From custom web design, graphic design, and online marketing.',
-    siteUrl: `https://graphicintuitions.com`,
+    siteUrl: `https://www.graphicintuitions.com`,
   },
   plugins: [
     {
