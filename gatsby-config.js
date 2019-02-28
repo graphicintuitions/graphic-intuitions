@@ -6,6 +6,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-optimize-anti-flicker`,
+      options: {
+        id: "GTM-5V3XHJW",
+        includeInDevelopment: true,
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
         id: "GTM-5V3XHJW",
