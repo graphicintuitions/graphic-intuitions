@@ -35,7 +35,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#FD7339`,
         display: `minimal-ui`,
-        icon: `src/img/gi-logo.svg`, // This path is relative to the root of the site.
+        icon: `src/img/favicon.svg`, // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-react-helmet',
