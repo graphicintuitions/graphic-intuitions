@@ -104,7 +104,7 @@ class Navbar extends React.Component {
         <Nav role="navigation" aria-labelledby="header-logo">
           <div id="header-logo">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "88px" }}/>
+              <img src={logo} alt="Graphic Intuitions Logo" style={{ width: "120px" }}/>
             </Link>
           </div>
           <ul className={`${isOpen ? "open" : ""}`}>
