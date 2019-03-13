@@ -2,8 +2,10 @@
 templateKey: about-page
 title: About GI
 meta:
-  title: Winnipeg Digital Marketing Agency | Web Design and Marketing Solutions
-  description: Graphic Intuitions, Manitoba's Premier Digital Marketing Agency servicing Winnipeg, Steinbach, Southern Manitoba and the Prairies. Check out our team of Web Developers, Graphic Designers, Business Strategists, and Digital Marketing Specialist.
+  description: >-
+    Have an experienced digital agency by your side! We have a team of
+    specialists to help your business grow using custom marketing solutions.
+  title: Digital Agency | Meet our Professional Team
 staff:
   - bio: >-
       Shayne has worked for over 20 years in the industry, first starting as a
@@ -19,29 +21,52 @@ staff:
       their industries. And if this work can be done on a golf course or over a
       good craft beer, then he’s really happy!
     image: /img/shayne-serediuk.jpg
-    name: Shayne Serediuk
     job_title: Business Development Manager / Creative Director
+    name: Shayne Serediuk
   - bio: >-
-      Co-founder of Graphic Intuitions, Julie worked as an Account Manager in the print and marketing industry for a number of years after graduating with a degree in Communications and Diploma in Public Relations in 2003. In 2007 she joined her husband full time at Graphic Intuitions, and along with managing the day to day affairs of the business, Julie acts as Project Manager for both the web and print division of the company.
+      Co-founder of Graphic Intuitions, Julie worked as an Account Manager in
+      the print and marketing industry for a number of years after graduating
+      with a degree in Communications and Diploma in Public Relations in 2003.
+      In 2007 she joined her husband full time at Graphic Intuitions, and along
+      with managing the day to day affairs of the business, Julie acts as
+      Project Manager for both the web and print division of the company.
 
 
-      After busy days at work Julie gets to go home to an inquisitive 5 year old daughter, a canine that barely fits through the door, and a husband who thinks golfing in the house is a perfectly acceptable pastime. She’s got her hands full all around – and she wouldn’t have it any other way!
+      After busy days at work Julie gets to go home to an inquisitive 5 year old
+      daughter, a canine that barely fits through the door, and a husband who
+      thinks golfing in the house is a perfectly acceptable pastime. She’s got
+      her hands full all around – and she wouldn’t have it any other way!
     image: /img/julie-serediuk.jpg
-    name: Julie Serediuk
     job_title: Project / Account Manager
+    name: Julie Serediuk
   - bio: >-
-      Currently the Vice President of Marketing and Trailer Division Manager for Flaman Group of Companies, Steve has a wealth of knowledge in the Marketing industry; leading teams and organizations, overseeing marketing/revenue plans, and assisting with operations management. He joined Graphic Intuitions as Managing Director in 2012, providing governance, leadership, and marketing experience that is helping us become a world class agency.
+      Currently the Vice President of Marketing and Trailer Division Manager for
+      Flaman Group of Companies, Steve has a wealth of knowledge in the
+      Marketing industry; leading teams and organizations, overseeing
+      marketing/revenue plans, and assisting with operations management. He
+      joined Graphic Intuitions as Managing Director in 2012, providing
+      governance, leadership, and marketing experience that is helping us become
+      a world class agency.
 
 
-      After taking off his many hats during the workday Steve spends time with his growing family, often outdoors where he enjoys hiking and rock climbing, among other activities. He even made it to the summit of Mount Everest in 2013! Rumor has it he does sleep a few hours each night…but we have yet to find proof of this.
+      After taking off his many hats during the workday Steve spends time with
+      his growing family, often outdoors where he enjoys hiking and rock
+      climbing, among other activities. He even made it to the summit of Mount
+      Everest in 2013! Rumor has it he does sleep a few hours each night…but we
+      have yet to find proof of this.
     image: /img/Steve_photo.jpg
-    name: Steve Whittington
     job_title: Managing Director
+    name: Steve Whittington
   - bio: >
-      Nem has been working with our company for many years now and provides a wealth of programming and web development knowledge. He is our head problem solver and is always eager to jump into a project and lend his experience whenever possible. Though nobody is quite sure how to pronounce his full name (I won’t even attempt to spell it), we do know he is smart as a whip and can usually solve any problem we throw at him.
+      Nem has been working with our company for many years now and provides a
+      wealth of programming and web development knowledge. He is our head
+      problem solver and is always eager to jump into a project and lend his
+      experience whenever possible. Though nobody is quite sure how to pronounce
+      his full name (I won’t even attempt to spell it), we do know he is smart
+      as a whip and can usually solve any problem we throw at him.
     image: /img/Nem.jpg
-    name: Nemanja Cimbaljevic
     job_title: Developer
+    name: Nemanja Cimbaljevic
   - bio: >
       Nick has a strong background in app and web development, and is always
       eager to tackle new projects! Whether it’s a brand new web application or
@@ -51,18 +76,29 @@ staff:
       he spends time with his family, teaching them the fine arts of meat
       smoking, espresso making and chestnut roasting.
     image: /img/nick-verwymeren.jpg
-    name: Nick Verwymeren
     job_title: Lead Developer
+    name: Nick Verwymeren
   - bio: >
-      This kid has skills. Whether you’re needing business cards, a fresh web design or a new logo, he’s the guy to get your business noticed! Staying on top of trends but looking beyond the fads, he knows what design elements are most important for your company and works closely with you to ensure the graphics are portraying the look and feel you want for your business. In his free time he enjoys spending time with family, eating borscht and playing soccer.
+      This kid has skills. Whether you’re needing business cards, a fresh web
+      design or a new logo, he’s the guy to get your business noticed! Staying
+      on top of trends but looking beyond the fads, he knows what design
+      elements are most important for your company and works closely with you to
+      ensure the graphics are portraying the look and feel you want for your
+      business. In his free time he enjoys spending time with family, eating
+      borscht and playing soccer.
     image: /img/chris-reimer.jpg
-    name: Chris Reimer
     job_title: Graphic Designer
+    name: Chris Reimer
   - bio: >
-      Our Digital Marketing Strategist! She makes sure our Digital Marketing Team and our Business Development team stay on task and provides our clients with the best solutions possible. Specializing in Facebook marketing, administration and photography, she works as part of our digital marketing team to grow our client’s businesses. She enjoys reading, anything pumpkin spice flavoured and sitting around a bonfire.
+      Our Digital Marketing Strategist! She makes sure our Digital Marketing
+      Team and our Business Development team stay on task and provides our
+      clients with the best solutions possible. Specializing in Facebook
+      marketing, administration and photography, she works as part of our
+      digital marketing team to grow our client’s businesses. She enjoys
+      reading, anything pumpkin spice flavoured and sitting around a bonfire.
     image: /img/sharlene-reimer.jpg
-    name: Sharlene Reimer
     job_title: Digital Marketing Strategist
+    name: Sharlene Reimer
 ---
 We are a full-service digital marketing agency focused on helping you grow your business. 
 
