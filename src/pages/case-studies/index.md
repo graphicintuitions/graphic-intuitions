@@ -1,7 +1,11 @@
 ---
 templateKey: case-study-index
-title: "Case Studies"
-featured_image: /img/computer-screen.svg
+title: Case Studies
+meta:
+  description: >-
+    Each business has a different goal. Our marketing agency creates tailored
+    marketing solutions for your business to increase your success.
+  title: Marketing Agency Case Studies | Client Success Stories
 ---
 
 A digital marketing agency that’s result driven. We get the results that we do because of our industry-leading strategies and our strong team of web designers, digital marketers, and graphic designers. Don’t take our word for it, see for yourself.
