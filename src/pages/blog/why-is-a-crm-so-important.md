@@ -57,3 +57,5 @@ So what are you doing post-purchase? It should be a priority to maintain your cu
 \--
 
 Businesses are now expected to maintain a holistic customer experience that makes the buying process easy. This is hard to do if there is any disconnect between your sales, marketing, and customer support teams. By having a centralized system that can manage all of this, it greatly improves both internal and customer communications.
+
+Many managers get scared by the thought of implementing a CRM. That's where we come in. We are a [HubSpot Agency Partner](https://www.graphicintuitions.com/blog/gi-is-a-hubspot-agency-partner/), which means we work with you to set up and implement the right solutions for your business using an intuitive system that is easy for your team to maintain. [Contact us](https://www.graphicintuitions.com/contact) to see if HubSpot is the right solution for you.
