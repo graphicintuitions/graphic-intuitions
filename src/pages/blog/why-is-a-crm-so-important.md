@@ -52,6 +52,8 @@ We just listed seven possible pieces of your sales process and didn’t even tou
 
 > It costs 5x more to acquire a new customer than retaining an existing one. 
 
+[Source](https://www.outboundengine.com/blog/customer-retention-marketing-vs-customer-acquisition-marketing/)
+
 So what are you doing post-purchase? It should be a priority to maintain your customer relations through customer satisfaction surveys and consistent contact to stay top of mind. 
 
 \--
