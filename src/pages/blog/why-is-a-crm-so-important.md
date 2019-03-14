@@ -16,7 +16,7 @@ meta:
     customer journey. Meaning, by implementing a CRM, you will see a return on
     investment.
 ---
-The heart of a company is its customers, so how are you keeping your customers happy and maintaining those relationships? A customer relationship management (CRM) system is so much more than a storehouse of contacts. When used properly, it builds customer relationships throughout the entire customer journey. Meaning, by implementing a CRM, you will see a return on investment.
+The heart of a company is its customers, so how are you keeping your customers happy and maintaining those relationships? A customer relationship management (CRM) system is so much more than a storehouse of contacts. When used properly, it builds customer relationships throughout the entire customer journey. Meaning, by implementing a CRM, you will actually see a return on investment.
 
 ![crm-important](/img/importance-crm-sm.jpg "crm-important")
 
@@ -46,7 +46,7 @@ So many pieces go into the sales process.
 * The follow-up. 
 * The cross-sell or up-sell. 
 
-We just listed seven possible pieces of your sales process and didn’t even touch upon the numerous tasks involved for each. There could literally be 100+ tasks from initial customer contact to sale to follow-up across multiple employees. You need to ensure no customers fall through the cracks. This means processes and reminders are needed to streamline your pipeline and create as little friction in your sales process as possible.
+We just listed seven possible pieces of your sales process and didn’t even touch upon the numerous tasks involved for each. There could literally be 100+ tasks from initial customer contact to sale to follow-up across multiple employees. You need to ensure no customers fall through the cracks. This means processes and reminders are needed to streamline your pipeline and create as little friction in your sales process as possible. 
 
 ### Retention
 
