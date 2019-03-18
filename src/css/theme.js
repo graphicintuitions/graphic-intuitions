@@ -143,6 +143,11 @@ export const GlobalStyle = createGlobalStyle`
   h1{
     font-size: 64px;
   }
+  
+  #hs-eu-cookie-confirmation{
+    top: auto !important;
+    bottom: 0 !important;
+  }
 `
 
 export const Site = styled.div`
