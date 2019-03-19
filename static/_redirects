@@ -4,6 +4,11 @@
 /our-work/* /case-studies/
 /get-in-touch/ /contact/
 /careers/ /contact/
-/services/* /services/ 303!
+/services/graphic-design/ /services 303!
+/services/digital-marketing/ /services 303!
+/services/web-design/ /services 303!
+/services/branding/ /services 303!
+/services/printing/ /services 303!
+/services/programming/ /services 303!
 /whats-brewin/national-trailer-parts-client-success-story/ /case-studies/national-trailer-parts/
 https://graphicintuitions.netlify.com/* https://beta.graphicintuitions.com/:splat 301!
