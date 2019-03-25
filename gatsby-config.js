@@ -5,13 +5,13 @@ module.exports = {
     siteUrl: `https://www.graphicintuitions.com`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-optimize-anti-flicker`,
-      options: {
-        id: "GTM-5V3XHJW",
-        includeInDevelopment: false,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-optimize-anti-flicker`,
+    //   options: {
+    //     id: "GTM-5V3XHJW",
+    //     includeInDevelopment: false,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
