@@ -117,7 +117,7 @@ collections:
               {label: "Meta Title", name: "title", widget: "string"},
               {label: "Meta Description", name: "description", widget: "text"}
             ]}
-          - {label: "Body", name: "body", widget: "markdown"}     
+          - {label: "Body", name: "body", widget: "markdown", required: false}     
       - file: "src/pages/services/index.md"
         label: "Service Index"
         name: "service-index"
