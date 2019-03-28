@@ -5,6 +5,11 @@ featured: true
 date: 2019-01-03T16:33:06.106Z
 logo: /img/national-trailer-parts-logo.svg
 description: After four months we increased website traffic by 107%
+meta:
+  title: Success Story | National Custom Web Design
+  description: >-
+    With an all inclusive marketing strategy and custom web design, we increased
+    the website traffic by 107% with web design, print, and digital marketing.
 featured_image: /img/National-featured-image.jpg
 hero_image: /img/highway.jpg
 intro: >-
@@ -13,6 +18,7 @@ intro: >-
   campaigns, SEO and more. We’ve gotten them some great results over the years.
   We want to share these stats with you and what we did to achieve this.
 callout:
+  callout_color: '#2c2c2c'
   callout_items:
     - callout_item_icon: /img/list-icon.svg
       callout_item_text: >-
@@ -51,7 +57,6 @@ callout:
     priorities of the website development included making the website
     responsive, providing a better user experience for their customers and
     dealers and an interactive, custom web design
-  callout_color: '#2c2c2c'
   callout_top_text: >-
     After four months we increased the website traffic by 107%. Year over year,
     web traffic has over doubled with organic traffic increased by 71%.
