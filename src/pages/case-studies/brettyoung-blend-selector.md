@@ -5,6 +5,11 @@ featured: true
 date: 2019-01-18T21:20:43.610Z
 logo: /img/brettyoung-logo.svg
 description: Modernized the user experience for their Blend Selector tool.
+meta:
+  title: Success Story | BrettYoung Custom Web App Case Study
+  description: >-
+    The Stock Blend Selector custom web app was designed with the farmer in mind
+    as well as BrettYoung Seed's goals
 featured_image: /img/BrettYoung-Blend-featured-image.jpg
 hero_image: /img/brettyoung-hero.jpg
 intro: >-
@@ -16,8 +21,6 @@ intro: >-
   number of acres farmed.
 callout:
   callout_color: '#304e88'
-  callout_items:
-  callout_text_area: 
   callout_large_image: /img/BrettYoung-screens.png
   callout_top_text: >-
     The Stock Blend Selector was designed with the farmer in mind, helping them
