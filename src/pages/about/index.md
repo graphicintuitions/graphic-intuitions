@@ -79,17 +79,6 @@ staff:
     job_title: Lead Developer
     name: Nick Verwymeren
   - bio: >
-      This kid has skills. Whether you’re needing business cards, a fresh web
-      design or a new logo, he’s the guy to get your business noticed! Staying
-      on top of trends but looking beyond the fads, he knows what design
-      elements are most important for your company and works closely with you to
-      ensure the graphics are portraying the look and feel you want for your
-      business. In his free time he enjoys spending time with family, eating
-      borscht and playing soccer.
-    image: /img/chris-reimer.jpg
-    job_title: Graphic Designer
-    name: Chris Reimer
-  - bio: >
       Our Digital Marketing Strategist! She makes sure our Digital Marketing
       Team and our Business Development team stay on task and provides our
       clients with the best solutions possible. Specializing in Facebook
