@@ -60,6 +60,10 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
   
+  h1{
+    font-size: 64px;
+  }
+  
   .gatsby-resp-iframe-wrapper{
     margin-bottom: 32px;
   }
@@ -138,10 +142,6 @@ export const GlobalStyle = createGlobalStyle`
   
   img.img-responsive{
     width: 100%;
-  }
-  
-  h1{
-    font-size: 64px;
   }
   
   #hs-eu-cookie-confirmation{
