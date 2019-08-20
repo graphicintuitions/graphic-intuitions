@@ -50,7 +50,7 @@ collections:
         name: "callout", 
         widget: "object",
         fields: [
-          {label: "Callout Background Color", name: "callout_color", widget: "color"},
+          {label: "Callout Background Color", name: "callout_color", widget: "text"},
           {label: "Top Text Callout", name: "callout_top_text", widget: "text"},
           {label: "Text Area", name: "callout_text_area", widget: "markdown", required: false},
           {label: "Large Image", name: "callout_large_image", widget: "image", required: false},
