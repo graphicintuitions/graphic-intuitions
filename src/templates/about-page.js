@@ -121,7 +121,7 @@ export const aboutPageQuery = graphql`
                     job_title
                     image {
                         childImageSharp {
-                            fluid(maxWidth: 500, quality: 100) {
+                            fluid(maxWidth: 500, quality: 80) {
                                 ...GatsbyImageSharpFluid
                             }
                         }
