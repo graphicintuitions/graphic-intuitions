@@ -6,9 +6,9 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import { Col, Container, Row } from "../css/theme";
-import Img from "gatsby-image";
 import styled from "styled-components";
 import { PageWrapper } from "../components/PageWrapper";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 const StyledBlogPost = styled.div`
   h1{
@@ -61,7 +61,7 @@ export const BlogPostTemplate = ({
                                    featuredImage
                                  }) => {
   const PostContent = contentComponent || Content;
-
+  
   return (
     <Container>
       <StyledBlogPost>
@@ -73,9 +73,9 @@ export const BlogPostTemplate = ({
           </Col>
           {featuredImage &&
           <Col xs={12} sm={6}>
-            <Img
+            <PreviewCompatibleImage
               className="img-repsonsive"
-              fluid={featuredImage.childImageSharp.fluid}
+              imageInfo={{image: featuredImage}}
               alt={title}
               style={{
                 width: "100%",
