@@ -34,6 +34,8 @@ export const theme = {
 };
 
 export const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+ 
   body{
     max-width: 1600px;
     margin: 0 auto !important;

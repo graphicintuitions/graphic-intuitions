@@ -26,8 +26,8 @@ const TemplateWrapper = ({ children, props }) => (
       query HeadingQuery {
           site {
             siteMetadata {
-              title,
-              description,
+              title
+              description
             }
           }
         }
@@ -38,7 +38,6 @@ const TemplateWrapper = ({ children, props }) => (
           <GlobalStyle />
           <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`}>
             <html lang="en"/>
-            <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
           </Helmet>
           <Header>
             <Navbar/>
