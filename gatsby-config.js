@@ -5,6 +5,14 @@ module.exports = {
     siteUrl: `https://www.graphicintuitions.com`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.graphicintuitions.com',
+        sitemap: 'https://www.graphicintuitions.com/sitemap.xml',
+        policy: [{ userAgent: '*', disallow: '/tags/', allow: '/' }]
+      }
+    },
     // {
     //   resolve: `gatsby-plugin-google-optimize-anti-flicker`,
     //   options: {
