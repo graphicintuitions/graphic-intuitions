@@ -21,20 +21,6 @@ module.exports = {
     //   },
     // },
     {
-      resolve: `gatsby-plugin-google-tagmanager`,
-      options: {
-        id: "GTM-5V3XHJW",
-
-        // Include GTM in development.
-        // Defaults to false meaning GTM will only be loaded in production.
-        includeInDevelopment: false,
-
-        // Specify optional GTM environment details.
-        // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
-        // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Graphic Intuitions`,
