@@ -5,7 +5,7 @@ meta:
   description: >-
     Have an experienced digital agency by your side! We have a team of
     specialists to help your business grow using custom marketing solutions.
-  title: Digital Agency | Meet our Professional Team
+  title: Meet our Professional Team | About our Digital Agency
 staff:
   - bio: >-
       Shayne has worked for over 20 years in the industry, first starting as a
