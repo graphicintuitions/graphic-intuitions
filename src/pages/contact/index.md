@@ -3,9 +3,9 @@ templateKey: contact-index
 title: Contact Us
 meta:
   description: >-
-    We're a web design & marketing agency in Manitoba. We work with large
-    national corporations as well as small local businesses.
-  title: Manitoba Marketing Agency | Connect & Grow With Us
+    We're a web design & marketing agency in Manitoba serving businesses across
+    North America. We work with large corporations to small local businesses.
+  title: Contact Us | Manitoba Web Marketing Agency
 ---
 
 We’re a full service digital marketing agency just south of Winnipeg, Manitoba. We work with large national corporations as well as small local businesses. We work closely with our clients to get to know their business so we can offer the best services possible. With experience in the manufacturing, tourism, ecommerce, insurance, and many other industries, we can help your business grow.
