@@ -107,6 +107,8 @@ Should any of the above sound too "technical", feel free to give us a call and a
 
 Now is the time to add some polish or gloss to your site! With a little research (Google Analytics is your friend) you can tailor your content (text, images, video) to your audience and make sure they love what they see on your site and keep coming back for more which in turn leads to more sales!
 
+![google-data-analysis](/img/google-data-analysis.jpg)
+
 Here is a checklist to help you make your content sparkle and shine:
 
 * Determine the pages most visited and take a peek at them to see what people like about them
@@ -124,6 +126,8 @@ Content is KING. The purpose of utilizing content marketing in your digital mark
 ### Own Your Website Traffic Instead of Renting It.
 
 Good content is the cornerstone of Search Engine Optimization and also the key to generating leads and sales over the internet. (Not sure [what SEO is](https://www.graphicintuitions.com/blog/what-is-seo/)? Check our blog)
+
+![seo-content-strategy](/img/seo-content-strategy.jpg)
 
 Example:
 
@@ -173,11 +177,15 @@ People always have something to say, but this isn't necessarily a bad thing. You
 
 ### Do you sell products online? Is it easy to complete a purchase and find reviews?
 
+![button-web-design](/img/button-web-design.png)
+
 If you are an online shopper, think about how you make a buying decision. I guarantee you that ratings or reviews are a huge influence. Make sure if you have an e-commerce website that the product ratings are clearly visible as well as the way to review the product. Still not getting customers to review your product? Send them an email a few weeks after buying the product with a simple 1 to 5 stars to rate the product right then and there. 
 
 ## TIP #1 - UPDATE YOUR WEBSITE!
 
 If your website is looking tired and neglected, it may need more than a cleaning - it could need a little refresh. But this is something that will take some planning and forethought.
+
+![new-web-design](/img/new-web-design.jpg)
 
 **Get organized**: Is key information easy to find? If not, step back and decide if what you need is a re-write or if the problem stems from your navigation that good web design could fix.
 
