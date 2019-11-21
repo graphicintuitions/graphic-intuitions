@@ -9,7 +9,7 @@ meta:
   title: Success Story | BrettYoung Custom Web App Case Study
   description: >-
     The Stock Blend Selector custom web app was designed with the farmer in mind
-    as well as BrettYoung Seed's goals
+    as well as BrettYoung Seed's goals. See how we helped achieve their goals
 featured_image: /img/BrettYoung-Blend-featured-image.jpg
 hero_image: /img/brettyoung-hero.jpg
 intro: >-
