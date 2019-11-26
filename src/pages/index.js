@@ -158,9 +158,9 @@ export default class IndexPage extends React.Component {
 
     return (
       <HomeLayout>
-        <Helmet>
-          <title>{"Manitoba's Web Design & Digital Marketing Agency"}</title>
-          <meta name="description" content={"Specializing in web design and custom marketing solutions, we're a digital marketing agency that focuses on ROI and result-driven strategies."}/>
+        <Helmet titleTemplate={`%s`}>
+          <title>{"Graphic Intuitions Digital Agency | Marketing & Web Design"}</title>
+          <meta name="description" content={"Specializing in custom web design and custom marketing solutions, we're a digital marketing agency that focuses on ROI and result-driven strategies."}/>
         </Helmet>
         <Row style={{ marginBottom: "80px" }}>
           <CenteredCell xs={12} sm={6}>

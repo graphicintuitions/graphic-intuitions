@@ -2,9 +2,7 @@
 templateKey: service-index
 title: Services
 meta:
-  description: >-
-    Graphic Intuitions is a Manitoba based digital marketing & web development
-    company specializing in custom business marketing solutions.
+  description: Graphic Intuitions is a digital marketing & web development company specializing in custom business marketing solutions with a wholistic approach
   title: Marketing Services | Websites & Digital Marketing Company
 ---
 
