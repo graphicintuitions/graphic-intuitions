@@ -88,7 +88,7 @@ const Step = styled(Col)`
   }
 `;
 
-const Testimonials = styled(Col)`
+export const Testimonials = styled(Col)`
   margin-top: 62.5px;
   p:last-of-type{
     margin-bottom: 0;

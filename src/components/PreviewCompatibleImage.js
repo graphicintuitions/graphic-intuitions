@@ -4,7 +4,7 @@ import Img from 'gatsby-image'
 
 const PreviewCompatibleImage = ({ imageInfo, style, alt, className }) => {
   const { childImageSharp, image } = imageInfo || {}
-
+console.log(image)
   if (!!image && !!image.childImageSharp) {
     return (
       <Img className={className} style={style} fluid={image.childImageSharp.fluid} alt={alt} />

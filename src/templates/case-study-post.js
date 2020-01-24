@@ -34,7 +34,7 @@ const HeroImage = styled(Row)`
   }
 `;
 
-const Callout = styled(Col)`
+export const Callout = styled(Col)`
   margin: 80px 0;
   margin-top: -150px;
   padding: 150px 80px;
@@ -61,7 +61,7 @@ const Callout = styled(Col)`
   }
 `;
 
-const CalloutTopText = styled.div`
+export const CalloutTopText = styled.div`
     background: #FFFFFF;
     border: 2px solid #E5E5E5;
     border-radius: 5px;
@@ -72,6 +72,9 @@ const CalloutTopText = styled.div`
     font-size: 28px;
     text-align: center;
     padding: 80px;
+    @media(max-width: 550px){
+      padding: 30px;
+    }
     max-width: 700px;
     margin: 0 auto;
     z-index: 1;

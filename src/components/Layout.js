@@ -9,7 +9,7 @@ import { GlobalStyle, Site, theme } from "../css/theme";
 import '../css/nprogress.css';
 import { Footer } from "./Footer";
 
-const Header = styled.div`
+export const Header = styled.div`
   background-image: url(${herobgSmall});
   background-size: cover;
   background-position: bottom left;
