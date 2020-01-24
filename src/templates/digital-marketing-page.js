@@ -83,7 +83,7 @@ const DigitalMarketingPage = ({ data }) => {
               imageLeft={index % 2 !== 0}
               title={item.image_markdown_title}
               markdown={item.image_markdown_text}
-              image={{image: item.image_markdown_image.publicURL}}
+              image={{image: item.image_markdown_image}}
             />
           ))}
           <Row>
@@ -223,9 +223,7 @@ export const digitalMarketingPageQuery = graphql`
                     description
                 }
                 image_markdown {
-                    image_markdown_image{
-                        publicURL
-                    }
+                    image_markdown_image
                     image_markdown_text
                     image_markdown_title
                 }
