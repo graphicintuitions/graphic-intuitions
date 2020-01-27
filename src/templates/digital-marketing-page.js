@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, withPrefix } from "gatsby";
+import { graphql, withPrefix, Link } from "gatsby";
 import Layout, { Header } from "../components/Layout";
 import { Col, Container, Row } from "../css/theme";
 import { PageWrapper } from "../components/PageWrapper";
@@ -19,8 +19,8 @@ const FullWithRow = styled.div`
   margin-left: -20px;
   margin-right: -20px;
   @media(min-width: 1440px){
-    max-width: 1440px;
-    width: 1440px;
+    max-width: 1430px;
+    width: 1430px;
     margin-left: -85px;
   }
   
@@ -33,8 +33,8 @@ const StyledCalloutTopText = styled(CalloutTopText)`
 
 const StyledHeader = styled(Header)`
   @media(min-width: 1440px){
-    max-width: 1440px;
-    width: 1440px;
+    max-width: 1430px;
+    width: 1430px;
     margin-left: -85px;
   }
   margin-top: -17px;
@@ -89,17 +89,19 @@ const DigitalMarketingPage = ({ data }) => {
           <Row>
             <Col xs={12} style={{ textAlign: "center" }}>
               <Card style={{ padding: "70px 50px" }}>
+                <Link href={'#'} style={{textDecoration: 'none'}}>
                 <span style={{
                   color: "#F47732",
                   fontSize: "32px",
                   fontWeight: "bold",
-                  lineHeight: "140%"
+                  lineHeight: "140%",
                 }}>For more information on digital marketing tips and strategies,  check out our digital marketing blog.</span>
                 <img src={"/img/ui-ux-design-icon.svg"} style={{
                   position: "absolute",
                   right: "20%",
                   bottom: "-30px"
                 }}/>
+                </Link>
               </Card>
             </Col>
           </Row>
