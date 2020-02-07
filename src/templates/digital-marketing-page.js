@@ -95,7 +95,7 @@ const DigitalMarketingPage = ({ data }) => {
                   fontSize: "32px",
                   fontWeight: "bold",
                   lineHeight: "140%",
-                }}>For more information on digital marketing tips and strategies,  check out our digital marketing blog.</span>
+                }}>For more information on digital marketing tips and strategies,  check out our <Link to={'/blog'}>digital marketing blog</Link>.</span>
                 <img src={"/img/ui-ux-design-icon.svg"} style={{
                   position: "absolute",
                   right: "20%",
