@@ -9,7 +9,7 @@ import Content, { HTMLContent } from "../components/Content";
 import { PageWrapper } from "../components/PageWrapper";
 import { Helmet } from "react-helmet";
 
-const StyledForm = styled.form`
+export const StyledForm = styled.div`
   margin-top: 40px;
   textarea{
     min-height: 140px;
