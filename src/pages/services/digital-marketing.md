@@ -1,6 +1,9 @@
 ---
 templateKey: digital-marketing-page
 title: "Digital Marketing"
+meta: 
+    title: "Digital Marketing Agency | Online Marketing Services"
+    description: "Digital marketing is essential to your business's growth. Our agency provides marketing services that are goal oriented and ROI centric."
 image_markdown:
     - image_markdown_text: No matter the industry you're in, digital marketing is essential to your business's growth. But how do you know which digital marketing services are the right fit for your business? Ask yourself, what problems do you have that need solving and what are your goals? A conversation with our online marketing company can determine which marketing strategies will be the best fit for your business.
       image_markdown_title: Digital Marketing

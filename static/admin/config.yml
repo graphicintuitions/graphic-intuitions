@@ -150,6 +150,10 @@ collections:
       - file: "src/pages/digital-marketing/index.md"
         label: "Digital Marketing"
         name: "digital-marketing"
+        - {label: "SEO", name: "meta",  widget: "object", fields: [
+          {label: "Meta Title", name: "title", widget: "string"},
+          {label: "Meta Description", name: "description", widget: "text"}
+        ]}
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "digital-marketing-page"}
           - {label: "Title", name: "title", widget: "string"}
