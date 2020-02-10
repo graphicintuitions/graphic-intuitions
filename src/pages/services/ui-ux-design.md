@@ -2,6 +2,7 @@
 templateKey: services-post
 title: UI/UX Design
 date: 2016-12-17T15:04:10.000Z
+link_to:
 description: >-
   The user interface/user experience on a website has a major impact on how it will convert and perform, which is why we implement it into every website we build. This results in increased traffic, better usability, higher search rankings, and most importantly, increased conversions.
 featured: true

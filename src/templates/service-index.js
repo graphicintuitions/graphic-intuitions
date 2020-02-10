@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import PropTypes from "prop-types";
-import { Container, Row, Col } from "../css/theme";
+import { Container, Row, Col, Button } from "../css/theme";
 import { graphql, withPrefix } from "gatsby";
 import { PageHeaderTextImage } from "../components/PageHeaderTextImage";
 import Content, { HTMLContent } from "../components/Content";
@@ -42,7 +42,7 @@ export const ServiceIndexTemplate = ({
                                        services
                                      }) => {
   const PostContent = contentComponent || Content;
-
+  console.log(services)
   return (
     <Container>
       <PageHeaderTextImage title={title} image={computerScreen}>
@@ -61,6 +61,9 @@ export const ServiceIndexTemplate = ({
                 }
                 <h2>{service.frontmatter.title}</h2>
                 <p>{service.frontmatter.description}</p>
+                {!!service.frontmatter.link_to && 
+                <Button to={service.frontmatter.link_to}>Learn More</Button>
+                }
               </Card>
             </Col>
           ))}
@@ -141,6 +144,7 @@ export const pageQuery = graphql`
                         title
                         description
                         featured
+                        link_to
                         icon{
                             relativePath
                         }

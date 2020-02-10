@@ -2,6 +2,7 @@
 templateKey: services-post
 title: Website Development
 date: 2016-12-17T15:04:10.000Z
+link_to:
 description: >-
   By the time you are done reading this sentence, most users will have already clicked the back button and taken their business elsewhere. We work with you to prevent that from happening. Whether it’s revamping your existing website or creating a fresh new look, we can help you find the right solution for your business.
 featured: true

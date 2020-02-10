@@ -281,7 +281,7 @@ type FileGroupConnection {
 
 type ImageSharp implements Node {
     children: [Node!]!
-    fixed(background: String = "rgba(0,0,0,1)", base64Width: Int, cropFocus: ImageCropFocus = ATTENTION, duotone: DuotoneGradient, fit: ImageFit = COVER, grayscale: Boolean = false, height: Int, jpegProgressive: Boolean = true, jpegQuality: Int, pngCompressionSpeed: Int = 4, pngQuality: Int, quality: Int, rotate: Int = 0, toFormat: ImageFormat = NO_CHANGE, toFormatBase64: ImageFormat = NO_CHANGE, traceSVG: Potrace, trim: Float = 0.0, webpQuality: Int, width: Int): ImageSharpFixed
+    fixed(background: String = "rgba(0,0,0,1)", base64Width: Int, cropFocus: ImageCropFocus = ATTENTION, duotone: DuotoneGradient, fit: ImageFit = COVER, grayscale: Boolean = false, height: Int, jpegProgressive: Boolean = true, pngCompressionSpeed: Int = 4, quality: Int, rotate: Int = 0, toFormat: ImageFormat = NO_CHANGE, toFormatBase64: ImageFormat = NO_CHANGE, traceSVG: Potrace, trim: Float = 0.0, width: Int): ImageSharpFixed
     fluid(
         background: String = "rgba(0,0,0,1)",
         base64Width: Int,
@@ -290,11 +290,9 @@ type ImageSharp implements Node {
         fit: ImageFit = COVER,
         grayscale: Boolean = false,
         jpegProgressive: Boolean = true,
-        jpegQuality: Int,
         maxHeight: Int,
         maxWidth: Int,
         pngCompressionSpeed: Int = 4,
-        pngQuality: Int,
         quality: Int,
         rotate: Int = 0,
         sizes: String = "",
@@ -303,15 +301,14 @@ type ImageSharp implements Node {
         toFormat: ImageFormat = NO_CHANGE,
         toFormatBase64: ImageFormat = NO_CHANGE,
         traceSVG: Potrace,
-        trim: Float = 0.0,
-        webpQuality: Int
+        trim: Float = 0.0
     ): ImageSharpFluid
     id: ID!
     internal: Internal!
     original: ImageSharpOriginal
     parent: Node
-    resize(background: String = "rgba(0,0,0,1)", base64: Boolean = false, cropFocus: ImageCropFocus = ATTENTION, duotone: DuotoneGradient, fit: ImageFit = COVER, grayscale: Boolean = false, height: Int, jpegProgressive: Boolean = true, jpegQuality: Int, pngCompressionLevel: Int = 9, pngCompressionSpeed: Int = 4, pngQuality: Int, quality: Int, rotate: Int = 0, toFormat: ImageFormat = NO_CHANGE, traceSVG: Potrace, trim: Float = 0.0, webpQuality: Int, width: Int): ImageSharpResize
-    resolutions(background: String = "rgba(0,0,0,1)", base64Width: Int, cropFocus: ImageCropFocus = ATTENTION, duotone: DuotoneGradient, fit: ImageFit = COVER, grayscale: Boolean = false, height: Int, jpegProgressive: Boolean = true, jpegQuality: Int, pngCompressionSpeed: Int = 4, pngQuality: Int, quality: Int, rotate: Int = 0, toFormat: ImageFormat = NO_CHANGE, toFormatBase64: ImageFormat = NO_CHANGE, traceSVG: Potrace, trim: Float = 0.0, webpQuality: Int, width: Int): ImageSharpResolutions @deprecated(reason : "Resolutions was deprecated in Gatsby v2. It's been renamed to \"fixed\" https:\/\/example.com\/write-docs-and-fix-this-example-link")
+    resize(background: String = "rgba(0,0,0,1)", base64: Boolean = false, cropFocus: ImageCropFocus = ATTENTION, duotone: DuotoneGradient, fit: ImageFit = COVER, grayscale: Boolean = false, height: Int, jpegProgressive: Boolean = true, pngCompressionLevel: Int = 9, pngCompressionSpeed: Int = 4, quality: Int, rotate: Int = 0, toFormat: ImageFormat = NO_CHANGE, traceSVG: Potrace, trim: Float = 0.0, width: Int): ImageSharpResize
+    resolutions(background: String = "rgba(0,0,0,1)", base64Width: Int, cropFocus: ImageCropFocus = ATTENTION, duotone: DuotoneGradient, fit: ImageFit = COVER, grayscale: Boolean = false, height: Int, jpegProgressive: Boolean = true, pngCompressionSpeed: Int = 4, quality: Int, rotate: Int = 0, toFormat: ImageFormat = NO_CHANGE, toFormatBase64: ImageFormat = NO_CHANGE, traceSVG: Potrace, trim: Float = 0.0, width: Int): ImageSharpResolutions @deprecated(reason : "Resolutions was deprecated in Gatsby v2. It's been renamed to \"fixed\" https:\/\/example.com\/write-docs-and-fix-this-example-link")
     sizes(
         background: String = "rgba(0,0,0,1)",
         base64Width: Int,
@@ -320,11 +317,9 @@ type ImageSharp implements Node {
         fit: ImageFit = COVER,
         grayscale: Boolean = false,
         jpegProgressive: Boolean = true,
-        jpegQuality: Int,
         maxHeight: Int,
         maxWidth: Int,
         pngCompressionSpeed: Int = 4,
-        pngQuality: Int,
         quality: Int,
         rotate: Int = 0,
         sizes: String = "",
@@ -333,8 +328,7 @@ type ImageSharp implements Node {
         toFormat: ImageFormat = NO_CHANGE,
         toFormatBase64: ImageFormat = NO_CHANGE,
         traceSVG: Potrace,
-        trim: Float = 0.0,
-        webpQuality: Int
+        trim: Float = 0.0
     ): ImageSharpSizes @deprecated(reason : "Sizes was deprecated in Gatsby v2. It's been renamed to \"fluid\" https:\/\/example.com\/write-docs-and-fix-this-example-link")
 }
 
@@ -501,11 +495,12 @@ type MarkdownRemarkFrontmatter {
     ): Date
     description: String
     featured: Boolean
-    featured_image: String
-    hero_image: String
-    icon: String
+    featured_image: File
+    hero_image: File
+    icon: File
+    image_markdown: [MarkdownRemarkFrontmatterImage_markdown]
     intro: String
-    logo: String
+    logo: File
     meta: MarkdownRemarkFrontmatterMeta
     staff: [MarkdownRemarkFrontmatterStaff]
     tags: [String]
@@ -516,15 +511,21 @@ type MarkdownRemarkFrontmatter {
 type MarkdownRemarkFrontmatterCallout {
     callout_color: String
     callout_items: [MarkdownRemarkFrontmatterCalloutCallout_items]
-    callout_large_image: String
+    callout_large_image: File
     callout_text_area: String
     callout_top_text: String
 }
 
 type MarkdownRemarkFrontmatterCalloutCallout_items {
-    callout_item_icon: String
+    callout_item_icon: File
     callout_item_text: String
     callout_item_title: String
+}
+
+type MarkdownRemarkFrontmatterImage_markdown {
+    image_markdown_image: File
+    image_markdown_text: String
+    image_markdown_title: String
 }
 
 type MarkdownRemarkFrontmatterMeta {
@@ -534,7 +535,7 @@ type MarkdownRemarkFrontmatterMeta {
 
 type MarkdownRemarkFrontmatterStaff {
     bio: String
-    image: String
+    image: File
     job_title: String
     name: String
 }
@@ -746,6 +747,8 @@ type SitePluginPluginOptions {
     enableDuringDevelop: Boolean
     host: String
     icon: String
+    id: String
+    includeInDevelopment: Boolean
     maxWidth: Int
     modulePath: String
     name: String
@@ -765,6 +768,7 @@ type SitePluginPluginOptionsPlugins {
     browserAPIs: [String]
     id: String
     name: String
+    pluginFilepath: String
     pluginOptions: SitePluginPluginOptionsPluginsPluginOptions
     resolve: String
     ssrAPIs: [String]
@@ -960,7 +964,7 @@ enum FileFieldsEnum {
     childImageSharp___fluid___srcSetWebp @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     childImageSharp___fluid___srcWebp @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     childImageSharp___fluid___tracedSVG @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    childImageSharp___id @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    childImageSharp___id
     childImageSharp___internal___content @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     childImageSharp___internal___contentDigest @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     childImageSharp___internal___description @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
@@ -1035,22 +1039,163 @@ enum FileFieldsEnum {
     childMarkdownRemark___fileAbsolutePath @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     childMarkdownRemark___frontmatter___callout___callout_color
     childMarkdownRemark___frontmatter___callout___callout_items
-    childMarkdownRemark___frontmatter___callout___callout_large_image
     childMarkdownRemark___frontmatter___callout___callout_text_area
     childMarkdownRemark___frontmatter___callout___callout_top_text
     childMarkdownRemark___frontmatter___date
     childMarkdownRemark___frontmatter___description
     childMarkdownRemark___frontmatter___featured
-    childMarkdownRemark___frontmatter___featured_image
-    childMarkdownRemark___frontmatter___hero_image
-    childMarkdownRemark___frontmatter___icon
+    childMarkdownRemark___frontmatter___featured_image___absolutePath
+    childMarkdownRemark___frontmatter___featured_image___accessTime
+    childMarkdownRemark___frontmatter___featured_image___atime
+    childMarkdownRemark___frontmatter___featured_image___atimeMs
+    childMarkdownRemark___frontmatter___featured_image___base
+    childMarkdownRemark___frontmatter___featured_image___birthTime
+    childMarkdownRemark___frontmatter___featured_image___birthtime
+    childMarkdownRemark___frontmatter___featured_image___birthtimeMs
+    childMarkdownRemark___frontmatter___featured_image___blksize
+    childMarkdownRemark___frontmatter___featured_image___blocks
+    childMarkdownRemark___frontmatter___featured_image___changeTime
+    childMarkdownRemark___frontmatter___featured_image___children
+    childMarkdownRemark___frontmatter___featured_image___ctime
+    childMarkdownRemark___frontmatter___featured_image___ctimeMs
+    childMarkdownRemark___frontmatter___featured_image___dev
+    childMarkdownRemark___frontmatter___featured_image___dir
+    childMarkdownRemark___frontmatter___featured_image___ext
+    childMarkdownRemark___frontmatter___featured_image___extension
+    childMarkdownRemark___frontmatter___featured_image___gid
+    childMarkdownRemark___frontmatter___featured_image___id
+    childMarkdownRemark___frontmatter___featured_image___ino
+    childMarkdownRemark___frontmatter___featured_image___mode
+    childMarkdownRemark___frontmatter___featured_image___modifiedTime
+    childMarkdownRemark___frontmatter___featured_image___mtime
+    childMarkdownRemark___frontmatter___featured_image___mtimeMs
+    childMarkdownRemark___frontmatter___featured_image___name
+    childMarkdownRemark___frontmatter___featured_image___nlink
+    childMarkdownRemark___frontmatter___featured_image___prettySize
+    childMarkdownRemark___frontmatter___featured_image___publicURL
+    childMarkdownRemark___frontmatter___featured_image___rdev
+    childMarkdownRemark___frontmatter___featured_image___relativeDirectory
+    childMarkdownRemark___frontmatter___featured_image___relativePath
+    childMarkdownRemark___frontmatter___featured_image___root
+    childMarkdownRemark___frontmatter___featured_image___size
+    childMarkdownRemark___frontmatter___featured_image___sourceInstanceName
+    childMarkdownRemark___frontmatter___featured_image___uid
+    childMarkdownRemark___frontmatter___hero_image___absolutePath
+    childMarkdownRemark___frontmatter___hero_image___accessTime
+    childMarkdownRemark___frontmatter___hero_image___atime
+    childMarkdownRemark___frontmatter___hero_image___atimeMs
+    childMarkdownRemark___frontmatter___hero_image___base
+    childMarkdownRemark___frontmatter___hero_image___birthTime
+    childMarkdownRemark___frontmatter___hero_image___birthtime
+    childMarkdownRemark___frontmatter___hero_image___birthtimeMs
+    childMarkdownRemark___frontmatter___hero_image___blksize
+    childMarkdownRemark___frontmatter___hero_image___blocks
+    childMarkdownRemark___frontmatter___hero_image___changeTime
+    childMarkdownRemark___frontmatter___hero_image___children
+    childMarkdownRemark___frontmatter___hero_image___ctime
+    childMarkdownRemark___frontmatter___hero_image___ctimeMs
+    childMarkdownRemark___frontmatter___hero_image___dev
+    childMarkdownRemark___frontmatter___hero_image___dir
+    childMarkdownRemark___frontmatter___hero_image___ext
+    childMarkdownRemark___frontmatter___hero_image___extension
+    childMarkdownRemark___frontmatter___hero_image___gid
+    childMarkdownRemark___frontmatter___hero_image___id
+    childMarkdownRemark___frontmatter___hero_image___ino
+    childMarkdownRemark___frontmatter___hero_image___mode
+    childMarkdownRemark___frontmatter___hero_image___modifiedTime
+    childMarkdownRemark___frontmatter___hero_image___mtime
+    childMarkdownRemark___frontmatter___hero_image___mtimeMs
+    childMarkdownRemark___frontmatter___hero_image___name
+    childMarkdownRemark___frontmatter___hero_image___nlink
+    childMarkdownRemark___frontmatter___hero_image___prettySize
+    childMarkdownRemark___frontmatter___hero_image___publicURL
+    childMarkdownRemark___frontmatter___hero_image___rdev
+    childMarkdownRemark___frontmatter___hero_image___relativeDirectory
+    childMarkdownRemark___frontmatter___hero_image___relativePath
+    childMarkdownRemark___frontmatter___hero_image___root
+    childMarkdownRemark___frontmatter___hero_image___size
+    childMarkdownRemark___frontmatter___hero_image___sourceInstanceName
+    childMarkdownRemark___frontmatter___hero_image___uid
+    childMarkdownRemark___frontmatter___icon___absolutePath
+    childMarkdownRemark___frontmatter___icon___accessTime
+    childMarkdownRemark___frontmatter___icon___atime
+    childMarkdownRemark___frontmatter___icon___atimeMs
+    childMarkdownRemark___frontmatter___icon___base
+    childMarkdownRemark___frontmatter___icon___birthTime
+    childMarkdownRemark___frontmatter___icon___birthtime
+    childMarkdownRemark___frontmatter___icon___birthtimeMs
+    childMarkdownRemark___frontmatter___icon___blksize
+    childMarkdownRemark___frontmatter___icon___blocks
+    childMarkdownRemark___frontmatter___icon___changeTime
+    childMarkdownRemark___frontmatter___icon___children
+    childMarkdownRemark___frontmatter___icon___ctime
+    childMarkdownRemark___frontmatter___icon___ctimeMs
+    childMarkdownRemark___frontmatter___icon___dev
+    childMarkdownRemark___frontmatter___icon___dir
+    childMarkdownRemark___frontmatter___icon___ext
+    childMarkdownRemark___frontmatter___icon___extension
+    childMarkdownRemark___frontmatter___icon___gid
+    childMarkdownRemark___frontmatter___icon___id
+    childMarkdownRemark___frontmatter___icon___ino
+    childMarkdownRemark___frontmatter___icon___mode
+    childMarkdownRemark___frontmatter___icon___modifiedTime
+    childMarkdownRemark___frontmatter___icon___mtime
+    childMarkdownRemark___frontmatter___icon___mtimeMs
+    childMarkdownRemark___frontmatter___icon___name
+    childMarkdownRemark___frontmatter___icon___nlink
+    childMarkdownRemark___frontmatter___icon___prettySize
+    childMarkdownRemark___frontmatter___icon___publicURL
+    childMarkdownRemark___frontmatter___icon___rdev
+    childMarkdownRemark___frontmatter___icon___relativeDirectory
+    childMarkdownRemark___frontmatter___icon___relativePath
+    childMarkdownRemark___frontmatter___icon___root
+    childMarkdownRemark___frontmatter___icon___size
+    childMarkdownRemark___frontmatter___icon___sourceInstanceName
+    childMarkdownRemark___frontmatter___icon___uid
+    childMarkdownRemark___frontmatter___image_markdown
+    childMarkdownRemark___frontmatter___image_markdown___image_markdown_text
+    childMarkdownRemark___frontmatter___image_markdown___image_markdown_title
     childMarkdownRemark___frontmatter___intro
-    childMarkdownRemark___frontmatter___logo
+    childMarkdownRemark___frontmatter___logo___absolutePath
+    childMarkdownRemark___frontmatter___logo___accessTime
+    childMarkdownRemark___frontmatter___logo___atime
+    childMarkdownRemark___frontmatter___logo___atimeMs
+    childMarkdownRemark___frontmatter___logo___base
+    childMarkdownRemark___frontmatter___logo___birthTime
+    childMarkdownRemark___frontmatter___logo___birthtime
+    childMarkdownRemark___frontmatter___logo___birthtimeMs
+    childMarkdownRemark___frontmatter___logo___blksize
+    childMarkdownRemark___frontmatter___logo___blocks
+    childMarkdownRemark___frontmatter___logo___changeTime
+    childMarkdownRemark___frontmatter___logo___children
+    childMarkdownRemark___frontmatter___logo___ctime
+    childMarkdownRemark___frontmatter___logo___ctimeMs
+    childMarkdownRemark___frontmatter___logo___dev
+    childMarkdownRemark___frontmatter___logo___dir
+    childMarkdownRemark___frontmatter___logo___ext
+    childMarkdownRemark___frontmatter___logo___extension
+    childMarkdownRemark___frontmatter___logo___gid
+    childMarkdownRemark___frontmatter___logo___id
+    childMarkdownRemark___frontmatter___logo___ino
+    childMarkdownRemark___frontmatter___logo___mode
+    childMarkdownRemark___frontmatter___logo___modifiedTime
+    childMarkdownRemark___frontmatter___logo___mtime
+    childMarkdownRemark___frontmatter___logo___mtimeMs
+    childMarkdownRemark___frontmatter___logo___name
+    childMarkdownRemark___frontmatter___logo___nlink
+    childMarkdownRemark___frontmatter___logo___prettySize
+    childMarkdownRemark___frontmatter___logo___publicURL
+    childMarkdownRemark___frontmatter___logo___rdev
+    childMarkdownRemark___frontmatter___logo___relativeDirectory
+    childMarkdownRemark___frontmatter___logo___relativePath
+    childMarkdownRemark___frontmatter___logo___root
+    childMarkdownRemark___frontmatter___logo___size
+    childMarkdownRemark___frontmatter___logo___sourceInstanceName
+    childMarkdownRemark___frontmatter___logo___uid
     childMarkdownRemark___frontmatter___meta___description
     childMarkdownRemark___frontmatter___meta___title
     childMarkdownRemark___frontmatter___staff
     childMarkdownRemark___frontmatter___staff___bio
-    childMarkdownRemark___frontmatter___staff___image
     childMarkdownRemark___frontmatter___staff___job_title
     childMarkdownRemark___frontmatter___staff___name
     childMarkdownRemark___frontmatter___tags
@@ -1290,7 +1435,7 @@ enum ImageSharpFieldsEnum {
     fluid___srcSetWebp @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     fluid___srcWebp @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     fluid___tracedSVG @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
-    id @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    id
     internal___content @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     internal___contentDigest @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     internal___description @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
@@ -1431,25 +1576,373 @@ enum MarkdownRemarkFieldsEnum {
     fileAbsolutePath @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     frontmatter___callout___callout_color
     frontmatter___callout___callout_items
-    frontmatter___callout___callout_items___callout_item_icon
     frontmatter___callout___callout_items___callout_item_text
     frontmatter___callout___callout_items___callout_item_title
-    frontmatter___callout___callout_large_image
+    frontmatter___callout___callout_large_image___absolutePath
+    frontmatter___callout___callout_large_image___accessTime
+    frontmatter___callout___callout_large_image___atime
+    frontmatter___callout___callout_large_image___atimeMs
+    frontmatter___callout___callout_large_image___base
+    frontmatter___callout___callout_large_image___birthTime
+    frontmatter___callout___callout_large_image___birthtime
+    frontmatter___callout___callout_large_image___birthtimeMs
+    frontmatter___callout___callout_large_image___blksize
+    frontmatter___callout___callout_large_image___blocks
+    frontmatter___callout___callout_large_image___changeTime
+    frontmatter___callout___callout_large_image___children
+    frontmatter___callout___callout_large_image___ctime
+    frontmatter___callout___callout_large_image___ctimeMs
+    frontmatter___callout___callout_large_image___dev
+    frontmatter___callout___callout_large_image___dir
+    frontmatter___callout___callout_large_image___ext
+    frontmatter___callout___callout_large_image___extension
+    frontmatter___callout___callout_large_image___gid
+    frontmatter___callout___callout_large_image___id
+    frontmatter___callout___callout_large_image___ino
+    frontmatter___callout___callout_large_image___mode
+    frontmatter___callout___callout_large_image___modifiedTime
+    frontmatter___callout___callout_large_image___mtime
+    frontmatter___callout___callout_large_image___mtimeMs
+    frontmatter___callout___callout_large_image___name
+    frontmatter___callout___callout_large_image___nlink
+    frontmatter___callout___callout_large_image___prettySize
+    frontmatter___callout___callout_large_image___publicURL
+    frontmatter___callout___callout_large_image___rdev
+    frontmatter___callout___callout_large_image___relativeDirectory
+    frontmatter___callout___callout_large_image___relativePath
+    frontmatter___callout___callout_large_image___root
+    frontmatter___callout___callout_large_image___size
+    frontmatter___callout___callout_large_image___sourceInstanceName
+    frontmatter___callout___callout_large_image___uid
     frontmatter___callout___callout_text_area
     frontmatter___callout___callout_top_text
     frontmatter___date
     frontmatter___description
     frontmatter___featured
-    frontmatter___featured_image
-    frontmatter___hero_image
-    frontmatter___icon
+    frontmatter___featured_image___absolutePath
+    frontmatter___featured_image___accessTime
+    frontmatter___featured_image___atime
+    frontmatter___featured_image___atimeMs
+    frontmatter___featured_image___base
+    frontmatter___featured_image___birthTime
+    frontmatter___featured_image___birthtime
+    frontmatter___featured_image___birthtimeMs
+    frontmatter___featured_image___blksize
+    frontmatter___featured_image___blocks
+    frontmatter___featured_image___changeTime
+    frontmatter___featured_image___childImageSharp___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___featured_image___childImageSharp___id
+    frontmatter___featured_image___childMarkdownRemark___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___featured_image___childMarkdownRemark___excerpt @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___featured_image___childMarkdownRemark___excerptAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___featured_image___childMarkdownRemark___fileAbsolutePath @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___featured_image___childMarkdownRemark___headings @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___featured_image___childMarkdownRemark___html @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___featured_image___childMarkdownRemark___htmlAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___featured_image___childMarkdownRemark___id
+    frontmatter___featured_image___childMarkdownRemark___rawMarkdownBody @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___featured_image___childMarkdownRemark___tableOfContents @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___featured_image___childMarkdownRemark___timeToRead @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___featured_image___children
+    frontmatter___featured_image___children___children
+    frontmatter___featured_image___children___id
+    frontmatter___featured_image___ctime
+    frontmatter___featured_image___ctimeMs
+    frontmatter___featured_image___dev
+    frontmatter___featured_image___dir
+    frontmatter___featured_image___ext
+    frontmatter___featured_image___extension
+    frontmatter___featured_image___gid
+    frontmatter___featured_image___id
+    frontmatter___featured_image___ino
+    frontmatter___featured_image___internal___content
+    frontmatter___featured_image___internal___contentDigest
+    frontmatter___featured_image___internal___description
+    frontmatter___featured_image___internal___fieldOwners
+    frontmatter___featured_image___internal___ignoreType
+    frontmatter___featured_image___internal___mediaType
+    frontmatter___featured_image___internal___owner
+    frontmatter___featured_image___internal___type
+    frontmatter___featured_image___mode
+    frontmatter___featured_image___modifiedTime
+    frontmatter___featured_image___mtime
+    frontmatter___featured_image___mtimeMs
+    frontmatter___featured_image___name
+    frontmatter___featured_image___nlink
+    frontmatter___featured_image___parent___children
+    frontmatter___featured_image___parent___id
+    frontmatter___featured_image___prettySize
+    frontmatter___featured_image___publicURL
+    frontmatter___featured_image___rdev
+    frontmatter___featured_image___relativeDirectory
+    frontmatter___featured_image___relativePath
+    frontmatter___featured_image___root
+    frontmatter___featured_image___size
+    frontmatter___featured_image___sourceInstanceName
+    frontmatter___featured_image___uid
+    frontmatter___hero_image___absolutePath
+    frontmatter___hero_image___accessTime
+    frontmatter___hero_image___atime
+    frontmatter___hero_image___atimeMs
+    frontmatter___hero_image___base
+    frontmatter___hero_image___birthTime
+    frontmatter___hero_image___birthtime
+    frontmatter___hero_image___birthtimeMs
+    frontmatter___hero_image___blksize
+    frontmatter___hero_image___blocks
+    frontmatter___hero_image___changeTime
+    frontmatter___hero_image___childImageSharp___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___hero_image___childImageSharp___id
+    frontmatter___hero_image___childMarkdownRemark___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___hero_image___childMarkdownRemark___excerpt @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___hero_image___childMarkdownRemark___excerptAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___hero_image___childMarkdownRemark___fileAbsolutePath @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___hero_image___childMarkdownRemark___headings @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___hero_image___childMarkdownRemark___html @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___hero_image___childMarkdownRemark___htmlAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___hero_image___childMarkdownRemark___id
+    frontmatter___hero_image___childMarkdownRemark___rawMarkdownBody @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___hero_image___childMarkdownRemark___tableOfContents @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___hero_image___childMarkdownRemark___timeToRead @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___hero_image___children
+    frontmatter___hero_image___children___children
+    frontmatter___hero_image___children___id
+    frontmatter___hero_image___ctime
+    frontmatter___hero_image___ctimeMs
+    frontmatter___hero_image___dev
+    frontmatter___hero_image___dir
+    frontmatter___hero_image___ext
+    frontmatter___hero_image___extension
+    frontmatter___hero_image___gid
+    frontmatter___hero_image___id
+    frontmatter___hero_image___ino
+    frontmatter___hero_image___internal___content
+    frontmatter___hero_image___internal___contentDigest
+    frontmatter___hero_image___internal___description
+    frontmatter___hero_image___internal___fieldOwners
+    frontmatter___hero_image___internal___ignoreType
+    frontmatter___hero_image___internal___mediaType
+    frontmatter___hero_image___internal___owner
+    frontmatter___hero_image___internal___type
+    frontmatter___hero_image___mode
+    frontmatter___hero_image___modifiedTime
+    frontmatter___hero_image___mtime
+    frontmatter___hero_image___mtimeMs
+    frontmatter___hero_image___name
+    frontmatter___hero_image___nlink
+    frontmatter___hero_image___parent___children
+    frontmatter___hero_image___parent___id
+    frontmatter___hero_image___prettySize
+    frontmatter___hero_image___publicURL
+    frontmatter___hero_image___rdev
+    frontmatter___hero_image___relativeDirectory
+    frontmatter___hero_image___relativePath
+    frontmatter___hero_image___root
+    frontmatter___hero_image___size
+    frontmatter___hero_image___sourceInstanceName
+    frontmatter___hero_image___uid
+    frontmatter___icon___absolutePath
+    frontmatter___icon___accessTime
+    frontmatter___icon___atime
+    frontmatter___icon___atimeMs
+    frontmatter___icon___base
+    frontmatter___icon___birthTime
+    frontmatter___icon___birthtime
+    frontmatter___icon___birthtimeMs
+    frontmatter___icon___blksize
+    frontmatter___icon___blocks
+    frontmatter___icon___changeTime
+    frontmatter___icon___childImageSharp___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___icon___childImageSharp___id
+    frontmatter___icon___childMarkdownRemark___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___icon___childMarkdownRemark___excerpt @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___icon___childMarkdownRemark___excerptAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___icon___childMarkdownRemark___fileAbsolutePath @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___icon___childMarkdownRemark___headings @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___icon___childMarkdownRemark___html @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___icon___childMarkdownRemark___htmlAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___icon___childMarkdownRemark___id
+    frontmatter___icon___childMarkdownRemark___rawMarkdownBody @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___icon___childMarkdownRemark___tableOfContents @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___icon___childMarkdownRemark___timeToRead @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___icon___children
+    frontmatter___icon___children___children
+    frontmatter___icon___children___id
+    frontmatter___icon___ctime
+    frontmatter___icon___ctimeMs
+    frontmatter___icon___dev
+    frontmatter___icon___dir
+    frontmatter___icon___ext
+    frontmatter___icon___extension
+    frontmatter___icon___gid
+    frontmatter___icon___id
+    frontmatter___icon___ino
+    frontmatter___icon___internal___content
+    frontmatter___icon___internal___contentDigest
+    frontmatter___icon___internal___description
+    frontmatter___icon___internal___fieldOwners
+    frontmatter___icon___internal___ignoreType
+    frontmatter___icon___internal___mediaType
+    frontmatter___icon___internal___owner
+    frontmatter___icon___internal___type
+    frontmatter___icon___mode
+    frontmatter___icon___modifiedTime
+    frontmatter___icon___mtime
+    frontmatter___icon___mtimeMs
+    frontmatter___icon___name
+    frontmatter___icon___nlink
+    frontmatter___icon___parent___children
+    frontmatter___icon___parent___id
+    frontmatter___icon___prettySize
+    frontmatter___icon___publicURL
+    frontmatter___icon___rdev
+    frontmatter___icon___relativeDirectory
+    frontmatter___icon___relativePath
+    frontmatter___icon___root
+    frontmatter___icon___size
+    frontmatter___icon___sourceInstanceName
+    frontmatter___icon___uid
+    frontmatter___image_markdown
+    frontmatter___image_markdown___image_markdown_image___absolutePath
+    frontmatter___image_markdown___image_markdown_image___accessTime
+    frontmatter___image_markdown___image_markdown_image___atime
+    frontmatter___image_markdown___image_markdown_image___atimeMs
+    frontmatter___image_markdown___image_markdown_image___base
+    frontmatter___image_markdown___image_markdown_image___birthTime
+    frontmatter___image_markdown___image_markdown_image___birthtime
+    frontmatter___image_markdown___image_markdown_image___birthtimeMs
+    frontmatter___image_markdown___image_markdown_image___blksize
+    frontmatter___image_markdown___image_markdown_image___blocks
+    frontmatter___image_markdown___image_markdown_image___changeTime
+    frontmatter___image_markdown___image_markdown_image___children
+    frontmatter___image_markdown___image_markdown_image___ctime
+    frontmatter___image_markdown___image_markdown_image___ctimeMs
+    frontmatter___image_markdown___image_markdown_image___dev
+    frontmatter___image_markdown___image_markdown_image___dir
+    frontmatter___image_markdown___image_markdown_image___ext
+    frontmatter___image_markdown___image_markdown_image___extension
+    frontmatter___image_markdown___image_markdown_image___gid
+    frontmatter___image_markdown___image_markdown_image___id
+    frontmatter___image_markdown___image_markdown_image___ino
+    frontmatter___image_markdown___image_markdown_image___mode
+    frontmatter___image_markdown___image_markdown_image___modifiedTime
+    frontmatter___image_markdown___image_markdown_image___mtime
+    frontmatter___image_markdown___image_markdown_image___mtimeMs
+    frontmatter___image_markdown___image_markdown_image___name
+    frontmatter___image_markdown___image_markdown_image___nlink
+    frontmatter___image_markdown___image_markdown_image___prettySize
+    frontmatter___image_markdown___image_markdown_image___publicURL
+    frontmatter___image_markdown___image_markdown_image___rdev
+    frontmatter___image_markdown___image_markdown_image___relativeDirectory
+    frontmatter___image_markdown___image_markdown_image___relativePath
+    frontmatter___image_markdown___image_markdown_image___root
+    frontmatter___image_markdown___image_markdown_image___size
+    frontmatter___image_markdown___image_markdown_image___sourceInstanceName
+    frontmatter___image_markdown___image_markdown_image___uid
+    frontmatter___image_markdown___image_markdown_text
+    frontmatter___image_markdown___image_markdown_title
     frontmatter___intro
-    frontmatter___logo
+    frontmatter___logo___absolutePath
+    frontmatter___logo___accessTime
+    frontmatter___logo___atime
+    frontmatter___logo___atimeMs
+    frontmatter___logo___base
+    frontmatter___logo___birthTime
+    frontmatter___logo___birthtime
+    frontmatter___logo___birthtimeMs
+    frontmatter___logo___blksize
+    frontmatter___logo___blocks
+    frontmatter___logo___changeTime
+    frontmatter___logo___childImageSharp___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___logo___childImageSharp___id
+    frontmatter___logo___childMarkdownRemark___children @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___logo___childMarkdownRemark___excerpt @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___logo___childMarkdownRemark___excerptAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___logo___childMarkdownRemark___fileAbsolutePath @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___logo___childMarkdownRemark___headings @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___logo___childMarkdownRemark___html @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___logo___childMarkdownRemark___htmlAst @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___logo___childMarkdownRemark___id
+    frontmatter___logo___childMarkdownRemark___rawMarkdownBody @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___logo___childMarkdownRemark___tableOfContents @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___logo___childMarkdownRemark___timeToRead @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___logo___children
+    frontmatter___logo___children___children
+    frontmatter___logo___children___id
+    frontmatter___logo___ctime
+    frontmatter___logo___ctimeMs
+    frontmatter___logo___dev
+    frontmatter___logo___dir
+    frontmatter___logo___ext
+    frontmatter___logo___extension
+    frontmatter___logo___gid
+    frontmatter___logo___id
+    frontmatter___logo___ino
+    frontmatter___logo___internal___content
+    frontmatter___logo___internal___contentDigest
+    frontmatter___logo___internal___description
+    frontmatter___logo___internal___fieldOwners
+    frontmatter___logo___internal___ignoreType
+    frontmatter___logo___internal___mediaType
+    frontmatter___logo___internal___owner
+    frontmatter___logo___internal___type
+    frontmatter___logo___mode
+    frontmatter___logo___modifiedTime
+    frontmatter___logo___mtime
+    frontmatter___logo___mtimeMs
+    frontmatter___logo___name
+    frontmatter___logo___nlink
+    frontmatter___logo___parent___children
+    frontmatter___logo___parent___id
+    frontmatter___logo___prettySize
+    frontmatter___logo___publicURL
+    frontmatter___logo___rdev
+    frontmatter___logo___relativeDirectory
+    frontmatter___logo___relativePath
+    frontmatter___logo___root
+    frontmatter___logo___size
+    frontmatter___logo___sourceInstanceName
+    frontmatter___logo___uid
     frontmatter___meta___description
     frontmatter___meta___title
     frontmatter___staff
     frontmatter___staff___bio
-    frontmatter___staff___image
+    frontmatter___staff___image___absolutePath
+    frontmatter___staff___image___accessTime
+    frontmatter___staff___image___atime
+    frontmatter___staff___image___atimeMs
+    frontmatter___staff___image___base
+    frontmatter___staff___image___birthTime
+    frontmatter___staff___image___birthtime
+    frontmatter___staff___image___birthtimeMs
+    frontmatter___staff___image___blksize
+    frontmatter___staff___image___blocks
+    frontmatter___staff___image___changeTime
+    frontmatter___staff___image___children
+    frontmatter___staff___image___ctime
+    frontmatter___staff___image___ctimeMs
+    frontmatter___staff___image___dev
+    frontmatter___staff___image___dir
+    frontmatter___staff___image___ext
+    frontmatter___staff___image___extension
+    frontmatter___staff___image___gid
+    frontmatter___staff___image___id
+    frontmatter___staff___image___ino
+    frontmatter___staff___image___mode
+    frontmatter___staff___image___modifiedTime
+    frontmatter___staff___image___mtime
+    frontmatter___staff___image___mtimeMs
+    frontmatter___staff___image___name
+    frontmatter___staff___image___nlink
+    frontmatter___staff___image___prettySize
+    frontmatter___staff___image___publicURL
+    frontmatter___staff___image___rdev
+    frontmatter___staff___image___relativeDirectory
+    frontmatter___staff___image___relativePath
+    frontmatter___staff___image___root
+    frontmatter___staff___image___size
+    frontmatter___staff___image___sourceInstanceName
+    frontmatter___staff___image___uid
     frontmatter___staff___job_title
     frontmatter___staff___name
     frontmatter___tags
@@ -1781,6 +2274,8 @@ enum SitePageFieldsEnum {
     pluginCreator___pluginOptions___enableDuringDevelop
     pluginCreator___pluginOptions___host
     pluginCreator___pluginOptions___icon
+    pluginCreator___pluginOptions___id
+    pluginCreator___pluginOptions___includeInDevelopment
     pluginCreator___pluginOptions___maxWidth
     pluginCreator___pluginOptions___modulePath
     pluginCreator___pluginOptions___name
@@ -1790,6 +2285,7 @@ enum SitePageFieldsEnum {
     pluginCreator___pluginOptions___plugins___browserAPIs
     pluginCreator___pluginOptions___plugins___id
     pluginCreator___pluginOptions___plugins___name
+    pluginCreator___pluginOptions___plugins___pluginFilepath
     pluginCreator___pluginOptions___plugins___resolve
     pluginCreator___pluginOptions___plugins___ssrAPIs
     pluginCreator___pluginOptions___plugins___version
@@ -1921,6 +2417,8 @@ enum SitePluginFieldsEnum {
     pluginOptions___enableDuringDevelop
     pluginOptions___host
     pluginOptions___icon
+    pluginOptions___id
+    pluginOptions___includeInDevelopment
     pluginOptions___maxWidth
     pluginOptions___modulePath
     pluginOptions___name
@@ -1930,6 +2428,7 @@ enum SitePluginFieldsEnum {
     pluginOptions___plugins___browserAPIs
     pluginOptions___plugins___id
     pluginOptions___plugins___name
+    pluginOptions___plugins___pluginFilepath
     pluginOptions___plugins___pluginOptions___destinationDir
     pluginOptions___plugins___pluginOptions___maxWidth
     pluginOptions___plugins___pluginOptions___name
@@ -2237,7 +2736,7 @@ input MarkdownRemarkFilterInput {
 }
 
 input MarkdownRemarkFrontmatterCalloutCallout_itemsFilterInput {
-    callout_item_icon: StringQueryOperatorInput
+    callout_item_icon: FileFilterInput
     callout_item_text: StringQueryOperatorInput
     callout_item_title: StringQueryOperatorInput
 }
@@ -2249,7 +2748,7 @@ input MarkdownRemarkFrontmatterCalloutCallout_itemsFilterListInput {
 input MarkdownRemarkFrontmatterCalloutFilterInput {
     callout_color: StringQueryOperatorInput
     callout_items: MarkdownRemarkFrontmatterCalloutCallout_itemsFilterListInput
-    callout_large_image: StringQueryOperatorInput
+    callout_large_image: FileFilterInput
     callout_text_area: StringQueryOperatorInput
     callout_top_text: StringQueryOperatorInput
 }
@@ -2259,16 +2758,27 @@ input MarkdownRemarkFrontmatterFilterInput {
     date: DateQueryOperatorInput
     description: StringQueryOperatorInput
     featured: BooleanQueryOperatorInput
-    featured_image: StringQueryOperatorInput
-    hero_image: StringQueryOperatorInput
-    icon: StringQueryOperatorInput
+    featured_image: FileFilterInput
+    hero_image: FileFilterInput
+    icon: FileFilterInput
+    image_markdown: MarkdownRemarkFrontmatterImage_markdownFilterListInput
     intro: StringQueryOperatorInput
-    logo: StringQueryOperatorInput
+    logo: FileFilterInput
     meta: MarkdownRemarkFrontmatterMetaFilterInput
     staff: MarkdownRemarkFrontmatterStaffFilterListInput
     tags: StringQueryOperatorInput
     templateKey: StringQueryOperatorInput
     title: StringQueryOperatorInput
+}
+
+input MarkdownRemarkFrontmatterImage_markdownFilterInput {
+    image_markdown_image: FileFilterInput
+    image_markdown_text: StringQueryOperatorInput
+    image_markdown_title: StringQueryOperatorInput
+}
+
+input MarkdownRemarkFrontmatterImage_markdownFilterListInput {
+    elemMatch: MarkdownRemarkFrontmatterImage_markdownFilterInput
 }
 
 input MarkdownRemarkFrontmatterMetaFilterInput {
@@ -2278,7 +2788,7 @@ input MarkdownRemarkFrontmatterMetaFilterInput {
 
 input MarkdownRemarkFrontmatterStaffFilterInput {
     bio: StringQueryOperatorInput
-    image: StringQueryOperatorInput
+    image: FileFilterInput
     job_title: StringQueryOperatorInput
     name: StringQueryOperatorInput
 }
@@ -2423,6 +2933,8 @@ input SitePluginPluginOptionsFilterInput {
     enableDuringDevelop: BooleanQueryOperatorInput
     host: StringQueryOperatorInput
     icon: StringQueryOperatorInput
+    id: StringQueryOperatorInput
+    includeInDevelopment: BooleanQueryOperatorInput
     maxWidth: IntQueryOperatorInput
     modulePath: StringQueryOperatorInput
     name: StringQueryOperatorInput
@@ -2442,6 +2954,7 @@ input SitePluginPluginOptionsPluginsFilterInput {
     browserAPIs: StringQueryOperatorInput
     id: StringQueryOperatorInput
     name: StringQueryOperatorInput
+    pluginFilepath: StringQueryOperatorInput
     pluginOptions: SitePluginPluginOptionsPluginsPluginOptionsFilterInput
     resolve: StringQueryOperatorInput
     ssrAPIs: StringQueryOperatorInput

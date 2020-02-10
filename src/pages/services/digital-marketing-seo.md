@@ -1,7 +1,8 @@
 ---
 templateKey: services-post
 title: Digital Marketing and SEO
-date: 2016-12-17T15:04:10.000Z
+date: 2016-12-22T15:04:10.000Z
+link_to: services/digital-marketing
 description: >-
   Digital Marketing is about getting your business found, nurturing relationships and building a dedicated following through search engine optimization, search engine marketing, audience engagement, email marketing and social sharing. Working with you, we will build a marketing strategy that is custom designed to work best with your business.
 featured: true

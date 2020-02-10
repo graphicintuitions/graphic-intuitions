@@ -2,6 +2,7 @@
 templateKey: services-post
 title: Branding
 date: 2019-01-01T15:04:10.000Z
+link_to:
 description: >-
   Branding is much more than just your company logo. The decisions you make regarding the design of your brand, as well as your marketing, are all a part of how well your company is going to be recognized by potential customers in the future. Considering all the places your logo will be displayed, it is one of the most important decisions a company will make.
 featured: false

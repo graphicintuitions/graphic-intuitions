@@ -2,6 +2,7 @@
 templateKey: services-post
 title: Strategic Marketing Plans
 date: 2019-01-01T15:04:10.000Z
+link_to: 
 description: >-
   You have the team, we have the know how. We can provide your business with a detailed marketing plan by auditing your current data and providing recommendations for future growth. This is perfect for businesses who’s teams are stretched for time, or when a skilled second set of eyes is needed.
 featured: false
