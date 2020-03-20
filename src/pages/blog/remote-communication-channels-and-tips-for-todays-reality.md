@@ -14,11 +14,10 @@ meta:
     remote communication channels for your business.
 tags:
   - Tools
-  - ''
 ---
 Our new reality is creating a mandatory reliance on digital technology and remote communication channels. In recognition of this, we wanted to provide education and resources for our clients during this time.
 
-With workforces and clients working from home and seeking information online, now is not the time to retract your customer communication efforts, now is the time to pivot your communication from face-to-face and traditional phone calls to video, chat, SMS, Instant Messaging, email and as much information and support on your website as possible. 
+With workforces and clients working from home and seeking information online, **now is not the time to retract your customer communication efforts, now is the time to pivot your communication** from face-to-face and traditional phone calls to video, chat, SMS, Instant Messaging, email and as much information and support on your website as possible. 
 
 Along with the pivot of remote communication channels we recommend you provide consistent messaging of support on how your business can help. So let's dive in!
 
@@ -50,11 +49,11 @@ More information on Microsoft Teams from the following link.
 
 ### Video Conferencing Hardware
 
-Along with video teleconferencing you need cameras and mics.  To be honest we mostly ran with a laptop camera and headphones, supplemented by board rooms equipped with cameras and speakers, however if you are needing a package for team members including camera, we recommend [Logitech](https://www.logitech.com/en-ca/product/personal-video-collaboration-kit?crid=36).  
+Along with video teleconferencing software, you need cameras and mics. To be honest we mostly run with a laptop camera and headphones, supplemented by board rooms equipped with cameras and speakers, however if you are needing a package for team members including camera and headset, we recommend [Logitech](https://www.logitech.com/en-ca/product/personal-video-collaboration-kit?crid=36).  
 
 ### Best Practices for Video Meetings
 
-While your main use immediate of video software may be to conduct "face to face" calls to staff and clients to stay connected, with screen sharing you can create very effective and immersive meetings for groups of staff or teams of clients. Additionally you can also look at conducting webinars to provide training to clients and staff that be view lived or accessed as people are able.  
+With screen sharing you can create very effective and immersive meetings for groups of staff or teams of clients. Additionally you can also look at conducting webinars to provide training to clients and staff that can be viewed live or accessed as people are able.
 
 The technology has evolved fast and new capabilities seem to roll out daily...now's the time! 
 
@@ -76,7 +75,7 @@ With the change in channel communication we have a client that has received a 37
 
 If you have chat enabled on your website you want to ensure your automated messaging is updated and additional operators are ready to support in high volume times.  
 
-There are many platforms, (the list is exhaustive see below) again we have used or implemented several such as Zendesk, Crisp, Hubspot Chat, and Salesforce chat. Additionally, messaging through social platforms is a form of Chat and with some chat engines your social platforms can be linked and consolidated so all messaging is in one place.
+There are many platforms, (the list is exhaustive see below) again we have used or implemented several such as Zendesk, Crisp, Hubspot Chat, and Salesforce chat. Additionally, messaging through social platforms is a form of Chat and with some chat engines, your social platforms can be linked and consolidated so all messaging is in one place.
 
 Most are not free but SAAS subscriptions costs can be very minimal if you are just looking for a basic chat.  
 
@@ -84,11 +83,11 @@ Most are not free but SAAS subscriptions costs can be very minimal if you are ju
 
 ## Social Platforms
 
-Facebook, LinkedIn, Twitter, and Instagram are the big four for most businesses. Ensure your communication is consistent and the channels are monitored as consumers will use these to reach out more than ever.  If you are unable to monitor I would suggest stating that this channel is not monitored and provide the best method for your customers to reach out. Customers will be looking for information online on the channels they spend their time. Make sure at minimum you post where they can find it.
+Facebook, LinkedIn, Twitter, and Instagram are the big four for most businesses. Ensure your communication is consistent and the channels are monitored as consumers will use these to reach out more than ever. If you are unable to monitor I would suggest stating that this channel is not monitored and provide the best method for your customers to reach out. Customers will be looking for information online on the channels they spend their time. Make sure at minimum you post where they can find it.
 
 ## SMS
 
-Is texting the new email? I don't think so, it is and remains a separate, more personal channel.  That being said, there are platforms for conducting mass text messaging and automated/triggered workflows. Also, depending on the mobility of your clients, it may be the best way to keep them informed about what they need to know about your business.
+Is texting the new email? I don't think so, it is and remains a separate, more personal channel. That being said, there are platforms for conducting mass text messaging and automated/triggered workflows. Also, depending on the mobility of your clients, it may be the best way to keep them informed about what they need to know about your business.
 
 An Exhaustive list of platforms is here:
 
@@ -106,7 +105,7 @@ There are many email marketing providers to choose from such as Constant Contact
 
 ## Instant Messaging
 
-Generally IM is internal, however we have known organizations to have key accounts integrated into an IM platform. The leader in this arena is Slack, (in fact, "I will Slack you" has become a verb) but hot on the heals is Microsoft Teams. No matter the platform, having one is critical to remote work. The quick office pop in questions are gone. They now have to be message, and texting can be messy as it mixed with all the other messaging a team member has. Get an IM platform and have dedicated company channels to keep organized. 
+Generally IM is internal, however we have known organizations to have key accounts integrated into an IM platform. The leader in this arena is Slack, (in fact, "I will Slack you" has become a verb) but hot on the heals is Microsoft Teams. No matter the platform, having one is critical to remote work. The quick office pop in questions are gone. They now have to be a message, and texting can be messy as it mixed with all the other messaging a team member has. Get an IM platform and have dedicated company channels to keep organized. 
 
 Best Practices for IM at work (except #4 doesn't work now unless you use video)
 
@@ -132,7 +131,7 @@ At the end of the day, this is a list to help you understand the possibilities y
 
 You may realize you need a more comprehensive communication strategy. For instance what should you be communicating to your clients, with what channel? Email, SMS, Social Posts, or a webinar? If you would like advice we are here to help and we will be posting strategy articles in the future.
 
-As you start to look at the various platforms to communicate with customers and staff it can get overwhelming and too many to manage and separately set up, which is why an overarching systems or a technology stack have emerged. 
+As you start to look at the various platforms to communicate with customers and staff it can get overwhelming, and too many to manage and separately set up, which is why an overarching systems or a technology stack have emerged. 
 
 Imagine having your email, chat, website contact forms; social all tied together? That is where most modern cloud CRM solutions have evolved to such as Salesforce, Zoho, HubSpot, Nimble, Pipedrive...the list is long. (Full disclosure we are a [HubSpot partner](https://www.graphicintuitions.com/blog/gi-is-a-hubspot-agency-partner/) and user).  
 
@@ -142,7 +141,7 @@ If you have made it all way to the bottom great work! Lots to chew through in th
 
 We want to express that we are here for you. If you want to reach out to gain clarity or help with implementation of any of these tools, we are around.  
 
-We are also committed to providing ongoing education in this area with a weekly frequency.  Next week we will be reviewing communication strategy and a deeper dive how to use the tools effectively to manage your now remote workforce and remote clients.
+We want to continue to express that we are here for you. If you want to reach out to gain clarity or help with implementation of any of these tools, we are around (remotely). We are also committed to providing ongoing education in this area with a weekly frequency. Next week we will be reviewing communication strategy and a deeper dive on how to use the tools effectively to manage your now remote workforce and remote clients.
 
 Until then, be well,
 
