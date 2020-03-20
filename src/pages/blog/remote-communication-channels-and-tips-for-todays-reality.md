@@ -18,7 +18,7 @@ tags:
 ---
 Our new reality is creating a mandatory reliance on digital technology and remote communication channels. In recognition of this, we wanted to provide education and resources for our clients during this time.
 
-With workforces and clients working from home and seeking information online, now is not the time to retract your customer communication efforts, now is the time pivot your communication from face-to-face and traditional phone calls to video, chat, SMS, Instant Messaging, email and as much information and support on your website as possible. 
+With workforces and clients working from home and seeking information online, now is not the time to retract your customer communication efforts, now is the time to pivot your communication from face-to-face and traditional phone calls to video, chat, SMS, Instant Messaging, email and as much information and support on your website as possible. 
 
 Along with the pivot of remote communication channels we recommend you provide consistent messaging of support on how your business can help. So let's dive in!
 
@@ -62,8 +62,6 @@ The technology has evolved fast and new capabilities seem to roll out daily...no
 
 <https://blog.hubspot.com/marketing/remote-work-stats>
 
-
-
 ## Chat
 
 With the change in channel communication we have a client that has received a 374% increase in Chat activity this week. Clearly customers are reaching out from home for this organization.  
@@ -76,13 +74,9 @@ Most are not free but SAAS subscriptions costs can be very minimal if you are ju
 
 <https://www.capterra.com/live-chat-software/>
 
-
-
 ## Social Platforms
 
 Facebook, LinkedIn, Twitter, and Instagram are the big four for most businesses. Ensure your communication is consistent and the channels are monitored as consumers will use these to reach out more than ever.  If you are unable to monitor I would suggest stating that this channel is not monitored and provide the best method for your customers to reach out. Customers will be looking for information online on the channels they spend their time. Make sure at minimum you post where they can find it.
-
-
 
 ## SMS
 
@@ -95,8 +89,6 @@ An Exhaustive list of platforms is here:
 Perhaps a better list (shorter) with more details to provide understanding basics of platforms:
 
 <https://zapier.com/blog/best-sms-app/>
-
-
 
 ## Email
 
@@ -112,8 +104,6 @@ Best Practices for IM at work (except #4 doesn't work now unless you use video)
 
 <https://hbr.org/2020/03/best-practices-for-instant-messaging-at-work>
 
-
-
 ## Website Knowledge Base
 
 As you are less able to serve your customers, the best practice of enabling them to serve themselves is now essential. One best practice is having an extensive knowledge base on your website. 
@@ -127,8 +117,6 @@ The data in your knowledge base can come from anywhere. Typically, contributors 
 Interestingly, most companies already have a knowledge base it just needs to aggregated, polished up, and posted online. A great example of a topical simple knowledge base implemented quickly is <https://www.flamanfitness.com/covid19-updates>
 
 (Full disclosure our Managing Director is also Board Chair of Flaman Fitness so we would hope they are using best practices!) 
-
-
 
 ## Bringing It All Together
 
