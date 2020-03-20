@@ -24,9 +24,17 @@ Along with the pivot of remote communication channels we recommend you provide c
 
 To help with your transition, here are some tips and resources to consider:
 
+* Video Teleconferencing
+* Chat
+* Social Platforms
+* SMS
+* Email
+* Instant Message
+* Website Knowledge Base
+
 ## Video Teleconferencing
 
-Your meetings internally and externally are now remote, luckily the technology to facilitate this is fairly ubiquitous today with software such as: Gotomeeting, Zoom, Join.me, Google Hangouts, Microsoft Skype, and Teams to list a few, dominating the space. 
+Your meetings internally and externally are now remote, luckily the technology to facilitate this is fairly ubiquitous today with software such as: GoToMeeting, Zoom, Join.me, Google Hangouts, Microsoft Skype, and Teams to list a few, dominating the space. 
 
 We have used all of the above listed and more, there are pluses and minuses to each. The key is to pick a platform for your budget (many have free option) and what works for you, your staff and your clients. A more exhaustive list is attached in the link below:
 
@@ -40,7 +48,7 @@ More information on Microsoft Teams from the following link.
 
 <https://products.office.com/en-ca/microsoft-teams/group-chat-software> 
 
-### Video Conferencing Technology
+### Video Conferencing Hardware
 
 Along with video teleconferencing you need cameras and mics.  To be honest we mostly ran with a laptop camera and headphones, supplemented by board rooms equipped with cameras and speakers, however if you are needing a package for team members including camera, we recommend [Logitech](https://www.logitech.com/en-ca/product/personal-video-collaboration-kit?crid=36).  
 
