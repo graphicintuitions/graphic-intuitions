@@ -69,6 +69,12 @@ The technology has evolved fast and new capabilities seem to roll out daily...no
 
 <https://blog.hubspot.com/marketing/remote-work-stats>
 
+**12 Handy Tips for Running Better Remote Meetings:**
+
+<https://blog.hubspot.com/marketing/remote-meetings-tips>
+
+
+
 ## Chat
 
 With the change in channel communication we have a client that has received a 374% increase in Chat activity this week. Clearly customers are reaching out from home for this organization.  
