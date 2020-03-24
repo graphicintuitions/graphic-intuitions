@@ -21,7 +21,7 @@ Having a formal communication strategy for staff and customers used to be the do
 1. Create a steering committee for determining all messaging
 2. Establish baseline requirements for messaging
 3. Create a COVID-19 central source of truth
-4. Establish a messaging cadence and do not deviate
+4. Establish a messaging cadence
 5. Ensure multi-channel cascading and consistency 
 
 ## 1) Create a Steering Committee
@@ -91,7 +91,7 @@ In addition to the internal central source of truth, an updated page for your cu
 
 Finally, you may wish to have a separate private web page for staff. 
 
-## 4) Establish a Messaging Cadence and do not Deviate
+## 4) Establish a Messaging Cadence
 
 If you are updating daily, update daily. Considering how this crisis unfolds, that should be the current cadence for your central source of truth and a customer facing web page. Customers and suppliers can be initially contacted by email and pointed towards the page and then ongoing updates can occur weekly to customers.
 
