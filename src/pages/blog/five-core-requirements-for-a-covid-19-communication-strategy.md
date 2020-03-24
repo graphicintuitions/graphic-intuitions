@@ -14,9 +14,9 @@ meta:
 tags:
   - communication strategy
 ---
-Having a formal communication strategy for staff and customers used to be the domain of large organizations that had specialists in this area. Mid-sized firms decentralized with HR, marketing, and sales managing this function for their respective responsibility areas. And small businesses generally from the owner/operator. No matter your organization size, today you need to have a formal communication plan for COVID-19.
+Having a formal communication strategy for staff and customers used to be the domain of large organizations that had specialists in this area. Mid-sized firms decentralized with HR, marketing, and sales managing this function for their respective responsibility areas. Small businesses generally just have the owner/operator filling all these roles. No matter your organization size, today you need to have a formal communication plan for COVID-19.
 
-**To to do this, there are the five core areas that need to be developed/enhanced:** 
+**To to do this, there are five core areas that need to be developed/enhanced:** 
 
 1. Create a steering committee for determining all messaging
 2. Establish baseline requirements for messaging
@@ -26,7 +26,7 @@ Having a formal communication strategy for staff and customers used to be the do
 
 ## 1) Create a Steering Committee
 
-During this time having multiple points of view to determine the path forward is needed. This committee will have the final say on what and when things get communicated. As changes occur daily, responsibilities for different areas can be decentralized with those subject matter experts bringing forward requirement for communication. Everyone needs to step up and be responsible.
+During this time having multiple points of view to determine the path forward is needed. This committee will have the final say on what and when things get communicated. As changes occur daily, responsibilities for different areas can be decentralized with those subject matter experts bringing forward requirements for communication. Everyone needs to step up and be responsible.
 
 The functions you will want represented on this steering committee are as follows: 
 
@@ -80,7 +80,7 @@ Some examples of requirements:
 With Cloud computing, it is easy to create a shared COVID-19 drive in which all documentation for this crisis is contained. The steering committee should be the gatekeepers to the folder with access granted upon their approval. Examples of information that should be captured:
 
 * All emails/memos/video to staff and customers
-* Notes from meeting regarding COVID-19
+* Notes from meetings regarding COVID-19
 * Planning documents
 * Layoff notices
 * Incident reporting regarding COVID-19
@@ -89,7 +89,7 @@ From this shared folder information can be parsed out to identified stakeholder 
 
 In addition to the internal central source of truth, an updated page for your customers should be established on your website as a best practice example: <https://www.flamanfitness.com/covid19-updates>
 
-In addition to a customer facing page, you may wish to have a separate private page for staff. 
+Finally, you may wish to have a separate private web page for staff. 
 
 ## 4) Establish a Messaging Cadence and do not Deviate
 
@@ -112,11 +112,11 @@ In this age of distraction, most businesses communicate on multiple channels. Fo
 * Review Sites (ie: Yelp, etc)
 * Chat
 
-Establish the webpage and then point the rest of the channels toward the established page and or updated as needed. 
+Establish the webpage and then point the rest of the channels toward the established page.  Note you may need to updated some channels beyond pointing to your customer facing webpage, Google My Business for instance will require hour changes.
 
 ## Bringing it All Together - Recommended Requirements for a COVID Communication Strategy
 
-Beyond these five core areas, you may need a team to ensure the messaging get out. That can be members of the committee, your internal marketing and communication team or an outsourced agency. The communication with that team needs to be transparent and immediate so they can execute as soon as possible in this ever fluid situation.
+Beyond these five core areas, you will need a team to ensure the messaging gets out. That can be members of the committee, your internal marketing and communication team or an outsourced agency. The communication with that team needs to be transparent and immediate so they can execute as soon as possible in this ever fluid situation.
 
 Stay well, we are in this together,
 
