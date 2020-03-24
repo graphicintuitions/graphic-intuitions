@@ -16,7 +16,7 @@ tags:
 ---
 Having a formal communication strategy for staff and customers used to be the domain of large organizations that had specialists in this area. Mid-sized firms decentralized with HR, marketing, and sales managing this function for their respective responsibility areas. And small businesses generally from the owner/operator. No matter your organization size, today you need to have a formal communication plan for COVID-19.
 
-**To to do this there are the five core areas that need to be developed/enhanced:** 
+**To to do this, there are the five core areas that need to be developed/enhanced:** 
 
 1. Create a steering committee for determining all messaging
 2. Establish baseline requirements for messaging
