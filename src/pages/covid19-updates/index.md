@@ -2,6 +2,8 @@
 templateKey: content-page
 title: COVID 19 Updates
 ---
+# COVID-19 UPDATES
+All staff are currently working remote. Our main office is open but we are not conducting any in person meetings. We can be reached at our office phone number [(204) 746-6177](tel:2047466177), or by email: [info@teamgi.ca](mailto:info@teamgi.ca) , or by online Chat.
 
 ## Sections
 
@@ -23,27 +25,25 @@ title: COVID 19 Updates
 
 **March 25, 2020**
 
-We recognize many of our clients are on retainers and may have cash flow problems during this difficult time. Now more than ever you will need to continue to communicate to your stakeholders: Customers, Staff, and Suppliers. We are here for you, as such we are offering deferral payment plans, step down of requirements or, in exceptional cases,temporary suspension of contract.
+- We recognize many of our clients are on retainers and may have cash flow problems during this difficult time. Now more than ever you will need to continue to communicate to your stakeholders: Customers, Staff, and Suppliers. We are here for you, as such we are offering deferral payment plans, step down of requirements or, in exceptional cases,temporary suspension of contract.
 
 **March 24, 2020**
 
-Launched [Five core Requirements](https://www.graphicintuitions.com/blog/five-core-requirements-for-a-covid-19-communication-strategy/) Resource Blog
-
-In Person Meetings suspended
+- Launched [Five core Requirements](https://www.graphicintuitions.com/blog/five-core-requirements-for-a-covid-19-communication-strategy/) Resource Blog
+- In Person Meetings suspended
 
 **March 23, 2020**
 
-Launched [Remote Communications](https://www.graphicintuitions.com/blog/remote-communication-channels-and-tips-for-todays-reality/) Resource Blog
+- Launched [Remote Communications](https://www.graphicintuitions.com/blog/remote-communication-channels-and-tips-for-todays-reality/) Resource Blog
 
 **March 20, 2020**
 
-Committed to creation of emergency fund for our contract design and developers
+- Committed to creation of emergency fund for our contract design and developers
 
 **March 19, 2020**
 
-All staff working remote
-
-Resource Section created - As the situation develops we will continue to expand and updated the listings.
+- All staff working remote
+- Resource Section created - As the situation develops we will continue to expand and updated the listings.
 
 ## <a id="public-health-notice"></a>Public Health Notice Regarding COVID-19
 
