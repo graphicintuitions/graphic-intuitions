@@ -30,7 +30,6 @@ All staff are currently working remote. Our main office is open but we are not c
 **March 25, 2020**
 
 * We recognize many of our clients are on retainers and may have cash flow problems during this difficult time. Now more than ever you will need to continue to communicate to your stakeholders: Customers, Staff, and Suppliers. We are here for you, as such we are offering deferral payment plans, step down of requirements or, in exceptional cases, temporary suspension of contract.
-* Resource Section created - As the situation develops we will continue to expand and update the listings 
 * COVID-19 updates and resources page launched
 
 **March 24, 2020**
