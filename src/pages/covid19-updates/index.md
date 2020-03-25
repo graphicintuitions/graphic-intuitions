@@ -1,6 +1,9 @@
 ---
 templateKey: content-page
-title: COVID-9 Updates
+title: COVID-19 Updates
+meta:
+  description: COVID-19 Updates from Graphic Intuitions.
+  title: COVID-19 Updates
 ---
 All staff are currently working remote. Our main office is open but we are not conducting any in person meetings. We can be reached at our office phone number [(204) 746-6177](tel:2047466177), or by email: [info@teamgi.ca](mailto:info@teamgi.ca) , or by online Chat.
 
@@ -18,7 +21,7 @@ All staff are currently working remote. Our main office is open but we are not c
 - [https://www.graphicintuitions.com/blog/five-core-requirements-for-a-covid-19-communication-strategy/](https://www.graphicintuitions.com/blog/five-core-requirements-for-a-covid-19-communication-strategy/)
 - [https://www.graphicintuitions.com/blog/remote-communication-channels-and-tips-for-todays-reality/](https://www.graphicintuitions.com/blog/remote-communication-channels-and-tips-for-todays-reality/)
 
-** **
+---
 
 ## <a id="daily-updates"></a>Daily Updates
 
@@ -44,6 +47,8 @@ All staff are currently working remote. Our main office is open but we are not c
 - All staff working remote
 - Resource Section created - As the situation develops we will continue to expand and updated the listings.
 
+---
+
 ## <a id="public-health-notice"></a>Public Health Notice Regarding COVID-19
 
 We&#39;d like to remind you that some of the most effective ways to prevent the spread of disease are
@@ -59,6 +64,8 @@ If you desire additional information pertaining to Novel Coronavirus - COVID-19 
 
 **World Health Organization**  
 [https://www.who.int/emergencies/diseases/novel-coronavirus-2019](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
+
+---
 
 ## <a id="federal-assistance-programs"></a>COVID-19 Federal Assistance Programs
 
@@ -85,12 +92,16 @@ We are sure that every business is tuned into announcement regarding the program
 
 - [More time to pay their income taxes](https://www.canada.ca/en/department-finance/economic-response-plan/covid19-businesses.html#more_time_to_pay_their_income_taxes)
 
+---
+
 ## <a id="additional-resources"></a>Additional Resources to Consider
 
 1. **Contact your local financial institution**. Since we know most small businesses have a relationship with their local financial institution already, we&#39;ve worked with the financial sector to increase their lending capability to support you in in this challenging time. They are a good first place to start for help.
 2. **Download the [Canada Business App](https://www.ic.gc.ca/eic/site/icgc.nsf/eng/h_07670.html)** to find tailored supports to address your needs in the face of COVID-19.
 3. **Consult the Canadian Chamber of Commerce&#39;s [pandemic preparedness guide](http://www.chamber.ca/resources/pandemic-preparedness/)** to help prepare you business in the days and weeks to come.
 4. **Consult the Canadian Manufacturers &amp; Exporters&#39; [Coronavirus Resource website.](https://cme-mec.ca/coronavirus-covid-19-resources/)**
+
+---
 
 ## <a id="provincial-updates"></a>Provincial Updates
 
