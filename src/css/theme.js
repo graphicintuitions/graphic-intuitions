@@ -66,6 +66,12 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 64px;
   }
   
+  @media (max-width: 767px) {
+    h1{
+      font-size: 50px;
+    }
+  }
+  
   .gatsby-resp-iframe-wrapper{
     margin-bottom: 32px;
   }

@@ -31,6 +31,12 @@ const StyledBlogPost = styled.div`
 export const StyledHeading = styled.h1`
   border-left: 20px solid ${props => props.theme.orange};
   padding-left: 10px;
+  margin-bottom: 80px;
+  @media (max-width: 767px) {
+      font-size: 30px !important;
+      margin-bottom: 40px;
+  }
+  
 `;
 
 const StyledTags = styled.ul`
@@ -65,7 +71,7 @@ export const BlogPostTemplate = ({
   return (
     <Container>
       <StyledBlogPost>
-        <Row style={{ marginBottom: "80px" }}>
+        <Row>
           <Col xs={12} sm={6} style={{ display: "flex", alignItems: "center" }}>
             <StyledHeading>
               {title}
@@ -86,7 +92,7 @@ export const BlogPostTemplate = ({
           }
         </Row>
         <Row className="section">
-          <Col xs={12} sm={8} smOffset={2} md={6} mdOffset={3}>
+          <Col xs={12} sm={8} smOffset={2} md={6} mdOffset={3} style={{overflow: 'hidden', wordBreak: 'break-word'}}>
             <PostContent className={'blog-content'} content={content}/>
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
