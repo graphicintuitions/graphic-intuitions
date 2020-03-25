@@ -87,7 +87,7 @@ With Cloud computing, it is easy to create a shared COVID-19 drive in which all 
 
 From this shared folder information can be parsed out to identified stakeholder groups as required.
 
-In addition to the internal central source of truth, an updated page for your customers should be established on your website as a best practice example: <https://www.flamanfitness.com/covid19-updates>
+In addition to the internal central source of truth, an updated page for your customers should be established on your website as a best practice example: <https://www.flamanfitness.com/covid19-updates> or, what we're doing at GI, which is more extensive than most update pages: <https://www.graphicintuitions.com/covid19-updates/>.
 
 Finally, you may wish to have a separate private web page for staff. 
 
