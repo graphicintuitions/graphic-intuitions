@@ -54,9 +54,10 @@ We&#39;d like to remind you that some of the most effective ways to prevent the 
 
 If you desire additional information pertaining to Novel Coronavirus - COVID-19 – the following websites are good sources to use:
 
-**Public Health Agency of Canada** [https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html)
+**Public Health Agency of Canada**   
+[https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html)
 
-**World Health Organization**
+**World Health Organization**  
 [https://www.who.int/emergencies/diseases/novel-coronavirus-2019](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
 
 ## <a id="federal-assistance-programs"></a>COVID-19 Federal Assistance Programs
