@@ -3,9 +3,11 @@ templateKey: content-page
 title: COVID-19 Updates
 meta:
   description: COVID-19 Updates from Graphic Intuitions.
-  title: COVID-19 Updates
+  title: COVID-19 Updates and Resources
 ---
 All staff are currently working remote. Our main office is open but we are not conducting any in person meetings. We can be reached at our office phone number [(204) 746-6177](tel:2047466177), or by email: [info@teamgi.ca](mailto:info@teamgi.ca) , or by online Chat.
+
+**We will be updating and adding resources daily.**
 
 ## Sections
 
@@ -28,6 +30,7 @@ All staff are currently working remote. Our main office is open but we are not c
 **March 25, 2020**
 
 - We recognize many of our clients are on retainers and may have cash flow problems during this difficult time. Now more than ever you will need to continue to communicate to your stakeholders: Customers, Staff, and Suppliers. We are here for you, as such we are offering deferral payment plans, step down of requirements or, in exceptional cases,temporary suspension of contract.
+- Resource Section created - As the situation develops we will continue to expand and updated the listings.
 
 **March 24, 2020**
 
@@ -45,7 +48,6 @@ All staff are currently working remote. Our main office is open but we are not c
 **March 19, 2020**
 
 - All staff working remote
-- Resource Section created - As the situation develops we will continue to expand and updated the listings.
 
 ---
 
