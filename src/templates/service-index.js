@@ -42,7 +42,6 @@ export const ServiceIndexTemplate = ({
                                        services
                                      }) => {
   const PostContent = contentComponent || Content;
-  console.log(services)
   return (
     <Container>
       <PageHeaderTextImage title={title} image={computerScreen}>

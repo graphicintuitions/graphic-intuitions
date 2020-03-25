@@ -12,6 +12,9 @@ export const StyledHeading = styled.h2`
 
 const StyledLink = styled(Link)`
   font-size: 50px;
+  @media (max-width: 767px) {
+    font-size: 30px;
+  }
   text-decoration: none;
   color: ${props => props.theme.textBlack} !important;
 `;
