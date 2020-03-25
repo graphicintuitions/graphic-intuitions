@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql, StaticQuery } from "gatsby";
+import { graphql, Link, StaticQuery } from "gatsby";
 import Navbar from "../components/Navbar";
 import "normalize.css";
 import styled, { ThemeProvider } from "styled-components";
@@ -58,6 +58,9 @@ const TemplateWrapper = ({ children, props }) => (
             <meta name="description" content={data.site.siteMetadata.description}/>
             <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
           </Helmet>
+          <div style={{backgroundColor: '#FEFCA3', textAlign: "center", padding: "10px 0"}}>
+            <Link to={'/covid19-updates'} style={{color: '#000000'}}>Important COVID-19 UPDATES AND RESOURCES</Link>
+          </div>
           <Header>
             <Navbar/>
             <Container>

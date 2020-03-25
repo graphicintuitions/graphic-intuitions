@@ -1,11 +1,11 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql, StaticQuery } from "gatsby";
+import { graphql, StaticQuery, Link } from "gatsby";
 import Navbar from "../components/Navbar";
 import "normalize.css";
 import styled, { ThemeProvider } from "styled-components";
 import herobgSmall from "../img/hero-bg-small.svg";
-import { GlobalStyle, Site, theme } from "../css/theme";
+import { Col, Container, GlobalStyle, Row, Site, theme } from "../css/theme";
 import '../css/nprogress.css';
 import { Footer } from "./Footer";
 
@@ -39,6 +39,9 @@ const TemplateWrapper = ({ children, props }) => (
           <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`}>
             <html lang="en"/>
           </Helmet>
+          <div style={{backgroundColor: '#FEFCA3', textAlign: "center", padding: "10px 0"}}>
+              <Link to={'/covid19-updates'} style={{color: '#000000'}}>Important COVID-19 UPDATES AND RESOURCES</Link>
+          </div>
           <Header>
             <Navbar/>
           </Header>
