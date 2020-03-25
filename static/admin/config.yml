@@ -148,6 +148,17 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "content-post"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/covid19-updates/index.md"
+        label: "COVID-19 Updates"
+        name: "covid19-updates"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "content-post"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO", name: "meta",  widget: "object", fields: [
+              {label: "Meta Title", name: "title", widget: "string"},
+              {label: "Meta Description", name: "description", widget: "text"}
+          ]}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/digital-marketing/index.md"
         label: "Digital Marketing"
         name: "digital-marketing"
