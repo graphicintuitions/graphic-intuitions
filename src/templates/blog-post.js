@@ -15,6 +15,7 @@ const StyledBlogPost = styled.div`
     font-size: 50px;
   }
   .blog-content{
+    margin-top: 40px;
     & > p:first-child:first-letter{
       color: ${props => props.theme.orange};
       float: left;
@@ -56,7 +57,7 @@ li{
   }
 }
   
-`
+`;
 
 export const BlogPostTemplate = ({
                                    content,
@@ -67,7 +68,7 @@ export const BlogPostTemplate = ({
                                    featuredImage
                                  }) => {
   const PostContent = contentComponent || Content;
-  
+
   return (
     <Container>
       <StyledBlogPost>
@@ -81,7 +82,7 @@ export const BlogPostTemplate = ({
           <Col xs={12} sm={6}>
             <PreviewCompatibleImage
               className="img-repsonsive"
-              imageInfo={{image: featuredImage}}
+              imageInfo={{ image: featuredImage }}
               alt={title}
               style={{
                 width: "100%",
@@ -92,8 +93,8 @@ export const BlogPostTemplate = ({
           }
         </Row>
         <Row className="section">
-          <Col xs={12} sm={8} smOffset={2} md={6} mdOffset={3} style={{overflow: 'hidden', wordBreak: 'break-word'}}>
-            <PostContent className={'blog-content'} content={content}/>
+          <Col xs={12} sm={8} smOffset={2} md={6} mdOffset={3} style={{ overflow: "hidden", wordBreak: "break-word" }}>
+            <PostContent className={"blog-content"} content={content}/>
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
@@ -123,10 +124,10 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
-  const {title, description} = post.frontmatter.meta || {};
+  const { title, description } = post.frontmatter.meta || {};
   const metaTitle = title ? title : post.frontmatter.title;
   const metaDesc = description ? description : post.excerpt;
-  
+  console.log(post.frontmatter.featured_image);
   return (
     <Layout>
       <PageWrapper
@@ -134,17 +135,20 @@ const BlogPost = ({ data }) => {
           <Helmet>
             <title>{`${metaTitle}`}</title>
             <meta name="description" content={`${metaDesc}`}/>
+              <meta name={"og:image"} content={post.frontmatter.featured_image.og_image.fixed.src}/>
+              <meta name={"og:image:width"} content={"1200"}/>
+              <meta name={"og:image:height"} content={"630"}/>
           </Helmet>
         }
       >
-      <BlogPostTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
-        description={post.frontmatter.description}
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
-        featuredImage={post.frontmatter.featured_image}
-      />
+        <BlogPostTemplate
+          content={post.html}
+          contentComponent={HTMLContent}
+          description={post.frontmatter.description}
+          tags={post.frontmatter.tags}
+          title={post.frontmatter.title}
+          featuredImage={post.frontmatter.featured_image}
+        />
       </PageWrapper>
     </Layout>
   );
@@ -177,6 +181,11 @@ export const pageQuery = graphql`
                     childImageSharp {
                         fluid(maxWidth: 850, quality: 80) {
                             ...GatsbyImageSharpFluid
+                        }
+                    }
+                    og_image: childImageSharp {
+                        fixed(width: 1200, height: 630, quality: 80) {
+                            src
                         }
                     }
                 }
