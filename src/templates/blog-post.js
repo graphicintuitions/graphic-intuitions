@@ -136,8 +136,8 @@ const BlogPost = ({ data }) => {
             <title>{`${metaTitle}`}</title>
             <meta name="description" content={`${metaDesc}`}/>
               <meta name={"og:image"} content={post.frontmatter.featured_image.og_image.fixed.src}/>
-              <meta name={"og:image:width"} content={"1200"}/>
-              <meta name={"og:image:height"} content={"630"}/>
+              <meta name={"og:image:width"} content={post.frontmatter.featured_image.og_image.fixed.width}/>
+              <meta name={"og:image:height"} content={post.frontmatter.featured_image.og_image.fixed.height}/>
           </Helmet>
         }
       >
@@ -186,6 +186,8 @@ export const pageQuery = graphql`
                     og_image: childImageSharp {
                         fixed(width: 1200, height: 630, quality: 80) {
                             src
+                            width
+                            height
                         }
                     }
                 }
