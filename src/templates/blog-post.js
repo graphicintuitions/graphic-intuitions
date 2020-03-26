@@ -127,7 +127,8 @@ const BlogPost = ({ data }) => {
   const { title, description } = post.frontmatter.meta || {};
   const metaTitle = title ? title : post.frontmatter.title;
   const metaDesc = description ? description : post.excerpt;
-  console.log(post.frontmatter.featured_image);
+  const { featured_image = null } = post.frontmatter;
+
   return (
     <Layout>
       <PageWrapper
@@ -135,9 +136,17 @@ const BlogPost = ({ data }) => {
           <Helmet>
             <title>{`${metaTitle}`}</title>
             <meta name="description" content={`${metaDesc}`}/>
-              <meta name={"og:image"} content={post.frontmatter.featured_image.og_image.fixed.src}/>
-              <meta name={"og:image:width"} content={post.frontmatter.featured_image.og_image.fixed.width}/>
-              <meta name={"og:image:height"} content={post.frontmatter.featured_image.og_image.fixed.height}/>
+            {featured_image &&
+            <meta name={"og:image"} content={featured_image.og_image.fixed.src}/>
+            }
+
+            {featured_image &&
+            <meta name={"og:image:width"} content={featured_image.og_image.fixed.width}/>
+            }
+
+            {featured_image &&
+            <meta name={"og:image:height"} content={featured_image.og_image.fixed.height}/>
+            }
           </Helmet>
         }
       >
