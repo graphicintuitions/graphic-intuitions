@@ -27,6 +27,10 @@ All staff are currently working remote. Our main office is open but we are not c
 
 ## <a id="daily-updates"></a>Daily Updates
 
+**March 26, 2020**
+
+* COVID-19 Update webpage package released to all clients
+
 **March 25, 2020**
 
 * We recognize many of our clients are on retainers and may have cash flow problems during this difficult time. Now more than ever you will need to continue to communicate to your stakeholders: Customers, Staff, and Suppliers. We are here for you, as such we are offering deferral payment plans, step down of requirements or, in exceptional cases, temporary suspension of contract.
