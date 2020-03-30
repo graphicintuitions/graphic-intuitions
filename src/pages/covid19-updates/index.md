@@ -22,6 +22,7 @@ All staff are currently working remote. Our main office is open but we are not c
 
 * <https://www.graphicintuitions.com/blog/five-core-requirements-for-a-covid-19-communication-strategy/>
 * <https://www.graphicintuitions.com/blog/remote-communication-channels-and-tips-for-todays-reality/>
+* <https://www.graphicintuitions.com/blog/four-pillars-for-virtual-contact-sales-and-marketing-creating-the-new-normal/>
 
 - - -
 
