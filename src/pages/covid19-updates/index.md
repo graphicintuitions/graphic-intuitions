@@ -32,6 +32,13 @@ All staff are currently working remote. Our main office is open but we are not c
 **March 30, 2020**
 
 * Launched [Four Pillars for Virtual Contact Sales and Marketing](https://www.graphicintuitions.com/blog/four-pillars-for-virtual-contact-sales-and-marketing-creating-the-new-normal/) Resource Blog
+* Today Prime Minister Trudeau added some clarity Canada Emergency Wage Subsidy announced last week for businesses in dealing with cash flow during the COVID-19 pandemic:
+  * Eligible to companies that have seen a 30% or more drop in revenue due to COVID-19, whether the business is operational or not.
+  * 75% of first $58,700 of wages, i.e. a maximum $847.00 per week. (Figure appears to be based on ceiling maximum taxable CPP earnings).
+  * Not-for-profits, charities and large or small business will be eligible.
+  * Further details will be available from Finance Minister Bill Morneau tomorrow, March 31, 2020.
+
+When available, details should be accessed from [here.](https://www.canada.ca/en/department-finance/economic-response-plan/covid19-businesses.html)
 
 **March 26, 2020**
 
