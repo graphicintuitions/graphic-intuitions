@@ -37,8 +37,8 @@ All staff are currently working remote. Our main office is open but we are not c
   * 75% of first $58,700 of wages, i.e. a maximum $847.00 per week. (Figure appears to be based on ceiling maximum taxable CPP earnings).
   * Not-for-profits, charities and large or small business will be eligible.
   * Further details will be available from Finance Minister Bill Morneau tomorrow, March 31, 2020.
-
-When available, details should be accessed from [here.](https://www.canada.ca/en/department-finance/economic-response-plan/covid19-businesses.html)
+  * When available, details should be accessed from [here.](https://www.canada.ca/en/department-finance/economic-response-plan/covid19-businesses.html)
+* Manitoba to shut down non-critical services April 1: <https://www.cbc.ca/news/canada/manitoba/manitoba-covid-19-update-1.5514801>
 
 **March 26, 2020**
 
