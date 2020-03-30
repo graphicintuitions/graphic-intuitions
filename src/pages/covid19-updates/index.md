@@ -27,6 +27,12 @@ All staff are currently working remote. Our main office is open but we are not c
 
 ## <a id="daily-updates"></a>Daily Updates
 
+****
+
+**March 30, 2020**
+
+* Launched [Four Pillars for Virtual Contact Sales and Marketing](https://www.graphicintuitions.com/blog/four-pillars-for-virtual-contact-sales-and-marketing-creating-the-new-normal/) Resource Blog
+
 **March 26, 2020**
 
 * COVID-19 Update webpage package released to all clients
