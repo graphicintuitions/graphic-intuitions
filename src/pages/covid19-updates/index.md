@@ -28,7 +28,27 @@ All staff are currently working remote. Our main office is open but we are not c
 
 ## <a id="daily-updates"></a>Daily Updates
 
-****
+- - -
+
+**April 1, 2020**
+
+COVID-19 Update: Canadian Emergency Wage Subsidy
+
+Today Finance Minister Bill Morneau added some clarity to the Canada Emergency Wage Subsidy announced by Prime Minister Trudeau:
+
+* Eligible to companies that have seen a 30% or more drop in revenue due to COVID-19, whether the business is operational or not.
+* 75% of first $58,700 of wages, i.e. a maximum $847.00 per employee per week. (Figure appears to be based on ceiling maximum taxable CPP earnings).
+* Not-for-profits, charities and large or small business will be eligible.
+* 30% drop in revenue will be based upon the revenue seen in March, April and May 2020 versus the revenue seen for the same months in 2019. May be extended as necessary.
+* Companies will have to reapply each month.
+* Companies are being asked to make every effort to pay the other 25% of the employees' wages.
+* CRA website portal for making application for the subsidy will be up in 3 to 6 weeks.
+* Funds will be seen in about 6 weeks.
+* Plan is to have funds deposited directly from CRA to business' bank accounts once approved.
+* More details to follow for companies that have been up and running for less than one year.
+* There will be harsh penalties for any "bad actors" who cheat this system.
+
+When available, details should be accessed from [here](https://www.canada.ca/en/department-finance/economic-response-plan/covid19-businesses.html). If this changes, we will advise.
 
 **March 30, 2020**
 
