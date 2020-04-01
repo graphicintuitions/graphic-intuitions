@@ -137,7 +137,7 @@ const BlogPost = ({ data }) => {
             <title>{`${metaTitle}`}</title>
             <meta name="description" content={`${metaDesc}`}/>
             {featured_image &&
-            <meta name={"og:image"} content={featured_image.og_image.fixed.src}/>
+            <meta name={"og:image"} content={"https://www.graphicintuitions.com" + featured_image.og_image.fixed.src}/>
             }
 
             {featured_image &&
@@ -156,7 +156,7 @@ const BlogPost = ({ data }) => {
           description={post.frontmatter.description}
           tags={post.frontmatter.tags}
           title={post.frontmatter.title}
-          featuredImage={post.frontmatter.featured_image}
+          featuredImage={featured_image}
         />
       </PageWrapper>
     </Layout>
