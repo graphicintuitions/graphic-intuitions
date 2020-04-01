@@ -137,15 +137,15 @@ const BlogPost = ({ data }) => {
             <title>{`${metaTitle}`}</title>
             <meta name="description" content={`${metaDesc}`}/>
             {featured_image &&
-            <meta name={"og:image"} content={"https://www.graphicintuitions.com" + featured_image.og_image.fixed.src}/>
+            <meta property={"og:image"} content={"https://www.graphicintuitions.com" + featured_image.og_image.fixed.src}/>
             }
 
             {featured_image &&
-            <meta name={"og:image:width"} content={featured_image.og_image.fixed.width}/>
+            <meta property={"og:image:width"} content={featured_image.og_image.fixed.width}/>
             }
 
             {featured_image &&
-            <meta name={"og:image:height"} content={featured_image.og_image.fixed.height}/>
+            <meta property={"og:image:height"} content={featured_image.og_image.fixed.height}/>
             }
           </Helmet>
         }
