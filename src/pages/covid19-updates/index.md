@@ -30,6 +30,12 @@ All staff are currently working remote. Our main office is open but we are not c
 
 - - -
 
+**April 2, 2020**
+
+Recently, Google has rolled out an update so you're able to make COVID-19 posts/updates on your Google My Business account to inform people of your business's status.
+
+To make an update, sign into your GMB account, select your location, and go under the "Posts" tab where you will find the option to make a COVID-19 update. <https://business.google.com/>
+
 **April 1, 2020**
 
 COVID-19 Update: Canadian Emergency Wage Subsidy
