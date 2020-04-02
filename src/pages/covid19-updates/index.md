@@ -34,7 +34,7 @@ All staff are currently working remote. Our main office is open but we are not c
 
 COVID-19 Update: Canadian Emergency Wage Subsidy
 
-Today Finance Minister Bill Morneau added some clarity to the Canada Emergency Wage Subsidy announced by Prime Minister Trudeau:
+Today Finance Minister Bill Morneau added some clarity to the [Canada Emergency Wage Subsidy](https://www.canada.ca/en/department-finance/news/2020/04/government-announces-details-of-the-canada-emergency-wage-subsidy-to-help-businesses-keep-canadians-in-their-jobs.html) announced by Prime Minister Trudeau:
 
 * Eligible to companies that have seen a 30% or more drop in revenue due to COVID-19, whether the business is operational or not.
 * 75% of first $58,700 of wages, i.e. a maximum $847.00 per employee per week. (Figure appears to be based on ceiling maximum taxable CPP earnings).
@@ -48,7 +48,7 @@ Today Finance Minister Bill Morneau added some clarity to the Canada Emergency W
 * More details to follow for companies that have been up and running for less than one year.
 * There will be harsh penalties for any "bad actors" who cheat this system.
 
-When available, details should be accessed from [here](https://www.canada.ca/en/department-finance/economic-response-plan/covid19-businesses.html). If this changes, we will advise.
+Official press release [here](https://www.canada.ca/en/department-finance/economic-response-plan/covid19-businesses.html).
 
 **March 30, 2020**
 
