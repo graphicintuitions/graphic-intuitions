@@ -30,6 +30,32 @@ All staff are currently working remote. Our main office is open but we are not c
 
 - - -
 
+**April 4, 2020**
+
+_Canada_
+
+The [online portal to apply for the feds’ Canada Emergency Response Benefit](https://www.canada.ca/en/services/benefits/ei/cerb-application.html) opens today. Since the government has staggered application dates by birth months, those born between January and March are first in line. While the criteria for the CERB stipulates that the beneficiary must be at least 15 years old, [some students may find themselves unable](https://globalnews.ca/news/6769986/students-concerns-cerb-qualifications/?utm_source=Subscriber+-++Hill+Times+Publishing&utm_campaign=8fa1bb0e14-EMAIL_CAMPAIGN_2020_04_06_08_00&utm_medium=email&utm_term=0_8edecd9364-8fa1bb0e14-90758901&mc_cid=8fa1bb0e14&mc_eid=7de9b89685) to qualify if they haven’t earned at least $5,000 in the past 12 months. It also excludes those who have voluntarily quit their jobs.
+
+_Ontario_
+
+As a temporary measure the Ontario government has revised the list of essential businesses. The updated list will direct additional businesses to close and restricts specified businesses to providing services by alternate methods such as curb side pick up and delivery, except in exceptional circumstances. This includes stores that sell hardware products, vehicle parts and supplies, pet and animal supplies, office supplies and computer products and repairs and safety supplies.
+
+Only critical construction projects will continue, including industrial projects such as refineries and petrochemical plants and infrastructure projects such as new hospitals, roads and bridges. New starts in residential projects will stop, while residential construction that is near completion will continue. Business-owners with questions concerning their essential business status are encouraged to call the Stop the Spread hotline at 1-888-444-3659. The hotline is available from 8:30 a.m.― 9:00 p.m. Monday to Friday and 8:30 a.m.— 5:00 p.m. Saturday and Sunday.
+
+The updated essential businesses list can be found [here](https://www.ontario.ca/page/list-essential-workplaces).
+
+_Quebec_
+
+The updated essential services list for Quebec is [here, in French](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/), however English list has yet to be updated.
+
+CTEA will continue to monitor and provide pertinent information for our members.
+
+_British Columbia_
+
+B.C.'s provincial health officer offered another glimmer of hope Saturday when she announced only 29 new test-confirmed cases, marking the smallest increase for the number of cases province wide last week.
+
+
+
 **April 2, 2020**
 
 Recently, Google has rolled out an update so you're able to make COVID-19 posts/updates on your Google My Business account to inform people of your business's status.
@@ -160,14 +186,20 @@ We are sure that every business is tuned into announcement regarding the program
 **Alberta**\
 <https://www.alberta.ca/coronavirus-info-for-albertans.aspx>
 
+Essential services information: <https://www.alberta.ca/essential-services.aspx>
+
 **BC**\
 <https://www2.gov.bc.ca/gov/content/safety/emergency-preparedness-response-recovery/covid-19-provincial-support>
 
 **Saskatchewan**\
 <https://www.saskatchewan.ca/government/news-and-media/2020/march/20/covid-19-update-march-20>
 
+Website for Business and Workers: <https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/covid-19-information-for-businesses-and-workers>
+
 **Manitoba**\
 <https://www.gov.mb.ca/covid19/soe.html>
+
+Non-essential business and health order: <https://www.scribd.com/document/453988306/BG-PHA-COVID-19-PR>
 
 **New Brunswick**\
 <https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0139.html>
@@ -177,6 +209,8 @@ We are sure that every business is tuned into announcement regarding the program
 
 **Prince Edward Island**\
 <https://www.princeedwardisland.ca/en/information/health-and-wellness/closures-due-covid-19>
+
+Non-essential business and health order: <https://www.princeedwardisland.ca/en/information/health-and-wellness/essential-and-non-essential-services-covid-19>
 
 **Newfoundland and Labrador**\
 <https://www.gov.nl.ca/covid-19/>
