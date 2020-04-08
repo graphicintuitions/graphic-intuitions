@@ -30,6 +30,18 @@ All staff are currently working remote. Our main office is open but we are not c
 
 - - -
 
+**April 8**
+
+_COVID-19 Canadian Emergency Wage Subsidy Update_
+
+From the Hill Times:
+
+According to The Globe and Mail, the feds’ draft bill for the 75 per cent wage subsidy, worth an estimated $71-billion, introduces some flexibility for businesses and charities looking to qualify. Though the requirement to demonstrate a 30 per cent revenue drop is part of the draft bill for April and May, the threshold has been reduced to 15 per cent for those looking to use March as the benchmark.
+
+Also, according to the G&M the draft bill, will under certain conditions, allow companies to use January and February as reference periods when calculating their revenue for the subsidy.
+
+Hopefully these changes will allow more companies to take advantage of the wage subsidy, and keep more people on their payrolls.
+
 **April 4, 2020**
 
 _Canada_
@@ -53,8 +65,6 @@ CTEA will continue to monitor and provide pertinent information for our members.
 _British Columbia_
 
 B.C.'s provincial health officer offered another glimmer of hope Saturday when she announced only 29 new test-confirmed cases, marking the smallest increase for the number of cases province wide last week.
-
-
 
 **April 2, 2020**
 
