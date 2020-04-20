@@ -30,6 +30,22 @@ All staff are currently working remote. Our main office is open but we are not c
 
 - - -
 
+**April 16**
+
+_COVID-19 Update: Canadian Emergency Wage Subsidy Update and Canada Emergency Commercial Rent Assistance_
+
+The Prime Minister, Justin Trudeau, [today announced new measures](https://pm.gc.ca/en/news/news-releases/2020/04/16/prime-minister-announces-additional-support-small-businesses) to support Canadian businesses so they can keep their doors open and their employees on the job.
+
+The Government of Canada is:
+
+Expanding the Canada Emergency Business Account (CEBA) to businesses that paid between $20,000 and $1.5 million in total payroll in 2019. This new range will replace the previous one of between $50,000 and $1 million, and will help address the challenges faced by small businesses to cover non-deferrable operating costs.
+
+Announcing its intent to introduce the Canada Emergency Commercial Rent Assistance (CECRA) for small businesses. The program will seek to provide loans, including forgivable loans, to commercial property owners who in turn will lower or forgo the rent of small businesses for the months of April (retroactive), May, and June. Implementation of the program will require a partnership between the federal government and provincial and territorial governments, which are responsible for property owner-tenant relationships. We are working with the provinces and territories to increase rent support for businesses that are most impacted by the pandemic and we will have more details to share soon.
+
+The government will continue to monitor and respond to the wide-ranging impacts of COVID-19, and take additional actions as needed to protect the health and safety of Canadians and stabilize the economy.
+
+Hopefully these changes will allow more companies to take advantage of the wage subsidy, and provide for commercial rent deferral.
+
 **April 8**
 
 _COVID-19 Canadian Emergency Wage Subsidy Update_
