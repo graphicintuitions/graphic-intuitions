@@ -7,9 +7,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
+  - name: "articles"
+    label: "Articles"
+    folder: "src/pages/articles"
     create: true
     slug: "{{slug}}"
     delete: true
@@ -108,8 +108,8 @@ collections:
               {label: "Meta Description", name: "description", widget: "text"}
             ]}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/blog/index.md"
-        label: "Blog Index"
+      - file: "src/pages/articles/index.md"
+        label: "Article Index"
         name: "blog-index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-index"}

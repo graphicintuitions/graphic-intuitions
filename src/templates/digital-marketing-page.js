@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, withPrefix, Link } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Layout, { Header } from "../components/Layout";
 import { Col, Container, Row } from "../css/theme";
 import { PageWrapper } from "../components/PageWrapper";
@@ -96,7 +96,7 @@ const DigitalMarketingPage = ({ data }) => {
                   fontWeight: "bold",
                   lineHeight: "140%",
                 }}>For more information on digital marketing tips and strategies,  check out our <Link to={'/blog'}>digital marketing blog</Link>.</span>
-                <img src={"/img/ui-ux-design-icon.svg"} style={{
+                <img src={"/img/ui-ux-design-icon.svg"} alt={'ui ux design'} style={{
                   position: "absolute",
                   right: "20%",
                   bottom: "-30px"

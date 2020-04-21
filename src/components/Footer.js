@@ -47,9 +47,11 @@ const FooterLinks = styled.ul`
   }
 `
 
-export const Footer = () => (
+export const Footer = ({showNewsletter = true}) => (
   <Container>
-    <Newsletter />
+    {showNewsletter && 
+      <Newsletter />
+    }
     <Row center={'xs'}>
       <Col xs={12} sm={4}>
         <SocialIcons className={'list-inline'}>

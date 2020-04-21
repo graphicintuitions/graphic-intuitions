@@ -1,6 +1,7 @@
 /whats-brewin/most-important-web-metrics-to-track/ /blog/the-most-important-web-metrics-to-track/
 /whats-brewin/portfolio-items/* /case-studies/
 /whats-brewin/* /blog/:splat
+/blog/* /articles/:splat
 /our-work/* /case-studies/
 /get-in-touch/ /contact/
 /careers/ /contact/

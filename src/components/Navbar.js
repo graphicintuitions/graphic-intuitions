@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import logo from "../img/gi-logo.svg";
 import styled from "styled-components";
-import { Container, ButtonNav } from "../css/theme";
+import { ButtonNav, Container } from "../css/theme";
 
 const Nav = styled.nav`
   display: flex;
@@ -17,6 +17,9 @@ const Nav = styled.nav`
     transition: all 0.4s;
     overflow: hidden;
     max-height: 500px;
+  }
+  
+  > ul {
     @media (max-width: ${props => props.theme.navCollapse}){
         visibility: hidden;
         max-height: 0;
@@ -30,6 +33,9 @@ const Nav = styled.nav`
           text-align: right;
           width: 100%;
           padding: 10px 0;
+          span{
+            display: none;
+          }
         }
         &.open{
           visibility: visible;
@@ -43,6 +49,24 @@ const NavItem = styled.li`
   margin-right: 50px;
   font-weight: bold;
   margin-bottom: 0;
+  position: relative;
+  cursor: pointer; 
+  
+  &.caret:after{
+      content: "\u25BC";
+      font-size: 10px;
+      margin-left: 5px;
+    }
+    
+  @media (max-width: ${props => props.theme.navCollapse}){
+    &.caret:after{
+      display: none;
+    }
+    &.caret{
+      padding: 0;
+    }
+  }
+  
   a{
     color: ${props => props.theme.textBlack};
     text-decoration: none;
@@ -57,6 +81,56 @@ const NavItem = styled.li`
   
   &.navbar-hamburger{
     display: none;
+  }
+  
+  &:hover > ul{
+    opacity: 1;
+    pointer-events: initial;
+  }
+  
+  & > ul{
+    opacity: 0;
+    pointer-events: none;
+    display: block;
+    position: absolute;
+    top: 25px;
+    background-color: #eaeaea;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 5px 5px #0000001a;
+      
+    li{
+      flex-direction: column;
+      width: 100%;
+      &:hover{
+        background-color: #c9c9c9;
+      }
+      
+      a{
+        display: block;
+        padding: 10px 20px;
+      }
+    }
+    
+    @media (max-width: ${props => props.theme.navCollapse}){
+      opacity: 1;
+      pointer-events: all;
+      box-shadow: none;
+      background-color: transparent;
+      position: relative;
+      top: 0;
+      
+      li{
+        padding: 10px 0;
+        a{
+          padding: 0;
+        }
+        &:hover{
+          background-color: transparent;
+        }
+      }
+    }
   }
 `;
 
@@ -85,29 +159,30 @@ const Hamburger = styled.div`
   @media (max-width: ${props => props.theme.navCollapse}){
       display: inline-block;
   }
-`
+`;
+
 class Navbar extends React.Component {
-  constructor(props){
-    super(props)
-    this.state = {isOpen: false}
+  constructor(props) {
+    super(props);
+    this.state = { isOpen: false };
   }
-  
-  toggleNav(){
-    const {isOpen} = this.state;
-    this.setState({isOpen: !isOpen});
+
+  toggleNav() {
+    const { isOpen } = this.state;
+    this.setState({ isOpen: !isOpen });
   }
-  
-  render(){
-    const {isOpen} = this.state;
+
+  render() {
+    const { isOpen } = this.state;
     return (
-      <Container style={{paddingTop: "45px"}}>
+      <Container style={{ paddingTop: "45px" }}>
         <Nav role="navigation" aria-labelledby="header-logo">
           <div id="header-logo">
             <Link to="/" className="navbar-item" title="Logo">
               <img src={logo} alt="Graphic Intuitions Logo" style={{ width: "120px" }}/>
             </Link>
           </div>
-          <ul className={`${isOpen ? "open" : ""}`}>
+          <ul className={`${isOpen ? "open" : ""}`} style={{ overflow: "visible" }}>
             <NavItem>
               <Link className="navbar-item" to="/case-studies/">
                 Case Studies
@@ -118,10 +193,20 @@ class Navbar extends React.Component {
                 Services
               </Link>
             </NavItem>
-            <NavItem>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
+            <NavItem className={"caret"}>
+              <span>Resources</span>
+              <ul>
+                <NavItem>
+                  <Link className="navbar-item" to="/articles">
+                    Articles
+                  </Link>
+                </NavItem>
+                <NavItem>
+                  <Link className="navbar-item" to="/newsletter">
+                    Newsletter
+                  </Link>
+                </NavItem>
+              </ul>
             </NavItem>
             <NavItem>
               <Link className="navbar-item" to="/about">
@@ -141,10 +226,9 @@ class Navbar extends React.Component {
           </Hamburger>
         </Nav>
       </Container>
-    )
+    );
   }
 }
-  
 
 
 export default Navbar;

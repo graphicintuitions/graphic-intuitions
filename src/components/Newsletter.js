@@ -15,8 +15,8 @@ const StyledNewsletter = styled(Row)`
   }
 `;
 
-const Newsletter = props => (
-  <StyledNewsletter center={"xs"}>
+const Newsletter = ({className}) => (
+  <StyledNewsletter center={"xs"} className={className}>
     <Col xs={12} style={{textAlign: 'center'}}>
       <p style={{marginBottom: "40px"}}><strong>Subscribe to our Newsletter and receive updates on our work and tips that will help you too!</strong>
       </p>

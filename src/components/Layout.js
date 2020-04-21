@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import "normalize.css";
 import styled, { ThemeProvider } from "styled-components";
 import herobgSmall from "../img/hero-bg-small.svg";
-import { Col, Container, GlobalStyle, Row, Site, theme } from "../css/theme";
+import { GlobalStyle, Site, theme } from "../css/theme";
 import '../css/nprogress.css';
 import { Footer } from "./Footer";
 
@@ -20,7 +20,7 @@ export const Header = styled.div`
   position: relative;
 `;
 
-const TemplateWrapper = ({ children, props }) => (
+const TemplateWrapper = ({ children, showNewsletter = true }) => (
   <StaticQuery
     query={graphql`
       query HeadingQuery {
@@ -32,24 +32,27 @@ const TemplateWrapper = ({ children, props }) => (
           }
         }
     `}
-    render={data => (
-      <ThemeProvider theme={theme}>
-        <Site>
-          <GlobalStyle />
-          <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`}>
-            <html lang="en"/>
-          </Helmet>
-          <div style={{backgroundColor: '#FEFCA3', textAlign: "center", padding: "10px 0"}}>
-              <Link to={'/covid19-updates'} style={{color: '#000000'}}>Important COVID-19 UPDATES AND RESOURCES</Link>
-          </div>
-          <Header>
-            <Navbar/>
-          </Header>
-          {children}
-          <Footer />
-        </Site>
-      </ThemeProvider>
-    )}
+    render={data => {
+      
+      return (
+        <ThemeProvider theme={theme}>
+          <Site>
+            <GlobalStyle/>
+            <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`}>
+              <html lang="en"/>
+            </Helmet>
+            <div style={{ backgroundColor: "#FEFCA3", textAlign: "center", padding: "10px 0" }}>
+              <Link to={"/covid19-updates"} style={{ color: "#000000" }}>Important COVID-19 UPDATES AND RESOURCES</Link>
+            </div>
+            <Header>
+              <Navbar/>
+            </Header>
+            {children}
+            <Footer showNewsletter={showNewsletter}/>
+          </Site>
+        </ThemeProvider>
+      );
+    }}
   />
 );
 
