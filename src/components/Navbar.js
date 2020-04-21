@@ -53,10 +53,13 @@ const NavItem = styled.li`
   cursor: pointer; 
   
   &.caret:after{
-      content: "\u25BC";
-      font-size: 10px;
-      margin-left: 5px;
-    }
+    position: absolute;
+    top: 1px;
+    right: -13px;  
+    content: "\u25BC";
+    font-size: 10px;
+    margin-left: 5px;
+  }
     
   @media (max-width: ${props => props.theme.navCollapse}){
     &.caret:after{
