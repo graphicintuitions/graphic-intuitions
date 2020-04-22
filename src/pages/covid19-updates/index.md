@@ -30,6 +30,18 @@ All staff are currently working remote. Our main office is open but we are not c
 
 - - -
 
+**April 21**
+
+_COVID-19 Update: Canadian Emergency Wage Subsidy (CEWS) Update_
+
+Prime Minister Trudeau announced this morning that a calculator has been developed by the Canada Revenue Agency (CRA) to estimate what companies can expect when the CEWS comes into effect. 
+
+The Prime Minister also indicated that applications will be accepted starting Monday, April 27, 2020 at the CRA portal that is being setup. He was, however, unable to give a timeline on availability of the funds for the CEWS. Indications are that the funds will start to flow in a week or two.
+
+We note that the CEWS website has an update as of today and does include a calculator: 
+
+<https://www.canada.ca/en/revenue-agency/services/subsidy/emergency-wage-subsidy.html>
+
 **April 16**
 
 _COVID-19 Update: Canadian Emergency Wage Subsidy Update and Canada Emergency Commercial Rent Assistance_
