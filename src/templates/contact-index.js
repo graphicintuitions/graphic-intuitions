@@ -108,7 +108,7 @@ export const ContactIndexTemplate = ({
             <ul className="list-unstyled">
             <li><strong>Phone:</strong> <a href="tel:2047466177">204-746-6177</a></li>
             <li><strong>Email:</strong> <a href="mailto:info@teamgi.ca">info@teamgi.ca</a></li>
-            <li><strong>Mailing Address:</strong> Box 203 – 125 Charles Street East, Morris, Manitoba R0G 1K0</li>
+            <li><strong>Mailing Address:</strong> Box 203 – 125 Charles Avenue East, Morris, Manitoba R0G 1K0</li>
             </ul>
           </Col>
         </Row>
