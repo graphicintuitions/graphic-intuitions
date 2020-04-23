@@ -5,7 +5,7 @@ meta:
   description: COVID-19 Updates from Graphic Intuitions.
   title: COVID-19 Updates and Resources
 ---
-All staff are currently working remote. Our main office is open but we are not conducting any in person meetings. We can be reached at our office phone number [(204) 746-6177](tel:2047466177), or by email: <mailto:info@teamgi.ca> , or by online Chat.
+All staff are currently working remote. Our main office is open but we are not conducting any in person meetings. We can be reached at our office phone number [(204) 746-6177](tel:2047466177), or by email: [info@teamgi.ca](mailto:info@teamgi.ca) , or by online Chat.
 
 **We will be updating and adding resources daily.**
 
@@ -30,9 +30,26 @@ All staff are currently working remote. Our main office is open but we are not c
 
 - - -
 
+**April 23**
+
+*Confirmation from Canadian Revenue Agency (CRA) officials occurred today with the following dates for the Canadian Emergency Wage Subsidy (CEWS):*
+
+* CRA portal opens for CEWS applications on April 27, 2020 (Monday)
+* CRA will start processing CEWS payments on May 4, 2020 (following Monday)
+* CRA anticipates that once processing starts, companies can anticipate receiving funds within days, if those companies are registered for direct deposit.
+
+It is recommended to go to the CRA portal as soon as possible to get set up, use their calculator to estimate what your company would likely receive and, by Monday, review the Questions and Answers (Q&A) that they are in the process of putting together. The best place to start is:\
+<https://www.canada.ca/en/revenue-agency/services/subsidy/emergency-wage-subsidy.html>
+
+
+
+*Saskatchewan announces five phase reopening starting May 4th*
+
+<https://globalnews.ca/news/6858118/saskatchewan-reopening-coronavirus-scott-moe/>
+
 **April 21**
 
-_COVID-19 Update: Canadian Emergency Wage Subsidy (CEWS) Update_
+*COVID-19 Update: Canadian Emergency Wage Subsidy (CEWS) Update*
 
 Prime Minister Trudeau announced this morning that a calculator has been developed by the Canada Revenue Agency (CRA) to estimate what companies can expect when the CEWS comes into effect. 
 
@@ -44,7 +61,7 @@ We note that the CEWS website has an update as of today and does include a calcu
 
 **April 16**
 
-_COVID-19 Update: Canadian Emergency Wage Subsidy Update and Canada Emergency Commercial Rent Assistance_
+*COVID-19 Update: Canadian Emergency Wage Subsidy Update and Canada Emergency Commercial Rent Assistance*
 
 The Prime Minister, Justin Trudeau, [today announced new measures](https://pm.gc.ca/en/news/news-releases/2020/04/16/prime-minister-announces-additional-support-small-businesses) to support Canadian businesses so they can keep their doors open and their employees on the job.
 
@@ -60,7 +77,7 @@ Hopefully these changes will allow more companies to take advantage of the wage 
 
 **April 8**
 
-_COVID-19 Canadian Emergency Wage Subsidy Update_
+*COVID-19 Canadian Emergency Wage Subsidy Update*
 
 From the Hill Times:
 
@@ -72,11 +89,11 @@ Hopefully these changes will allow more companies to take advantage of the wage 
 
 **April 4, 2020**
 
-_Canada_
+*Canada*
 
 The [online portal to apply for the feds’ Canada Emergency Response Benefit](https://www.canada.ca/en/services/benefits/ei/cerb-application.html) opens today. Since the government has staggered application dates by birth months, those born between January and March are first in line. While the criteria for the CERB stipulates that the beneficiary must be at least 15 years old, [some students may find themselves unable](https://globalnews.ca/news/6769986/students-concerns-cerb-qualifications/?utm_source=Subscriber+-++Hill+Times+Publishing&utm_campaign=8fa1bb0e14-EMAIL_CAMPAIGN_2020_04_06_08_00&utm_medium=email&utm_term=0_8edecd9364-8fa1bb0e14-90758901&mc_cid=8fa1bb0e14&mc_eid=7de9b89685) to qualify if they haven’t earned at least $5,000 in the past 12 months. It also excludes those who have voluntarily quit their jobs.
 
-_Ontario_
+*Ontario*
 
 As a temporary measure the Ontario government has revised the list of essential businesses. The updated list will direct additional businesses to close and restricts specified businesses to providing services by alternate methods such as curb side pick up and delivery, except in exceptional circumstances. This includes stores that sell hardware products, vehicle parts and supplies, pet and animal supplies, office supplies and computer products and repairs and safety supplies.
 
@@ -84,13 +101,13 @@ Only critical construction projects will continue, including industrial projects
 
 The updated essential businesses list can be found [here](https://www.ontario.ca/page/list-essential-workplaces).
 
-_Quebec_
+*Quebec*
 
 The updated essential services list for Quebec is [here, in French](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/), however English list has yet to be updated.
 
 CTEA will continue to monitor and provide pertinent information for our members.
 
-_British Columbia_
+*British Columbia*
 
 B.C.'s provincial health officer offered another glimmer of hope Saturday when she announced only 29 new test-confirmed cases, marking the smallest increase for the number of cases province wide last week.
 
@@ -124,6 +141,7 @@ Official press release [here](https://www.canada.ca/en/department-finance/econom
 
 * Launched [Four Pillars for Virtual Contact Sales and Marketing](https://www.graphicintuitions.com/blog/four-pillars-for-virtual-contact-sales-and-marketing-creating-the-new-normal/) Resource Blog
 * Today Prime Minister Trudeau added some clarity Canada Emergency Wage Subsidy announced last week for businesses in dealing with cash flow during the COVID-19 pandemic:
+
   * Eligible to companies that have seen a 30% or more drop in revenue due to COVID-19, whether the business is operational or not.
   * 75% of first $58,700 of wages, i.e. a maximum $847.00 per week. (Figure appears to be based on ceiling maximum taxable CPP earnings).
   * Not-for-profits, charities and large or small business will be eligible.
