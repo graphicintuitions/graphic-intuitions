@@ -30,6 +30,32 @@ All staff are currently working remote. Our main office is open but we are not c
 
 - - -
 
+**April 27**\
+The Prime Minister, Justin Trudeau, [announced](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fpm.gc.ca%252Fen%252Fnews%252Fnews-releases%252F2020%252F04%252F24%252Fprime-minister-announces-partnerships-provinces-and-territories%2F1%2F01000171bbeb4a93-719a023a-f2e0-47e6-a8fa-42c757678e96-000000%2FV-sZnhynGr1EV_HYFq0Xu7DEzuk%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7Cfb3e48f7c38443d4e94208d7eab28f55%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235924943246394&sdata=jC93pXrkTdDXHK9g9UfaDRSrp7JTn8kG30uVcOzFtY4%3D&reserved=0) on Friday that the federal government has reached an agreement in principle with all provinces and territories to implement the Canada Emergency Commercial Rent Assistance (CECRA) for small businesses. This program will lower rent by 75 per cent for small businesses that have been affected by COVID-19.\
+The government is also providing further details on the program:
+
+* The program will provide forgivable loans to qualifying commercial property owners to cover 50 per cent of three monthly rent payments that are payable by eligible small business tenants who are experiencing financial hardship during April, May, and June.
+* The loans will be forgiven if the mortgaged property owner agrees to reduce the eligible small business tenants’ rent by at least 75 per cent for the three corresponding months under a rent forgiveness agreement, which will include a term not to evict the tenant while the agreement is in place. The small business tenant would cover the remainder, up to 25 per cent of the rent.
+* Impacted small business tenants are businesses paying less than $50,000 per month in rent and who have temporarily ceased operations or have experienced at least a 70 per cent drop in pre-COVID-19 revenues. This support will also be available to non-profit and charitable organizations.
+
+*WHERE TO START:*\
+To get the help you need:
+
+1. *Visit our government’s COVID-19*** [Economic Response Plan website](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canada.ca%252Fen%252Fdepartment-finance%252Feconomic-response-plan.html%2F1%2F01000171bbeb4a93-719a023a-f2e0-47e6-a8fa-42c757678e96-000000%2F7HbJFUZzAb2Cbf1H2B20kJ5aoMA%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7Cfb3e48f7c38443d4e94208d7eab28f55%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235924943256394&sdata=PeTOq%2FUTi9Epmpn6lXmwLy%2BZjJAC8CYqdFSFFk8e3Xg%3D&reserved=0)** for information about supporting your employees and your business. It is constantly updated as the COVID-19 crisis evolves. Remember that there are other programs, such as the 10% Temporary Wage Subsidy and the Emergency Wage Subsidy (applications accepted starting today) that your company may be able to take advantage of the weather the pandemic.
+2. *Contact your local financial institution.*Since we know most small businesses have a relationship with their local financial institution already, we’ve worked with the financial sector to increase their lending capability to support you in in this challenging time. They are a good first place to start for help.
+3. Another useful site that we've discovered is the *Canadian Chamber of Commerce’s* **[pandemic preparedness guide](https://can01.safelinks.protection.outlook.com/?url=http%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttp%3A%252F%252Fwww.chamber.ca%252Fresources%252Fpandemic-preparedness%252F%2F1%2F01000171bbeb4a93-719a023a-f2e0-47e6-a8fa-42c757678e96-000000%2FASBwErw8w2o_rgojLk7AN9cl71E%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7Cfb3e48f7c38443d4e94208d7eab28f55%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235924943256394&sdata=g7OKu8%2BJURF0siZfB1fgMbwv4NeMmDsch%2BxuRKbs%2Bn8%3D&reserved=0)** to help prepare you business in the days and weeks to come.
+
+Today, the Honourable Diane Lebouthillier, Minister of National Revenue, launched [the application process](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canada.ca%252Fen%252Frevenue-agency%252Fservices%252Fsubsidy%252Femergency-wage-subsidy%252Fcews-how-apply.html%2F1%2F01000171bbf3a0c9-0a730db2-7704-42a4-85a1-d2a0f1bdeafe-000000%2F0sJ4nrxJnbJ4B6wLqpvLFO-G854%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C47800595e9724803d85f08d7eab3d4dd%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235930399414763&sdata=p0Z7QHnlq2zYHk9j5qO%2BscI3NUTcqA5ohJpobBQwSMs%3D&reserved=0) for the CEWS. As of today, employers can apply for the CEWS through[My Business Account](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canada.ca%252Fen%252Frevenue-agency%252Fservices%252Fe-services%252Fe-services-businesses%252Fbusiness-account.html%2F1%2F01000171bbf3a0c9-0a730db2-7704-42a4-85a1-d2a0f1bdeafe-000000%2FhXcjmWOauobljuM3Ks_oEp8d_e0%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C47800595e9724803d85f08d7eab3d4dd%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235930399414763&sdata=CwrMQYsYC%2BjOPmeewz9oSB2b74ozRBTi%2FOruv1FYE3w%3D&reserved=0) or through the CRA’s [online application portal](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fapps.cra-arc.gc.ca%252Febci%252Fghnf%252Fnetf%252Fprot%252FntrWgSbsdyStndAln.action%253Frequest_locale%3Den_CA%2F1%2F01000171bbf3a0c9-0a730db2-7704-42a4-85a1-d2a0f1bdeafe-000000%2F1ZljtwpN1kc3M-p4KEAQvOOJEGc%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C47800595e9724803d85f08d7eab3d4dd%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235930399424758&sdata=85sKI%2Ffr0%2F1nU%2Fxj9OcfAVuuhw%2BwkyDWLTs0oeJ%2B9KI%3D&reserved=0), and their representatives can apply through [Represent a Client](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canada.ca%252Fen%252Frevenue-agency%252Fservices%252Fe-services%252Frepresent-a-client.html%2F1%2F01000171bbf3a0c9-0a730db2-7704-42a4-85a1-d2a0f1bdeafe-000000%2FgSA5PuvEWo9I0-xaLpZSqBa53JA%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C47800595e9724803d85f08d7eab3d4dd%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235930399424758&sdata=ijqB1%2BVFu4AXZjNtywM8V%2BuEZjWg8sylDXkK5lLEW28%3D&reserved=0).
+
+\
+All claims that are approved through the CRA’s automated verification process will be sent for payment on May 5, so that payments being made through direct deposit should begin to appear in employers’ accounts as of May 7. Some applications will require a secondary verification, done manually, and in these cases the CRA may contact employers to verify information. It is expected that these secondary verifications will take no more than 72 hours in the vast majority of cases.
+
+\
+The CRA has again partnered with financial institutions to enroll Canadian employers for direct deposit, and employers can now register business payroll accounts for direct deposit with the CRA through their bank portals.
+
+\
+Signing up for direct deposit will enable employers whose applications are approved to receive their CEWS payments quickly and securely. Employers can sign up for direct deposit with their financial institutions even after applying for the CEWS.
+
 **April 23**
 
 *Confirmation from Canadian Revenue Agency (CRA) officials occurred today with the following dates for the Canadian Emergency Wage Subsidy (CEWS):*
@@ -40,8 +66,6 @@ All staff are currently working remote. Our main office is open but we are not c
 
 It is recommended to go to the CRA portal as soon as possible to get set up, use their calculator to estimate what your company would likely receive and, by Monday, review the Questions and Answers (Q&A) that they are in the process of putting together. The best place to start is:\
 <https://www.canada.ca/en/revenue-agency/services/subsidy/emergency-wage-subsidy.html>
-
-
 
 *Saskatchewan announces five phase reopening starting May 4th*
 
