@@ -59,4 +59,4 @@ With HubSpot you get the following free:
 
 We can support you by setting up this free tool with a fast and very affordable implementation, starting at only $500. How much are your customer relationships worth to you?
 
-Start your journey today.
+**[Start your journey today.](https://www.graphicintuitions.com/contact)**
