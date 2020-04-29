@@ -5,10 +5,10 @@ date: 2020-04-28T14:46:26.993Z
 featured_image: /img/certified-hubspot-implementors.jpg
 description: >-
   The transformation to digital for all business processes has been relentlessly
-  marching forward for decades, but now due to COVID-19 like a flip of a switch,
-  the need for all businesses to become seamlessly omnichannel and have all
-  customer processes linked and in a central source of truth online is no longer
-  a nice to have it is a must.
+  marching forward for decades, but now due to COVID-19, like a flip of a
+  switch, the need for all businesses to become seamlessly omnichannel and have
+  all customer processes linked and in a central source of truth online is no
+  longer a nice to have it is a must.
 meta:
   title: Digitize your Business Processes and Create Customer Understanding
   description: >-
@@ -17,7 +17,7 @@ meta:
 tags:
   - HubSpot
 ---
-The transformation to digital for all business processes has been relentlessly marching forward for decades, but now due to COVID-19 like a flip of a switch, the need for all businesses to become seamlessly omnichannel and have all customer processes linked and in a central source of truth online is no longer a nice to have, it is a must.
+The transformation to digital for all business processes has been relentlessly marching forward for decades, but now due to COVID-19, like a flip of a switch, the need for all businesses to become seamlessly omnichannel and have all customer processes linked and in a central source of truth online is no longer a nice to have, it is a must.
 
 The question is how to get there? Where to start? Perhaps you are further along than you think. Consider that:
 
@@ -57,6 +57,6 @@ With HubSpot you get the following free:
 * Meeting Scheduling
 * Plus much more.....
 
-We can support you by setting up this free tool with a fast and very affordable implementation, starting at only $500. How much are your customer relationships worth to you?
+We can support you by setting up this free tool with a fast implementation. How much are your customer relationships worth to you?
 
 **[Start your journey today.](https://www.graphicintuitions.com/contact)**
