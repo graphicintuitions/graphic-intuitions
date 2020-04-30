@@ -30,6 +30,13 @@ All staff are currently working remote. Our main office is open but we are not c
 
 - - -
 
+**April 30: Canada Emergency Commercial Rent Assistance Update**\
+On Friday, the Government of Canada announced additional details on the[Canada Emergency Commercial Rent Assistance](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fpm.gc.ca%252Fen%252Fnews%252Fnews-releases%252F2020%252F04%252F24%252Fprime-minister-announces-partnerships-provinces-and-territories%2F1%2F01000171cb4f1e0f-98d0206a-f519-452f-ba27-4c33b1c7cde4-000000%2F8C0JXmepvs5HBlx7ch8j366-G2g%3D160&data=02%7C01%7Csteve.whittington%40flaman.com%7C990665aed0c84491397e08d7ed0bba9f%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637238506944256757&sdata=mTzRx9WS6AUD1kQ0BtcNbG6vg1WfdGSbMS0Xwmal%2Bbg%3D&reserved=0)(CECRA) for small businesses, which will lower rent by 75 per cent for small businesses that have been most affected by COVID-19.
+
+\
+*Today, more details on the program are now available*** [from CMHC](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.cmhc-schl.gc.ca%252Fen%252FFinance-and-Investing%252Fcovid19-cerca-small-business%2F1%2F01000171cb4f1e0f-98d0206a-f519-452f-ba27-4c33b1c7cde4-000000%2FjyxnZAv7XMLrZ4K0vt3cjouOhV8%3D160&data=02%7C01%7Csteve.whittington%40flaman.com%7C990665aed0c84491397e08d7ed0bba9f%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637238506944256757&sdata=SGhb2ZSoXY474ogCyRtvjMjZH1iz%2Fz0uK9w%2BtX%2Bl6ms%3D&reserved=0)**.\
+CECRA will provide forgivable loans to qualifying commercial property owners to cover 50 per cent of three monthly rent payments that are payable by eligible small business tenants who are experiencing financial hardship during April, May and June. In this way, CECRA will provide relief for small businesses paying less than $50,000 per month in gross rent that have either been forced to close due to the pandemic or have had their revenues severely impacted by at least 70 per cent. Canada Mortgage and Housing Corporation (CMHC) will administer the program on behalf the Government of Canada and our provincial and territorial partners.
+
 **April 29: Planning for Recovery**\
 The tone of announcement from all levels of government definitely changed this week. Although there have been announcement regarding programs to assist students through the summer and there are still lots of unanswered question regarding commercial rent support, the discussion has shifted to recovery and opening the economy, which is currently in an "induced coma".
 
