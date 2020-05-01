@@ -78,7 +78,7 @@ const DigitizingBusinessProcessesPage = ({ data }) => {
               <ImageWithMarkdown
                 style={{ marginBottom: "80px" }}
                 key={"im" + index}
-                isH1={index === 0}
+                isH1={false}
                 imageLeft={index % 2 !== 0}
                 title={item.image_markdown_title}
                 markdown={item.image_markdown_text}
