@@ -5,7 +5,7 @@ meta:
   description: COVID-19 Updates from Graphic Intuitions.
   title: COVID-19 Updates and Resources
 ---
-All staff are currently working remote. Our main office is open but we are not conducting any in person meetings. We can be reached at our office phone number [(204) 746-6177](tel:2047466177), or by email: <mailto:info@teamgi.ca> , or by online Chat.
+All staff are currently working remote. Our main office is open but we are not conducting any in person meetings. We can be reached at our office phone number [(204) 746-6177](tel:2047466177), or by email: [info@teamgi.ca](mailto:info@teamgi.ca) , or by online Chat.
 
 **We will be updating and adding resources daily.**
 
@@ -30,9 +30,83 @@ All staff are currently working remote. Our main office is open but we are not c
 
 - - -
 
+**April 30: Canada Emergency Commercial Rent Assistance Update**\
+On Friday, the Government of Canada announced additional details on the[Canada Emergency Commercial Rent Assistance](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fpm.gc.ca%252Fen%252Fnews%252Fnews-releases%252F2020%252F04%252F24%252Fprime-minister-announces-partnerships-provinces-and-territories%2F1%2F01000171cb4f1e0f-98d0206a-f519-452f-ba27-4c33b1c7cde4-000000%2F8C0JXmepvs5HBlx7ch8j366-G2g%3D160&data=02%7C01%7Csteve.whittington%40flaman.com%7C990665aed0c84491397e08d7ed0bba9f%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637238506944256757&sdata=mTzRx9WS6AUD1kQ0BtcNbG6vg1WfdGSbMS0Xwmal%2Bbg%3D&reserved=0)(CECRA) for small businesses, which will lower rent by 75 per cent for small businesses that have been most affected by COVID-19.
+
+\
+*Today, more details on the program are now available*** [from CMHC](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.cmhc-schl.gc.ca%252Fen%252FFinance-and-Investing%252Fcovid19-cerca-small-business%2F1%2F01000171cb4f1e0f-98d0206a-f519-452f-ba27-4c33b1c7cde4-000000%2FjyxnZAv7XMLrZ4K0vt3cjouOhV8%3D160&data=02%7C01%7Csteve.whittington%40flaman.com%7C990665aed0c84491397e08d7ed0bba9f%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637238506944256757&sdata=SGhb2ZSoXY474ogCyRtvjMjZH1iz%2Fz0uK9w%2BtX%2Bl6ms%3D&reserved=0)**.\
+CECRA will provide forgivable loans to qualifying commercial property owners to cover 50 per cent of three monthly rent payments that are payable by eligible small business tenants who are experiencing financial hardship during April, May and June. In this way, CECRA will provide relief for small businesses paying less than $50,000 per month in gross rent that have either been forced to close due to the pandemic or have had their revenues severely impacted by at least 70 per cent. Canada Mortgage and Housing Corporation (CMHC) will administer the program on behalf the Government of Canada and our provincial and territorial partners.
+
+**April 29: Planning for Recovery**\
+The tone of announcement from all levels of government definitely changed this week. Although there have been announcement regarding programs to assist students through the summer and there are still lots of unanswered question regarding commercial rent support, the discussion has shifted to recovery and opening the economy, which is currently in an "induced coma".
+
+\
+There is debate as to the details and how fast some provinces are moving on reopening the economy, particularly Quebec, however there has been a response from pretty much every province and the federal government to pressures to start at least talking about plans for getting past the pandemic.\
+Links to various responses are listed below:
+
+* **[First Ministers’ statement on shared public health approach to support restarting the economy](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fpm.gc.ca%252Fen%252Fnews%252Fstatements%252F2020%252F04%252F28%252Ffirst-ministers-statement-shared-public-health-approach-support%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2FyzC7V5LM6_VKXlsAWtc6uqUBbPE%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872475936067&sdata=Vean%2BwSlkyZynVaj2XKXTVW75QQHIdhTiU0TpaDDEH4%3D&reserved=0)**
+* **[Reopening Ontario after COVID-19](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.ontario.ca%252Fpage%252Freopening-ontario-after-covid-19%2F2%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2FUPqbF0exwv2aV6DtBXSawI154ec%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872475946061&sdata=AlQGzE4v29bhyZ2vMMlTUdCzZIjwkEJnZJZo%2FG9twF8%3D&reserved=0)**
+* *Quebec:* **[Pandémie de la COVID-19 - Réouverture graduelle des écoles et des services de garde : le mot d'ordre sera la prudence](https://can01.safelinks.protection.outlook.com/?url=http%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttp%3A%252F%252Fwww.fil-information.gouv.qc.ca%252FPages%252FArticle.aspx%253Flang%3Den%2526idArticle%3D2804270505%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2FdrjMt6jscRd0lr8cReSfdbh23qo%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872475956054&sdata=q9EcF5IAu79dZPyGKOpWUOD0NeY9sPhcWIu5bUktWZc%3D&reserved=0)**
+* **[Manitoba premier announces plan to reopen the province beginning next week](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwinnipeg.ctvnews.ca%252Fmanitoba-premier-announces-plan-to-reopen-the-province-beginning-next-week-1.4916749%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2FXNg70NY8d0onkw-QOgaRSIwM7Gc%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872475966049&sdata=izyokE%2BQ9OqM3rFsvM0s10o5hyFl%2BarXxrJLeYKsOSA%3D&reserved=0)**
+* **[Coronavirus: A closer look at Alberta’s relaunch strategy](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fglobalnews.ca%252Fnews%252F6796199%252Falberta-covid-19-coronavirus-relaunch-strategy%252F%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2FULaWc63H6jUCxe4u73eACTsYsVA%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872475966049&sdata=O9sYWZ1S55uOkWQ2fe83i32jLqhJUhzd2Xi%2F2ng9QKM%3D&reserved=0)**
+* **[’Rebooting B.C.’ means carefully reopening business](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.abbynews.com%252Fnews%252Fcovid-19-rebooting-b-c-means-carefully-reopening-business%252F%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2FOLlCr4-WU1VKCL9RA_jew6umdVw%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872475976044&sdata=6WtvEgvrrUm4kVDn%2FYhTFG3oSyfy1RjkjxZCUuG8Ilo%3D&reserved=0)**
+* **[Province Announces Re-Open Saskatchewan Plan](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.saskatchewan.ca%252Fgovernment%252Fnews-and-media%252F2020%252Fapril%252F23%252Freopen-saskatchewan-plan%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2F1-dWukaKre0bSonXetsjl9w1ceQ%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872475976044&sdata=RBKxADF3SNaY0oztgQqWqcahIfNxWDPUbPnlnR8UvtQ%3D&reserved=0)**
+* *New Brunswick:* **[No new cases of COVID-19; helping businesses with reopening planning](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww2.gnb.ca%252Fcontent%252Fgnb%252Fen%252Fnews%252Fnews_release.2020.04.0237.html%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2Fe8XU8CzPFmluLyw65UtDzh1Y1Hc%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872475986039&sdata=CclTbdGhS%2Bk%2B0jSe8A%2FUwgdAWpLvUWdQhxXSbXbNwTo%3D&reserved=0)**
+* **[Renew PEI Together](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.princeedwardisland.ca%252Fen%252Ftopic%252Frenew-pei-together%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2FCmbTEhzo6ZuhxpSNdvhkz1YOP1o%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872475986039&sdata=54muKukMMLIhITUWct2%2BU7IFIuUDg5YMLidFAZuGCfA%3D&reserved=0)**
+* **[Premier says reopening plan coming Thursday, as N.L. reports zero new COVID-19 cases](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.cbc.ca%252Fnews%252Fcanada%252Fnewfoundland-labrador%252Fnewfoundland-labrador-covid19-update-april-29-1.5548818%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2F41msdkElvdEGfKVhHXbtjt5nvhc%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872475996033&sdata=5W2scd%2FiPBe53PZX2tgtR78Ms1c%2F46TmJxtxn4koPhA%3D&reserved=0)**
+* **[Yukon officials eye plan to reopen, but won't set a date yet](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.cbc.ca%252Fnews%252Fcanada%252Fnorth%252Fyukon-covid-update-april28-1.5548175%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2Fqfd9Qz6ULh1jyk1cKb73FTQmtXY%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872476006034&sdata=LAjhTAdmgXHEudQNOZ59B65dxISPtq%2B5WFdyQBUFOvg%3D&reserved=0)**
+* Nothing new from either Nova Scotia or Nunavut.
+
+Meanwhile the Canadian Business Resilience Network has provided the following from the Canadian Chamber of Commerce:\
+**[CANADIAN CHAMBER IDENTIFIES FIVE KEYS TO REOPENING THE ECONOMY](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canadianbusinessresiliencenetwork.ca%252Fnews-and-insights%252F2020%252F04%252F28%252Fcanadian-chamber-identifies-five-keys-to-reopening-the-economy%252F%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2FLjDlqzlsRHXJwPx6MWJ1QWnuUho%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872476006034&sdata=duyNJAx7%2BWQN6wSyEeECEzJYzD2%2F8vtoMafDjqhH7qQ%3D&reserved=0)**
+
+\
+On a slightly different note, Canada Life has developed a website to help with business and individuals cope with mental illness during and after the pandemic: **[Introducing the new Workplace Strategies for Mental Health](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canadalife.com%252Fabout-us%252Fnews-highlights%252Fnews%252Fintroducing-the-new-workplace-strategies-for-mental-health.html%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2Fg5MP2s10f1MoLkusyFPd92wyzXA%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872476016024&sdata=Tf%2BfGJT2GF0HEIDFkmp0T%2FE7hwScHFgJ%2BR%2F%2B%2FrvZNsE%3D&reserved=0)**
+
+**April 27**\
+The Prime Minister, Justin Trudeau, [announced](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fpm.gc.ca%252Fen%252Fnews%252Fnews-releases%252F2020%252F04%252F24%252Fprime-minister-announces-partnerships-provinces-and-territories%2F1%2F01000171bbeb4a93-719a023a-f2e0-47e6-a8fa-42c757678e96-000000%2FV-sZnhynGr1EV_HYFq0Xu7DEzuk%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7Cfb3e48f7c38443d4e94208d7eab28f55%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235924943246394&sdata=jC93pXrkTdDXHK9g9UfaDRSrp7JTn8kG30uVcOzFtY4%3D&reserved=0) on Friday that the federal government has reached an agreement in principle with all provinces and territories to implement the Canada Emergency Commercial Rent Assistance (CECRA) for small businesses. This program will lower rent by 75 per cent for small businesses that have been affected by COVID-19.\
+The government is also providing further details on the program:
+
+* The program will provide forgivable loans to qualifying commercial property owners to cover 50 per cent of three monthly rent payments that are payable by eligible small business tenants who are experiencing financial hardship during April, May, and June.
+* The loans will be forgiven if the mortgaged property owner agrees to reduce the eligible small business tenants’ rent by at least 75 per cent for the three corresponding months under a rent forgiveness agreement, which will include a term not to evict the tenant while the agreement is in place. The small business tenant would cover the remainder, up to 25 per cent of the rent.
+* Impacted small business tenants are businesses paying less than $50,000 per month in rent and who have temporarily ceased operations or have experienced at least a 70 per cent drop in pre-COVID-19 revenues. This support will also be available to non-profit and charitable organizations.
+
+*WHERE TO START:*\
+To get the help you need:
+
+1. \*Visit our government’s COVID-19**\* [Economic Response Plan website](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canada.ca%252Fen%252Fdepartment-finance%252Feconomic-response-plan.html%2F1%2F01000171bbeb4a93-719a023a-f2e0-47e6-a8fa-42c757678e96-000000%2F7HbJFUZzAb2Cbf1H2B20kJ5aoMA%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7Cfb3e48f7c38443d4e94208d7eab28f55%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235924943256394&sdata=PeTOq%2FUTi9Epmpn6lXmwLy%2BZjJAC8CYqdFSFFk8e3Xg%3D&reserved=0)** for information about supporting your employees and your business. It is constantly updated as the COVID-19 crisis evolves. Remember that there are other programs, such as the 10% Temporary Wage Subsidy and the Emergency Wage Subsidy (applications accepted starting today) that your company may be able to take advantage of the weather the pandemic.
+2. *Contact your local financial institution.*Since we know most small businesses have a relationship with their local financial institution already, we’ve worked with the financial sector to increase their lending capability to support you in in this challenging time. They are a good first place to start for help.
+3. Another useful site that we've discovered is the *Canadian Chamber of Commerce’s* **[pandemic preparedness guide](https://can01.safelinks.protection.outlook.com/?url=http%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttp%3A%252F%252Fwww.chamber.ca%252Fresources%252Fpandemic-preparedness%252F%2F1%2F01000171bbeb4a93-719a023a-f2e0-47e6-a8fa-42c757678e96-000000%2FASBwErw8w2o_rgojLk7AN9cl71E%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7Cfb3e48f7c38443d4e94208d7eab28f55%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235924943256394&sdata=g7OKu8%2BJURF0siZfB1fgMbwv4NeMmDsch%2BxuRKbs%2Bn8%3D&reserved=0)** to help prepare you business in the days and weeks to come.
+
+Today, the Honourable Diane Lebouthillier, Minister of National Revenue, launched [the application process](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canada.ca%252Fen%252Frevenue-agency%252Fservices%252Fsubsidy%252Femergency-wage-subsidy%252Fcews-how-apply.html%2F1%2F01000171bbf3a0c9-0a730db2-7704-42a4-85a1-d2a0f1bdeafe-000000%2F0sJ4nrxJnbJ4B6wLqpvLFO-G854%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C47800595e9724803d85f08d7eab3d4dd%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235930399414763&sdata=p0Z7QHnlq2zYHk9j5qO%2BscI3NUTcqA5ohJpobBQwSMs%3D&reserved=0) for the CEWS. As of today, employers can apply for the CEWS through[My Business Account](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canada.ca%252Fen%252Frevenue-agency%252Fservices%252Fe-services%252Fe-services-businesses%252Fbusiness-account.html%2F1%2F01000171bbf3a0c9-0a730db2-7704-42a4-85a1-d2a0f1bdeafe-000000%2FhXcjmWOauobljuM3Ks_oEp8d_e0%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C47800595e9724803d85f08d7eab3d4dd%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235930399414763&sdata=CwrMQYsYC%2BjOPmeewz9oSB2b74ozRBTi%2FOruv1FYE3w%3D&reserved=0) or through the CRA’s [online application portal](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fapps.cra-arc.gc.ca%252Febci%252Fghnf%252Fnetf%252Fprot%252FntrWgSbsdyStndAln.action%253Frequest_locale%3Den_CA%2F1%2F01000171bbf3a0c9-0a730db2-7704-42a4-85a1-d2a0f1bdeafe-000000%2F1ZljtwpN1kc3M-p4KEAQvOOJEGc%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C47800595e9724803d85f08d7eab3d4dd%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235930399424758&sdata=85sKI%2Ffr0%2F1nU%2Fxj9OcfAVuuhw%2BwkyDWLTs0oeJ%2B9KI%3D&reserved=0), and their representatives can apply through [Represent a Client](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canada.ca%252Fen%252Frevenue-agency%252Fservices%252Fe-services%252Frepresent-a-client.html%2F1%2F01000171bbf3a0c9-0a730db2-7704-42a4-85a1-d2a0f1bdeafe-000000%2FgSA5PuvEWo9I0-xaLpZSqBa53JA%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C47800595e9724803d85f08d7eab3d4dd%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235930399424758&sdata=ijqB1%2BVFu4AXZjNtywM8V%2BuEZjWg8sylDXkK5lLEW28%3D&reserved=0).
+
+\
+All claims that are approved through the CRA’s automated verification process will be sent for payment on May 5, so that payments being made through direct deposit should begin to appear in employers’ accounts as of May 7. Some applications will require a secondary verification, done manually, and in these cases the CRA may contact employers to verify information. It is expected that these secondary verifications will take no more than 72 hours in the vast majority of cases.
+
+\
+The CRA has again partnered with financial institutions to enroll Canadian employers for direct deposit, and employers can now register business payroll accounts for direct deposit with the CRA through their bank portals.
+
+\
+Signing up for direct deposit will enable employers whose applications are approved to receive their CEWS payments quickly and securely. Employers can sign up for direct deposit with their financial institutions even after applying for the CEWS.
+
+**April 23**
+
+*Confirmation from Canadian Revenue Agency (CRA) officials occurred today with the following dates for the Canadian Emergency Wage Subsidy (CEWS):*
+
+* CRA portal opens for CEWS applications on April 27, 2020 (Monday)
+* CRA will start processing CEWS payments on May 4, 2020 (following Monday)
+* CRA anticipates that once processing starts, companies can anticipate receiving funds within days, if those companies are registered for direct deposit.
+
+It is recommended to go to the CRA portal as soon as possible to get set up, use their calculator to estimate what your company would likely receive and, by Monday, review the Questions and Answers (Q&A) that they are in the process of putting together. The best place to start is:\
+<https://www.canada.ca/en/revenue-agency/services/subsidy/emergency-wage-subsidy.html>
+
+*Saskatchewan announces five phase reopening starting May 4th*
+
+<https://globalnews.ca/news/6858118/saskatchewan-reopening-coronavirus-scott-moe/>
+
 **April 21**
 
-_COVID-19 Update: Canadian Emergency Wage Subsidy (CEWS) Update_
+*COVID-19 Update: Canadian Emergency Wage Subsidy (CEWS) Update*
 
 Prime Minister Trudeau announced this morning that a calculator has been developed by the Canada Revenue Agency (CRA) to estimate what companies can expect when the CEWS comes into effect. 
 
@@ -44,7 +118,7 @@ We note that the CEWS website has an update as of today and does include a calcu
 
 **April 16**
 
-_COVID-19 Update: Canadian Emergency Wage Subsidy Update and Canada Emergency Commercial Rent Assistance_
+*COVID-19 Update: Canadian Emergency Wage Subsidy Update and Canada Emergency Commercial Rent Assistance*
 
 The Prime Minister, Justin Trudeau, [today announced new measures](https://pm.gc.ca/en/news/news-releases/2020/04/16/prime-minister-announces-additional-support-small-businesses) to support Canadian businesses so they can keep their doors open and their employees on the job.
 
@@ -60,7 +134,7 @@ Hopefully these changes will allow more companies to take advantage of the wage 
 
 **April 8**
 
-_COVID-19 Canadian Emergency Wage Subsidy Update_
+*COVID-19 Canadian Emergency Wage Subsidy Update*
 
 From the Hill Times:
 
@@ -72,11 +146,11 @@ Hopefully these changes will allow more companies to take advantage of the wage 
 
 **April 4, 2020**
 
-_Canada_
+*Canada*
 
 The [online portal to apply for the feds’ Canada Emergency Response Benefit](https://www.canada.ca/en/services/benefits/ei/cerb-application.html) opens today. Since the government has staggered application dates by birth months, those born between January and March are first in line. While the criteria for the CERB stipulates that the beneficiary must be at least 15 years old, [some students may find themselves unable](https://globalnews.ca/news/6769986/students-concerns-cerb-qualifications/?utm_source=Subscriber+-++Hill+Times+Publishing&utm_campaign=8fa1bb0e14-EMAIL_CAMPAIGN_2020_04_06_08_00&utm_medium=email&utm_term=0_8edecd9364-8fa1bb0e14-90758901&mc_cid=8fa1bb0e14&mc_eid=7de9b89685) to qualify if they haven’t earned at least $5,000 in the past 12 months. It also excludes those who have voluntarily quit their jobs.
 
-_Ontario_
+*Ontario*
 
 As a temporary measure the Ontario government has revised the list of essential businesses. The updated list will direct additional businesses to close and restricts specified businesses to providing services by alternate methods such as curb side pick up and delivery, except in exceptional circumstances. This includes stores that sell hardware products, vehicle parts and supplies, pet and animal supplies, office supplies and computer products and repairs and safety supplies.
 
@@ -84,13 +158,13 @@ Only critical construction projects will continue, including industrial projects
 
 The updated essential businesses list can be found [here](https://www.ontario.ca/page/list-essential-workplaces).
 
-_Quebec_
+*Quebec*
 
 The updated essential services list for Quebec is [here, in French](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/), however English list has yet to be updated.
 
 CTEA will continue to monitor and provide pertinent information for our members.
 
-_British Columbia_
+*British Columbia*
 
 B.C.'s provincial health officer offered another glimmer of hope Saturday when she announced only 29 new test-confirmed cases, marking the smallest increase for the number of cases province wide last week.
 
@@ -124,6 +198,7 @@ Official press release [here](https://www.canada.ca/en/department-finance/econom
 
 * Launched [Four Pillars for Virtual Contact Sales and Marketing](https://www.graphicintuitions.com/blog/four-pillars-for-virtual-contact-sales-and-marketing-creating-the-new-normal/) Resource Blog
 * Today Prime Minister Trudeau added some clarity Canada Emergency Wage Subsidy announced last week for businesses in dealing with cash flow during the COVID-19 pandemic:
+
   * Eligible to companies that have seen a 30% or more drop in revenue due to COVID-19, whether the business is operational or not.
   * 75% of first $58,700 of wages, i.e. a maximum $847.00 per week. (Figure appears to be based on ceiling maximum taxable CPP earnings).
   * Not-for-profits, charities and large or small business will be eligible.
