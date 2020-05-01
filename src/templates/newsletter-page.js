@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Layout from "../components/Layout";
 import { Col, Container, Row } from "../css/theme";
 import { graphql } from "gatsby";
-import Content, { HTMLContent } from "../components/Content";
+import { HTMLContent } from "../components/Content";
 import { PageWrapper } from "../components/PageWrapper";
 import { Helmet } from "react-helmet";
 import Newsletter from "../components/Newsletter";
@@ -19,14 +19,12 @@ export const NewsletterIndexTemplate = ({
                                        contentComponent,
                                        title
                                      }) => {
-  const PostContent = contentComponent || Content;
 
   return (
 
     <Row>
       <Col xs={12} sm={8} smOffset={2}>
         <h1>{title}</h1>
-        {/*<PostContent content={content}/>*/}
       </Col>
       <Container>
         <StyledNewsletter />

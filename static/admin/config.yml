@@ -180,3 +180,24 @@ collections:
              {label: "Image", name: "image_markdown_image", widget: "image"},
              ]
           }
+      - file: "src/pages/digitizing-business-processes/index.md"
+          label: "Digital Marketing"
+          name: "digitizing-business-processes"
+          fields:
+            - {label: "SEO", name: "meta",  widget: "object", fields: [
+            {label: "Meta Title", name: "title", widget: "string"},
+            {label: "Meta Description", name: "description", widget: "text"}
+            ]}
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "digitizing-business-processes-page"}
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Body", name: "body", widget: "markdown"}
+            - {label: "Image and Text",
+               name: "image_markdown",
+               widget: "list",
+               required: false,
+               fields: [
+               {label: "Title", name: "image_markdown_title", widget: "string"},
+               {label: "Text", name: "image_markdown_text", widget: "text"},
+               {label: "Image", name: "image_markdown_image", widget: "image"},
+               ]
+            }

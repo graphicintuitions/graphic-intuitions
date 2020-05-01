@@ -184,7 +184,6 @@ const DigitalMarketingPage = ({ data }) => {
             </StyledRow>
           </Row>
 
-
           <Row center={"xs"} style={{ marginBottom: "100px", marginTop: 120 }}>
             <Col xs={12} sm={8} md={6}>
               <Testimonials>
