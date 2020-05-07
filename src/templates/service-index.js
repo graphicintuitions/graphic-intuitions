@@ -50,22 +50,25 @@ export const ServiceIndexTemplate = ({
 
       <Row>
         {services.filter(({ node: service }) => service.frontmatter.featured)
-          .map(({ node: service }) => (
-            <Col key={service.id} xs={12} sm={6} style={{ display: "flex", flexDirection: "column" }}>
-              <Card>
-                {service.frontmatter.icon &&
-                <div className={"icon"}>
-                  <img src={withPrefix("/img/" + service.frontmatter.icon.relativePath)} alt={service.frontmatter.title}/>
-                </div>
-                }
-                <h2>{service.frontmatter.title}</h2>
-                <p>{service.frontmatter.description}</p>
-                {!!service.frontmatter.link_to && 
-                <Button to={service.frontmatter.link_to}>Learn More</Button>
-                }
-              </Card>
-            </Col>
-          ))}
+          .map(({ node: service }) => {
+            console.log(service.frontmatter)
+            return (
+              <Col key={service.id} xs={12} sm={6} style={{ display: "flex", flexDirection: "column" }}>
+                <Card>
+                  {service.frontmatter.icon &&
+                  <div className={"icon"}>
+                    <img src={withPrefix("/img/" + service.frontmatter.icon.relativePath)} alt={service.frontmatter.title}/>
+                  </div>
+                  }
+                  <h2>{service.frontmatter.title}</h2>
+                  <p>{service.frontmatter.description}</p>
+                  {!!service.frontmatter.link_to &&
+                  <Button to={service.frontmatter.link_to}>Learn More</Button>
+                  }
+                </Card>
+              </Col>
+            );
+          })}
       </Row>
 
       <Row>

@@ -11,7 +11,7 @@ link_to: services/digitizing-business-processes
 description: >-
   Hubspot is an overall customer experience software that digitizes your business processes by combining all your digital marketing tools, sales processes and service in one place. It will help you find, gain, and keep your customers. Through a complete Hubspot implementation which utilizes inbound marketing tactics and the marketing automation software, your customers will be able to find you. The Customer Relationship Management (CRM) portion of the software will help you gain these customers and the service hub will help you keep your customers. Along the way we will map your business processes and create applications to digitalize your business and all customer interactions.
 featured: true
-icon: /img/custom-applications.svg
+icon: /img/digitizing-processes-icon.svg
 image_markdown:
   - image_markdown_text: >-
       The world is digital, and your business needs to be too. Keeping offline
@@ -131,4 +131,3 @@ image_markdown:
     image_markdown_title: Optimize Your Contact Management Systems
     image_markdown_image: /img/crm-graphics-4.jpg
 ---
-.

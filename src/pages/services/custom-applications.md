@@ -1,7 +1,7 @@
 ---
 templateKey: services-post
 title: Custom Applications
-date: 2019-01-01T15:04:10.000Z
+date: 2018-01-01T15:04:10.000Z
 link_to:
 description: >-
   Content Management Systems, Widgets, Plugins, Ecommerce Solutions, Custom Development… you name it, chances are we can build it. Before the custom development begins, we work with you to ensure that the software developed is going to suit the needs of your business now, and in the future, and make recommendations that we believe would benefit your business. We strive to create a great user experience in our developments and provide ongoing support if needed.
