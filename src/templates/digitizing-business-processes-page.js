@@ -90,7 +90,7 @@ const DigitizingBusinessProcessesPage = ({ data }) => {
           <Row style={{ marginBottom: "80px" }}>
             <Col sm={12} md={8} mdOffset={2}>
               <h2>Why GI?</h2>
-              <p>In order to create and nurture your customer relationships, we need to learn the ins and outs of your business and your clientele. We don't just look at one aspect of your business. As a full service online marketing company, we look at your business as a whole; from the sales process to the customer service. By completing a discovery session, we can determine the digital marketing services and strategies that will benefit your business and put your business in front of the customers you want.</p>
+              <p>In order to create and nurture your customer relationships, we need to learn the ins and outs of your business and your clientele. We don't just look at one aspect of your business. As a full service online marketing company, we look at your business as a whole; from the sales process to the customer service.</p>
               <a id={"contact"}></a>
               <StyledForm style={{marginTop: 0}}>
                 <HubspotForm
