@@ -38,7 +38,7 @@ image_markdown:
       Establishing digital business process management has a direct impact on
       customer experience and your business performance. We can help you
       optimize with minimal effort, professional, **simple step by step
-      implementation of Hubspot software**.
+      implementation of HubSpot software**.
     image_markdown_title: Save Time & Improve Customer Relationships
     image_markdown_image: /img/crm-graphics-3.jpg
   - image_markdown_text: >-
@@ -80,8 +80,8 @@ image_markdown:
       rep.
 
 
-      The Hubspot Free Starter offers all this you just need to set it up and we
-      will make it easy.
+      **The HubSpot Free Starter offers all this, you just need to set it up and
+      we will make it easy.**
     image_markdown_title: Create a Single Source of Truth
     image_markdown_image: /img/crm-graphics-1.jpg
   - image_markdown_text: |-
@@ -101,7 +101,7 @@ image_markdown:
       - Gmail and Outlook integrations
       - Meeting Scheduling
       - Plus much more.....
-    image_markdown_title: Start This Journey with Hubspot Software
+    image_markdown_title: Start This Journey with HubSpot Software
     image_markdown_image: /img/digital-marketing-calendar.svg
   - image_markdown_text: >-
       How much is your customer experience worth? The key to creating a better
@@ -117,8 +117,8 @@ image_markdown:
 
 
       All this can be captured in one place. Your customer data , digital
-      marketing and sales processes do not need to be complex. We will make it
-      easy and bring it all together for you.
+      marketing and sales processes do not need to be complex. **We will make it
+      easy and bring it all together for you.**
 
 
       Contact us for an implementation quote.
