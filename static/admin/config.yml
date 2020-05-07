@@ -197,7 +197,7 @@ collections:
              required: false,
              fields: [
              {label: "Title", name: "image_markdown_title", widget: "string"},
-             {label: "Text", name: "image_markdown_text", widget: "text"},
+             {label: "Text", name: "image_markdown_text", widget: "markdown"},
              {label: "Image", name: "image_markdown_image", widget: "image"},
              ]
           }
