@@ -27,7 +27,6 @@ const Newsletter = ({className}) => (
           portalId='5265201'
           formId='1e9f86e2-b88b-42f3-85a2-9138f55dd448'
           onSubmit={() => console.log("Submit!")}
-          onReady={(form) => console.log("Form ready!")}
           loading={<div>Loading...</div>}
         />
       </StyledForm>

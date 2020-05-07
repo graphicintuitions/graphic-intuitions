@@ -131,7 +131,7 @@ export const pageQuery = graphql`
         },
         services: allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] },
-            filter: { frontmatter: { templateKey: { eq: "services-post" } }}
+            filter: { frontmatter: { templateKey: { in: ["services-post", "digitizing-business-processes-page"] } }}
         ) {
             edges {
                 node {

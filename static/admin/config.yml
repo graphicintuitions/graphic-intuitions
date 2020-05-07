@@ -190,6 +190,10 @@ collections:
           ]}
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "digitizing-business-processes-page"}
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Featured", name: "featured", widget: "boolean"}
+          - {label: "Link", name: "link_to", widget: "text"}
+          - {label: "Short Description", name: "description", widget: "text"}
+          - {label: "Icon", name: "icon", widget: "image"}
           - {label: "Image and Text",
              name: "image_markdown",
              widget: "list",

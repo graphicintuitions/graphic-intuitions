@@ -35,6 +35,6 @@ export const PageHeaderTextImage = ({image, children, title, alt}) => (
 PageHeaderTextImage.propTypes = {
   title: PropTypes.string,
   alt: PropTypes.string,
-  image: PropTypes.object,
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   children: PropTypes.node,
 }
