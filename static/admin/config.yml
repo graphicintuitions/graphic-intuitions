@@ -181,7 +181,7 @@ collections:
              ]
           }
       - file: "src/pages/digitizing-business-processes/index.md"
-        label: "Digital Marketing"
+        label: "Digitizing Business Process"
         name: "digitizing-business-processes"
         fields:
           - {label: "SEO", name: "meta",  widget: "object", fields: [
