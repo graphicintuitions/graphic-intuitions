@@ -61,26 +61,27 @@ image_markdown:
     image_markdown_title: Improve Your ROI and Productivity
     image_markdown_image: /img/crm-graphics-2.jpg
   - image_markdown_text: >-
-
       Imagine having all this data about your customers in one place,
 
-      - every email sent,
 
-      - every attachment clicked on,
+      * every email sent,
 
-      - the ability to call from an app on your phone or your desktop and log
+      * every attachment clicked on,
+
+      * the ability to call from an app on your phone or your desktop and log
       and record every call (if you so choose).
 
-      - Notifications when emails are looked at,
+      * Notifications when emails are looked at,
 
-      - what webpages the customer has viewed.
+      * what webpages the customer has viewed.
 
-      - Plus when a lead from your website comes in, automatically a contact is
+      * Plus when a lead from your website comes in, automatically a contact is
       created for you to reach out and connect to or assign to the appropriate
       rep.
 
 
-      All this for free you just need to set it up.
+      The Hubspot Free Starter offers all this you just need to set it up and we
+      will make it easy.
     image_markdown_title: Create a Single Source of Truth
     image_markdown_image: /img/crm-graphics-1.jpg
   - image_markdown_text: |-
@@ -100,7 +101,7 @@ image_markdown:
       - Gmail and Outlook integrations
       - Meeting Scheduling
       - Plus much more.....
-    image_markdown_title: Start This Journey with a Free Software
+    image_markdown_title: Start This Journey with Hubspot Software
     image_markdown_image: /img/digital-marketing-calendar.svg
   - image_markdown_text: >-
       How much is your customer experience worth? The key to creating a better
@@ -115,10 +116,12 @@ image_markdown:
       to organize and manage.
 
 
-      All this can be captured in one place.
+      All this can be captured in one place. Your customer data , digital
+      marketing and sales processes do not need to be complex. We will make it
+      easy and bring it all together for you.
 
 
-      Contact us for an implementation quote
+      Contact us for an implementation quote.
     image_markdown_title: Optimize Your Contact Management Systems
     image_markdown_image: /img/crm-graphics-4.jpg
 ---
