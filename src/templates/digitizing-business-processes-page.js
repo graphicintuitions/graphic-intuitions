@@ -17,7 +17,7 @@ const DigitizingBusinessProcessesPage = ({ data }) => {
   const metaDesc = description ? description : post.excerpt;
 
   return (
-    <Layout>
+    <Layout showNewsletter={false}>
       <Container>
         <PageWrapper
           helmet={
