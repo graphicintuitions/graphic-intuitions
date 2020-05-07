@@ -190,7 +190,6 @@ collections:
           ]}
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "digitizing-business-processes-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Image and Text",
              name: "image_markdown",
              widget: "list",
