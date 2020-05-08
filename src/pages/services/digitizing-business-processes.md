@@ -6,11 +6,19 @@ meta:
     records and multiple data sources creates room for error and data loss
 templateKey: digitizing-business-processes-page
 title: Digitizing your Business Processes
-date: 2020-12-22T15:04:10.000Z
-link_to: services/digitizing-business-processes
-description: >-
-  Hubspot is an overall customer experience software that digitizes your business processes by combining all your digital marketing tools, sales processes and service in one place. It will help you find, gain, and keep your customers. Through a complete Hubspot implementation which utilizes inbound marketing tactics and the marketing automation software, your customers will be able to find you. The Customer Relationship Management (CRM) portion of the software will help you gain these customers and the service hub will help you keep your customers. Along the way we will map your business processes and create applications to digitalize your business and all customer interactions.
 featured: true
+link_to: services/digitizing-business-processes
+date: 2020-12-22T15:04:10.000Z
+description: >-
+  Hubspot is an overall customer experience software that digitizes your
+  business processes by combining all your digital marketing tools, sales
+  processes and service in one place. It will help you find, gain, and keep your
+  customers. Through a complete Hubspot implementation which utilizes inbound
+  marketing tactics and the marketing automation software, your customers will
+  be able to find you. The Customer Relationship Management (CRM) portion of the
+  software will help you gain these customers and the service hub will help you
+  keep your customers. Along the way we will map your business processes and
+  create applications to digitalize your business and all customer interactions.
 icon: /img/digitizing-processes-icon.svg
 image_markdown:
   - image_markdown_text: >-
@@ -18,7 +26,7 @@ image_markdown:
       records and multiple data sources creates room for error and data loss.
       From a crashed computer, to internal miscommunication on a client account.
       Creating a central source of truth allows multiple staff to access
-      valuable information in real-time, as they needed. No more fumbling on the
+      valuable information in real-time, as needed. No more fumbling on the
       phone with a customer finding the answer they need, or endless internal
       emails determining where information is located.
     image_markdown_title: Digitizing your Business Processes
