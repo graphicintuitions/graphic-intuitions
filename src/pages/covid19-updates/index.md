@@ -30,7 +30,7 @@ All staff are currently working remote. Our main office is open but we are not c
 
 - - -
 
-**May 13: Objective Opinion from Business Development Bank**
+**May 13: Objective Opinion from Business Development Bank of Canada**
 
 What’s the situation in Canada? Various governments have begun to announce their plans to ease containment measures. This list is as of May 8 2020.
 
