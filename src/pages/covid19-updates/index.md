@@ -40,23 +40,23 @@ In Alberta, activity related to agriculture and the oil and gas industry never c
 
 In Ontario, the province proposed to restart the economy in three phases, two to four weeks apart. In each phase, more and more sectors will be able to resume operations. However, the initiation of the next stage will require a reduction in the spread of the disease and the province is not ruling out retightening measures, if necessary. The economic sectors affected by this roadmap will be identified in the near future. Ontario schools could reopen in early June.
 
-In Quebec, residential construction and mining activity resumed in April. Retailers with outdoor access reopened on May 4 (May 25 forhard-hitgreater Montreal). Some manufacturing companies (by number of employees) and all construction businesses resumed operations on May 11. Various suppliers to these sectors were also able to return to work.
+In Quebec, residential construction and mining activity resumed in April. Retailers with outdoor access reopened on May 4 (May 25 for hard-hit greater Montreal). Some manufacturing companies (by number of employees) and all construction businesses resumed operations on May 11. Various suppliers to these sectors were also able to return to work.
 
 Elementary schools and daycare centres in Quebec were reopened on May 11 (May 25 in greater Montreal, if the situation permits). However, parents were free to decide whether to send their children to school. High schools, colleges and universities will remain closed until September.
 
-In Nova Scotia, construction activity continued this spring, butnon-essentialservices remain closed. Some outdoor activities have been authorized starting on May 1.
+In Nova Scotia, construction activity continued this spring, but non-essential services remain closed. Some outdoor activities have been authorized starting on May 1.
 
 **British Columbia, Saskatchewan and Manitoba**—Infection rates peaked in these three provinces a few weeks ago when the easing announcements were made.
 
-British Columbia had its first positive cases at the end of January and its infection rate reached a plateau by the end of March. Nevertheless, only essential services were in operation in early May. Starting inmid-May, health services and some retailers could resume their activites if they follow the appropriate precautions.
+British Columbia had its first positive cases at the end of January and its infection rate reached a plateau by the end of March. Nevertheless, only essential services were in operation in early May. Starting in mid-May, health services and some retailers could resume their activites if they follow the appropriate precautions.
 
-Saskatchewan unveiled afive-phaserestart plan. The first phase involves mainly outdoor activities and the work of health care professionals. The second phase, scheduled for May 19, includes retail stores. The third phase would see restaurants and fitness facilities reopen. Arenas, swimming pools and playgrounds could reopen in phase four. Finally, the last phase would see a lifting of restrictions on the size of public gatherings. There are no dates for the phases and the relaxation of measures will depend on the evolution of virus’s spread.
+Saskatchewan unveiled a five-phase restart plan. The first phase involves mainly outdoor activities and the work of health care professionals. The second phase, scheduled for May 19, includes retail stores. The third phase would see restaurants and fitness facilities reopen. Arenas, swimming pools and playgrounds could reopen in phase four. Finally, the last phase would see a lifting of restrictions on the size of public gatherings. There are no dates for the phases and the relaxation of measures will depend on the evolution of virus’s spread.
 
-In Manitoba, the reopening ofnon-essentialbusinesses will occur in several stages: As of May 4, hair salons were allowed to reopen, as were retail stores that met certain safety standards. Other services could resume at the earliest on 1 June.
+In Manitoba, the reopening of non-essential businesses will occur in several stages: As of May 4, hair salons were allowed to reopen, as were retail stores that met certain safety standards. Other services could resume at the earliest on 1 June.
 
 **New Brunswick, Prince Edward Island and Newfoundland and Labrador**—These three Atlantic provinces had reported less than one case per million people in the last week.
 
-New Brunswick residents will move through afour-colourprocess of gradual reopening: Red, orange, yellow and green. Outdoor activities were first allowed with business reopening to be announced later. The reopening of daycares, offices and restaurants are expected in the coming weeks.
+New Brunswick residents will move through a four-colour process of gradual reopening: Red, orange, yellow and green. Outdoor activities were first allowed with business reopening to be announced later. The reopening of daycares, offices and restaurants are expected in the coming weeks.
 
 Prince Edward Island reduced its restrictions on May 1. The lobster fishery was scheduled to resume in mid-May. Access to the province remained limited for non-residents.
 
