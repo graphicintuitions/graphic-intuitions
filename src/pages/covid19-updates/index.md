@@ -66,28 +66,35 @@ Read more here:
 
 <https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/publications/monthly-economic-letter/pages/2005.aspx?utm_campaign=MEL--Monthly-economic-letter--05-2020--NEWS--EN&utm_medium=email&utm_source=Eloqua>
 
-**May 11: Extension of CEWS and Support for Medium and Large Business**\
+**May 11: Extension of CEWS and Support for Medium and Large Business**
+
 On Friday, the Prime Minister announced that the federal government will be [extending the Canada Emergency Wage Subsidy](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.ctvnews.ca%252Fhealth%252Fcoronavirus%252Femergency-wage-subsidy-extending-into-summer-pm-1.4930655%2F1%2F0100017204cbbfb1-ac0d9d09-2b0a-4843-8332-1c47a96349e2-000000%2FnoXasMuIOK-Qb_LiAwy3amnfr8c%3D161&data=02%7C01%7Csteve.whittington%40flaman.com%7C60d9a0fc77444272112e08d7f5d14f46%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637248151653672155&sdata=0ZLFS3eUxUwyil%2Fh36B%2FseMac%2FLwSa7vBrhob9jnGm4%3D&reserved=0) beyond June, because it’ll become even more crucial as stores and businesses begin to open. More details on this to come later this week.\
 It was also announces that Minister Bains will be leading a [new Industry Strategy Council](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canada.ca%252Fen%252Finnovation-science-economic-development%252Fnews%252F2020%252F05%252Fminister-bains-announces-new-industry-strategy-council.html%2F1%2F0100017204cbbfb1-ac0d9d09-2b0a-4843-8332-1c47a96349e2-000000%2FiJFwP2UwmAlHps4IyfxBJCPiTlY%3D161&data=02%7C01%7Csteve.whittington%40flaman.com%7C60d9a0fc77444272112e08d7f5d14f46%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637248151653682153&sdata=AM%2F5%2BFQ5DtrH7kxwePG5ZilzeSFzOp7lvV%2BBWMJ6V5w%3D&reserved=0). Chaired by Monique Leroux, this Council will take a deeper dive into how the pandemic is affecting specific sectors, and how to best support them.\
 Today, Prime Minister Trudeau announced support for medium and large business having difficulties staying afloat through the pandemic.\
 As part of this the government is expanding the Business Credit Availability Program, put in place to keep small businesses solvent, to mid-sized companies, and Export Development Canada and the Business Development Bank of Canada will work with private-sector lenders to free up access to tens of millions of dollars in capital, Trudeau said.\
 In addition, the Prime Minister announced the Large Employer Emergency Financing Facility (LEEFF), the plan will allow big companies to access additional liquidity to keep their operations going, retain workers on payroll, and avoid bankruptcy. The funds will come in the form of bridge financing provided by the federal government, where private institutions can not help and will come with a series of special terms and conditions, including a commitment providing a strong environmental plan. Further information can be found at:<https://pm.gc.ca/en/news/news-releases/2020/05/11/prime-minister-announces-additional-support-businesses-help-save>
 
-**May 7: Canada Emergency Commercial Rent Assistance Updated Links**\
+**May 7: Canada Emergency Commercial Rent Assistance Updated Links**
+
+\
 New information is available on the CECRA at these links:\
 *CMHC – COVID–19: CECRA for Small Businesses / SCHL – COVID-19 : AUCLC destinée aux petites entreprises*\
 EN :<https://www.cmhc-schl.gc.ca/en/finance-and-investing/covid19-cecra-small-business>\
 FR :<https://www.cmhc-schl.gc.ca/fr/finance-and-investing/covid19-cecra-small-business>\
 We will continue to monitor this and many other issues surrounding COVID-19 and will try to keep you as informed as we possibly can.
 
-**April 30: Canada Emergency Commercial Rent Assistance Update**\
+**April 30: Canada Emergency Commercial Rent Assistance Update**
+
+\
 On Friday, the Government of Canada announced additional details on the[Canada Emergency Commercial Rent Assistance](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fpm.gc.ca%252Fen%252Fnews%252Fnews-releases%252F2020%252F04%252F24%252Fprime-minister-announces-partnerships-provinces-and-territories%2F1%2F01000171cb4f1e0f-98d0206a-f519-452f-ba27-4c33b1c7cde4-000000%2F8C0JXmepvs5HBlx7ch8j366-G2g%3D160&data=02%7C01%7Csteve.whittington%40flaman.com%7C990665aed0c84491397e08d7ed0bba9f%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637238506944256757&sdata=mTzRx9WS6AUD1kQ0BtcNbG6vg1WfdGSbMS0Xwmal%2Bbg%3D&reserved=0)(CECRA) for small businesses, which will lower rent by 75 per cent for small businesses that have been most affected by COVID-19.
 
 \
 *Today, more details on the program are now available**\* [from CMHC](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.cmhc-schl.gc.ca%252Fen%252FFinance-and-Investing%252Fcovid19-cerca-small-business%2F1%2F01000171cb4f1e0f-98d0206a-f519-452f-ba27-4c33b1c7cde4-000000%2FjyxnZAv7XMLrZ4K0vt3cjouOhV8%3D160&data=02%7C01%7Csteve.whittington%40flaman.com%7C990665aed0c84491397e08d7ed0bba9f%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637238506944256757&sdata=SGhb2ZSoXY474ogCyRtvjMjZH1iz%2Fz0uK9w%2BtX%2Bl6ms%3D&reserved=0)**.\
 CECRA will provide forgivable loans to qualifying commercial property owners to cover 50 per cent of three monthly rent payments that are payable by eligible small business tenants who are experiencing financial hardship during April, May and June. In this way, CECRA will provide relief for small businesses paying less than $50,000 per month in gross rent that have either been forced to close due to the pandemic or have had their revenues severely impacted by at least 70 per cent. Canada Mortgage and Housing Corporation (CMHC) will administer the program on behalf the Government of Canada and our provincial and territorial partners.
 
-**April 29: Planning for Recovery**\
+**April 29: Planning for Recovery**
+
+\
 The tone of announcement from all levels of government definitely changed this week. Although there have been announcement regarding programs to assist students through the summer and there are still lots of unanswered question regarding commercial rent support, the discussion has shifted to recovery and opening the economy, which is currently in an "induced coma".
 
 \
@@ -113,7 +120,9 @@ Meanwhile the Canadian Business Resilience Network has provided the following fr
 \
 On a slightly different note, Canada Life has developed a website to help with business and individuals cope with mental illness during and after the pandemic: **[Introducing the new Workplace Strategies for Mental Health](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canadalife.com%252Fabout-us%252Fnews-highlights%252Fnews%252Fintroducing-the-new-workplace-strategies-for-mental-health.html%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2Fg5MP2s10f1MoLkusyFPd92wyzXA%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872476016024&sdata=Tf%2BfGJT2GF0HEIDFkmp0T%2FE7hwScHFgJ%2BR%2F%2B%2FrvZNsE%3D&reserved=0)**
 
-**April 27**\
+**April 27**
+
+\
 The Prime Minister, Justin Trudeau, [announced](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fpm.gc.ca%252Fen%252Fnews%252Fnews-releases%252F2020%252F04%252F24%252Fprime-minister-announces-partnerships-provinces-and-territories%2F1%2F01000171bbeb4a93-719a023a-f2e0-47e6-a8fa-42c757678e96-000000%2FV-sZnhynGr1EV_HYFq0Xu7DEzuk%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7Cfb3e48f7c38443d4e94208d7eab28f55%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235924943246394&sdata=jC93pXrkTdDXHK9g9UfaDRSrp7JTn8kG30uVcOzFtY4%3D&reserved=0) on Friday that the federal government has reached an agreement in principle with all provinces and territories to implement the Canada Emergency Commercial Rent Assistance (CECRA) for small businesses. This program will lower rent by 75 per cent for small businesses that have been affected by COVID-19.\
 The government is also providing further details on the program:
 
