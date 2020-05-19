@@ -30,6 +30,31 @@ All staff are currently working remote. Our main office is open but we are not c
 
 - - -
 
+**May 19 -WAGE SUBSIDY EXTENDED & EXPANDED; CEBA EXPANSION**
+
+CANADA EMERGENCY WAGE SUBSIDY EXTENDED & EXPANDED
+
+The government announced the expansion and extension of the Canada Emergency Wage Subsidy (CEWS). This is good news for some manufacturers that were originally excluded from the CEWS or for those who will continue to need it past June. Here are the details:
+
+* The end-date of the CEWS will be extended from June 6, 2020 to August 29, 2020. They are considering relaxing the 30% revenue decline threshold to account for future increases in business activity
+* CEWS eligibility was also expanded. Changes were made to the rules around partnerships, business mergers/amalgamations, tax-exempt trusts, and seasonal employees. Full details [here](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fcanadianmanufacturersexporters.cmail19.com%252Ft%252Fj-l-qtjuykt-tuiruuikdy-y%252F%2F1%2F010001722e05c9ca-c597d678-6d24-46ed-a8cf-395c1b265ea2-000000%2FKCJOKdTjSYCyRyskEDfp3jrFd8E%3D162&data=02%7C01%7Csteve.whittington%40flaman.com%7Ce944820bcbce4970c0ef08d7fc1bba28%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637255068333355599&sdata=6QgcJ8XouGmMELMLkwdPDJyJHAGg4IjRvIQgqqqKHmI%3D&reserved=0).
+
+These changes will involve regulatory and legislative amendments.
+
+CANADA EMERGENCY BUSINESS ACCOUNT (CEBA) EXPANSION
+
+The Prime Minister, Justin Trudeau, [today announced](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fpm.gc.ca%252Fen%252Fnews%252Fnews-releases%252F2020%252F05%252F19%252Fprime-minister-announces-expansion-support-workers-and-small%2F1%2F010001722e05c9ca-c597d678-6d24-46ed-a8cf-395c1b265ea2-000000%2FbHAkRKEtUZbqpyl9Xq_EbJ5DBIo%3D162&data=02%7C01%7Csteve.whittington%40flaman.com%7Ce944820bcbce4970c0ef08d7fc1bba28%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637255068333355599&sdata=6u05CtXchHSIXhq66ldud%2BH17E1JjmAHZD%2FfPj6C3rY%3D&reserved=0) an expansion to the eligibility criteria for the Canada Emergency Business Account (CEBA) to include many owner-operated small businesses.
+
+The program will now be available to a greater number of businesses that are sole proprietors receiving income directly from their businesses, businesses that rely on contractors, and family-owned corporations that pay employees through dividends rather than payroll.
+
+To qualify under the expanded eligibility criteria, applicants with payroll lower than $20,000 would need:
+
+* a business operating account at a participating financial institution
+* a Canada Revenue Agency business number, and to have filed a 2018 or 2019 tax return.
+* eligible non-deferrable expenses between $40,000 and $1.5 million. Eligible non-deferrable expenses could include costs such as rent, property taxes, utilities, and insurance.
+
+Expenses will be subject to verification and audit by the Government of Canada. Funding will be delivered in partnership with financial institutions. More details, including the launch date for applications under the new criteria, will follow in the days to come. The government will continue to work on solutions to help business owners and entrepreneurs who operate through their personal bank account, as opposed to a business account, or have yet to file a tax return, such as newly created businesses.
+
 **May 13: Objective Opinion from Business Development Bank of Canada**
 
 What’s the situation in Canada? Various governments have begun to announce their plans to ease containment measures. This list is as of May 8 2020.
