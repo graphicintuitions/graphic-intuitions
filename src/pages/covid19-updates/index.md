@@ -28,7 +28,28 @@ All staff are currently working remote. Our main office is open but we are not c
 
 ## <a id="daily-updates"></a>Daily Updates
 
-- - -
+**May 20th - CECRA and LEEFF Updates**
+
+Canada Emergency Commercial Rent Assistance (CECRA) for small businesses provides relief for small businesses experiencing financial hardship due to COVID-19. It offers unsecured, forgivable loans to eligible commercial property owners to:
+
+* reduce the rent owed by their impacted small business tenants
+* meet operating expenses on commercial properties
+
+Property owners must offer a minimum of a 75% rent reduction for the months of April, May and June 2020
+
+Details at link below:
+
+<https://www.cmhc-schl.gc.ca/en/finance-and-investing/covid19-cecra-small-business>
+
+Large Employer Emergency Financing Facility
+
+The Large Employer Emergency Financing Facility (LEEFF) is now open and taking in applications. The program aims to support Canada’s largest employers, whose needs during the pandemic are not being met through conventional financing.
+
+Details at link below: 
+
+<https://www.cdev.gc.ca/home/#en>
+
+
 
 **May 19 -WAGE SUBSIDY EXTENDED & EXPANDED; CEBA EXPANSION**
 
