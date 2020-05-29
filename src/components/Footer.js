@@ -5,6 +5,7 @@ import Facebook from '../img/facebook.svg';
 import Instagram from '../img/instagram.svg'; 
 import Twitter from '../img/twitter.svg'; 
 import Youtube from '../img/youtube.svg'; 
+import HubSpot from '../img/hubspot-partner.svg'; 
 import styled from 'styled-components';
 import Link from "gatsby-link";
 
@@ -76,6 +77,11 @@ export const Footer = ({showNewsletter = true}) => (
             </a>
           </li>
         </SocialIcons>
+      </Col>
+      <Col xs={12}>
+        <Link to={'/services/digitizing-business-processes/'}>
+          <img style={{margin: "0 auto", marginTop: 20, display: "block"}} src={HubSpot} alt={'HubSpot partner logo'} width={200}  />
+        </Link>
       </Col>
     </Row>
     <Row center={'xs'}>
