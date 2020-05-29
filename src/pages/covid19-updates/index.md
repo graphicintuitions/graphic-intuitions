@@ -28,23 +28,151 @@ All staff are currently working remote. Our main office is open but we are not c
 
 ## <a id="daily-updates"></a>Daily Updates
 
-- - -
+**May 25th - *Canada Emergency Commercial Rent Assistance now open for applications***
 
-**May 7: Canada Emergency Commercial Rent Assistance Updated Links**\
+The Prime Minister, Justin Trudeau[, today announced](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fpm.gc.ca%252Fen%252Fnews%252Fnews-releases%252F2020%252F05%252F25%252Fcanada-emergency-commercial-rent-assistance-now-open-applications%2F1%2F010001724d26613b-dd5af9bf-e4f2-4e15-876c-1705f96eeb81-000000%2FaA4Sc3IjgGZfLL9e5ZEErUw1Swg%3D163&data=02%7C01%7Csteve.whittington%40flaman.com%7C90d99466ff84498ce82908d800dba355%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637260290635238123&sdata=GFFXqX1ydxpejHMZPiRwP5pWOfWXwvwJgl9naoZk7TY%3D&reserved=0) that [applications are now being accepted](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.cmhc-schl.gc.ca%252Fen%252Ffinance-and-investing%252Fcovid19-cecra-small-business%2F1%2F010001724d26613b-dd5af9bf-e4f2-4e15-876c-1705f96eeb81-000000%2FFfGf3B3iNCCOkhtEHc8tA9eLCsU%3D163&data=02%7C01%7Csteve.whittington%40flaman.com%7C90d99466ff84498ce82908d800dba355%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637260290635238123&sdata=YfPgtMRQSY2Rnu6HIA9mkfFIBGve%2FUQV5SexuxD%2BAT4%3D&reserved=0) for Canada Emergency Commercial Rent Assistance (CECRA) for small businesses.Over the course of the program, property owners will reduce rent by at least 75 per cent for the months of April and May (retroactive), and June, for their small business tenants.
+
+Applying for CECRA makes financial sense for property owners, as their success depends on the success of their tenants.
+
+***Canadian Chamber and the Government of Canada team up with accounting profession to provide free advice to small to medium-sized business, not-for-profits and charities to navigate uncertainty***
+
+Small to medium-sized businesses, not-for-profit organizations and charities will now have direct access to a network of qualified business advisors to help guide them courtesy of a new, government-funded program from the Canadian Chamber of Commerce.
+
+The program, called the [Business Resilience Service](https://can01.safelinks.protection.outlook.com/?url=http%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttp%3A%252F%252Fcbrn.ca%252Fbrs%2F1%2F010001724d26613b-dd5af9bf-e4f2-4e15-876c-1705f96eeb81-000000%2FmZZVaffIITOSdfVLK7psIQwEMyM%3D163&data=02%7C01%7Csteve.whittington%40flaman.com%7C90d99466ff84498ce82908d800dba355%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637260290635248119&sdata=hJ1G48I9C%2FP7LnGMvd7QLxi3KuysOn4TfHhNIfsuLtM%3D&reserved=0) (BRS), is run through the Canadian Chamber’s [Canadian Business Resilience Network](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canadianbusinessresiliencenetwork.ca%252F%2F1%2F010001724d26613b-dd5af9bf-e4f2-4e15-876c-1705f96eeb81-000000%2FMEkngJYD4Qt2ix2b4S72beXGGlk%3D163&data=02%7C01%7Csteve.whittington%40flaman.com%7C90d99466ff84498ce82908d800dba355%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637260290635248119&sdata=NgZ5NwigK8Ni3ICOTc0w64KznadCIkV6eJMZXUldwvA%3D&reserved=0) in collaboration with [EY](https://can01.safelinks.protection.outlook.com/?url=http%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttp%3A%252F%252Fwww.ey.com%252Fca%2F1%2F010001724d26613b-dd5af9bf-e4f2-4e15-876c-1705f96eeb81-000000%2Fw2YrkAI5I_j544fAgIuRuu5p65g%3D163&data=02%7C01%7Csteve.whittington%40flaman.com%7C90d99466ff84498ce82908d800dba355%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637260290635258113&sdata=uyt2J26TfJnJJ5WvmadAfnfsehPEtq%2BVyyvyylK1g4c%3D&reserved=0) and with support from [Chartered Professional Accountants of Canada (CPA Canada)](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.cpacanada.ca%252F%2F1%2F010001724d26613b-dd5af9bf-e4f2-4e15-876c-1705f96eeb81-000000%2F78s_LqKwf-kyTtLKSnloYhIntPQ%3D163&data=02%7C01%7Csteve.whittington%40flaman.com%7C90d99466ff84498ce82908d800dba355%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637260290635258113&sdata=IOYBSMhKv8XEXNRdTfzmutcxVrrnMN8MYjPrB5bRtTo%3D&reserved=0) and [Imagine Canada](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.imaginecanada.ca%252Fen%2F1%2F010001724d26613b-dd5af9bf-e4f2-4e15-876c-1705f96eeb81-000000%2FR3In9HkQ_ZpmjWUJMPJhGblji74%3D163&data=02%7C01%7Csteve.whittington%40flaman.com%7C90d99466ff84498ce82908d800dba355%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637260290635268109&sdata=kczAwzEeOKqczPi8HIDNlDaI%2BY8mnX3UCPeiF7hODtg%3D&reserved=0). The BRS will provide options for any vulnerable small to medium-sized business, not-for-profit or charity to immediately connect with experienced accounting and tax professionals across the country from professional services firms. The program, delivered to organizations free of charge, will:
+
+Provide guidance on program options and eligibility
+
+Rapidly direct businesses – including enterprises involving Indigenous peoples, women and diverse groups – to the most appropriate support organizations
+
+Help organizations make decisions to support recovery plans
+
+Provide real time insights and feedback to policymakers
+
+The BRS program, coordinated by EY, will be provided for four weeks from Monday, May 25, and will involve support from approximately 125 business advisors from across the accounting profession. Organizations can access the BRS seven days a week by calling 1-866-989-1080.
+
+**WHERE TO START:**
+
+To get the help you need:
+
+**Visit our government’s COVID-19 [Economic Response Plan website](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canada.ca%252Fen%252Fdepartment-finance%252Feconomic-response-plan.html%2F1%2F010001724d26613b-dd5af9bf-e4f2-4e15-876c-1705f96eeb81-000000%2Fjbm8NHJf4NWkVJMCt7La3i0itGQ%3D163&data=02%7C01%7Csteve.whittington%40flaman.com%7C90d99466ff84498ce82908d800dba355%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637260290635268109&sdata=oZjH9OFYkCVLf1VAPbH5Um8KhvplrpNH3lIBn8eeEyA%3D&reserved=0)** for information about supporting your employees and your business. It is constantly updated as the COVID-19 crisis evolves.
+
+**Contact your local financial institution.**Since we know most small businesses have a relationship with their local financial institution already, we’ve worked with the financial sector to increase their lending capability to support you in in this challenging time. They are a good first place to start for help.
+
+**Consult the [Canadian Business Resilience Network](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canadianbusinessresiliencenetwork.ca%252F%2F2%2F010001724d26613b-dd5af9bf-e4f2-4e15-876c-1705f96eeb81-000000%2FcMZoRa66snTzSpwtfiJ-TBDZ7Fo%3D163&data=02%7C01%7Csteve.whittington%40flaman.com%7C90d99466ff84498ce82908d800dba355%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637260290635278102&sdata=YGe5eZZFEGLhD3rEI9SUip6Lcb%2FLl8ZKduRo1TUIDz4%3D&reserved=0)** a partnership between our government and the Canadian Chamber of Commerce to help your business prepare, persevere and prosper through this crisis.
+
+
+
+**May 20th - CECRA and LEEFF Updates**
+
+Canada Emergency Commercial Rent Assistance (CECRA) for small businesses provides relief for small businesses experiencing financial hardship due to COVID-19. It offers unsecured, forgivable loans to eligible commercial property owners to:
+
+* reduce the rent owed by their impacted small business tenants
+* meet operating expenses on commercial properties
+
+Property owners must offer a minimum of a 75% rent reduction for the months of April, May and June 2020
+
+Details at link below:
+
+<https://www.cmhc-schl.gc.ca/en/finance-and-investing/covid19-cecra-small-business>
+
+Large Employer Emergency Financing Facility
+
+The Large Employer Emergency Financing Facility (LEEFF) is now open and taking in applications. The program aims to support Canada’s largest employers, whose needs during the pandemic are not being met through conventional financing.
+
+Details at link below: 
+
+<https://www.cdev.gc.ca/home/#en>
+
+**May 19 -WAGE SUBSIDY EXTENDED & EXPANDED; CEBA EXPANSION**
+
+CANADA EMERGENCY WAGE SUBSIDY EXTENDED & EXPANDED
+
+The government announced the expansion and extension of the Canada Emergency Wage Subsidy (CEWS). This is good news for some manufacturers that were originally excluded from the CEWS or for those who will continue to need it past June. Here are the details:
+
+* The end-date of the CEWS will be extended from June 6, 2020 to August 29, 2020. They are considering relaxing the 30% revenue decline threshold to account for future increases in business activity
+* CEWS eligibility was also expanded. Changes were made to the rules around partnerships, business mergers/amalgamations, tax-exempt trusts, and seasonal employees. Full details [here](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fcanadianmanufacturersexporters.cmail19.com%252Ft%252Fj-l-qtjuykt-tuiruuikdy-y%252F%2F1%2F010001722e05c9ca-c597d678-6d24-46ed-a8cf-395c1b265ea2-000000%2FKCJOKdTjSYCyRyskEDfp3jrFd8E%3D162&data=02%7C01%7Csteve.whittington%40flaman.com%7Ce944820bcbce4970c0ef08d7fc1bba28%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637255068333355599&sdata=6QgcJ8XouGmMELMLkwdPDJyJHAGg4IjRvIQgqqqKHmI%3D&reserved=0).
+
+These changes will involve regulatory and legislative amendments.
+
+CANADA EMERGENCY BUSINESS ACCOUNT (CEBA) EXPANSION
+
+The Prime Minister, Justin Trudeau, [today announced](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fpm.gc.ca%252Fen%252Fnews%252Fnews-releases%252F2020%252F05%252F19%252Fprime-minister-announces-expansion-support-workers-and-small%2F1%2F010001722e05c9ca-c597d678-6d24-46ed-a8cf-395c1b265ea2-000000%2FbHAkRKEtUZbqpyl9Xq_EbJ5DBIo%3D162&data=02%7C01%7Csteve.whittington%40flaman.com%7Ce944820bcbce4970c0ef08d7fc1bba28%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637255068333355599&sdata=6u05CtXchHSIXhq66ldud%2BH17E1JjmAHZD%2FfPj6C3rY%3D&reserved=0) an expansion to the eligibility criteria for the Canada Emergency Business Account (CEBA) to include many owner-operated small businesses.
+
+The program will now be available to a greater number of businesses that are sole proprietors receiving income directly from their businesses, businesses that rely on contractors, and family-owned corporations that pay employees through dividends rather than payroll.
+
+To qualify under the expanded eligibility criteria, applicants with payroll lower than $20,000 would need:
+
+* a business operating account at a participating financial institution
+* a Canada Revenue Agency business number, and to have filed a 2018 or 2019 tax return.
+* eligible non-deferrable expenses between $40,000 and $1.5 million. Eligible non-deferrable expenses could include costs such as rent, property taxes, utilities, and insurance.
+
+Expenses will be subject to verification and audit by the Government of Canada. Funding will be delivered in partnership with financial institutions. More details, including the launch date for applications under the new criteria, will follow in the days to come. The government will continue to work on solutions to help business owners and entrepreneurs who operate through their personal bank account, as opposed to a business account, or have yet to file a tax return, such as newly created businesses.
+
+**May 13: Objective Opinion from Business Development Bank of Canada**
+
+What’s the situation in Canada? Various governments have begun to announce their plans to ease containment measures. This list is as of May 8 2020.
+
+**Alberta, Ontario, Quebec and Nova Scotia**—These four provinces were still close to their infection peaks when they made announcements about the gradual resumption of activity.
+
+In Alberta, activity related to agriculture and the oil and gas industry never ceased. Some retailers will be allowed to reopen on May 14 (clothing, furnitures, bookstores). Theatres, recreation centres and gyms will remain closed. Schools will not open before the fall.
+
+In Ontario, the province proposed to restart the economy in three phases, two to four weeks apart. In each phase, more and more sectors will be able to resume operations. However, the initiation of the next stage will require a reduction in the spread of the disease and the province is not ruling out retightening measures, if necessary. The economic sectors affected by this roadmap will be identified in the near future. Ontario schools could reopen in early June.
+
+In Quebec, residential construction and mining activity resumed in April. Retailers with outdoor access reopened on May 4 (May 25 for hard-hit greater Montreal). Some manufacturing companies (by number of employees) and all construction businesses resumed operations on May 11. Various suppliers to these sectors were also able to return to work.
+
+Elementary schools and daycare centres in Quebec were reopened on May 11 (May 25 in greater Montreal, if the situation permits). However, parents were free to decide whether to send their children to school. High schools, colleges and universities will remain closed until September.
+
+In Nova Scotia, construction activity continued this spring, but non-essential services remain closed. Some outdoor activities have been authorized starting on May 1.
+
+**British Columbia, Saskatchewan and Manitoba**—Infection rates peaked in these three provinces a few weeks ago when the easing announcements were made.
+
+British Columbia had its first positive cases at the end of January and its infection rate reached a plateau by the end of March. Nevertheless, only essential services were in operation in early May. Starting in mid-May, health services and some retailers could resume their activites if they follow the appropriate precautions.
+
+Saskatchewan unveiled a five-phase restart plan. The first phase involves mainly outdoor activities and the work of health care professionals. The second phase, scheduled for May 19, includes retail stores. The third phase would see restaurants and fitness facilities reopen. Arenas, swimming pools and playgrounds could reopen in phase four. Finally, the last phase would see a lifting of restrictions on the size of public gatherings. There are no dates for the phases and the relaxation of measures will depend on the evolution of virus’s spread.
+
+In Manitoba, the reopening of non-essential businesses will occur in several stages: As of May 4, hair salons were allowed to reopen, as were retail stores that met certain safety standards. Other services could resume at the earliest on 1 June.
+
+**New Brunswick, Prince Edward Island and Newfoundland and Labrador**—These three Atlantic provinces had reported less than one case per million people in the last week.
+
+New Brunswick residents will move through a four-colour process of gradual reopening: Red, orange, yellow and green. Outdoor activities were first allowed with business reopening to be announced later. The reopening of daycares, offices and restaurants are expected in the coming weeks.
+
+Prince Edward Island reduced its restrictions on May 1. The lobster fishery was scheduled to resume in mid-May. Access to the province remained limited for non-residents.
+
+In Newfoundland and Labrador, with the exception of retail and restaurants, there were no mandatory closures of businesses that maintained adequate sanitary measures. The provincial government was aiming to lift the first restrictions on May 11
+
+Read more here: 
+
+<https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/publications/monthly-economic-letter/pages/2005.aspx?utm_campaign=MEL--Monthly-economic-letter--05-2020--NEWS--EN&utm_medium=email&utm_source=Eloqua>
+
+**May 11: Extension of CEWS and Support for Medium and Large Business**
+
+On Friday, the Prime Minister announced that the federal government will be [extending the Canada Emergency Wage Subsidy](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.ctvnews.ca%252Fhealth%252Fcoronavirus%252Femergency-wage-subsidy-extending-into-summer-pm-1.4930655%2F1%2F0100017204cbbfb1-ac0d9d09-2b0a-4843-8332-1c47a96349e2-000000%2FnoXasMuIOK-Qb_LiAwy3amnfr8c%3D161&data=02%7C01%7Csteve.whittington%40flaman.com%7C60d9a0fc77444272112e08d7f5d14f46%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637248151653672155&sdata=0ZLFS3eUxUwyil%2Fh36B%2FseMac%2FLwSa7vBrhob9jnGm4%3D&reserved=0) beyond June, because it’ll become even more crucial as stores and businesses begin to open. More details on this to come later this week.\
+It was also announces that Minister Bains will be leading a [new Industry Strategy Council](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canada.ca%252Fen%252Finnovation-science-economic-development%252Fnews%252F2020%252F05%252Fminister-bains-announces-new-industry-strategy-council.html%2F1%2F0100017204cbbfb1-ac0d9d09-2b0a-4843-8332-1c47a96349e2-000000%2FiJFwP2UwmAlHps4IyfxBJCPiTlY%3D161&data=02%7C01%7Csteve.whittington%40flaman.com%7C60d9a0fc77444272112e08d7f5d14f46%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637248151653682153&sdata=AM%2F5%2BFQ5DtrH7kxwePG5ZilzeSFzOp7lvV%2BBWMJ6V5w%3D&reserved=0). Chaired by Monique Leroux, this Council will take a deeper dive into how the pandemic is affecting specific sectors, and how to best support them.\
+Today, Prime Minister Trudeau announced support for medium and large business having difficulties staying afloat through the pandemic.\
+As part of this the government is expanding the Business Credit Availability Program, put in place to keep small businesses solvent, to mid-sized companies, and Export Development Canada and the Business Development Bank of Canada will work with private-sector lenders to free up access to tens of millions of dollars in capital, Trudeau said.\
+In addition, the Prime Minister announced the Large Employer Emergency Financing Facility (LEEFF), the plan will allow big companies to access additional liquidity to keep their operations going, retain workers on payroll, and avoid bankruptcy. The funds will come in the form of bridge financing provided by the federal government, where private institutions can not help and will come with a series of special terms and conditions, including a commitment providing a strong environmental plan. Further information can be found at:<https://pm.gc.ca/en/news/news-releases/2020/05/11/prime-minister-announces-additional-support-businesses-help-save>
+
+**May 7: Canada Emergency Commercial Rent Assistance Updated Links**
+
+\
 New information is available on the CECRA at these links:\
 *CMHC – COVID–19: CECRA for Small Businesses / SCHL – COVID-19 : AUCLC destinée aux petites entreprises*\
 EN :<https://www.cmhc-schl.gc.ca/en/finance-and-investing/covid19-cecra-small-business>\
 FR :<https://www.cmhc-schl.gc.ca/fr/finance-and-investing/covid19-cecra-small-business>\
 We will continue to monitor this and many other issues surrounding COVID-19 and will try to keep you as informed as we possibly can.
 
-**April 30: Canada Emergency Commercial Rent Assistance Update**\
+**April 30: Canada Emergency Commercial Rent Assistance Update**
+
+\
 On Friday, the Government of Canada announced additional details on the[Canada Emergency Commercial Rent Assistance](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fpm.gc.ca%252Fen%252Fnews%252Fnews-releases%252F2020%252F04%252F24%252Fprime-minister-announces-partnerships-provinces-and-territories%2F1%2F01000171cb4f1e0f-98d0206a-f519-452f-ba27-4c33b1c7cde4-000000%2F8C0JXmepvs5HBlx7ch8j366-G2g%3D160&data=02%7C01%7Csteve.whittington%40flaman.com%7C990665aed0c84491397e08d7ed0bba9f%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637238506944256757&sdata=mTzRx9WS6AUD1kQ0BtcNbG6vg1WfdGSbMS0Xwmal%2Bbg%3D&reserved=0)(CECRA) for small businesses, which will lower rent by 75 per cent for small businesses that have been most affected by COVID-19.
 
 \
 *Today, more details on the program are now available**\* [from CMHC](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.cmhc-schl.gc.ca%252Fen%252FFinance-and-Investing%252Fcovid19-cerca-small-business%2F1%2F01000171cb4f1e0f-98d0206a-f519-452f-ba27-4c33b1c7cde4-000000%2FjyxnZAv7XMLrZ4K0vt3cjouOhV8%3D160&data=02%7C01%7Csteve.whittington%40flaman.com%7C990665aed0c84491397e08d7ed0bba9f%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637238506944256757&sdata=SGhb2ZSoXY474ogCyRtvjMjZH1iz%2Fz0uK9w%2BtX%2Bl6ms%3D&reserved=0)**.\
 CECRA will provide forgivable loans to qualifying commercial property owners to cover 50 per cent of three monthly rent payments that are payable by eligible small business tenants who are experiencing financial hardship during April, May and June. In this way, CECRA will provide relief for small businesses paying less than $50,000 per month in gross rent that have either been forced to close due to the pandemic or have had their revenues severely impacted by at least 70 per cent. Canada Mortgage and Housing Corporation (CMHC) will administer the program on behalf the Government of Canada and our provincial and territorial partners.
 
-**April 29: Planning for Recovery**\
+**April 29: Planning for Recovery**
+
+\
 The tone of announcement from all levels of government definitely changed this week. Although there have been announcement regarding programs to assist students through the summer and there are still lots of unanswered question regarding commercial rent support, the discussion has shifted to recovery and opening the economy, which is currently in an "induced coma".
 
 \
@@ -70,7 +198,9 @@ Meanwhile the Canadian Business Resilience Network has provided the following fr
 \
 On a slightly different note, Canada Life has developed a website to help with business and individuals cope with mental illness during and after the pandemic: **[Introducing the new Workplace Strategies for Mental Health](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canadalife.com%252Fabout-us%252Fnews-highlights%252Fnews%252Fintroducing-the-new-workplace-strategies-for-mental-health.html%2F1%2F01000171c786fa41-62a10a7e-5c80-474b-a960-52c1f0f00862-000000%2Fg5MP2s10f1MoLkusyFPd92wyzXA%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7C0552147773e8440e7bd108d7ec780091%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637237872476016024&sdata=Tf%2BfGJT2GF0HEIDFkmp0T%2FE7hwScHFgJ%2BR%2F%2B%2FrvZNsE%3D&reserved=0)**
 
-**April 27**\
+**April 27**
+
+\
 The Prime Minister, Justin Trudeau, [announced](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fpm.gc.ca%252Fen%252Fnews%252Fnews-releases%252F2020%252F04%252F24%252Fprime-minister-announces-partnerships-provinces-and-territories%2F1%2F01000171bbeb4a93-719a023a-f2e0-47e6-a8fa-42c757678e96-000000%2FV-sZnhynGr1EV_HYFq0Xu7DEzuk%3D159&data=02%7C01%7Csteve.whittington%40flaman.com%7Cfb3e48f7c38443d4e94208d7eab28f55%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637235924943246394&sdata=jC93pXrkTdDXHK9g9UfaDRSrp7JTn8kG30uVcOzFtY4%3D&reserved=0) on Friday that the federal government has reached an agreement in principle with all provinces and territories to implement the Canada Emergency Commercial Rent Assistance (CECRA) for small businesses. This program will lower rent by 75 per cent for small businesses that have been affected by COVID-19.\
 The government is also providing further details on the program:
 
