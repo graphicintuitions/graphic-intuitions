@@ -28,6 +28,21 @@ All staff are currently working remote. Our main office is open but we are not c
 
 ## <a id="daily-updates"></a>Daily Updates
 
+**June 16 - CEBA Expansion**
+
+Yesterday the Canadian government [announced](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canada.ca%252Fen%252Fdepartment-finance%252Fnews%252F2020%252F06%252Fmore-small-businesses-can-soon-access-the-canada-emergency-business-account.html%2F1%2F01000172bd4aabf2-a21671db-e725-4911-9576-8c89a4476771-000000%2Fkf_PTinU0zY7KhJDAzYdO8uLUp4%3D166&data=02%7C01%7Csteve.whittington%40flaman.com%7C3d505c2f1c43435536af08d811f82d15%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637279104917115116&sdata=wFsaNm6Rd1i2D13DhAsxriPyGLAfTwgsgQWPkGZXCyM%3D&reserved=0) that as of Friday, June 19, 2020, applications will be accepted so that more small businesses can access the Canada Emergency Business Account (CEBA). This means that owner-operated small businesses that had been ineligible for the program due to their lack of payroll, sole proprietors receiving business income directly, as well as family-owned corporations remunerating in the form of dividends rather than payroll will become eligible this week.
+
+To qualify under the expanded eligibility rules, CEBA applicants with payroll lower than $20,000 will need:
+
+* A business operating account at a participating financial institution;
+* A Canada Revenue Agency business number;
+* A 2018 or 2019 tax return; and
+* Eligible non-deferrable expenses of between $40,000 and $1.5 million.
+
+Eligible businesses will qualify for financing of up to $40,000, with 25 per cent of this being forgivable based on the current terms of CEBA loans. Businesses can contact their primary financial institution for more information or to apply directly for CEBA. More information on the expanded CEBA can be found [on the program’s website.](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fceba-cuec.ca%252F%2F1%2F01000172bd4aabf2-a21671db-e725-4911-9576-8c89a4476771-000000%2FTd6w0FbNn-qY5gsunI2twfEcHqA%3D166&data=02%7C01%7Csteve.whittington%40flaman.com%7C3d505c2f1c43435536af08d811f82d15%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637279104917115116&sdata=dtZXGl93xh4ZWmzxp2qpXL9bdhnrVdsPfwQl%2BBa44QA%3D&reserved=0)
+
+<!--EndFragment-->
+
 **May 25th - *Canada Emergency Commercial Rent Assistance now open for applications***
 
 The Prime Minister, Justin Trudeau[, today announced](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fpm.gc.ca%252Fen%252Fnews%252Fnews-releases%252F2020%252F05%252F25%252Fcanada-emergency-commercial-rent-assistance-now-open-applications%2F1%2F010001724d26613b-dd5af9bf-e4f2-4e15-876c-1705f96eeb81-000000%2FaA4Sc3IjgGZfLL9e5ZEErUw1Swg%3D163&data=02%7C01%7Csteve.whittington%40flaman.com%7C90d99466ff84498ce82908d800dba355%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637260290635238123&sdata=GFFXqX1ydxpejHMZPiRwP5pWOfWXwvwJgl9naoZk7TY%3D&reserved=0) that [applications are now being accepted](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.cmhc-schl.gc.ca%252Fen%252Ffinance-and-investing%252Fcovid19-cecra-small-business%2F1%2F010001724d26613b-dd5af9bf-e4f2-4e15-876c-1705f96eeb81-000000%2FFfGf3B3iNCCOkhtEHc8tA9eLCsU%3D163&data=02%7C01%7Csteve.whittington%40flaman.com%7C90d99466ff84498ce82908d800dba355%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637260290635238123&sdata=YfPgtMRQSY2Rnu6HIA9mkfFIBGve%2FUQV5SexuxD%2BAT4%3D&reserved=0) for Canada Emergency Commercial Rent Assistance (CECRA) for small businesses.Over the course of the program, property owners will reduce rent by at least 75 per cent for the months of April and May (retroactive), and June, for their small business tenants.
@@ -59,8 +74,6 @@ To get the help you need:
 **Contact your local financial institution.**Since we know most small businesses have a relationship with their local financial institution already, we’ve worked with the financial sector to increase their lending capability to support you in in this challenging time. They are a good first place to start for help.
 
 **Consult the [Canadian Business Resilience Network](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canadianbusinessresiliencenetwork.ca%252F%2F2%2F010001724d26613b-dd5af9bf-e4f2-4e15-876c-1705f96eeb81-000000%2FcMZoRa66snTzSpwtfiJ-TBDZ7Fo%3D163&data=02%7C01%7Csteve.whittington%40flaman.com%7C90d99466ff84498ce82908d800dba355%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637260290635278102&sdata=YGe5eZZFEGLhD3rEI9SUip6Lcb%2FLl8ZKduRo1TUIDz4%3D&reserved=0)** a partnership between our government and the Canadian Chamber of Commerce to help your business prepare, persevere and prosper through this crisis.
-
-
 
 **May 20th - CECRA and LEEFF Updates**
 
