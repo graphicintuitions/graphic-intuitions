@@ -28,6 +28,10 @@ All staff are currently working remote. Our main office is open but we are not c
 
 ## <a id="daily-updates"></a>Daily Updates
 
+**July 14 - CEWS extended until December**
+
+Yesterday the Government of Canada announced its intention to extend the CEWS program until December. Details on the extension are expected to be released later this week. There are however, still many businesses that are still uncertain about their ability to qualify for the program
+
 **June 16 - CEBA Expansion**
 
 Yesterday the Canadian government [announced](https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2F458rl1jp.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.canada.ca%252Fen%252Fdepartment-finance%252Fnews%252F2020%252F06%252Fmore-small-businesses-can-soon-access-the-canada-emergency-business-account.html%2F1%2F01000172bd4aabf2-a21671db-e725-4911-9576-8c89a4476771-000000%2Fkf_PTinU0zY7KhJDAzYdO8uLUp4%3D166&data=02%7C01%7Csteve.whittington%40flaman.com%7C3d505c2f1c43435536af08d811f82d15%7C5f676672a6704aaca030e1d1a7248b94%7C0%7C0%7C637279104917115116&sdata=wFsaNm6Rd1i2D13DhAsxriPyGLAfTwgsgQWPkGZXCyM%3D&reserved=0) that as of Friday, June 19, 2020, applications will be accepted so that more small businesses can access the Canada Emergency Business Account (CEBA). This means that owner-operated small businesses that had been ineligible for the program due to their lack of payroll, sole proprietors receiving business income directly, as well as family-owned corporations remunerating in the form of dividends rather than payroll will become eligible this week.
