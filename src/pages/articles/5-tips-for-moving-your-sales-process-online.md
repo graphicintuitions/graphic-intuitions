@@ -42,8 +42,7 @@ Before customers make purchases, they are doing research online. You need to ens
 
 Click and collect use in June increased 130% compared to last year, according to [Digital Commerce 360](https://www.digitalcommerce360.com/article/coronavirus-impact-online-retail/), with minimal slow down as stores have reopened.
 
-## \
-5. **Embrace Digital Communication Tools**
+## **5. Embrace Digital Communication Tools**
 
 Despite the necessity to stay apart, there are still ways to invoke personal interactions with your clients to build relationships and stay top of mind. You can do this in a few ways.
 
