@@ -122,14 +122,6 @@ module.exports = {
         showSpinner: false,
       },
     },
-    {
-      resolve: 'gatsby-plugin-crisp-chat',
-      options: {
-        websiteId: '7f266798-c8fb-47c1-9f99-fe8c8363fbc7',
-        // Optional. Disables Crisp Chat during gatsby develop. Defaults to true.
-        enableDuringDevelop: false,
-      },
-    },
     'gatsby-plugin-purgecss', // must be after other CSS plugins
     `gatsby-plugin-remove-serviceworker`,
     `gatsby-plugin-sitemap`,
