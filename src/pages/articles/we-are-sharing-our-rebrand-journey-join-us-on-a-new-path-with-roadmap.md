@@ -16,7 +16,7 @@ meta:
     needs of our clients we needed to evolve our brand and services. We needed
     the ability to serve our clients total marketing, sales and service needs.
 tags:
-  - roadmap
+  - roadmap agency inc.
 ---
 Earlier this year we engaged in strategic work that started with customer listening and understanding. It became clear in order to serve the growing needs of our clients we needed to evolve our brand and services. We needed the ability to serve our client's total marketing, sales and service needs.
 
@@ -39,8 +39,9 @@ Part of this work included a renaming and rebrand of our business from Graphic I
 
 The purpose of our new entity is to discover potential with clients and inspire better business. We do that by fully understanding your business’s challenges, opportunities and customer pain points to then create solutions that drive meaningful change within your organization. From this vision, the name Roadmap was created and reflects how we take clients from point A to B. The wordmark was inspired by Canadian road signs and nature. It is a nod to our country of origin and our roots in the outdoors while keeping a sense of organization and structure. The icon, an“R” monogram takes the shape of a road.
 
-| ![Roadmap-Logos-06](https://hs-5265201.f.hubspotemail.net/hub/5265201/hubfs/Roadmap-Logos-06.png?upscale=true&width=1120&upscale=true&name=Roadmap-Logos-06.png) |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+![R monogram](/img/roadmap_logo-r.png)
+
+
 
 We will be putting the finishing touches on our brand and processes over the next month before formally launching into the market this January. As you are part of our trusted and valued client group you are the first to hear about our new brand and will probably be the first to notice the changes over the coming months.
 
