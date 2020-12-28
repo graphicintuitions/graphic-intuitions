@@ -39,9 +39,7 @@ Part of this work included a renaming and rebrand of our business from Graphic I
 
 The purpose of our new entity is to discover potential with clients and inspire better business. We do that by fully understanding your business’s challenges, opportunities and customer pain points to then create solutions that drive meaningful change within your organization. From this vision, the name Roadmap was created and reflects how we take clients from point A to B. The wordmark was inspired by Canadian road signs and nature. It is a nod to our country of origin and our roots in the outdoors while keeping a sense of organization and structure. The icon, an“R” monogram takes the shape of a road.
 
-![R monogram](/img/roadmap_logo-r.png)
-
-
+![](/img/roadmap_logo-r2.png)
 
 We will be putting the finishing touches on our brand and processes over the next month before formally launching into the market this January. As you are part of our trusted and valued client group you are the first to hear about our new brand and will probably be the first to notice the changes over the coming months.
 
