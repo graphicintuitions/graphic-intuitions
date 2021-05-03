@@ -10,7 +10,7 @@ module.exports = {
       options: {
         host: 'https://www.graphicintuitions.com',
         sitemap: 'https://www.graphicintuitions.com/sitemap.xml',
-        policy: [{ userAgent: '*', disallow: '/tags/', allow: '/' }]
+        policy: [{ userAgent: '*', disallow: '*' }]
       }
     },
     // {
